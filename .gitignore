@@ -9,6 +9,7 @@ _gencontinuous.sh
 _gencontinuous.bat
 _build.bat
 _build.sh
+/translations/*
 /fsh-generated
 /input-cache
 /output
