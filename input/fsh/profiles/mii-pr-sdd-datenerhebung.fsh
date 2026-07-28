@@ -65,7 +65,8 @@ Description: "Datenerhebung für SDD"
     partnerschaft 0..1 MS and
     vertrauensperson 0..1 MS and
     haushaltsgroesse 0..1 MS and
-    wohnsituation 0..1 MS
+    wohnsituation 0..1 MS and
+    schwerbehindertenausweis 0..1 MS
 // Herkunft
 * hasMember[geburtsland] only Reference(MII_PR_SDD_Geburtsland)
 * hasMember[staatsangehoerigkeit] only Reference(MII_PR_SDD_Staatsangehoerigkeit)
@@ -77,3 +78,4 @@ Description: "Datenerhebung für SDD"
 * hasMember[vertrauensperson] only Reference(MII_PR_SDD_Vertrauensperson)
 * hasMember[haushaltsgroesse] only Reference(MII_PR_SDD_Haushaltsgroesse)
 * hasMember[wohnsituation] only Reference(MII_PR_SDD_Wohnsituation)
+* hasMember[schwerbehindertenausweis] only Reference(MII_PR_SDD_Schwerbehindertenausweis)
