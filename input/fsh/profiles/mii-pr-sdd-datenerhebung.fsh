@@ -56,11 +56,24 @@ Description: "Datenerhebung für SDD"
 * hasMember ^slicing.discriminator.path = "resolve()"
 * hasMember ^slicing.rules = #open
 * hasMember contains
+    // Herkunft
     geburtsland 0..1 MS and
     staatsangehoerigkeit 0..* MS and
     geburtslandMutter 0..1 MS and
-    geburtslandVater 0..1 MS
+    geburtslandVater 0..1 MS and
+    // Lebenssituation
+    partnerschaft 0..1 MS and
+    vertrauensperson 0..1 MS and
+    haushaltsgroesse 0..1 MS and
+    wohnsituation 0..1 MS
+// Herkunft
 * hasMember[geburtsland] only Reference(MII_PR_SDD_Geburtsland)
 * hasMember[staatsangehoerigkeit] only Reference(MII_PR_SDD_Staatsangehoerigkeit)
 * hasMember[geburtslandMutter] only Reference(MII_PR_SDD_Geburtsland_Mutter)
 * hasMember[geburtslandVater] only Reference(MII_PR_SDD_Geburtsland_Vater)
+
+// Lebenssituation
+* hasMember[partnerschaft] only Reference(MII_PR_SDD_Partnerschaft)
+* hasMember[vertrauensperson] only Reference(MII_PR_SDD_Vertrauensperson)
+* hasMember[haushaltsgroesse] only Reference(MII_PR_SDD_Haushaltsgroesse)
+* hasMember[wohnsituation] only Reference(MII_PR_SDD_Wohnsituation)
