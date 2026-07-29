@@ -11,22 +11,11 @@ Description: "Anzahl der Personen, die ständig im Haushalt der Person leben."
 * code.coding 1..* MS
 // * code.coding = // ?
 
-* valueCodeableConcept 1..1 MS
-* valueCodeableConcept from mii-vs-sdd-haushaltsgroesse (required) // Quelle: Demographische Standards 2024
-
 // 1 eine Person (lebt allein) 2 mehrere Personen, und zwar _ _ (einschließlich der Person)
+// * valueCodeableConcept 1..1 MS
+// * valueCodeableConcept from mii-vs-sdd-haushaltsgroesse (required) // Quelle: Demographische Standards 2024
 
-// Claude Vorschlag:
-// * component ^slicing.discriminator.type = #pattern
-// * component ^slicing.discriminator.path = "code"
-// * component ^slicing.rules = #closed
-// * component contains anzahlPersonen 0..1 MS
-// * component[anzahlPersonen].code = LebenssituationCS#anzahl-personen "Anzahl Personen im Haushalt"
-// * component[anzahlPersonen].value[x] only integer
-// * component[anzahlPersonen].valueInteger 1..1
-// * obeys hhg-1
-// Invariant: hhg-1
-// Description: "Bei 'mehrere Personen' (Code 2) muss die Anzahl angegeben werden; bei 'lebt allein' (Code 1) darf keine Anzahl angegeben werden."
-// Severity: #error
-// Expression: "value.ofType(CodeableConcept).coding.where(system = 'https://example.org/fhir/CodeSystem/haushaltsgroesse' and code = '2').exists() implies component.where(code.coding.code = 'anzahl-personen').exists()"
-
+// -> Vorschlag stattdessen einfach valueQuantity da Kardinalscala siehe https://simplifier.net/guide/leitfaden-de-basis-r4/ig-markdown-Ressourcen-BeobachtungenMessungenObservation?version=current
+* value[x] only Quantity
+* valueQuantity 1..1 MS
+* valueQuantity ^short = "Anzahl der Personen im Haushalt"

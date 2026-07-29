@@ -7,6 +7,8 @@ Description: "Staatsangehoerigkeit des Patienten"
 * insert Publisher
 * ^status = #draft
 
+// How to represent State-less and Unknown?
+
 * code 1..1 MS
 * code.coding 1..* MS
 * code.coding = $LNC#66476-3 // nationality? did not find a suitable code in SNOMED CT, but there is a code in LOINC

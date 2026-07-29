@@ -14,7 +14,6 @@ Description: "Aktuelle Wohnsituation"
 * valueCodeableConcept 1..1 MS
 * valueCodeableConcept from mii-vs-sdd-wohnsituation (required)
 
-// Vorschlag Claude:
 * valueCodeableConcept.text MS
 * valueCodeableConcept.text ^short = "Freitext bei Code 8 (Anmerkung)"
 

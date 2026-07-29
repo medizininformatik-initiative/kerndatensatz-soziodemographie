@@ -12,16 +12,13 @@ Description: "Lebenssituation des Patienten (abstrakt)"
 
 * status MS
 
-* category 1..* MS
-* category = $observation-category#social-history //survey?
-
 * subject 1..1 MS
 * subject only Reference(Patient)
 
 * effective[x] only dateTime
 * effectiveDateTime 1..1 MS
 
-* valueCodeableConcept from $V2_YesNo_VS (required) // Sollte die Existenz des Profils nicht als Ja schon interpretiert werden?
+* valueCodeableConcept from $V2_YesNo_VS (required)
 * valueCodeableConcept ^short = "Vorliegen eines Schwerbehindertenausweises"
 * component ^slicing.discriminator.type = #pattern
 * component ^slicing.discriminator.path = "code"
@@ -32,7 +29,11 @@ Description: "Lebenssituation des Patienten (abstrakt)"
     gueltigVon 0..1 MS and
     gueltigBis 0..1 MS
 * component[gradDerBehinderung].code = mii-cs-sdd-schwerbehindertenausweis#gdb "Grad der Behinderung"
-* component[gradDerBehinderung].value[x] only integer // consider alternative valueQuantity mit unit = "%" (UCUM %)
+* component[gradDerBehinderung].value[x] only Quantity
+* component[gradDerBehinderung].valueQuantity 1..1 MS
+* component[gradDerBehinderung].valueQuantity ^short = "Grad der Behinderung"
+* component[gradDerBehinderung].valueQuantity.system = $UCUM
+* component[gradDerBehinderung].valueQuantity.unit = "%"
 * component[merkzeichen].code = mii-cs-sdd-schwerbehindertenausweis#merkzeichen "Merkzeichen"
 * component[merkzeichen].value[x] only CodeableConcept
 * component[merkzeichen].valueCodeableConcept from mii-vs-sdd-merkzeichen (required)

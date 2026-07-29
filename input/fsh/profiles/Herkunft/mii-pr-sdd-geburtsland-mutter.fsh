@@ -7,7 +7,7 @@ Description: "Geburtsland der Mutter"
 * insert Publisher
 * ^status = #draft
 
-// sollte im Profil zusätzlich etwas auf Mutter verweisen?
+// RelatedPerson macht nur Sinn wenn wir ein System haben, dass diese Information vorliegen und darstellbar hat
 
 * code 1..1 MS
 * code.coding 1..* MS

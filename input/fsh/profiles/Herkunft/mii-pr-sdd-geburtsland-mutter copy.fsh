@@ -7,9 +7,9 @@ Description: "Geburtsland des Vaters des Patienten"
 * insert Publisher
 * ^status = #draft
 
-// sollte im Profil zusätzlich etwas auf Vater verweisen?
+// RelatedPerson macht nur Sinn wenn wir ein System haben, dass diese Information vorliegen und darstellbar hat
 
 * code 1..1 MS
 * code.coding 1..* MS
-* code.coding = $SCT#46062003 // origin?
+* code.coding = $SCT#46062003 // origin? // evtl eigenes VS
 
