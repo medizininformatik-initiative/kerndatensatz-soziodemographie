@@ -1,21 +1,15 @@
-Profile: MII_PR_SDD_Geburtsland_Mutter
-Parent: Observation
-Id: mii-pr-sdd-geburtsland-mutter
-Title: "MII PR SDD Geburtsland Mutter"
-Description: "Geburtsland der Mutter"
+Profile: MII_PR_SDD_SoziooekonomischeFaktoren
+Parent: Observation 
+Id: mii-pr-sdd-soziooekonomische-faktoren
+Title: "MII PR SDD Soziooekonomische Faktoren"
+Description: "Soziooekonomische Faktoren für SDD"
 * insert PR_CS_VS_Version
 * insert Publisher
 * ^status = #draft
 
-// RelatedPerson macht nur Sinn wenn wir ein System haben, dass diese Information vorliegen und darstellbar hat
-
 * meta.profile 0..* MS
 
 * status MS
-
-* code 1..1 MS
-* code.coding 1..* MS
-* code.coding = $SCT#46062003 // origin?
 
 * category 1..* MS
 * category ^slicing.discriminator.type = #pattern
@@ -32,7 +26,3 @@ Description: "Geburtsland der Mutter"
 
 * effective[x] only dateTime
 * effectiveDateTime 1..1 MS
-
-* value[x] only CodeableConcept
-* valueCodeableConcept from mii-vs-sdd-laendercodes  (extensible)
-
