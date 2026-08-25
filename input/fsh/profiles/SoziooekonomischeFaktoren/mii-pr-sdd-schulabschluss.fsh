@@ -15,4 +15,4 @@ Description: "Höchster erreichter allgemeinbildender Schulabschluss"
 * valueCodeableConcept from mii-vs-sdd-schulabschluss  (required)
 
 * valueCodeableConcept.text MS
-* valueCodeableConcept.text ^short = "Freitext bei Code 8 (Anmerkung)"
+* valueCodeableConcept.text ^short = "Freitext bei Code 9 (anderer Schulabschluss)"
