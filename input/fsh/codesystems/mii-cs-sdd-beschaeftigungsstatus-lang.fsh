@@ -1,6 +1,7 @@
 CodeSystem: MII_CS_SDD_Beschaeftigungsstatus_Lang
 Id: mii-cs-sdd-beschaeftigungsstatus-lang
 Title: "MII CS SDD Beschaeftigungsstatus (Langfversion)"
+Description: "Code System für Beschäftigungsstatus (Langversion)"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang"
 * ^status = #draft
@@ -18,5 +19,5 @@ Title: "MII CS SDD Beschaeftigungsstatus (Langfversion)"
 * #9 "dauerhaft erwerbsunfähig"
 * #10 "langzeit krankgemeldet (z. B. länger als 6 Wochen krankgeschrieben, Erwerbsunterbrechung wegen Erkrankung, Bezug von Krankengeld o. ä.)"
 * #11 "Hausfrau/Hausmann"
-* #12 "sonstiges, und zwar "
+* #12 "sonstiges, und zwar"
 

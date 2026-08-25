@@ -1,6 +1,7 @@
 CodeSystem: MII_CS_SDD_Berufliche_Stellung_Lang
 Id: mii-cs-sdd-berufliche-stellung-lang
 Title: "MII CS SDD Berufliche Stellung (Langfversion)"
+Description: "Code System für Berufliche Stellung (Langversion)"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-lang"
 * ^status = #draft
