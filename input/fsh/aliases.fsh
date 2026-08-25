@@ -10,6 +10,7 @@ Alias: $mii-cs-sdd-haushaltsgroesse = https://www.medizininformatik-initiative.d
 Alias: $mii-cs-sdd-betreuungssituation = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-betreuungssituation
 Alias: $mii-cs-sdd-merkzeichen = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen
 Alias: $mii-cs-sdd-laendercodes-sonder = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-laendercodes-sonder
+Alias: $mii-cs-sdd-einkommen = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-einkommen
 
 // Value Systems
 Alias: $iso3166-alpha2 = http://hl7.org/fhir/ValueSet/iso3166-1-2 
