@@ -15,6 +15,8 @@ Alias: $mii-cs-sdd-schulabschluss = https://www.medizininformatik-initiative.de/
 Alias: $mii-cs-sdd-ausbildung = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-ausbildung
 Alias: $mii-cs-sdd-beschaeftigungsstatus-lang = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang
 Alias: $mii-cs-sdd-beschaeftigungsstatus-minimal = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-minimal
+Alias: $mii-cs-sdd-berufliche-stellung-lang = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-lang
+Alias: $mii-cs-sdd-berufliche-stellung-minimal = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-minimal
 
 // Value Systems
 Alias: $iso3166-alpha2 = http://hl7.org/fhir/ValueSet/iso3166-1-2 
