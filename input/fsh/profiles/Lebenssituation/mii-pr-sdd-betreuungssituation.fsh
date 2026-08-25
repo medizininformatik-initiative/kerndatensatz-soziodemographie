@@ -1,8 +1,8 @@
-Profile: MII_PR_SDD_Wohnsituation
+Profile: MII_PR_SDD_Betreuungssituation
 Parent: MII_PR_SDD_Lebenssituation
-Id: mii-pr-sdd-wohnsituation
-Title: "MII PR SDD Wohnsituation"
-Description: "Aktuelle Wohnsituation"
+Id: mii-pr-sdd-betreuungssituation
+Title: "MII PR SDD Betreuungssituation"
+Description: "Aktuelle Betreuungssituation"
 * insert PR_CS_VS_Version
 * insert Publisher
 * ^status = #draft
@@ -12,7 +12,7 @@ Description: "Aktuelle Wohnsituation"
 // * code.coding = // ?
 
 * valueCodeableConcept 1..1 MS
-* valueCodeableConcept from mii-vs-sdd-wohnsituation (required)
+* valueCodeableConcept from mii-vs-sdd-betreuungssituation (required)
 
 * valueCodeableConcept.text MS
 * valueCodeableConcept.text ^short = "Freitext bei Code 8 (Anmerkung)"
