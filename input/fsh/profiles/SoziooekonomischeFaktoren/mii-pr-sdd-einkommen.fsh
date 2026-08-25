@@ -12,4 +12,4 @@ Description: "Durchschnittliches monatliches Nettoeinkommen des Haushalts"
 * code.coding = $SCT#1 //
 
 * value[x] only CodeableConcept
-* valueCodeableConcept from mii-vs-sdd-einkommen  (extensible)
+* valueCodeableConcept from mii-vs-sdd-einkommen  (required)
