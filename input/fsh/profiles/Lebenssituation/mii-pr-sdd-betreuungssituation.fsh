@@ -15,7 +15,9 @@ Description: "Aktuelle Betreuungssituation"
 * valueCodeableConcept from mii-vs-sdd-betreuungssituation (required)
 
 * valueCodeableConcept.text MS
-* valueCodeableConcept.text ^short = "Freitext bei Code 8 (Anmerkung)"
+* valueCodeableConcept.text ^short = "Freitext bei Code 5 (Anmerkung)"
+
+* obeys bts-1
 
 * component 0..0
 
