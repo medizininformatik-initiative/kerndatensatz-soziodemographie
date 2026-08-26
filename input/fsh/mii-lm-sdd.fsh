@@ -5,7 +5,7 @@ Title: "MII LM Soziodemographie"
 Description: "MII LogicalModel Modul Soziodemographie"
 * insert Publisher
 * insert PR_CS_VS_Version
-* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/LogicalModel/Soziodemographie"
+// * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/LogicalModel/Soziodemographie"
 
 * erhebungsId 1..1 Identifier "Erhebungs-ID"
 * datum 1..1 dateTime "Datum"

@@ -9,7 +9,7 @@ Description: "Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde, in
 
 * code 1..1 MS
 * code.coding 1..* MS
-* code.coding = $SCT#1 //
+// * code.coding = // ?
 
 // valueQuantity da Kardinalscala siehe https://simplifier.net/guide/leitfaden-de-basis-r4/ig-markdown-Ressourcen-BeobachtungenMessungenObservation?version=current
 * value[x] only Quantity

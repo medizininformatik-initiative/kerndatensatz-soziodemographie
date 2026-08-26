@@ -9,7 +9,7 @@ Description: "Höchster beruflicher Ausbildungsabschluss"
 
 * code 1..1 MS
 * code.coding 1..* MS
-* code.coding = $SCT#1 //
+// * code.coding = // ?
 
 * value[x] only CodeableConcept
 * valueCodeableConcept from mii-vs-sdd-ausbildung  (required)

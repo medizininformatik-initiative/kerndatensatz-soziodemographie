@@ -9,7 +9,7 @@ Description: "Höchster erreichter allgemeinbildender Schulabschluss"
 
 * code 1..1 MS
 * code.coding 1..* MS
-* code.coding = $SCT#1 //
+// * code.coding = // ?
 
 * value[x] only CodeableConcept
 * valueCodeableConcept from mii-vs-sdd-schulabschluss  (required)

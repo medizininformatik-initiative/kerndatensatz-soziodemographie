@@ -9,7 +9,7 @@ Description: "Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigke
 
 * code 1..1 MS
 * code.coding 1..* MS
-* code.coding = $SCT#1 //
+// * code.coding = // ?
 
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1 MS
