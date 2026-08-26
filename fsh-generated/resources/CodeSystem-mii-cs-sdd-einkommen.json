@@ -1,0 +1,63 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "MII_CS_SDD_Einkommen",
+  "id": "mii-cs-sdd-einkommen",
+  "title": "MII CS SDD Einkommen",
+  "description": "Code System für Einkommen",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-einkommen",
+  "concept": [
+    {
+      "code": "500",
+      "display": "Unter 500 €"
+    },
+    {
+      "code": "500-1000",
+      "display": "500 € - unter 1.000 €"
+    },
+    {
+      "code": "1000-1500",
+      "display": "1.000 € - unter 1.500 €"
+    },
+    {
+      "code": "1500-2000",
+      "display": "1.500 € - unter 2.000 €"
+    },
+    {
+      "code": "2000-3000",
+      "display": "2.000 € - unter 3.000 €"
+    },
+    {
+      "code": "3000-4000",
+      "display": "3.000 € - unter 4.000 €"
+    },
+    {
+      "code": "4000-5000",
+      "display": "4.000 € - unter 5.000 €"
+    },
+    {
+      "code": "5000",
+      "display": "Über 5.000 €"
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "experimental": false,
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0",
+  "count": 8
+}

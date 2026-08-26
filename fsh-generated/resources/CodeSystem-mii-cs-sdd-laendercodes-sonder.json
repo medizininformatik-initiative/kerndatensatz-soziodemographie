@@ -1,0 +1,39 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "MII_CS_SDD_Laendercodes_Sonder",
+  "id": "mii-cs-sdd-laendercodes-sonder",
+  "title": "MII CS SDD Laendercodes Sonder",
+  "description": "Sonderkonzepte für Ländercodes, die nicht in ISO 3166-1 alpha-2 enthalten sind: staatenlos und ungeklärte Staatsangehörigkeit.",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-laendercodes-sonder",
+  "concept": [
+    {
+      "code": "ZZ",
+      "display": "Staatenlos"
+    },
+    {
+      "code": "QU",
+      "display": "Ungeklärte Staatsangehörigkeit"
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "experimental": false,
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0",
+  "count": 2
+}

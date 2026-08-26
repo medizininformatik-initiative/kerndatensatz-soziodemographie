@@ -1,0 +1,386 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "mii-ig-soziodemographie",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie",
+  "version": "1.0.0",
+  "name": "MII_IG_Soziodemographie",
+  "status": "draft",
+  "publisher": "Medizininformatik-Initiative",
+  "contact": [
+    {
+      "name": "Medizininformatik-Initiative",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "packageId": "mii-ig-soziodemographie",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-sdd-ausbildung"
+        },
+        "name": "MII CS SDD Ausbildung",
+        "description": "Code System für Ausbildung",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-sdd-berufliche-stellung-lang"
+        },
+        "name": "MII CS SDD Berufliche Stellung (Langfversion)",
+        "description": "Code System für Berufliche Stellung (Langversion)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-sdd-berufliche-stellung-minimal"
+        },
+        "name": "MII CS SDD Berufliche Stellung (Minimalversion)",
+        "description": "Code System für Berufliche Stellung (Minimalversion)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang"
+        },
+        "name": "MII CS SDD Beschaeftigungsstatus (Langfversion)",
+        "description": "Code System für Beschäftigungsstatus (Langversion)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-sdd-beschaeftigungsstatus-minimal"
+        },
+        "name": "MII CS SDD Beschaeftigungsstatus (Minimalversion)",
+        "description": "Code System für Beschäftigungsstatus (Minimalversion)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-sdd-betreuungssituation"
+        },
+        "name": "MII CS SDD Betreuungssituation",
+        "description": "Code System für Betreuungssituation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-sdd-einkommen"
+        },
+        "name": "MII CS SDD Einkommen",
+        "description": "Code System für Einkommen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-sdd-erhebungsmethode"
+        },
+        "name": "MII CS SDD Erhebungsmethode",
+        "description": "Code System für Erhebungsmethode",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-sdd-laendercodes-sonder"
+        },
+        "name": "MII CS SDD Laendercodes Sonder",
+        "description": "Sonderkonzepte für Ländercodes, die nicht in ISO 3166-1 alpha-2 enthalten sind: staatenlos und ungeklärte Staatsangehörigkeit.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-sdd-merkzeichen"
+        },
+        "name": "MII CS SDD Merkzeichen (SGB IX / SchwbAwV)",
+        "description": "Code System für Merkzeichen (SGB IX / SchwbAwV)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-sdd-schulabschluss"
+        },
+        "name": "MII CS SDD Schulabschluss",
+        "description": "Code System für Schulabschluss",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/mii-cs-sdd-schwerbehindertenausweis"
+        },
+        "name": "MII CS SDD Schwerbehindertenausweis",
+        "description": "Code System für Schwerbehindertenausweis",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-lm-sdd"
+        },
+        "name": "MII LM Soziodemographie",
+        "description": "MII LogicalModel Modul Soziodemographie",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-ausbildung"
+        },
+        "name": "MII PR SDD Ausbildung",
+        "description": "Höchster beruflicher Ausbildungsabschluss",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-berufliche-stellung"
+        },
+        "name": "MII PR SDD Berufliche Stellung",
+        "description": "Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-beschaeftigungsstatus"
+        },
+        "name": "MII PR SDD Beschäftigungsstatus",
+        "description": "Aktuell hauptsächlich ausgeübte Tätigkeit",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-betreuungssituation"
+        },
+        "name": "MII PR SDD Betreuungssituation",
+        "description": "Aktuelle Betreuungssituation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-datenerhebung"
+        },
+        "name": "MII PR SDD Datenerhebung",
+        "description": "Datenerhebung für SDD",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-einkommen"
+        },
+        "name": "MII PR SDD Einkommen",
+        "description": "Durchschnittliches monatliches Nettoeinkommen des Haushalts",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-geburtsland-mutter"
+        },
+        "name": "MII PR SDD Geburtsland Mutter",
+        "description": "Geburtsland der Mutter",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-geburtsland-vater"
+        },
+        "name": "MII PR SDD Geburtsland Vater",
+        "description": "Geburtsland des Vaters des Patienten",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-haushaltsgroesse"
+        },
+        "name": "MII PR SDD Haushaltsgroesse",
+        "description": "Anzahl der Personen, die ständig im Haushalt der Person leben.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-lebenssituation"
+        },
+        "name": "MII PR SDD Lebenssituation",
+        "description": "Lebenssituation des Patienten (abstrakt)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-partnerschaft"
+        },
+        "name": "MII PR SDD Partnerschaft",
+        "description": "Aktuelle Partnerschaft der Person",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-schulabschluss"
+        },
+        "name": "MII PR SDD Schulabschluss",
+        "description": "Höchster erreichter allgemeinbildender Schulabschluss",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-schuljahre"
+        },
+        "name": "MII PR SDD Schuljahre",
+        "description": "Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde, inkl. Besuch einer Berufs- oder Hochschule",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-schwerbehindertenausweis"
+        },
+        "name": "MII PR SDD Schwerbehindertenausweis",
+        "description": "Vorliegen eines Schwerbehindertenausweises des Patienten",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-soziooekonomische-faktoren"
+        },
+        "name": "MII PR SDD Soziooekonomische Faktoren",
+        "description": "Soziooekonomische Faktoren für SDD",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-pr-sdd-vertrauensperson"
+        },
+        "name": "MII PR SDD Vertrauensperson",
+        "description": "Existenz mind. einer Person, der die Person uneingeschränkt vertrauen und mit der die Person persönliche Dinge besprechen kann",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-sdd-ausbildung"
+        },
+        "name": "MII VS SDD Ausbildung",
+        "description": "Value Set für Ausbildung",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-sdd-berufliche-stellung-lang"
+        },
+        "name": "MII VS SDD Berufliche Stellung (Langversion)",
+        "description": "Value Set für Berufliche Stellung (Langversion)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-sdd-berufliche-stellung-minimal"
+        },
+        "name": "MII VS SDD Berufliche Stellung (Minimalversion)",
+        "description": "Value Set für Berufliche Stellung (Minimalversion)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-sdd-beschaeftigungsstatus-lang"
+        },
+        "name": "MII VS SDD Beschaeftigungsstatus (Langversion)",
+        "description": "Value Set für Beschäftigungsstatus (Langversion)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-sdd-beschaeftigungsstatus-minimal"
+        },
+        "name": "MII VS SDD Beschaeftigungsstatus (Minimalversion)",
+        "description": "Value Set für Beschäftigungsstatus (Minimalversion)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-sdd-betreuungssituation"
+        },
+        "name": "MII VS SDD Betreuungssituation",
+        "description": "Value Set für Betreuungssituation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-sdd-einkommen"
+        },
+        "name": "MII VS SDD Einkommen",
+        "description": "Value Set für Einkommen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-sdd-erhebungsmethode"
+        },
+        "name": "MII VS SDD Erhebungsmethode",
+        "description": "Value Set für Erhebungsmethode",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-sdd-laendercodes"
+        },
+        "name": "MII VS SDD Laendercodes",
+        "description": "ISO 3166-1 alpha-2 zzgl. Sonderkonzepte für staatenlos und ungeklärt.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-sdd-merkzeichen"
+        },
+        "name": "MII VS SDD Merkzeichen",
+        "description": "Value Set für Merkzeichen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-sdd-schulabschluss"
+        },
+        "name": "MII VS SDD Schulabschluss",
+        "description": "Value Set für Schulabschluss",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2026+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/predefined-resources"
+      },
+      {
+        "code": "path-pages",
+        "value": "input/intro-notes"
+      },
+      {
+        "code": "i18n-default-lang",
+        "value": "en"
+      },
+      {
+        "code": "i18n-lang",
+        "value": "de"
+      }
+    ]
+  }
+}

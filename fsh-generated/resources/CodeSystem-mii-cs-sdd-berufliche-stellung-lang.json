@@ -1,0 +1,63 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "MII_CS_SDD_Berufliche_Stellung_Lang",
+  "id": "mii-cs-sdd-berufliche-stellung-lang",
+  "title": "MII CS SDD Berufliche Stellung (Langfversion)",
+  "description": "Code System für Berufliche Stellung (Langversion)",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-lang",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Selbstständige:r Landwirt:in oder Genossenschaftsbauer"
+    },
+    {
+      "code": "2",
+      "display": "Akademiker:in in freiem Beruf (Art/Ärztin, Rechtsanwalt/Rechtsanwältin, Steuerberater:in o. ä.)"
+    },
+    {
+      "code": "3",
+      "display": "Selbstständig im Handel, im Gastgewerbe, im Handwerk, in der Industrie, in der Dienstleistung, auch Ich-AG oder Mitglied einer Produktionsgenossenschaft des Handwerks (PGH) in der DDR"
+    },
+    {
+      "code": "4",
+      "display": "Beamter/Beamtin, Richter:in, Berufssoldat:in"
+    },
+    {
+      "code": "5",
+      "display": "Angestellte:r (Angestellte sind Beschäftigte mit überwiegend geistiger Arbeit/Bürotätigkeiten)"
+    },
+    {
+      "code": "6",
+      "display": "Arbeiter:in (Arbeiter verrichten mehrheitlich körperliche Arbeit)"
+    },
+    {
+      "code": "7",
+      "display": "in einer beruflichen Ausbildung/Lehre"
+    },
+    {
+      "code": "8",
+      "display": "mithelfende:r Familienangehörige:r"
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "experimental": false,
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0",
+  "count": 8
+}

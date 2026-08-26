@@ -1,0 +1,47 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "MII_CS_SDD_Schwerbehindertenausweis",
+  "id": "mii-cs-sdd-schwerbehindertenausweis",
+  "title": "MII CS SDD Schwerbehindertenausweis",
+  "description": "Code System für Schwerbehindertenausweis",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis",
+  "concept": [
+    {
+      "code": "gdb",
+      "display": "Grad der Behinderung"
+    },
+    {
+      "code": "merkzeichen",
+      "display": "Merkzeichen"
+    },
+    {
+      "code": "gueltig-von",
+      "display": "Gültigkeitszeitraum von"
+    },
+    {
+      "code": "gueltig-bis",
+      "display": "Gültigkeitszeitraum bis"
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "experimental": false,
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0",
+  "count": 4
+}

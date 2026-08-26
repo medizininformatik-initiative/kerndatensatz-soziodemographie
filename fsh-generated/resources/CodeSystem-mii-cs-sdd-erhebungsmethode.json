@@ -1,0 +1,43 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "MII_CS_SDD_Erhebungsmethode",
+  "id": "mii-cs-sdd-erhebungsmethode",
+  "title": "MII CS SDD Erhebungsmethode",
+  "description": "Code System für Erhebungsmethode",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-erhebungsmethode",
+  "concept": [
+    {
+      "code": "selbstauskunft",
+      "display": "Selbstangabe"
+    },
+    {
+      "code": "fremdeinschätzung",
+      "display": "Fremdeinschätzung"
+    },
+    {
+      "code": "medizinischeeinschätzung",
+      "display": "Einschätzung durch medizinisches Personal"
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "experimental": false,
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0",
+  "count": 3
+}

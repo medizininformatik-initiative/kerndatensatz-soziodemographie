@@ -10,7 +10,9 @@ _gencontinuous.bat
 _build.bat
 _build.sh
 /translations/*
-/fsh-generated
+/fsh-generated/data/fsh-index.json
+/fsh-generated/fsh-index.txt
+/fsh-generated/includes/fsh-link-references.md
 /input-cache
 /output
 /temp

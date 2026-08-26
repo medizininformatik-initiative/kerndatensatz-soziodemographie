@@ -1,0 +1,63 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "MII_CS_SDD_Ausbildung",
+  "id": "mii-cs-sdd-ausbildung",
+  "title": "MII CS SDD Ausbildung",
+  "description": "Code System für Ausbildung",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-ausbildung",
+  "concept": [
+    {
+      "code": "1",
+      "display": "noch in Ausbildung, Studium (Berufsvorbereitungsjahr, Praktikum, [Berufs-] Fachschule o. ä.)"
+    },
+    {
+      "code": "2",
+      "display": "kein beruflicher Abschluss und bin nicht in beruflicher Ausbildung"
+    },
+    {
+      "code": "3",
+      "display": "Lehre (beruflich-betriebliche Berufsausbildung)"
+    },
+    {
+      "code": "4",
+      "display": "berufsqualifizierender Abschluss einer beruflich-schulischen Ausbildung z. B. an einer Berufsfachschule oder einer Kollegschule"
+    },
+    {
+      "code": "5",
+      "display": "Abschluss einer Fach-, Meister- oder Technikerschule, Verwaltungs- und Wirtschaftsakademie, Berufs- oder Fachakademie"
+    },
+    {
+      "code": "6",
+      "display": "Bachelor, Diplom (FH)"
+    },
+    {
+      "code": "7",
+      "display": "Master, Diplom (Uni), Magister, Staatsexamen, Promotion"
+    },
+    {
+      "code": "8",
+      "display": "anderer beruflicher Abschluss, und zwar"
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "experimental": false,
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0",
+  "count": 8
+}

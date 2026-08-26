@@ -1,0 +1,59 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "MII_CS_SDD_Beschaeftigungsstatus_Minimal",
+  "id": "mii-cs-sdd-beschaeftigungsstatus-minimal",
+  "title": "MII CS SDD Beschaeftigungsstatus (Minimalversion)",
+  "description": "Code System für Beschäftigungsstatus (Minimalversion)",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-minimal",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Schüler, Auszubildender, Student"
+    },
+    {
+      "code": "2",
+      "display": "nicht berufstätig wegen einer Erkrankung"
+    },
+    {
+      "code": "3",
+      "display": "Rente, Hausfrau/-mann, etc."
+    },
+    {
+      "code": "4",
+      "display": "arbeitssuchend"
+    },
+    {
+      "code": "5",
+      "display": "teilzeitbeschäftigt"
+    },
+    {
+      "code": "6",
+      "display": "vollzeitbeschäftigt"
+    },
+    {
+      "code": "7",
+      "display": "gelegentlich oder unregelmäßig beschäftigt"
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "experimental": false,
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0",
+  "count": 7
+}
