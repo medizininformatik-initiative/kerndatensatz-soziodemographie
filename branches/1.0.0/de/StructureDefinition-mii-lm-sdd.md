@@ -77,7 +77,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-lm-sdd.c
   "name" : "MII_LM_SDD",
   "title" : "MII LM Soziodemographie",
   "status" : "draft",
-  "date" : "2026-08-26T12:41:44+00:00",
+  "date" : "2026-08-26T12:53:00+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

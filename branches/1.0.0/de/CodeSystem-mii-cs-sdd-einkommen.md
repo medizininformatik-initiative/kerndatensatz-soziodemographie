@@ -39,7 +39,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "title" : "MII CS SDD Einkommen",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-26T12:41:44+00:00",
+  "date" : "2026-08-26T12:53:00+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
