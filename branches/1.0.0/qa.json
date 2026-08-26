@@ -6,8 +6,8 @@
   "status" : "draft",
   "package-id" : "mii-ig-soziodemographie",
   "ig-ver" : "1.0.0",
-  "date" : "Wed, 26 Aug, 2026 13:02:54 +0000",
-  "dateISO8601" : "2026-08-26T13:02:54+00:00",
+  "date" : "Wed, 26 Aug, 2026 13:06:53 +0000",
+  "dateISO8601" : "2026-08-26T13:06:53+00:00",
   "errs" : 0,
   "warnings" : 173,
   "hints" : 72,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1078625040
+  "maxMemory" : 1078147608
 }

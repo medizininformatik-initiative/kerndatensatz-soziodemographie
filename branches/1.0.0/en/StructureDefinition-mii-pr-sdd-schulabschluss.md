@@ -41,7 +41,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-schula
   "name" : "MII_PR_SDD_Schulabschluss",
   "title" : "MII PR SDD Schulabschluss",
   "status" : "draft",
-  "date" : "2026-08-26T13:02:54+00:00",
+  "date" : "2026-08-26T13:06:53+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
