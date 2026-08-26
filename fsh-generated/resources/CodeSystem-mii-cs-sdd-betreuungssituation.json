@@ -1,0 +1,51 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "MII_CS_SDD_Betreuungssituation",
+  "id": "mii-cs-sdd-betreuungssituation",
+  "title": "MII CS SDD Betreuungssituation",
+  "description": "Code System für Betreuungssituation",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-betreuungssituation",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Keine Betreuung"
+    },
+    {
+      "code": "2",
+      "display": "Betreuung auf Anfrage (z. B. betreutes Wohnen, Hausnotruf) "
+    },
+    {
+      "code": "3",
+      "display": "Zeitweise Betreuung (z. B. ambulante Pflege)"
+    },
+    {
+      "code": "4",
+      "display": "Dauerhafte Betreuung (z. B. Pflegeheim)"
+    },
+    {
+      "code": "5",
+      "display": "Anmerkung"
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "experimental": false,
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0",
+  "count": 5
+}

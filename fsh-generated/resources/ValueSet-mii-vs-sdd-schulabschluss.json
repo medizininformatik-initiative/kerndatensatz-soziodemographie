@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "MII_VS_SDD_Schulabschluss",
+  "id": "mii-vs-sdd-schulabschluss",
+  "title": "MII VS SDD Schulabschluss",
+  "description": "Value Set für Schulabschluss",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-schulabschluss",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "experimental": false,
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0",
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schulabschluss"
+      }
+    ]
+  }
+}
