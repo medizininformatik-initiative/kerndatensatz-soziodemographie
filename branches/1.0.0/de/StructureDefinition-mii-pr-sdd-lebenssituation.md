@@ -101,7 +101,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-l
   "name" : "MII_PR_SDD_Lebenssituation",
   "title" : "MII PR SDD Lebenssituation",
   "status" : "draft",
-  "date" : "2026-08-26T12:53:00+00:00",
+  "date" : "2026-08-26T12:57:55+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

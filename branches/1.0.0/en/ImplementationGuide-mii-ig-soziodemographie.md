@@ -13,7 +13,7 @@
   "version" : "1.0.0",
   "name" : "MII_IG_Soziodemographie",
   "status" : "draft",
-  "date" : "2026-08-26T12:53:00+00:00",
+  "date" : "2026-08-26T12:57:55+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

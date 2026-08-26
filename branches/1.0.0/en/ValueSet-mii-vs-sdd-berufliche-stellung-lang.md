@@ -45,7 +45,7 @@ Value Set für Berufliche Stellung (Langversion)
   "title" : "MII VS SDD Berufliche Stellung (Langversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-26T12:53:00+00:00",
+  "date" : "2026-08-26T12:57:55+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
