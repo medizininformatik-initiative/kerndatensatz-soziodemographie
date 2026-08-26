@@ -46,7 +46,7 @@ ISO 3166-1 alpha-2 zzgl. Sonderkonzepte für staatenlos und ungeklärt.
   "title" : "MII VS SDD Laendercodes",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-26T12:16:54+00:00",
+  "date" : "2026-08-26T12:41:44+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
