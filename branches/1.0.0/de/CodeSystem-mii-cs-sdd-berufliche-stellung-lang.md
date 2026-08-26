@@ -1,0 +1,88 @@
+# MII CS SDD Berufliche Stellung (Langfversion) - v1.0.0
+
+* [**Table of Contents**](toc.md)
+* [**Artefaktübersicht**](artifacts.md)
+* **MII CS SDD Berufliche Stellung (Langfversion)**
+
+## CodeSystem: MII CS SDD Berufliche Stellung (Langfversion) 
+
+| | |
+| :--- | :--- |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-lang | *Version*:1.0.0 |
+| Draft Stand: 2026-08-26 | *Maschinenlesbarer Name*:MII_CS_SDD_Berufliche_Stellung_Lang |
+
+ 
+Code System für Berufliche Stellung (Langversion) 
+
+Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
+
+* [MII VS SDD Berufliche Stellung (Langversion)](ValueSet-mii-vs-sdd-berufliche-stellung-lang.md)
+
+-------
+
+ [Beschreibung der obigen Tabelle(n)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mii-cs-sdd-berufliche-stellung-lang",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+  },
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-lang",
+  "version" : "1.0.0",
+  "name" : "MII_CS_SDD_Berufliche_Stellung_Lang",
+  "title" : "MII CS SDD Berufliche Stellung (Langfversion)",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-08-26T12:16:54+00:00",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "Code System für Berufliche Stellung (Langversion)",
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Selbstständige:r Landwirt:in oder Genossenschaftsbauer"
+  },
+  {
+    "code" : "2",
+    "display" : "Akademiker:in in freiem Beruf (Art/Ärztin, Rechtsanwalt/Rechtsanwältin, Steuerberater:in o. ä.)"
+  },
+  {
+    "code" : "3",
+    "display" : "Selbstständig im Handel, im Gastgewerbe, im Handwerk, in der Industrie, in der Dienstleistung, auch Ich-AG oder Mitglied einer Produktionsgenossenschaft des Handwerks (PGH) in der DDR"
+  },
+  {
+    "code" : "4",
+    "display" : "Beamter/Beamtin, Richter:in, Berufssoldat:in"
+  },
+  {
+    "code" : "5",
+    "display" : "Angestellte:r (Angestellte sind Beschäftigte mit überwiegend geistiger Arbeit/Bürotätigkeiten)"
+  },
+  {
+    "code" : "6",
+    "display" : "Arbeiter:in (Arbeiter verrichten mehrheitlich körperliche Arbeit)"
+  },
+  {
+    "code" : "7",
+    "display" : "in einer beruflichen Ausbildung/Lehre"
+  },
+  {
+    "code" : "8",
+    "display" : "mithelfende:r Familienangehörige:r"
+  }]
+}
+
+```

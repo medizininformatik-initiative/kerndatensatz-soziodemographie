@@ -1,0 +1,136 @@
+{
+  "codeSystems" : [{
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-ausbildung",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_VS_SDD_Ausbildung",
+    "title" : "MII VS SDD Ausbildung",
+    "description" : "Value Set für Ausbildung",
+    "systems" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-ausbildung"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-sdd-ausbildung.html" : "MII PR SDD Ausbildung"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-berufliche-stellung-lang",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_VS_SDD_Berufliche_Stellung_Lang",
+    "title" : "MII VS SDD Berufliche Stellung (Langversion)",
+    "description" : "Value Set für Berufliche Stellung (Langversion)",
+    "systems" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-lang"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-sdd-berufliche-stellung.html" : "MII PR SDD Berufliche Stellung"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-berufliche-stellung-minimal",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_VS_SDD_Berufliche_Stellung_Minimal",
+    "title" : "MII VS SDD Berufliche Stellung (Minimalversion)",
+    "description" : "Value Set für Berufliche Stellung (Minimalversion)",
+    "systems" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-minimal"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-sdd-berufliche-stellung.html" : "MII PR SDD Berufliche Stellung"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-beschaeftigungsstatus-lang",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_VS_SDD_Beschaeftigungsstatus_Lang",
+    "title" : "MII VS SDD Beschaeftigungsstatus (Langversion)",
+    "description" : "Value Set für Beschäftigungsstatus (Langversion)",
+    "systems" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.html" : "MII PR SDD Beschäftigungsstatus"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-beschaeftigungsstatus-minimal",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_VS_SDD_Beschaeftigungsstatus_Minimal",
+    "title" : "MII VS SDD Beschaeftigungsstatus (Minimalversion)",
+    "description" : "Value Set für Beschäftigungsstatus (Minimalversion)",
+    "systems" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-minimal"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.html" : "MII PR SDD Beschäftigungsstatus"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-betreuungssituation",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_VS_SDD_Betreuungssituation",
+    "title" : "MII VS SDD Betreuungssituation",
+    "description" : "Value Set für Betreuungssituation",
+    "systems" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-betreuungssituation"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-sdd-betreuungssituation.html" : "MII PR SDD Betreuungssituation"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-einkommen",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_VS_SDD_Einkommen",
+    "title" : "MII VS SDD Einkommen",
+    "description" : "Value Set für Einkommen",
+    "systems" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-einkommen"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-sdd-einkommen.html" : "MII PR SDD Einkommen"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-erhebungsmethode",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_VS_SDD_Erhebungsmethode",
+    "title" : "MII VS SDD Erhebungsmethode",
+    "description" : "Value Set für Erhebungsmethode",
+    "systems" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-erhebungsmethode"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-sdd-datenerhebung.html" : "MII PR SDD Datenerhebung"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-laendercodes",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_VS_SDD_Laendercodes",
+    "title" : "MII VS SDD Laendercodes",
+    "description" : "ISO 3166-1 alpha-2 zzgl. Sonderkonzepte für staatenlos und ungeklärt.",
+    "systems" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-laendercodes-sonder",
+    "urn:iso:std:iso:3166"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-sdd-geburtsland-vater.html" : "MII PR SDD Geburtsland Vater",
+    "StructureDefinition-mii-pr-sdd-geburtsland-mutter.html" : "MII PR SDD Geburtsland Mutter"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-merkzeichen",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_VS_SDD_Merkzeichen",
+    "title" : "MII VS SDD Merkzeichen",
+    "description" : "Value Set für Merkzeichen",
+    "systems" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.html" : "MII PR SDD Schwerbehindertenausweis"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-schulabschluss",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_VS_SDD_Schulabschluss",
+    "title" : "MII VS SDD Schulabschluss",
+    "description" : "Value Set für Schulabschluss",
+    "systems" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schulabschluss"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-sdd-schulabschluss.html" : "MII PR SDD Schulabschluss"
+  }]
+}

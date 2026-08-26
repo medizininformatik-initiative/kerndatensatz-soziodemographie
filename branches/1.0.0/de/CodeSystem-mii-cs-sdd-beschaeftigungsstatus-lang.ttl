@@ -1,0 +1,99 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "mii-cs-sdd-beschaeftigungsstatus-lang"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ;
+       fhir:index -1 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "de"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mii-cs-sdd-beschaeftigungsstatus-lang</b></p><a name=\"de-mii-cs-sdd-beschaeftigungsstatus-lang\"> </a><a name=\"de-hcmii-cs-sdd-beschaeftigungsstatus-lang\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"de-mii-cs-sdd-beschaeftigungsstatus-lang-1\"> </a></td><td>Besuch einer allgemeinbildenden Schule, Studium, Berufliche Ausbildung, Umschulung</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"de-mii-cs-sdd-beschaeftigungsstatus-lang-2\"> </a></td><td>freiwilliger Wehrdienst, Bundesfreiwilligendienst, freiwilliges soziales oder ökologisches Jahr</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"de-mii-cs-sdd-beschaeftigungsstatus-lang-3\"> </a></td><td>Erwerbsunterbrechung wegen Pflegezeit, Mutterschutz, Elternzeit ohne berufliche Tätigkeit</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"de-mii-cs-sdd-beschaeftigungsstatus-lang-4\"> </a></td><td>vollzeiterwerbstätig gemäß den branchenüblichen oder betrieblichen Regeln</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"de-mii-cs-sdd-beschaeftigungsstatus-lang-5\"> </a></td><td>teilzeiterwerbstätig, auch Midijob, aber mehr als ein Minijob</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"de-mii-cs-sdd-beschaeftigungsstatus-lang-6\"> </a></td><td>in einer geringfügigen, gelegentlichen, kurzfristigen oder unregelmäßigen Beschäftigung (z. B. 538-Euro-Job, Minijob, Ein-Euro-Job, Saisonarbeit)</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"de-mii-cs-sdd-beschaeftigungsstatus-lang-7\"> </a></td><td>Rentner:in, Pensionär:in</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"de-mii-cs-sdd-beschaeftigungsstatus-lang-8\"> </a></td><td>arbeitslos</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"de-mii-cs-sdd-beschaeftigungsstatus-lang-9\"> </a></td><td>dauerhaft erwerbsunfähig</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"de-mii-cs-sdd-beschaeftigungsstatus-lang-10\"> </a></td><td>langzeit krankgemeldet (z. B. länger als 6 Wochen krankgeschrieben, Erwerbsunterbrechung wegen Erkrankung, Bezug von Krankengeld o. ä.)</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"de-mii-cs-sdd-beschaeftigungsstatus-lang-11\"> </a></td><td>Hausfrau/Hausmann</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"de-mii-cs-sdd-beschaeftigungsstatus-lang-12\"> </a></td><td>sonstiges, und zwar</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang"] ;
+  fhir:CodeSystem.version [ fhir:value "1.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "MII_CS_SDD_Beschaeftigungsstatus_Lang"] ;
+  fhir:CodeSystem.title [ fhir:value "MII CS SDD Beschaeftigungsstatus (Langfversion)"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-26T12:16:54+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Medizininformatik-Initiative"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "Medizininformatik-Initiative" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.medizininformatik-initiative.de" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Code System für Beschäftigungsstatus (Langversion)"] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "12"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Besuch einer allgemeinbildenden Schule, Studium, Berufliche Ausbildung, Umschulung" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "freiwilliger Wehrdienst, Bundesfreiwilligendienst, freiwilliges soziales oder ökologisches Jahr" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Erwerbsunterbrechung wegen Pflegezeit, Mutterschutz, Elternzeit ohne berufliche Tätigkeit" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "vollzeiterwerbstätig gemäß den branchenüblichen oder betrieblichen Regeln" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "teilzeiterwerbstätig, auch Midijob, aber mehr als ein Minijob" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "in einer geringfügigen, gelegentlichen, kurzfristigen oder unregelmäßigen Beschäftigung (z. B. 538-Euro-Job, Minijob, Ein-Euro-Job, Saisonarbeit)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Rentner:in, Pensionär:in" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "arbeitslos" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "dauerhaft erwerbsunfähig" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "langzeit krankgemeldet (z. B. länger als 6 Wochen krankgeschrieben, Erwerbsunterbrechung wegen Erkrankung, Bezug von Krankengeld o. ä.)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "11" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hausfrau/Hausmann" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "12" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "sonstiges, und zwar" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

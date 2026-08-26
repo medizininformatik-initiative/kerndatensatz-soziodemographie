@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mii-cs-sdd-ausbildung"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem mii-cs-sdd-ausbildung</b></p><a name="mii-cs-sdd-ausbildung"> </a><a name="hcmii-cs-sdd-ausbildung"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-ausbildung</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="mii-cs-sdd-ausbildung-1"> </a></td><td>noch in Ausbildung, Studium (Berufsvorbereitungsjahr, Praktikum, [Berufs-] Fachschule o. ä.)</td></tr><tr><td style="white-space:nowrap">2<a name="mii-cs-sdd-ausbildung-2"> </a></td><td>kein beruflicher Abschluss und bin nicht in beruflicher Ausbildung</td></tr><tr><td style="white-space:nowrap">3<a name="mii-cs-sdd-ausbildung-3"> </a></td><td>Lehre (beruflich-betriebliche Berufsausbildung)</td></tr><tr><td style="white-space:nowrap">4<a name="mii-cs-sdd-ausbildung-4"> </a></td><td>berufsqualifizierender Abschluss einer beruflich-schulischen Ausbildung z. B. an einer Berufsfachschule oder einer Kollegschule</td></tr><tr><td style="white-space:nowrap">5<a name="mii-cs-sdd-ausbildung-5"> </a></td><td>Abschluss einer Fach-, Meister- oder Technikerschule, Verwaltungs- und Wirtschaftsakademie, Berufs- oder Fachakademie</td></tr><tr><td style="white-space:nowrap">6<a name="mii-cs-sdd-ausbildung-6"> </a></td><td>Bachelor, Diplom (FH)</td></tr><tr><td style="white-space:nowrap">7<a name="mii-cs-sdd-ausbildung-7"> </a></td><td>Master, Diplom (Uni), Magister, Staatsexamen, Promotion</td></tr><tr><td style="white-space:nowrap">8<a name="mii-cs-sdd-ausbildung-8"> </a></td><td>anderer beruflicher Abschluss, und zwar</td></tr></table></div><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem mii-cs-sdd-ausbildung</b></p><a name="de-mii-cs-sdd-ausbildung"> </a><a name="de-hcmii-cs-sdd-ausbildung"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-ausbildung</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="de-mii-cs-sdd-ausbildung-1"> </a></td><td>noch in Ausbildung, Studium (Berufsvorbereitungsjahr, Praktikum, [Berufs-] Fachschule o. ä.)</td></tr><tr><td style="white-space:nowrap">2<a name="de-mii-cs-sdd-ausbildung-2"> </a></td><td>kein beruflicher Abschluss und bin nicht in beruflicher Ausbildung</td></tr><tr><td style="white-space:nowrap">3<a name="de-mii-cs-sdd-ausbildung-3"> </a></td><td>Lehre (beruflich-betriebliche Berufsausbildung)</td></tr><tr><td style="white-space:nowrap">4<a name="de-mii-cs-sdd-ausbildung-4"> </a></td><td>berufsqualifizierender Abschluss einer beruflich-schulischen Ausbildung z. B. an einer Berufsfachschule oder einer Kollegschule</td></tr><tr><td style="white-space:nowrap">5<a name="de-mii-cs-sdd-ausbildung-5"> </a></td><td>Abschluss einer Fach-, Meister- oder Technikerschule, Verwaltungs- und Wirtschaftsakademie, Berufs- oder Fachakademie</td></tr><tr><td style="white-space:nowrap">6<a name="de-mii-cs-sdd-ausbildung-6"> </a></td><td>Bachelor, Diplom (FH)</td></tr><tr><td style="white-space:nowrap">7<a name="de-mii-cs-sdd-ausbildung-7"> </a></td><td>Master, Diplom (Uni), Magister, Staatsexamen, Promotion</td></tr><tr><td style="white-space:nowrap">8<a name="de-mii-cs-sdd-ausbildung-8"> </a></td><td>anderer beruflicher Abschluss, und zwar</td></tr></table></div></div>
+  </text>
+  <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-ausbildung"/>
+  <version value="1.0.0"/>
+  <name value="MII_CS_SDD_Ausbildung"/>
+  <title value="MII CS SDD Ausbildung"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-08-26T12:16:54+00:00"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="Code System für Ausbildung"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="1"/>
+    <display value="noch in Ausbildung, Studium (Berufsvorbereitungsjahr, Praktikum, [Berufs-] Fachschule o. ä.)"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="kein beruflicher Abschluss und bin nicht in beruflicher Ausbildung"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Lehre (beruflich-betriebliche Berufsausbildung)"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="berufsqualifizierender Abschluss einer beruflich-schulischen Ausbildung z. B. an einer Berufsfachschule oder einer Kollegschule"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Abschluss einer Fach-, Meister- oder Technikerschule, Verwaltungs- und Wirtschaftsakademie, Berufs- oder Fachakademie"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Bachelor, Diplom (FH)"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Master, Diplom (Uni), Magister, Staatsexamen, Promotion"/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="anderer beruflicher Abschluss, und zwar"/>
+  </concept>
+</CodeSystem>

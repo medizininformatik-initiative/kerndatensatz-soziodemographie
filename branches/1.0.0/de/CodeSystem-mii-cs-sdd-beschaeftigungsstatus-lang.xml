@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="mii-cs-sdd-beschaeftigungsstatus-lang"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem mii-cs-sdd-beschaeftigungsstatus-lang</b></p><a name="de-mii-cs-sdd-beschaeftigungsstatus-lang"> </a><a name="de-hcmii-cs-sdd-beschaeftigungsstatus-lang"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="de-mii-cs-sdd-beschaeftigungsstatus-lang-1"> </a></td><td>Besuch einer allgemeinbildenden Schule, Studium, Berufliche Ausbildung, Umschulung</td></tr><tr><td style="white-space:nowrap">2<a name="de-mii-cs-sdd-beschaeftigungsstatus-lang-2"> </a></td><td>freiwilliger Wehrdienst, Bundesfreiwilligendienst, freiwilliges soziales oder ökologisches Jahr</td></tr><tr><td style="white-space:nowrap">3<a name="de-mii-cs-sdd-beschaeftigungsstatus-lang-3"> </a></td><td>Erwerbsunterbrechung wegen Pflegezeit, Mutterschutz, Elternzeit ohne berufliche Tätigkeit</td></tr><tr><td style="white-space:nowrap">4<a name="de-mii-cs-sdd-beschaeftigungsstatus-lang-4"> </a></td><td>vollzeiterwerbstätig gemäß den branchenüblichen oder betrieblichen Regeln</td></tr><tr><td style="white-space:nowrap">5<a name="de-mii-cs-sdd-beschaeftigungsstatus-lang-5"> </a></td><td>teilzeiterwerbstätig, auch Midijob, aber mehr als ein Minijob</td></tr><tr><td style="white-space:nowrap">6<a name="de-mii-cs-sdd-beschaeftigungsstatus-lang-6"> </a></td><td>in einer geringfügigen, gelegentlichen, kurzfristigen oder unregelmäßigen Beschäftigung (z. B. 538-Euro-Job, Minijob, Ein-Euro-Job, Saisonarbeit)</td></tr><tr><td style="white-space:nowrap">7<a name="de-mii-cs-sdd-beschaeftigungsstatus-lang-7"> </a></td><td>Rentner:in, Pensionär:in</td></tr><tr><td style="white-space:nowrap">8<a name="de-mii-cs-sdd-beschaeftigungsstatus-lang-8"> </a></td><td>arbeitslos</td></tr><tr><td style="white-space:nowrap">9<a name="de-mii-cs-sdd-beschaeftigungsstatus-lang-9"> </a></td><td>dauerhaft erwerbsunfähig</td></tr><tr><td style="white-space:nowrap">10<a name="de-mii-cs-sdd-beschaeftigungsstatus-lang-10"> </a></td><td>langzeit krankgemeldet (z. B. länger als 6 Wochen krankgeschrieben, Erwerbsunterbrechung wegen Erkrankung, Bezug von Krankengeld o. ä.)</td></tr><tr><td style="white-space:nowrap">11<a name="de-mii-cs-sdd-beschaeftigungsstatus-lang-11"> </a></td><td>Hausfrau/Hausmann</td></tr><tr><td style="white-space:nowrap">12<a name="de-mii-cs-sdd-beschaeftigungsstatus-lang-12"> </a></td><td>sonstiges, und zwar</td></tr></table></div>
+  </text>
+  <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang"/>
+  <version value="1.0.0"/>
+  <name value="MII_CS_SDD_Beschaeftigungsstatus_Lang"/>
+  <title value="MII CS SDD Beschaeftigungsstatus (Langfversion)"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-08-26T12:16:54+00:00"/>
+  <publisher value="Medizininformatik-Initiative"/>
+  <contact>
+    <name value="Medizininformatik-Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de"/>
+    </telecom>
+  </contact>
+  <description value="Code System für Beschäftigungsstatus (Langversion)"/>
+  <content value="complete"/>
+  <count value="12"/>
+  <concept>
+    <code value="1"/>
+    <display value="Besuch einer allgemeinbildenden Schule, Studium, Berufliche Ausbildung, Umschulung"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="freiwilliger Wehrdienst, Bundesfreiwilligendienst, freiwilliges soziales oder ökologisches Jahr"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Erwerbsunterbrechung wegen Pflegezeit, Mutterschutz, Elternzeit ohne berufliche Tätigkeit"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="vollzeiterwerbstätig gemäß den branchenüblichen oder betrieblichen Regeln"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="teilzeiterwerbstätig, auch Midijob, aber mehr als ein Minijob"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="in einer geringfügigen, gelegentlichen, kurzfristigen oder unregelmäßigen Beschäftigung (z. B. 538-Euro-Job, Minijob, Ein-Euro-Job, Saisonarbeit)"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Rentner:in, Pensionär:in"/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="arbeitslos"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="dauerhaft erwerbsunfähig"/>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="langzeit krankgemeldet (z. B. länger als 6 Wochen krankgeschrieben, Erwerbsunterbrechung wegen Erkrankung, Bezug von Krankengeld o. ä.)"/>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="Hausfrau/Hausmann"/>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="sonstiges, und zwar"/>
+  </concept>
+</CodeSystem>

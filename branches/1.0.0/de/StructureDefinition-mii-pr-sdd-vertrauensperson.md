@@ -1,0 +1,206 @@
+# MII PR SDD Vertrauensperson - v1.0.0
+
+* [**Table of Contents**](toc.md)
+* [**Artefaktübersicht**](artifacts.md)
+* **MII PR SDD Vertrauensperson**
+
+## Ressourcenprofil: MII PR SDD Vertrauensperson 
+
+| | |
+| :--- | :--- |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-vertrauensperson | *Version*:1.0.0 |
+| Draft Stand: 2026-08-26 | *Maschinenlesbarer Name*:MII_PR_SDD_Vertrauensperson |
+
+ 
+Existenz mind. einer Person, der die Person uneingeschränkt vertrauen und mit der die Person persönliche Dinge besprechen kann 
+
+**Usages:**
+
+* Refer to this Profile: [MII PR SDD Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md)
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-ig-soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-vertrauensperson.json)
+
+### Formale Ansichten des Profilinhalts
+
+ [Beschreibung von Profilen, Differentials, Snapshots und deren Repräsentationen](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+*  [Schlüsselelemente-Tabelle](#tabs-key) 
+*  [Differential-Tabelle](#tabs-diff) 
+*  [Snapshot-Tabelle](#tabs-snap) 
+*  [Statistiken/Referenzen](#tabs-summ) 
+*  [Alle](#tabs-all) 
+
+#### Terminology Bindings
+
+#### Constraints
+
+Diese Struktur ist abgeleitet von [MII_PR_SDD_Lebenssituation](StructureDefinition-mii-pr-sdd-lebenssituation.md) 
+
+#### Terminology Bindings (Differential)
+
+#### Terminology Bindings
+
+#### Constraints
+
+Diese Struktur ist abgeleitet von [MII_PR_SDD_Lebenssituation](StructureDefinition-mii-pr-sdd-lebenssituation.md) 
+
+** Summary **
+
+Mandatory: 3 elements
+ Must-Support: 3 elements
+ Prohibited: 1 element
+
+**Slices**
+
+This structure defines the following [Slices](http://hl7.org/fhir/R4/profiling.html#slices):
+
+* The element 1 is sliced based on the value of Observation.value[x]
+
+ **Schlüsselelemente-Ansicht** 
+
+#### Terminology Bindings
+
+#### Constraints
+
+ **Differential-Ansicht** 
+
+Diese Struktur ist abgeleitet von [MII_PR_SDD_Lebenssituation](StructureDefinition-mii-pr-sdd-lebenssituation.md) 
+
+#### Terminology Bindings (Differential)
+
+ **Snapshot-AnsichtView** 
+
+#### Terminology Bindings
+
+#### Constraints
+
+Diese Struktur ist abgeleitet von [MII_PR_SDD_Lebenssituation](StructureDefinition-mii-pr-sdd-lebenssituation.md) 
+
+** Summary **
+
+Mandatory: 3 elements
+ Must-Support: 3 elements
+ Prohibited: 1 element
+
+**Slices**
+
+This structure defines the following [Slices](http://hl7.org/fhir/R4/profiling.html#slices):
+
+* The element 1 is sliced based on the value of Observation.value[x]
+
+ 
+
+Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-vertrauensperson.csv), [Excel](../StructureDefinition-mii-pr-sdd-vertrauensperson.xlsx), [Schematron](../StructureDefinition-mii-pr-sdd-vertrauensperson.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "mii-pr-sdd-vertrauensperson",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-vertrauensperson",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Vertrauensperson",
+  "title" : "MII PR SDD Vertrauensperson",
+  "status" : "draft",
+  "date" : "2026-08-26T12:16:54+00:00",
+  "publisher" : "Medizininformatik-Initiative",
+  "contact" : [{
+    "name" : "Medizininformatik-Initiative",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.medizininformatik-initiative.de"
+    }]
+  }],
+  "description" : "Existenz mind. einer Person, der die Person uneingeschränkt vertrauen und mit der die Person persönliche Dinge besprechen kann",
+  "fhirVersion" : "4.0.1",
+  "mapping" : [{
+    "identity" : "workflow",
+    "uri" : "http://hl7.org/fhir/workflow",
+    "name" : "Workflow Pattern"
+  },
+  {
+    "identity" : "sct-concept",
+    "uri" : "http://snomed.info/conceptdomain",
+    "name" : "SNOMED CT Concept Domain Binding"
+  },
+  {
+    "identity" : "v2",
+    "uri" : "http://hl7.org/v2",
+    "name" : "HL7 v2 Mapping"
+  },
+  {
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  },
+  {
+    "identity" : "w5",
+    "uri" : "http://hl7.org/fhir/fivews",
+    "name" : "FiveWs Pattern Mapping"
+  },
+  {
+    "identity" : "sct-attr",
+    "uri" : "http://snomed.org/attributebinding",
+    "name" : "SNOMED CT Attribute Binding"
+  }],
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Observation",
+  "baseDefinition" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-lebenssituation",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Observation",
+      "path" : "Observation"
+    },
+    {
+      "id" : "Observation.code",
+      "path" : "Observation.code",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Observation.code.coding",
+      "path" : "Observation.code.coding",
+      "min" : 1,
+      "mustSupport" : true
+    },
+    {
+      "id" : "Observation.value[x]",
+      "path" : "Observation.value[x]",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "type",
+          "path" : "$this"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "min" : 1
+    },
+    {
+      "id" : "Observation.value[x]:valueCodeableConcept",
+      "path" : "Observation.value[x]",
+      "sliceName" : "valueCodeableConcept",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://terminology.hl7.org/ValueSet/v2-0136"
+      }
+    },
+    {
+      "id" : "Observation.component",
+      "path" : "Observation.component",
+      "max" : "0"
+    }]
+  }
+}
+
+```
