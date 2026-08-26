@@ -45,7 +45,7 @@ Value Set für Ausbildung
   "title" : "MII VS SDD Ausbildung",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-26T13:20:27+00:00",
+  "date" : "2026-08-26T13:28:09+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
