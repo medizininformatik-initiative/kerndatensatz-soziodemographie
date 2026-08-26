@@ -1,6 +1,7 @@
 CodeSystem: MII_CS_SDD_Einkommen
 Id: mii-cs-sdd-einkommen
 Title: "MII CS SDD Einkommen"
+Description: "Code System für Einkommen"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-einkommen"
 * ^status = #draft

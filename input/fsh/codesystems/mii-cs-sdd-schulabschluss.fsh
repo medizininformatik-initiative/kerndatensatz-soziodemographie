@@ -1,6 +1,7 @@
 CodeSystem: MII_CS_SDD_Schulabschluss
 Id: mii-cs-sdd-schulabschluss
 Title: "MII CS SDD Schulabschluss"
+Description: "Code System für Schulabschluss"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schulabschluss"
 * ^status = #draft
@@ -15,4 +16,4 @@ Title: "MII CS SDD Schulabschluss"
 * #6 "Polytechnische Oberschule der DDR mit Abschluss der 10. Klasse"
 * #7 "Fachhochschulreife"
 * #8 "Abitur, Allgemeine/ Fachgebundene Hochschulreife, Gymnasium bzw. Erweiterte Oberschule (EOS), auch EOS mit Lehre"
-* #9 "anderer Schulabschluss, und zwar "
+* #9 "anderer Schulabschluss, und zwar"

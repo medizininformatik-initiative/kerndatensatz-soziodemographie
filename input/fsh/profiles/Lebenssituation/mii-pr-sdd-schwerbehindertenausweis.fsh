@@ -1,11 +1,10 @@
 Profile: MII_PR_SDD_Schwerbehindertenausweis
 Parent: MII_PR_SDD_Lebenssituation
 Id: mii-pr-sdd-schwerbehindertenausweis
-Title: "MII PR SDD Lebenssituation"
-Description: "Lebenssituation des Patienten (abstrakt)"
+Title: "MII PR SDD Schwerbehindertenausweis"
+Description: "Vorliegen eines Schwerbehindertenausweises des Patienten"
 * insert PR_CS_VS_Version
 * insert Publisher
-* ^abstract = true
 * ^status = #draft
 
 * meta.profile 0..* MS

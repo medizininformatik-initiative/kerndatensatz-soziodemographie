@@ -1,6 +1,7 @@
 CodeSystem: MII_CS_SDD_Ausbildung
 Id: mii-cs-sdd-ausbildung
 Title: "MII CS SDD Ausbildung"
+Description: "Code System für Ausbildung"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-ausbildung"
 * ^status = #draft
@@ -14,5 +15,5 @@ Title: "MII CS SDD Ausbildung"
 * #5 "Abschluss einer Fach-, Meister- oder Technikerschule, Verwaltungs- und Wirtschaftsakademie, Berufs- oder Fachakademie"
 * #6 "Bachelor, Diplom (FH)"
 * #7 "Master, Diplom (Uni), Magister, Staatsexamen, Promotion"
-* #8 "anderer beruflicher Abschluss, und zwar "
+* #8 "anderer beruflicher Abschluss, und zwar"
 

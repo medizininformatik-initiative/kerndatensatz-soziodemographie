@@ -73,7 +73,15 @@ Description: "Datenerhebung für SDD"
     vertrauensperson 0..1 MS and
     haushaltsgroesse 0..1 MS and
     betreuungssituation 0..1 MS and
-    schwerbehindertenausweis 0..1 MS
+    schwerbehindertenausweis 0..1 MS and
+    // Soziodemographische Faktoren
+    ausbildung 0..1 MS and
+    beschaeftigungsstatus 0..1 MS and
+    einkommen 0..1 MS and
+    beruflichestellung 0..1 MS and
+    schulabschluss 0..1 MS and
+    schuljahre 0..1 MS
+
 // Herkunft
 // * hasMember[geburtsland] only Reference(MII_PR_SDD_Geburtsland)
 // * hasMember[staatsangehoerigkeit] only Reference(MII_PR_SDD_Staatsangehoerigkeit)
@@ -86,3 +94,11 @@ Description: "Datenerhebung für SDD"
 * hasMember[haushaltsgroesse] only Reference(MII_PR_SDD_Haushaltsgroesse)
 * hasMember[betreuungssituation] only Reference(MII_PR_SDD_Betreuungssituation)
 * hasMember[schwerbehindertenausweis] only Reference(MII_PR_SDD_Schwerbehindertenausweis)
+
+// Soziodemographische Faktoren
+* hasMember[ausbildung] only Reference(MII_PR_SDD_Ausbildung)
+* hasMember[beschaeftigungsstatus] only Reference(MII_PR_SDD_Beschaeftigungsstatus)
+* hasMember[einkommen] only Reference(MII_PR_SDD_Einkommen)
+* hasMember[beruflichestellung] only Reference(MII_PR_SDD_Berufliche_Stellung)
+* hasMember[schulabschluss] only Reference(MII_PR_SDD_Schulabschluss)
+* hasMember[schuljahre] only Reference(MII_PR_SDD_Schuljahre)

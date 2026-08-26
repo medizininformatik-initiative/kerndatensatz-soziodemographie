@@ -1,6 +1,7 @@
 CodeSystem: MII_CS_SDD_Betreuungssituation
 Id: mii-cs-sdd-betreuungssituation
 Title: "MII CS SDD Betreuungssituation"
+Description: "Code System für Betreuungssituation"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-betreuungssituation"
 * ^status = #draft
