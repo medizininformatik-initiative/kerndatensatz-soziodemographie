@@ -30,7 +30,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Install Graphviz
         run: |
@@ -85,11 +85,28 @@ jobs:
       - name: Run SUSHI
         run: docker run --rm --network host -v $PWD:/workspace -v /usr/bin/dot:/usr/local/bin/dot:ro -v /usr/lib/x86_64-linux-gnu:/usr/host/lib:ro -e LD_LIBRARY_PATH=/usr/host/lib -w /workspace ghcr.io/gefyra/ig-publisher-with-snapshot-support:latest sushi .
       
+      # Recent IG Publisher builds enforce SSRF protection by default, which refuses
+      # non-https and non-public (loopback) terminology server URLs. Our tx server is the
+      # local NGINX mTLS proxy at http://127.0.0.1:8090, so it must be explicitly allowlisted.
+      - name: Allow local terminology proxy for SSRF protection
+        run: |
+          cat > "$PWD/fhir-settings.json" <<'EOF'
+          {
+            "servers": [
+              {
+                "url": "http://127.0.0.1:8090/fhir",
+                "allowHttp": true,
+                "allowPrivateNetwork": true
+              }
+            ]
+          }
+          EOF
+
       # Run the HL7 FHIR IG Publisher
       - name: Build IG
         run: |
           set -euo pipefail
-          docker run --rm --network host -v $PWD:/workspace -v /usr/bin/dot:/usr/local/bin/dot:ro -v /usr/lib/x86_64-linux-gnu:/usr/host/lib:ro -e LD_LIBRARY_PATH=/usr/host/lib -w /workspace ghcr.io/gefyra/ig-publisher-with-snapshot-support:latest sh -c "igpublisher -ig ig.ini -tx http://127.0.0.1:8090/fhir"
+          docker run --rm --network host -v $PWD:/workspace -v /usr/bin/dot:/usr/local/bin/dot:ro -v /usr/lib/x86_64-linux-gnu:/usr/host/lib:ro -v "$PWD/fhir-settings.json:/root/.fhir/fhir-settings.json:ro" -e LD_LIBRARY_PATH=/usr/host/lib -w /workspace ghcr.io/gefyra/ig-publisher-with-snapshot-support:latest sh -c "igpublisher -ig ig.ini -tx http://127.0.0.1:8090/fhir"
           test -s output/index.html
           test -s output/qa.json
           jq empty output/qa.json
