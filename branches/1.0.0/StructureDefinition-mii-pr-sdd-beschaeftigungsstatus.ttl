@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "MII_PR_SDD_Beschaeftigungsstatus"] ;
   fhir:StructureDefinition.title [ fhir:value "MII PR SDD Beschäftigungsstatus"] ;
   fhir:StructureDefinition.status [ fhir:value "draft"] ;
-  fhir:StructureDefinition.date [ fhir:value "2026-08-26T13:06:53+00:00"^^xsd:dateTime] ;
+  fhir:StructureDefinition.date [ fhir:value "2026-08-26T13:20:27+00:00"^^xsd:dateTime] ;
   fhir:StructureDefinition.publisher [ fhir:value "Medizininformatik-Initiative"] ;
   fhir:StructureDefinition.contact [
      fhir:index 0 ;

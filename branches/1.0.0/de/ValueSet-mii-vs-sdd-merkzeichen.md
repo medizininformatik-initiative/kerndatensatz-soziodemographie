@@ -45,7 +45,7 @@ Value Set für Merkzeichen
   "title" : "MII VS SDD Merkzeichen",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-26T13:06:53+00:00",
+  "date" : "2026-08-26T13:20:27+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
