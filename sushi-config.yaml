@@ -43,14 +43,61 @@ publisher:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
-# pages:
-#   index.md:
-#     title: Example Home
-#   implementation.xml:
-#   examples.xml:
-#     title: Examples Overview
-#     simpleExamples.xml:
-#     complexExamples.xml:
+pages:
+  index.md:
+    title: Home
+  
+  guidance.md:
+    title: Guidance
+    researcher-guidance.md:
+      title: Guidance for Researchers
+    implementer-guidance.md:
+      title: Guidance for Implementers
+    datasets-and-descriptions.md:
+      title: Datasets and Descriptions
+    uml-diagrams.md:
+      title: UML Diagrams
+
+  conformance.md:
+    title: Conformance
+    general-requirements.md:
+      title: General Requirements
+    must-support.md:
+      title: Must Support
+    missing-data.md:
+      title: Handling Missing Data
+    security-and-privacy.md:
+      title: Security and Privacy
+#
+#  profiles-and-extensions.md:
+#    title: Profiles and Extensions
+#  search-parameters-and-operations.md:
+#    title: Search Parameters and Operations
+#  terminology.md:
+#    title: Terminology
+#  capability-statements.md:
+#    title: Capability Statements
+#  logical-models.md:
+#    title: Logical Models
+#  examples.md:
+#    title: Examples
+#
+#  downloads.md:
+#    title: Downloads
+#
+#  version-history.md:
+#    title: Versioning
+#    changes.md:
+#      title: Changelog
+#
+#  ImplementationGuide-mii-ig-base.md:
+#    title: MII ImplementationGuide Resource
+#
+#  translationinfo.md:
+#    title: Translation Information
+#
+#  metadata.md:
+#    title: Metadata Overview
 #
 #
 # The parameters property represents IG.definition.parameter. Rather
@@ -70,6 +117,8 @@ parameters:
   i18n-default-lang: en # Default language
   i18n-lang:
     - de # Additional languages
+  translation-sources:
+    - input/translations/de # Path to German translations
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #
@@ -83,6 +132,18 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Guidance:
+    Overview: guidance.html
+    Guidance for Researchers: researcher-guidance.html
+    Guidance for Implementers: implementer-guidance.html
+    Datasets and Descriptions: datasets-and-descriptions.html
+    UML Diagrams: uml-diagrams.html
+  Conformance:
+    Overview: conformance.html
+    General Requirements: general-requirements.html
+    Must Support: must-support.html
+    Handling Missing Data: missing-data.html
+    Security and Privacy: security-and-privacy.html
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
