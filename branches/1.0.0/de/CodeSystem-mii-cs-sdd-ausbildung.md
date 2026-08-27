@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-ausbildung | *Version*:1.0.0 |
-| Draft Stand: 2026-08-26 | *Maschinenlesbarer Name*:MII_CS_SDD_Ausbildung |
+| Draft Stand: 2026-08-27 | *Maschinenlesbarer Name*:MII_CS_SDD_Ausbildung |
 
  
 Code System für Ausbildung 
@@ -39,7 +39,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "title" : "MII CS SDD Ausbildung",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-26T13:31:50+00:00",
+  "date" : "2026-08-27T12:43:51+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

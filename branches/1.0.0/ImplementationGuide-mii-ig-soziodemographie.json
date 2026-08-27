@@ -10,7 +10,7 @@
   "version" : "1.0.0",
   "name" : "MII_IG_Soziodemographie",
   "status" : "draft",
-  "date" : "2026-08-26T13:31:50+00:00",
+  "date" : "2026-08-27T12:43:51+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -84,6 +84,17 @@
       {
         "url" : "value",
         "valueString" : "de"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "translation-sources"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/translations/de"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -385,6 +396,17 @@
       {
         "url" : "value",
         "valueString" : "de"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "translation-sources"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/translations/de"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -1137,6 +1159,96 @@
         "nameUrl" : "index.html",
         "title" : "Home",
         "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "guidance.html"
+        }],
+        "nameUrl" : "guidance.html",
+        "title" : "Guidance",
+        "generation" : "markdown",
+        "page" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "researcher-guidance.html"
+          }],
+          "nameUrl" : "researcher-guidance.html",
+          "title" : "Guidance for Researchers",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "implementer-guidance.html"
+          }],
+          "nameUrl" : "implementer-guidance.html",
+          "title" : "Guidance for Implementers",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "datasets-and-descriptions.html"
+          }],
+          "nameUrl" : "datasets-and-descriptions.html",
+          "title" : "Datasets and Descriptions",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "uml-diagrams.html"
+          }],
+          "nameUrl" : "uml-diagrams.html",
+          "title" : "UML Diagrams",
+          "generation" : "markdown"
+        }]
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "conformance.html"
+        }],
+        "nameUrl" : "conformance.html",
+        "title" : "Conformance",
+        "generation" : "markdown",
+        "page" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "general-requirements.html"
+          }],
+          "nameUrl" : "general-requirements.html",
+          "title" : "General Requirements",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "must-support.html"
+          }],
+          "nameUrl" : "must-support.html",
+          "title" : "Must Support",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "missing-data.html"
+          }],
+          "nameUrl" : "missing-data.html",
+          "title" : "Handling Missing Data",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "security-and-privacy.html"
+          }],
+          "nameUrl" : "security-and-privacy.html",
+          "title" : "Security and Privacy",
+          "generation" : "markdown"
+        }]
       }]
     },
     "parameter" : [{

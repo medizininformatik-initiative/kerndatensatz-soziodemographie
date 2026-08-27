@@ -3,7 +3,17 @@
 ## Pages
 
 * [Home](index.md)
+* [Datasets and Descriptions](datasets-and-descriptions.md)
+* [Conformance](conformance.md)
+* [Handling Missing Data](missing-data.md)
+* [Guidance for Researchers](researcher-guidance.md)
+* [Guidance for Implementers](implementer-guidance.md)
+* [Must Support](must-support.md)
 * [Artifacts Summary](artifacts.md)
+* [Guidance](guidance.md)
+* [General Requirements](general-requirements.md)
+* [Security and Privacy](security-and-privacy.md)
+* [UML Diagrams](uml-diagrams.md)
 
 ## Resources
 

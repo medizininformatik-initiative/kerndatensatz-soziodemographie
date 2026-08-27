@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schuljahre | *Version*:1.0.0 |
-| Draft as of 2026-08-26 | *Computable Name*:MII_PR_SDD_Schuljahre |
+| Draft as of 2026-08-27 | *Computable Name*:MII_PR_SDD_Schuljahre |
 
  
 Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde, inkl. Besuch einer Berufs- oder Hochschule 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-schulj
   "name" : "MII_PR_SDD_Schuljahre",
   "title" : "MII PR SDD Schuljahre",
   "status" : "draft",
-  "date" : "2026-08-26T13:31:50+00:00",
+  "date" : "2026-08-27T12:43:51+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
