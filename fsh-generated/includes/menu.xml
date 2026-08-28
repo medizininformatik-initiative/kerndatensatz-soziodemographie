@@ -57,7 +57,51 @@
       </li>
     </ul>
   </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Artifacts
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html">Overview</a>
+      </li>
+      <li>
+        <a href="profiles-and-extensions.html">Profiles and Extensions</a>
+      </li>
+      <li>
+        <a href="terminology.html">Terminology</a>
+      </li>
+      <li>
+        <a href="capability-statements.html">Capability Statements</a>
+      </li>
+      <li>
+        <a href="search-parameters-and-operations.html">Search Parameters and Operations</a>
+      </li>
+      <li>
+        <a href="logical-models.html">Logical Models</a>
+      </li>
+      <li>
+        <a href="examples.html">Examples</a>
+      </li>
+    </ul>
+  </li>
   <li>
-    <a href="artifacts.html">Artifacts</a>
+    <a href="downloads.html">Downloads</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Versioning
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="version-history.html">Overview</a>
+      </li>
+      <li>
+        <a href="changes.html">Changelog</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="metadata.html">Metadata Overview</a>
   </li>
 </ul>

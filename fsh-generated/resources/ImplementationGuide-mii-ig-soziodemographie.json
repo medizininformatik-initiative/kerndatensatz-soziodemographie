@@ -407,6 +407,65 @@
               "generation": "markdown"
             }
           ]
+        },
+        {
+          "nameUrl": "artifacts.html",
+          "title": "Artifacts",
+          "generation": "markdown",
+          "page": [
+            {
+              "nameUrl": "profiles-and-extensions.html",
+              "title": "Profiles and Extensions",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "terminology.html",
+              "title": "Terminology",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "capability-statements.html",
+              "title": "Capability Statements",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "search-parameters-and-operations.html",
+              "title": "Search Parameters and Operations",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "logical-models.html",
+              "title": "Logical Models",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "examples.html",
+              "title": "Examples",
+              "generation": "markdown"
+            }
+          ]
+        },
+        {
+          "nameUrl": "downloads.html",
+          "title": "Downloads",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "version-history.html",
+          "title": "Versioning",
+          "generation": "markdown",
+          "page": [
+            {
+              "nameUrl": "changes.html",
+              "title": "Changelog",
+              "generation": "markdown"
+            }
+          ]
+        },
+        {
+          "nameUrl": "metadata.html",
+          "title": "Metadata Overview",
+          "generation": "markdown"
         }
       ]
     },
