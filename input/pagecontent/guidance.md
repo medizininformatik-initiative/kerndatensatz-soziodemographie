@@ -1,8 +1,8 @@
 This section provides guidance for different audiences implementing and using the MII Kerndatensatz Soziodemographie Implementation Guide.
 
-### Description of the Soziodemographie module
+## Description of the Soziodemographie module
 
-## Purpose and Objective
+### Purpose and Objective
 
 The Sociodemographic Data module serves the standardized collection of information on the demographic, social, and economic background of patients. It thereby creates a uniform basis for documenting these characteristics in care.
 
@@ -23,7 +23,7 @@ The module thus pursues, in particular, the following objectives:
 
 The need for standardized data collection also arises from the fact that sociodemographic data have so far often not been documented consistently within and across professional groups and institutions. The module is therefore intended to provide a common, interoperable structure for the collection and reuse of this information.
 
-## Significance for Care and Research
+### Significance for Care and Research
 
 The interpretation of medical results is not independent of the social and economic living conditions of the individuals studied. Studies show, for example, associations between socioeconomic conditions and health outcomes, care costs, hospitalizations, and the use of emergency care. The relevant influencing factors can differ depending on the age group and the outcome under investigation.
 
@@ -33,38 +33,38 @@ Current research indicates that people with lower income or lower educational at
 
 A more consistent and reproducible collection of sociodemographic data can thus help to better understand study results and to investigate health inequalities in a more targeted way.
 
-## Scope of the Module
+### Scope of the Module
 
 The module includes information from the following areas:
 
 1. Personal Information
-   * current postal code of residence;
-   * first language;
-   * country of birth;
-   * nationality.
+   - current postal code of residence;
+   - first language;
+   - country of birth;
+   - nationality.
 
 2. Socioeconomic Factors
-   * educational attainment;
-   * vocational training;
-   * employment status;
-   * occupational position;
-   * average monthly net household income.
+   - educational attainment;
+   - vocational training;
+   - employment status;
+   _ occupational position;
+   _ average monthly net household income.
 
 3. Extended Origin
-   * country of birth of the mother;
-   * country of birth of the father.
+   - country of birth of the mother;
+   - country of birth of the father.
 
 4. Life Situation
-   *  partnership;
-   *  trusted contact person;
-   *  household size;
-   *  care/support situation.
+   -  partnership;
+   -  trusted contact person;
+   -  household size;
+   -  care/support situation.
 
 5. Severe Disability Certificate
-   * presence of a severe disability certificate;
-   * degree of disability;
-   * markers (Merkzeichen);
-   * period of validity.
+   - presence of a severe disability certificate;
+   - degree of disability;
+   - markers (Merkzeichen);
+   - period of validity.
 
 The central entity of the module is the Sociodemography data collection. It describes the context of a specific data collection event and bundles the information documented at that point in time.
 
@@ -74,12 +74,12 @@ Not all sub-areas need to be present at every collection point. The specialized 
 
 For selected characteristics, in particular education, vocational training, employment status, and occupational position, a more detailed long version and a simplified minimal version are available. This allows the depth of data to be adapted to the respective care context, the time available, and the specific documentation purpose.
 
-### General Implementation Guidance
+## General Implementation Guidance
 
 * **[Datasets and Descriptions](datasets-and-descriptions.html)** - Detailed descriptions of the MII core dataset logical models
 * **[UML Diagrams](uml-diagrams.html)** - UML diagrams illustrating the data models and relationships
 
-### Audience-Specific Guidance
+## Audience-Specific Guidance
 
 * **[Guidance for Researchers](researcher-guidance.html)** - Information for researchers using MII data for research purposes
 * **[Guidance for Implementers](implementer-guidance.html)** - Technical guidance for Data Integration Center (DIZ) implementers
