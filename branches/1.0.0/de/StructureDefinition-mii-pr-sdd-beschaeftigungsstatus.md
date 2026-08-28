@@ -107,7 +107,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-b
   "name" : "MII_PR_SDD_Beschaeftigungsstatus",
   "title" : "MII PR SDD Beschäftigungsstatus",
   "status" : "draft",
-  "date" : "2026-08-28T08:32:44+00:00",
+  "date" : "2026-08-28T09:25:00+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
