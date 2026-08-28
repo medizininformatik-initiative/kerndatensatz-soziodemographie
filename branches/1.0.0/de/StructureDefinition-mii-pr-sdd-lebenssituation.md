@@ -1,7 +1,7 @@
 # MII PR SDD Lebenssituation - v1.0.0
 
 * [**Table of Contents**](toc.md)
-* [**Artefaktübersicht**](artifacts.md)
+* [**Artifacts**](artifacts.md)
 * **MII PR SDD Lebenssituation**
 
 ## Ressourcenprofil: MII PR SDD Lebenssituation ( Abstrakt ) 
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-lebenssituation | *Version*:1.0.0 |
-| Draft Stand: 2026-08-27 | *Maschinenlesbarer Name*:MII_PR_SDD_Lebenssituation |
+| Draft Stand: 2026-08-28 | *Maschinenlesbarer Name*:MII_PR_SDD_Lebenssituation |
 
  
 Lebenssituation des Patienten (abstrakt) 
@@ -101,7 +101,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-l
   "name" : "MII_PR_SDD_Lebenssituation",
   "title" : "MII PR SDD Lebenssituation",
   "status" : "draft",
-  "date" : "2026-08-27T12:43:51+00:00",
+  "date" : "2026-08-28T07:28:24+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

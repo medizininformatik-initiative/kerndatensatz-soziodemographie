@@ -13,7 +13,7 @@
   "version" : "1.0.0",
   "name" : "MII_IG_Soziodemographie",
   "status" : "draft",
-  "date" : "2026-08-27T12:43:51+00:00",
+  "date" : "2026-08-28T07:28:24+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
@@ -1412,6 +1412,105 @@
           "title" : "Security and Privacy",
           "generation" : "markdown"
         }]
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "artifacts.html"
+        }],
+        "nameUrl" : "artifacts.html",
+        "title" : "Artifacts",
+        "generation" : "markdown",
+        "page" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "profiles-and-extensions.html"
+          }],
+          "nameUrl" : "profiles-and-extensions.html",
+          "title" : "Profiles and Extensions",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "terminology.html"
+          }],
+          "nameUrl" : "terminology.html",
+          "title" : "Terminology",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "capability-statements.html"
+          }],
+          "nameUrl" : "capability-statements.html",
+          "title" : "Capability Statements",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "search-parameters-and-operations.html"
+          }],
+          "nameUrl" : "search-parameters-and-operations.html",
+          "title" : "Search Parameters and Operations",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "logical-models.html"
+          }],
+          "nameUrl" : "logical-models.html",
+          "title" : "Logical Models",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "examples.html"
+          }],
+          "nameUrl" : "examples.html",
+          "title" : "Examples",
+          "generation" : "markdown"
+        }]
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "downloads.html"
+        }],
+        "nameUrl" : "downloads.html",
+        "title" : "Downloads",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "version-history.html"
+        }],
+        "nameUrl" : "version-history.html",
+        "title" : "Versioning",
+        "generation" : "markdown",
+        "page" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "changes.html"
+          }],
+          "nameUrl" : "changes.html",
+          "title" : "Changelog",
+          "generation" : "markdown"
+        }]
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "metadata.html"
+        }],
+        "nameUrl" : "metadata.html",
+        "title" : "Metadata Overview",
+        "generation" : "markdown"
       }]
     },
     "parameter" : [{

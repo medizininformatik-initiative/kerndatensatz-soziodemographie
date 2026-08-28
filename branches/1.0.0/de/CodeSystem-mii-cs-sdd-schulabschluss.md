@@ -1,7 +1,7 @@
 # MII CS SDD Schulabschluss - v1.0.0
 
 * [**Table of Contents**](toc.md)
-* [**Artefaktübersicht**](artifacts.md)
+* [**Artifacts**](artifacts.md)
 * **MII CS SDD Schulabschluss**
 
 ## CodeSystem: MII CS SDD Schulabschluss 
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schulabschluss | *Version*:1.0.0 |
-| Draft Stand: 2026-08-27 | *Maschinenlesbarer Name*:MII_CS_SDD_Schulabschluss |
+| Draft Stand: 2026-08-28 | *Maschinenlesbarer Name*:MII_CS_SDD_Schulabschluss |
 
  
 Code System für Schulabschluss 
@@ -39,7 +39,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "title" : "MII CS SDD Schulabschluss",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-27T12:43:51+00:00",
+  "date" : "2026-08-28T07:28:24+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

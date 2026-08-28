@@ -1,7 +1,7 @@
 # MII PR SDD Geburtsland Vater - v1.0.0
 
 * [**Table of Contents**](toc.md)
-* [**Artifacts Summary**](artifacts.md)
+* [**Artifacts**](artifacts.md)
 * **MII PR SDD Geburtsland Vater**
 
 ## Resource Profile: MII PR SDD Geburtsland Vater 
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-geburtsland-vater | *Version*:1.0.0 |
-| Draft as of 2026-08-27 | *Computable Name*:MII_PR_SDD_Geburtsland_Vater |
+| Draft as of 2026-08-28 | *Computable Name*:MII_PR_SDD_Geburtsland_Vater |
 
  
 Geburtsland des Vaters des Patienten 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-geburt
   "name" : "MII_PR_SDD_Geburtsland_Vater",
   "title" : "MII PR SDD Geburtsland Vater",
   "status" : "draft",
-  "date" : "2026-08-27T12:43:51+00:00",
+  "date" : "2026-08-28T07:28:24+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

@@ -1,7 +1,7 @@
 # MII VS SDD Beschaeftigungsstatus (Langversion) - v1.0.0
 
 * [**Table of Contents**](toc.md)
-* [**Artifacts Summary**](artifacts.md)
+* [**Artifacts**](artifacts.md)
 * **MII VS SDD Beschaeftigungsstatus (Langversion)**
 
 ## ValueSet: MII VS SDD Beschaeftigungsstatus (Langversion) 
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-beschaeftigungsstatus-lang | *Version*:1.0.0 |
-| Draft as of 2026-08-27 | *Computable Name*:MII_VS_SDD_Beschaeftigungsstatus_Lang |
+| Draft as of 2026-08-28 | *Computable Name*:MII_VS_SDD_Beschaeftigungsstatus_Lang |
 
  
 Value Set für Beschäftigungsstatus (Langversion) 
@@ -45,7 +45,7 @@ Value Set für Beschäftigungsstatus (Langversion)
   "title" : "MII VS SDD Beschaeftigungsstatus (Langversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-27T12:43:51+00:00",
+  "date" : "2026-08-28T07:28:24+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
