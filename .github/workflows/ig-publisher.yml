@@ -20,7 +20,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: ${{ github.event_name == 'push' && github.ref_name != 'main' && 'gh-pages-writes' || format('ig-readonly-{0}', github.run_id) }}
+  group: ${{ github.event_name == 'push' && 'gh-pages-writes' || format('ig-readonly-{0}', github.run_id) }}
   queue: max
 
 jobs:
@@ -154,7 +154,7 @@ jobs:
 
       # Publish the IG output to GitHub Pages
       - name: Publish to GitHub Pages
-        if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/') && github.ref_name != 'main'
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/')
         shell: bash
         env:
           REPO: ${{ github.repository }}
@@ -185,13 +185,21 @@ jobs:
             cd ..
           fi
 
-          # The root and version-like paths are reserved for formal -go-publish
-          # output. All CI previews live below a collision-free namespace.
-          branch_dir="gh-pages/branches/${GITHUB_REF_NAME}"
-          rm -rf "${branch_dir}"
-          mkdir -p "${branch_dir}"
-          cp -R "output/." "${branch_dir}/"
-          echo "Published ${GITHUB_REF_NAME} to branches/${GITHUB_REF_NAME}/"
+          if [[ "${GITHUB_REF_NAME}" == "main" ]]; then
+            # main is the canonical/default IG and publishes to the site root.
+            # branches/ (other refs' previews) and .git are left untouched.
+            rsync -a --delete --exclude '.git' --exclude '.nojekyll' --exclude 'branches' \
+              "output/" "gh-pages/"
+            echo "Published main to the site root"
+          else
+            # Preview builds live below a collision-free namespace so they never
+            # clash with the main publication at the root.
+            branch_dir="gh-pages/branches/${GITHUB_REF_NAME}"
+            rm -rf "${branch_dir}"
+            mkdir -p "${branch_dir}"
+            cp -R "output/." "${branch_dir}/"
+            echo "Published ${GITHUB_REF_NAME} to branches/${GITHUB_REF_NAME}/"
+          fi
 
           cd gh-pages
           if [[ "${PAGES_ACTIONS_ENABLED}" == "true" ]]; then
@@ -212,18 +220,18 @@ jobs:
           git push origin gh-pages
 
       - name: Configure GitHub Pages
-        if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/') && github.ref_name != 'main' && vars.PAGES_ACTIONS_ENABLED == 'true'
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/') && vars.PAGES_ACTIONS_ENABLED == 'true'
         uses: actions/configure-pages@v5
 
       - name: Upload GitHub Pages artifact
-        if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/') && github.ref_name != 'main' && vars.PAGES_ACTIONS_ENABLED == 'true'
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/') && vars.PAGES_ACTIONS_ENABLED == 'true'
         uses: actions/upload-pages-artifact@v4
         with:
           path: gh-pages
 
   deploy:
     name: Deploy GitHub Pages
-    if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/') && github.ref_name != 'main' && vars.PAGES_ACTIONS_ENABLED == 'true'
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/') && vars.PAGES_ACTIONS_ENABLED == 'true'
     needs: build
     runs-on: ubuntu-latest
     environment:
@@ -242,7 +250,7 @@ jobs:
   # build. This preserves literal repository URLs in summaries and PR comments.
   announce:
     name: Report preview deployment
-    if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/') && github.ref_name != 'main' && vars.PAGES_ACTIONS_ENABLED == 'true'
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/') && vars.PAGES_ACTIONS_ENABLED == 'true'
     needs: deploy
     runs-on: ubuntu-latest
     permissions:
@@ -258,7 +266,11 @@ jobs:
           repo_owner="${GITHUB_REPOSITORY_OWNER}"
           repo_name="${GITHUB_REPOSITORY#*/}"
           branch="${GITHUB_REF_NAME}"
-          url="https://${repo_owner}.github.io/${repo_name}/branches/${branch}/"
+          if [[ "${branch}" == "main" ]]; then
+            url="https://${repo_owner}.github.io/${repo_name}/"
+          else
+            url="https://${repo_owner}.github.io/${repo_name}/branches/${branch}/"
+          fi
 
           echo "Published to ${url}"
           printf '### Deployment\n[Open published IG for branch `%s`](%s)\n' \
@@ -277,7 +289,9 @@ jobs:
             const { owner, repo } = context.repo;
             const branch = process.env.BRANCH_NAME;
             const marker = '<!-- ig-publish-url -->';
-            const url = `https://${owner}.github.io/${repo}/branches/${branch}/`;
+            const url = branch === 'main'
+              ? `https://${owner}.github.io/${repo}/`
+              : `https://${owner}.github.io/${repo}/branches/${branch}/`;
             const body = `${marker}
             ### Deployment
             [Open published IG for branch \`${branch}\`](${url})`;
