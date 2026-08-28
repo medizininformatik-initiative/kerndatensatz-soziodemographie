@@ -1,0 +1,84 @@
+# mii-ig-soziodemographie#1.0.0: null(en)
+
+## Pages
+
+* [Home](en/index.md)
+* [Examples](en/examples.md)
+* [Datasets and Descriptions](en/datasets-and-descriptions.md)
+* [Terminology](en/terminology.md)
+* [Conformance](en/conformance.md)
+* [Handling Missing Data](en/missing-data.md)
+* [Versioning](en/version-history.md)
+* [Guidance for Researchers](en/researcher-guidance.md)
+* [Metadata Overview](en/metadata.md)
+* [Guidance for Implementers](en/implementer-guidance.md)
+* [Must Support](en/must-support.md)
+* [Artifacts](en/artifacts.md)
+* [Changelog](en/changes.md)
+* [Logical Models](en/logical-models.md)
+* [Guidance](en/guidance.md)
+* [General Requirements](en/general-requirements.md)
+* [Downloads](en/downloads.md)
+* [Security and Privacy](en/security-and-privacy.md)
+* [Capability Statements](en/capability-statements.md)
+* [Search Parameters and Operations](en/search-parameters-and-operations.md)
+* [UML Diagrams](en/uml-diagrams.md)
+* [Profiles and Extensions](en/profiles-and-extensions.md)
+
+## Resources
+
+### CodeSystems
+
+* [MII CS SDD Ausbildung](en/CodeSystem-mii-cs-sdd-ausbildung.md)
+* [MII CS SDD Berufliche Stellung (Langfversion)](en/CodeSystem-mii-cs-sdd-berufliche-stellung-lang.md)
+* [MII CS SDD Berufliche Stellung (Minimalversion)](en/CodeSystem-mii-cs-sdd-berufliche-stellung-minimal.md)
+* [MII CS SDD Beschaeftigungsstatus (Langfversion)](en/CodeSystem-mii-cs-sdd-beschaeftigungsstatus-lang.md)
+* [MII CS SDD Beschaeftigungsstatus (Minimalversion)](en/CodeSystem-mii-cs-sdd-beschaeftigungsstatus-minimal.md)
+* [MII CS SDD Betreuungssituation](en/CodeSystem-mii-cs-sdd-betreuungssituation.md)
+* [MII CS SDD Einkommen](en/CodeSystem-mii-cs-sdd-einkommen.md)
+* [MII CS SDD Erhebungsmethode](en/CodeSystem-mii-cs-sdd-erhebungsmethode.md)
+* [MII CS SDD Laendercodes Sonder](en/CodeSystem-mii-cs-sdd-laendercodes-sonder.md)
+* [MII CS SDD Merkzeichen (SGB IX / SchwbAwV)](en/CodeSystem-mii-cs-sdd-merkzeichen.md)
+* [MII CS SDD Schulabschluss](en/CodeSystem-mii-cs-sdd-schulabschluss.md)
+* [MII CS SDD Schwerbehindertenausweis](en/CodeSystem-mii-cs-sdd-schwerbehindertenausweis.md)
+
+### ValueSets
+
+* [MII VS SDD Ausbildung](en/ValueSet-mii-vs-sdd-ausbildung.md)
+* [MII VS SDD Berufliche Stellung (Langversion)](en/ValueSet-mii-vs-sdd-berufliche-stellung-lang.md)
+* [MII VS SDD Berufliche Stellung (Minimalversion)](en/ValueSet-mii-vs-sdd-berufliche-stellung-minimal.md)
+* [MII VS SDD Beschaeftigungsstatus (Langversion)](en/ValueSet-mii-vs-sdd-beschaeftigungsstatus-lang.md)
+* [MII VS SDD Beschaeftigungsstatus (Minimalversion)](en/ValueSet-mii-vs-sdd-beschaeftigungsstatus-minimal.md)
+* [MII VS SDD Betreuungssituation](en/ValueSet-mii-vs-sdd-betreuungssituation.md)
+* [MII VS SDD Einkommen](en/ValueSet-mii-vs-sdd-einkommen.md)
+* [MII VS SDD Erhebungsmethode](en/ValueSet-mii-vs-sdd-erhebungsmethode.md)
+* [MII VS SDD Laendercodes](en/ValueSet-mii-vs-sdd-laendercodes.md)
+* [MII VS SDD Merkzeichen](en/ValueSet-mii-vs-sdd-merkzeichen.md)
+* [MII VS SDD Schulabschluss](en/ValueSet-mii-vs-sdd-schulabschluss.md)
+
+### Logicals
+
+* [MII LM Soziodemographie](en/StructureDefinition-mii-lm-sdd.md)
+
+### Resource Profiles
+
+* [MII PR SDD Ausbildung](en/StructureDefinition-mii-pr-sdd-ausbildung.md)
+* [MII PR SDD Berufliche Stellung](en/StructureDefinition-mii-pr-sdd-berufliche-stellung.md)
+* [MII PR SDD Beschäftigungsstatus](en/StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.md)
+* [MII PR SDD Betreuungssituation](en/StructureDefinition-mii-pr-sdd-betreuungssituation.md)
+* [MII PR SDD Datenerhebung](en/StructureDefinition-mii-pr-sdd-datenerhebung.md)
+* [MII PR SDD Einkommen](en/StructureDefinition-mii-pr-sdd-einkommen.md)
+* [MII PR SDD Geburtsland Mutter](en/StructureDefinition-mii-pr-sdd-geburtsland-mutter.md)
+* [MII PR SDD Geburtsland Vater](en/StructureDefinition-mii-pr-sdd-geburtsland-vater.md)
+* [MII PR SDD Haushaltsgroesse](en/StructureDefinition-mii-pr-sdd-haushaltsgroesse.md)
+* [MII PR SDD Lebenssituation](en/StructureDefinition-mii-pr-sdd-lebenssituation.md)
+* [MII PR SDD Partnerschaft](en/StructureDefinition-mii-pr-sdd-partnerschaft.md)
+* [MII PR SDD Schulabschluss](en/StructureDefinition-mii-pr-sdd-schulabschluss.md)
+* [MII PR SDD Schuljahre](en/StructureDefinition-mii-pr-sdd-schuljahre.md)
+* [MII PR SDD Schwerbehindertenausweis](en/StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.md)
+* [MII PR SDD Soziooekonomische Faktoren](en/StructureDefinition-mii-pr-sdd-soziooekonomische-faktoren.md)
+* [MII PR SDD Vertrauensperson](en/StructureDefinition-mii-pr-sdd-vertrauensperson.md)
+
+### ImplementationGuides
+
+* [MII_IG_Soziodemographie](en/ImplementationGuide-mii-ig-soziodemographie.md)

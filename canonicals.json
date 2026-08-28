@@ -1,0 +1,287 @@
+[{
+  "id" : "mii-cs-sdd-ausbildung",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-ausbildung",
+  "version" : "1.0.0",
+  "name" : "MII_CS_SDD_Ausbildung"
+},
+{
+  "id" : "mii-cs-sdd-berufliche-stellung-lang",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-lang",
+  "version" : "1.0.0",
+  "name" : "MII_CS_SDD_Berufliche_Stellung_Lang"
+},
+{
+  "id" : "mii-cs-sdd-berufliche-stellung-minimal",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-minimal",
+  "version" : "1.0.0",
+  "name" : "MII_CS_SDD_Berufliche_Stellung_Minimal"
+},
+{
+  "id" : "mii-cs-sdd-beschaeftigungsstatus-lang",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang",
+  "version" : "1.0.0",
+  "name" : "MII_CS_SDD_Beschaeftigungsstatus_Lang"
+},
+{
+  "id" : "mii-cs-sdd-beschaeftigungsstatus-minimal",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-minimal",
+  "version" : "1.0.0",
+  "name" : "MII_CS_SDD_Beschaeftigungsstatus_Minimal"
+},
+{
+  "id" : "mii-cs-sdd-betreuungssituation",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-betreuungssituation",
+  "version" : "1.0.0",
+  "name" : "MII_CS_SDD_Betreuungssituation"
+},
+{
+  "id" : "mii-cs-sdd-einkommen",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-einkommen",
+  "version" : "1.0.0",
+  "name" : "MII_CS_SDD_Einkommen"
+},
+{
+  "id" : "mii-cs-sdd-erhebungsmethode",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-erhebungsmethode",
+  "version" : "1.0.0",
+  "name" : "MII_CS_SDD_Erhebungsmethode"
+},
+{
+  "id" : "mii-cs-sdd-laendercodes-sonder",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-laendercodes-sonder",
+  "version" : "1.0.0",
+  "name" : "MII_CS_SDD_Laendercodes_Sonder"
+},
+{
+  "id" : "mii-cs-sdd-merkzeichen",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen",
+  "version" : "1.0.0",
+  "name" : "MII_CS_Merkzeichen"
+},
+{
+  "id" : "mii-cs-sdd-schulabschluss",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schulabschluss",
+  "version" : "1.0.0",
+  "name" : "MII_CS_SDD_Schulabschluss"
+},
+{
+  "id" : "mii-cs-sdd-schwerbehindertenausweis",
+  "type" : "CodeSystem",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis",
+  "version" : "1.0.0",
+  "name" : "MII_CS_SDD_Schwerbehindertenausweis"
+},
+{
+  "id" : "mii-ig-soziodemographie",
+  "type" : "ImplementationGuide",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie",
+  "version" : "1.0.0",
+  "name" : "MII_IG_Soziodemographie"
+},
+{
+  "id" : "mii-lm-sdd",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-lm-sdd",
+  "version" : "1.0.0",
+  "name" : "MII_LM_SDD"
+},
+{
+  "id" : "mii-pr-sdd-ausbildung",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-ausbildung",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Ausbildung"
+},
+{
+  "id" : "mii-pr-sdd-berufliche-stellung",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-berufliche-stellung",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Berufliche_Stellung"
+},
+{
+  "id" : "mii-pr-sdd-beschaeftigungsstatus",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-beschaeftigungsstatus",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Beschaeftigungsstatus"
+},
+{
+  "id" : "mii-pr-sdd-betreuungssituation",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-betreuungssituation",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Betreuungssituation"
+},
+{
+  "id" : "mii-pr-sdd-datenerhebung",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-datenerhebung",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Datenerhebung"
+},
+{
+  "id" : "mii-pr-sdd-einkommen",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-einkommen",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Einkommen"
+},
+{
+  "id" : "mii-pr-sdd-geburtsland-mutter",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-geburtsland-mutter",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Geburtsland_Mutter"
+},
+{
+  "id" : "mii-pr-sdd-geburtsland-vater",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-geburtsland-vater",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Geburtsland_Vater"
+},
+{
+  "id" : "mii-pr-sdd-haushaltsgroesse",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-haushaltsgroesse",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Haushaltsgroesse"
+},
+{
+  "id" : "mii-pr-sdd-lebenssituation",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-lebenssituation",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Lebenssituation"
+},
+{
+  "id" : "mii-pr-sdd-partnerschaft",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-partnerschaft",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Partnerschaft"
+},
+{
+  "id" : "mii-pr-sdd-schulabschluss",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schulabschluss",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Schulabschluss"
+},
+{
+  "id" : "mii-pr-sdd-schuljahre",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schuljahre",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Schuljahre"
+},
+{
+  "id" : "mii-pr-sdd-schwerbehindertenausweis",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schwerbehindertenausweis",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Schwerbehindertenausweis"
+},
+{
+  "id" : "mii-pr-sdd-soziooekonomische-faktoren",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-soziooekonomische-faktoren",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_SoziooekonomischeFaktoren"
+},
+{
+  "id" : "mii-pr-sdd-vertrauensperson",
+  "type" : "StructureDefinition",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-vertrauensperson",
+  "version" : "1.0.0",
+  "name" : "MII_PR_SDD_Vertrauensperson"
+},
+{
+  "id" : "mii-vs-sdd-ausbildung",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-ausbildung",
+  "version" : "1.0.0",
+  "name" : "MII_VS_SDD_Ausbildung"
+},
+{
+  "id" : "mii-vs-sdd-berufliche-stellung-lang",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-berufliche-stellung-lang",
+  "version" : "1.0.0",
+  "name" : "MII_VS_SDD_Berufliche_Stellung_Lang"
+},
+{
+  "id" : "mii-vs-sdd-berufliche-stellung-minimal",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-berufliche-stellung-minimal",
+  "version" : "1.0.0",
+  "name" : "MII_VS_SDD_Berufliche_Stellung_Minimal"
+},
+{
+  "id" : "mii-vs-sdd-beschaeftigungsstatus-lang",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-beschaeftigungsstatus-lang",
+  "version" : "1.0.0",
+  "name" : "MII_VS_SDD_Beschaeftigungsstatus_Lang"
+},
+{
+  "id" : "mii-vs-sdd-beschaeftigungsstatus-minimal",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-beschaeftigungsstatus-minimal",
+  "version" : "1.0.0",
+  "name" : "MII_VS_SDD_Beschaeftigungsstatus_Minimal"
+},
+{
+  "id" : "mii-vs-sdd-betreuungssituation",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-betreuungssituation",
+  "version" : "1.0.0",
+  "name" : "MII_VS_SDD_Betreuungssituation"
+},
+{
+  "id" : "mii-vs-sdd-einkommen",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-einkommen",
+  "version" : "1.0.0",
+  "name" : "MII_VS_SDD_Einkommen"
+},
+{
+  "id" : "mii-vs-sdd-erhebungsmethode",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-erhebungsmethode",
+  "version" : "1.0.0",
+  "name" : "MII_VS_SDD_Erhebungsmethode"
+},
+{
+  "id" : "mii-vs-sdd-laendercodes",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-laendercodes",
+  "version" : "1.0.0",
+  "name" : "MII_VS_SDD_Laendercodes"
+},
+{
+  "id" : "mii-vs-sdd-merkzeichen",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-merkzeichen",
+  "version" : "1.0.0",
+  "name" : "MII_VS_SDD_Merkzeichen"
+},
+{
+  "id" : "mii-vs-sdd-schulabschluss",
+  "type" : "ValueSet",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-schulabschluss",
+  "version" : "1.0.0",
+  "name" : "MII_VS_SDD_Schulabschluss"
+}]

@@ -1,0 +1,87 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "mii-cs-sdd-merkzeichen"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem" ;
+       fhir:index -1 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "de"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mii-cs-sdd-merkzeichen</b></p><a name=\"de-mii-cs-sdd-merkzeichen\"> </a><a name=\"de-hcmii-cs-sdd-merkzeichen\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">G<a name=\"de-mii-cs-sdd-merkzeichen-G\"> </a></td><td>G – erhebliche Gehbehinderung</td></tr><tr><td style=\"white-space:nowrap\">aG<a name=\"de-mii-cs-sdd-merkzeichen-aG\"> </a></td><td>aG – außergewöhnliche Gehbehinderung</td></tr><tr><td style=\"white-space:nowrap\">H<a name=\"de-mii-cs-sdd-merkzeichen-H\"> </a></td><td>H – Hilflosigkeit</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"de-mii-cs-sdd-merkzeichen-B\"> </a></td><td>B – Begleitperson</td></tr><tr><td style=\"white-space:nowrap\">Bl<a name=\"de-mii-cs-sdd-merkzeichen-Bl\"> </a></td><td>Bl – Blindheit</td></tr><tr><td style=\"white-space:nowrap\">Gl<a name=\"de-mii-cs-sdd-merkzeichen-Gl\"> </a></td><td>Gl – Gehörlosigkeit</td></tr><tr><td style=\"white-space:nowrap\">TBl<a name=\"de-mii-cs-sdd-merkzeichen-TBl\"> </a></td><td>TBl – Taubblindheit</td></tr><tr><td style=\"white-space:nowrap\">RF<a name=\"de-mii-cs-sdd-merkzeichen-RF\"> </a></td><td>RF – Rundfunkbeitragsermäßigung</td></tr><tr><td style=\"white-space:nowrap\">1Kl<a name=\"de-mii-cs-sdd-merkzeichen-1Kl\"> </a></td><td>1. Kl. – 1. Klasse (Bahn)</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen"] ;
+  fhir:CodeSystem.version [ fhir:value "1.0.0"] ;
+  fhir:CodeSystem.name [ fhir:value "MII_CS_Merkzeichen"] ;
+  fhir:CodeSystem.title [ fhir:value "MII CS SDD Merkzeichen (SGB IX / SchwbAwV)"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-08-28T09:31:00+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Medizininformatik-Initiative"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "Medizininformatik-Initiative" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.medizininformatik-initiative.de" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Code System für Merkzeichen (SGB IX / SchwbAwV)"] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "9"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "G" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "G – erhebliche Gehbehinderung" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "aG" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "aG – außergewöhnliche Gehbehinderung" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "H" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "H – Hilflosigkeit" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "B" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "B – Begleitperson" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Bl" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bl – Blindheit" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Gl" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Gl – Gehörlosigkeit" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TBl" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "TBl – Taubblindheit" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "RF – Rundfunkbeitragsermäßigung" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1Kl" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "1. Kl. – 1. Klasse (Bahn)" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

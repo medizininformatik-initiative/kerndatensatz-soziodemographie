@@ -1,0 +1,233 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/observation-status",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ObservationStatus",
+    "title" : "ObservationStatus",
+    "description" : "Codes providing the status of an observation.",
+    "oids" : ["2.16.840.1.113883.4.642.4.401"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-observation-status.html" : "ObservationStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/quantity-comparator",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "QuantityComparator",
+    "title" : "QuantityComparator",
+    "description" : "How the Quantity should be understood and represented.",
+    "oids" : ["2.16.840.1.113883.4.642.4.60"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-quantity-comparator.html" : "QuantityComparator"
+  },
+  {
+    "url" : "http://snomed.info/sct",
+    "version" : null,
+    "status" : "active",
+    "name" : "SNOMED_CT",
+    "title" : "SNOMED CT (all versions)",
+    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+    "oids" : ["2.16.840.1.113883.6.96"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/common-tags",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "CommonTags",
+    "title" : "Common Tags",
+    "description" : "Common Tag Codes defined by FHIR project",
+    "oids" : ["2.16.840.1.113883.4.642.1.1067"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-common-tags.html" : "Common Tags"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "DataAbsentReason",
+    "title" : "DataAbsentReason",
+    "description" : "Used to specify why the normally expected content of the data element is missing.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1048"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-data-absent-reason.html" : "DataAbsentReason"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ObservationCategoryCodes",
+    "title" : "Observation Category Codes",
+    "description" : "Observation Category codes.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1125"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-observation-category.html" : "Observation Category Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "ObservationReferenceRangeMeaningCodes",
+    "title" : "Observation Reference Range Meaning Codes",
+    "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1124"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-referencerange-meaning.html" : "Observation Reference Range Meaning Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ExpandedYesNoIndicator",
+    "title" : "expandedYes-NoIndicator",
+    "description" : "HL7-defined code system of concepts used to specify an expansion on the original Yes/No indicator table by including \"flavors of null\".  It is intended to be applied to fields where the response is not limited to \"yes\" or \"no\".  Used in numerous locations in HL7 Version 2.x messaging.",
+    "oids" : ["2.16.840.1.113883.18.347"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.3.0/ValueSet-v2-0136.html" : "hl7VS-yes-no-Indicator"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "ObservationInterpretation",
+    "title" : "ObservationInterpretation",
+    "description" : "One or more codes providing a rough qualitative interpretation of the observation, such as \"normal\" / \"abnormal\", \"low\" / \"high\", \"better\" / \"worse\", \"resistant\" / \"susceptible\", \"expected\" / \"not expected\". The value set is intended to be for ANY use where coded representation of an interpretation is needed.",
+    "oids" : ["2.16.840.1.113883.5.83"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-observation-interpretation.html" : "Observation Interpretation Codes"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-ausbildung",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_CS_SDD_Ausbildung",
+    "title" : "MII CS SDD Ausbildung",
+    "description" : "Code System für Ausbildung",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-sdd-ausbildung.html" : "MII VS SDD Ausbildung"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-lang",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_CS_SDD_Berufliche_Stellung_Lang",
+    "title" : "MII CS SDD Berufliche Stellung (Langfversion)",
+    "description" : "Code System für Berufliche Stellung (Langversion)",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-sdd-berufliche-stellung-lang.html" : "MII VS SDD Berufliche Stellung (Langversion)"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-minimal",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_CS_SDD_Berufliche_Stellung_Minimal",
+    "title" : "MII CS SDD Berufliche Stellung (Minimalversion)",
+    "description" : "Code System für Berufliche Stellung (Minimalversion)",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-sdd-berufliche-stellung-minimal.html" : "MII VS SDD Berufliche Stellung (Minimalversion)"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_CS_SDD_Beschaeftigungsstatus_Lang",
+    "title" : "MII CS SDD Beschaeftigungsstatus (Langfversion)",
+    "description" : "Code System für Beschäftigungsstatus (Langversion)",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-sdd-beschaeftigungsstatus-lang.html" : "MII VS SDD Beschaeftigungsstatus (Langversion)"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-minimal",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_CS_SDD_Beschaeftigungsstatus_Minimal",
+    "title" : "MII CS SDD Beschaeftigungsstatus (Minimalversion)",
+    "description" : "Code System für Beschäftigungsstatus (Minimalversion)",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-sdd-beschaeftigungsstatus-minimal.html" : "MII VS SDD Beschaeftigungsstatus (Minimalversion)"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-betreuungssituation",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_CS_SDD_Betreuungssituation",
+    "title" : "MII CS SDD Betreuungssituation",
+    "description" : "Code System für Betreuungssituation",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-sdd-betreuungssituation.html" : "MII VS SDD Betreuungssituation"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-einkommen",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_CS_SDD_Einkommen",
+    "title" : "MII CS SDD Einkommen",
+    "description" : "Code System für Einkommen",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-sdd-einkommen.html" : "MII VS SDD Einkommen"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-erhebungsmethode",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_CS_SDD_Erhebungsmethode",
+    "title" : "MII CS SDD Erhebungsmethode",
+    "description" : "Code System für Erhebungsmethode",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-sdd-erhebungsmethode.html" : "MII VS SDD Erhebungsmethode"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-laendercodes-sonder",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_CS_SDD_Laendercodes_Sonder",
+    "title" : "MII CS SDD Laendercodes Sonder",
+    "description" : "Sonderkonzepte für Ländercodes, die nicht in ISO 3166-1 alpha-2 enthalten sind: staatenlos und ungeklärte Staatsangehörigkeit.",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-sdd-laendercodes.html" : "MII VS SDD Laendercodes"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_CS_Merkzeichen",
+    "title" : "MII CS SDD Merkzeichen (SGB IX / SchwbAwV)",
+    "description" : "Code System für Merkzeichen (SGB IX / SchwbAwV)",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-sdd-merkzeichen.html" : "MII VS SDD Merkzeichen"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schulabschluss",
+    "version" : "1.0.0",
+    "status" : "draft",
+    "name" : "MII_CS_SDD_Schulabschluss",
+    "title" : "MII CS SDD Schulabschluss",
+    "description" : "Code System für Schulabschluss",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-sdd-schulabschluss.html" : "MII VS SDD Schulabschluss"
+  }]
+}
