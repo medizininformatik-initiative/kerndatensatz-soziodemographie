@@ -1,10 +1,10 @@
 MII_IG_Soziodemographie : Validation Results
 =========================================
 
-err = 0, warn = 173, info = 72
+err = 0, warn = 173, info = 74
 $--
 Generated $--. FHIR version $-- for mii-ig-soziodemographie#$-- (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie)
- Build Errors : 18 / 4 / 0
+ Build Errors : 18 / 4 / 2
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-ausbildung : 0 / 2 / 2
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-berufliche-stellung-lang : 0 / 2 / 2
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-berufliche-stellung-minimal : 0 / 2 / 2
@@ -54,6 +54,7 @@ ERROR: de/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 396, col
 ERROR: de/examples.html#/html/body/div/div/div/div/div/p/a at Line 345, column 84: The link 'artifacts.html#example-example-instances' for "Artifacts" cannot be resolved (valid targets: [artifcats, project-logo, segment-header, project-nav, publish-box, bottom, segment-post-footer, language, family-logo, select_flg, family-nav, ig-status, top, flaglist, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb, artifacts])
 ERROR: de/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 352, column 8: The link '../examples.xml.zip' for "XML" cannot be resolved
 ERROR: de/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 353, column 8: The link '../examples.json.zip' for "JSON" cannot be resolved
+INFORMATION: de/implementer-guidance.html: No conformance term found in the text: 
 ERROR: de/metadata.html#/html/body/div/div/div/div/div/p/a at Line 631, column 19: The link 'Parameters-mii-param-base-manifest.html' for "CRMI Manifest Parameters resource" cannot be resolved
 ERROR: de/metadata.html#/html/body/div/div/div/div/div/p/a at Line 633, column 37: The link 'ImplementationGuide-mii-ig-base.html' for "ImplementationGuide resource" cannot be resolved
 ERROR: de/metadata.html#/html/body/div/div/div/div/div/ul/li/a at Line 955, column 82: The link 'Parameters-mii-param-base-manifest.html' for "Manifest Parameters" cannot be resolved
@@ -63,6 +64,7 @@ ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 390, col
 ERROR: en/examples.html#/html/body/div/div/div/div/div/p/a at Line 339, column 84: The link 'artifacts.html#example-example-instances' for "Artifacts" cannot be resolved (valid targets: [artifcats, project-logo, segment-header, project-nav, publish-box, bottom, segment-post-footer, language, family-logo, select_flg, family-nav, ig-status, top, flaglist, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb, artifacts])
 ERROR: en/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 346, column 8: The link '../examples.xml.zip' for "XML" cannot be resolved
 ERROR: en/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 347, column 8: The link '../examples.json.zip' for "JSON" cannot be resolved
+INFORMATION: en/implementer-guidance.html: No conformance term found in the text: 
 ERROR: en/metadata.html#/html/body/div/div/div/div/div/p/a at Line 631, column 19: The link 'Parameters-mii-param-base-manifest.html' for "CRMI Manifest Parameters resource" cannot be resolved
 ERROR: en/metadata.html#/html/body/div/div/div/div/div/p/a at Line 633, column 37: The link 'ImplementationGuide-mii-ig-base.html' for "ImplementationGuide resource" cannot be resolved
 ERROR: en/metadata.html#/html/body/div/div/div/div/div/ul/li/a at Line 955, column 82: The link 'Parameters-mii-param-base-manifest.html' for "Manifest Parameters" cannot be resolved

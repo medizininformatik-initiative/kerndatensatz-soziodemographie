@@ -41,7 +41,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-schulj
   "name" : "MII_PR_SDD_Schuljahre",
   "title" : "MII PR SDD Schuljahre",
   "status" : "draft",
-  "date" : "2026-08-28T07:28:24+00:00",
+  "date" : "2026-08-28T07:52:50+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

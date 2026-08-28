@@ -335,13 +335,106 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div class="markdown-toc">
 <ul id="markdown-toc">
   <li><a href="#description-of-the-soziodemographie-module" id="markdown-toc-description-of-the-soziodemographie-module">Description of the Soziodemographie module</a></li>
-  <li><a href="#general-implementation-guidance" id="markdown-toc-general-implementation-guidance">General Implementation Guidance</a></li>
-  <li><a href="#audience-specific-guidance" id="markdown-toc-audience-specific-guidance">Audience-Specific Guidance</a></li>
+  <li><a href="#purpose-and-objective" id="markdown-toc-purpose-and-objective">Purpose and Objective</a></li>
+  <li><a href="#significance-for-care-and-research" id="markdown-toc-significance-for-care-and-research">Significance for Care and Research</a></li>
+  <li><a href="#scope-of-the-module" id="markdown-toc-scope-of-the-module">Scope of the Module</a>    <ul>
+      <li><a href="#general-implementation-guidance" id="markdown-toc-general-implementation-guidance">General Implementation Guidance</a></li>
+      <li><a href="#audience-specific-guidance" id="markdown-toc-audience-specific-guidance">Audience-Specific Guidance</a></li>
+    </ul>
+  </li>
 </ul>
 
 </div>
 <p>This section provides guidance for different audiences implementing and using the MII Kerndatensatz Soziodemographie Implementation Guide.</p>
+
 <h3 id="description-of-the-soziodemographie-module">Description of the Soziodemographie module</h3>
+
+<h2 id="purpose-and-objective">Purpose and Objective</h2>
+
+<p>The Sociodemographic Data module serves the standardized collection of information on the demographic, social, and economic background of patients. It thereby creates a uniform basis for documenting these characteristics in care.</p>
+
+<p>Medical data describe what has been diagnosed, measured, or treated in a patient. However, they do not describe the social and economic conditions under which the person lives. These conditions can influence whether health services are accessed, how diseases progress, and what treatment outcomes are achieved.</p>
+
+<p>Without sociodemographic context data, there is a risk that differences between patient groups remain invisible or are incorrectly attributed solely to biological or medical factors. The structured collection of this data makes it possible to interpret results in a more differentiated way and to take relevant influencing factors into account in analyses.</p>
+
+<p>This data collection should not be understood as an additional documentation burden without direct benefit. It can support care by, for example, making information about the care situation, social support, or home environment visible. At the same time, it provides a basis for identifying and specifically addressing differences in care and study participation.</p>
+
+<p>The module thus pursues, in particular, the following objectives:</p>
+
+<ul>
+  <li>Improving the comparability of sociodemographic data between institutions;</li>
+  <li>Supporting the interpretation of clinical, epidemiological, and care-related results;</li>
+  <li>Identifying and analyzing differences in care and health inequalities;</li>
+  <li>Improving the informative value of registries, cohorts, and clinical studies;</li>
+  <li>Supporting patient-centered and context-sensitive care;</li>
+  <li>Providing interoperable data for the research infrastructure of the Medical Informatics Initiative.</li>
+</ul>
+
+<p>The need for standardized data collection also arises from the fact that sociodemographic data have so far often not been documented consistently within and across professional groups and institutions. The module is therefore intended to provide a common, interoperable structure for the collection and reuse of this information.</p>
+
+<h2 id="significance-for-care-and-research">Significance for Care and Research</h2>
+
+<p>The interpretation of medical results is not independent of the social and economic living conditions of the individuals studied. Studies show, for example, associations between socioeconomic conditions and health outcomes, care costs, hospitalizations, and the use of emergency care. The relevant influencing factors can differ depending on the age group and the outcome under investigation.</p>
+
+<p>The collection of sociodemographic characteristics is also relevant for clinical studies. Sociodemographically selected study populations can limit the transferability of study results to other patient groups. An evaluation by sociodemographic group can also provide insights into differences in recruitment, participation, study dropouts, and treatment outcomes.</p>
+
+<p>Current research indicates that people with lower income or lower educational attainment are less likely to gain access to clinical studies or are less likely to be invited to participate. The standardized collection of corresponding characteristics can help identify such differences and better assess the representativeness of study populations.</p>
+
+<p>A more consistent and reproducible collection of sociodemographic data can thus help to better understand study results and to investigate health inequalities in a more targeted way.</p>
+
+<h2 id="scope-of-the-module">Scope of the Module</h2>
+
+<p>The module includes information from the following areas:</p>
+
+<ol>
+  <li>Personal Information
+    <ul>
+      <li>current postal code of residence;</li>
+      <li>first language;</li>
+      <li>country of birth;</li>
+      <li>nationality.</li>
+    </ul>
+  </li>
+  <li>Socioeconomic Factors
+    <ul>
+      <li>educational attainment;</li>
+      <li>vocational training;</li>
+      <li>employment status;</li>
+      <li>occupational position;</li>
+      <li>average monthly net household income.</li>
+    </ul>
+  </li>
+  <li>Extended Origin
+    <ul>
+      <li>country of birth of the mother;</li>
+      <li>country of birth of the father.</li>
+    </ul>
+  </li>
+  <li>Life Situation
+    <ul>
+      <li>partnership;</li>
+      <li>trusted contact person;</li>
+      <li>household size;</li>
+      <li>care/support situation.</li>
+    </ul>
+  </li>
+  <li>Severe Disability Certificate
+    <ul>
+      <li>presence of a severe disability certificate;</li>
+      <li>degree of disability;</li>
+      <li>markers (Merkzeichen);</li>
+      <li>period of validity.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>The central entity of the module is the Sociodemography data collection. It describes the context of a specific data collection event and bundles the information documented at that point in time.</p>
+
+<p>Multiple sociodemographic data collections may exist for a person at different points in time, for example in the case of repeated inpatient stays. However, each individual data collection is assigned to exactly one person.</p>
+
+<p>Not all sub-areas need to be present at every collection point. The specialized data areas can each optionally be linked to a data collection. This allows incomplete collections to be represented interoperably as well — for example, when only socioeconomic factors were collected, but not information on origin or life situation.</p>
+
+<p>For selected characteristics, in particular education, vocational training, employment status, and occupational position, a more detailed long version and a simplified minimal version are available. This allows the depth of data to be adapted to the respective care context, the time available, and the specific documentation purpose.</p>
 
 <h3 id="general-implementation-guidance">General Implementation Guidance</h3>
 
@@ -387,7 +480,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de">Medizininformatik-Initiative</a>.  
           Package mii-ig-soziodemographie#1.0.0 basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Fri, Aug 28, 2026 07:28+0000">2026-08-28</span>
+          Erstellt <span title="Fri, Aug 28, 2026 07:52+0000">2026-08-28</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

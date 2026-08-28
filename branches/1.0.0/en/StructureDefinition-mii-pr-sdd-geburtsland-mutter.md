@@ -41,7 +41,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-geburt
   "name" : "MII_PR_SDD_Geburtsland_Mutter",
   "title" : "MII PR SDD Geburtsland Mutter",
   "status" : "draft",
-  "date" : "2026-08-28T07:28:24+00:00",
+  "date" : "2026-08-28T07:52:50+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

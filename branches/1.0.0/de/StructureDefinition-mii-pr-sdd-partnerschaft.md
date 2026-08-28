@@ -105,7 +105,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-p
   "name" : "MII_PR_SDD_Partnerschaft",
   "title" : "MII PR SDD Partnerschaft",
   "status" : "draft",
-  "date" : "2026-08-28T07:28:24+00:00",
+  "date" : "2026-08-28T07:52:50+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",
