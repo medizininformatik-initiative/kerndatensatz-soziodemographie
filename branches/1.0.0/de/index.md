@@ -21,24 +21,23 @@
 | Status | active |
 | Realm | EN |
 
-#### Target Audience
-
-This implementation guide is intended for:
-
-### Background
-
-#### Module Overview
-
 ### Contact Information
 
 * Margaux Gatrio , Berlin Institute of Health at Charité (BIH)
-* Jochen Schmidt, UKDD
+* Jochen Schmitt, UKDD
 * Daniela Piontek, UKDD
-* Rebecca Mukkowski-Kickhöfel, Charité
+* Rebecca Mukowski-Kickhöfel, Charité
 
 Questions about this publication can be asked on [chat.fhir.org](https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative) in the stream 'german/mi-initiative' or on [mii.zulipchat.com](https://mii.zulipchat.com/#narrow/channel/430086-MII-Kerndatensatz).
 
 #### Authors (alphabetical)
+
+* Daniela Piontek, UKDD
+* Jochen Schmitt, UKDD
+* Margaux Gatrio , Berlin Institute of Health at Charité (BIH)
+* Matthias Rose, Charité
+* Rebecca Mukowski-Kickhöfel, Charité
+* Wolfgang Hoffmann, Universitätsmedizin Greifswald
 
 #### Contributors
 

@@ -41,7 +41,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-vertra
   "name" : "MII_PR_SDD_Vertrauensperson",
   "title" : "MII PR SDD Vertrauensperson",
   "status" : "draft",
-  "date" : "2026-08-28T07:52:50+00:00",
+  "date" : "2026-08-28T08:32:44+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

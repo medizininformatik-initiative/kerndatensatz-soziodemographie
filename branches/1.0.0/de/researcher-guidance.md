@@ -8,13 +8,13 @@
 
  Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt. 
 
-#### Guidance for Researchers
+## Guidance for Researchers
 
 **Note:** Detailed guidance for researchers will be added in a future version of this implementation guide.
 
 ### Description of scenarios application
 
-## Collection for Patient-Centered Care Planning
+#### Collection for Patient-Centered Care Planning
 
 Upon admission to an inpatient facility, sociodemographic information is collected as part of the social history. Collection can be complete or partial, depending on the care context and the time available.
 
@@ -22,7 +22,7 @@ For example, current living situation, household size, care/support situation, e
 
 This information supports patient-centered care planning and can be helpful in organizing discharge, outpatient follow-up care, nursing care, rehabilitation, and social support.
 
-## Use in a Clinical Study or Cohort
+#### Use in a Clinical Study or Cohort
 
 In a clinical study, sociodemographic characteristics are collected at study enrollment and linked to study progress, participation, study dropouts, and outcomes.
 
@@ -36,7 +36,7 @@ This information can be used to:
 
 Clinical studies may include sociodemographically selected populations, which can limit the transferability of results to other patient groups.
 
-## Examination of Equity in Care
+#### Examination of Equity in Care
 
 A research group investigates whether certain patient groups have differing access to diagnostics, therapy, rehabilitation, or follow-up care.
 

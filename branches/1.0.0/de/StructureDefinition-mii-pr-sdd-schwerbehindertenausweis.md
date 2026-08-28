@@ -109,7 +109,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-s
   "name" : "MII_PR_SDD_Schwerbehindertenausweis",
   "title" : "MII PR SDD Schwerbehindertenausweis",
   "status" : "draft",
-  "date" : "2026-08-28T07:52:50+00:00",
+  "date" : "2026-08-28T08:32:44+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

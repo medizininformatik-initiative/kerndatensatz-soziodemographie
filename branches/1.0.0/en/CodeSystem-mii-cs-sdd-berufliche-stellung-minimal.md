@@ -39,7 +39,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "MII CS SDD Berufliche Stellung (Minimalversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-28T07:52:50+00:00",
+  "date" : "2026-08-28T08:32:44+00:00",
   "publisher" : "Medizininformatik-Initiative",
   "contact" : [{
     "name" : "Medizininformatik-Initiative",

@@ -329,27 +329,27 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p>  <!-- white space is critical inside of capture --></p>
-<div>
-  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#guidance-for-implementers" id="markdown-toc-guidance-for-implementers">Guidance for Implementers</a>    <ul>
+      <li><a href="#context-in-the-overall-project--relationships-to-other-modules" id="markdown-toc-context-in-the-overall-project--relationships-to-other-modules">Context in the overall project / relationships to other modules</a></li>
+      <li><a href="#references" id="markdown-toc-references">References</a></li>
+    </ul>
+  </li>
+</ul>
+
 </div>
+<h2 id="guidance-for-implementers">Guidance for Implementers</h2>
 
-<p style="border:var(--translation-box-border);background-color:var(--translation-background-color);padding: 5px 5px 5px 5px;">
+<h3 id="context-in-the-overall-project--relationships-to-other-modules">Context in the overall project / relationships to other modules</h3>
 
-Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt.
-
-</p>
-
-<h3 id="guidance-for-implementers">Guidance for Implementers</h3>
-
-<h2 id="context-in-the-overall-project--relationships-to-other-modules">Context in the overall project / relationships to other modules</h2>
-
-<h1 id="classification-within-the-core-dataset">Classification within the Core Dataset</h1>
+<h4 id="classification-within-the-core-dataset">Classification within the Core Dataset</h4>
 
 <p>The Sociodemographic Data module is designed as an extension module to the MII core dataset. The underlying information model was coordinated with the PCOR-MII project.</p>
 
 <p>The module supplements medical, diagnostic, and administrative information with the social and economic context of the affected person. It should not be understood as an isolated dataset, but as a context-providing supplement to the other modules of the core dataset.</p>
 
-<h1 id="relationship-to-the-person-module">Relationship to the Person Module</h1>
+<h4 id="relationship-to-the-person-module">Relationship to the Person Module</h4>
 
 <p>The module is closely linked to the KDS Person module. The Sociodemography data collection is assigned to a person and can be documented multiple times over time for the same person.</p>
 
@@ -367,7 +367,7 @@ Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in de
 
 <p>The module also has a connection to the KDS Intensive Care module. The characteristics height and body weight are already available there.</p>
 
-<h1 id="relationship-to-clinical-and-care-related-modules">Relationship to Clinical and Care-Related Modules</h1>
+<h4 id="relationship-to-clinical-and-care-related-modules">Relationship to Clinical and Care-Related Modules</h4>
 
 <p>Sociodemographic data can be evaluated together with diagnoses, procedures, medication, laboratory values, vital signs, and other clinical information. In doing so, they do not primarily serve medical classification, but rather the contextualization and stratified analysis of this data.</p>
 
@@ -383,7 +383,7 @@ Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in de
 
 <p>Their use as an analytical characteristic should not automatically be understood as a causal interpretation. Depending on the research question, sociodemographic characteristics can be confounders, effect modifiers, exposure characteristics, or purely descriptive criteria.</p>
 
-<h2 id="references">References</h2>
+<h3 id="references">References</h3>
 <ul>
   <li>
     <p>GESIS – Leibniz-Institut für Sozialwissenschaften.
@@ -427,7 +427,7 @@ Schwerbehindertenausweisverordnung, insbesondere <span class="fhir-conformance">
 
           IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de">Medizininformatik-Initiative</a>.  
           Package mii-ig-soziodemographie#1.0.0 basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Fri, Aug 28, 2026 07:52+0000">2026-08-28</span>
+          Erstellt <span title="Fri, Aug 28, 2026 08:32+0000">2026-08-28</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
               <!-- Branding override for the fhir2.base.template footer fragment.
