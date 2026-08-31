@@ -46,7 +46,7 @@ ISO 3166-1 alpha-2 zzgl. Sonderkonzepte für staatenlos und ungeklärt.
   "title" : "MII VS SDD Laendercodes",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-31T20:20:10+00:00",
+  "date" : "2026-08-31T20:24:53+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
