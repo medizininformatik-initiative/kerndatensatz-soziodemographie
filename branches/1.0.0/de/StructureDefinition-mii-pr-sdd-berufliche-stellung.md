@@ -103,7 +103,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-b
   "name" : "MII_PR_SDD_Berufliche_Stellung",
   "title" : "MII PR SDD Berufliche Stellung",
   "status" : "draft",
-  "date" : "2026-08-31T15:46:48+00:00",
+  "date" : "2026-08-31T16:02:27+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

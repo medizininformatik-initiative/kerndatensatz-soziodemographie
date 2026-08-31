@@ -39,7 +39,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "MII CS SDD Berufliche Stellung (Minimalversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-31T15:46:48+00:00",
+  "date" : "2026-08-31T16:02:27+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
