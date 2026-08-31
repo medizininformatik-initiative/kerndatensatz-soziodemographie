@@ -7,9 +7,9 @@ versioning scheme described on the [Versioning](version-history.html) page.
 
 ---
 
-#### Version {{CALVER_VERSION}}
+#### Version 2027.0.0-ballot.rc1
 
-**Date:** {{RELEASE_DATE}}
+**Date:** 31.08.2026
 
 ##### Added
 

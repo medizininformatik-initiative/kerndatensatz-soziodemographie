@@ -1,13 +1,13 @@
 ### Introduction
 
-This module defines FHIR profiles for recording sociodemographic characteristics of patients, including origin, living situation (e.g. household size, care/support situation, partnership), and socioeconomic factors (e.g. education, occupation, employment status, income).
+This specification defines FHIR profiles for recording sociodemographic characteristics of patients, including origin, living situation (e.g. household size, care/support situation, partnership), and socioeconomic factors (e.g. education, occupation, employment status, income).
 
 | Veröffentlichung   |   |
 |---------|---|
 | Datum   | 31.08.2026 |
 | Version | 2027.0.0-ballot.rc1        |
 | Status  | active       |
-| Realm   | EN          | 
+| Realm   | DE          | 
 
 ### Target audience
 
@@ -34,7 +34,7 @@ This module defines FHIR profiles for recording sociodemographic characteristics
 - **[Profiles](profiles.html)** and the further
   **[artifact pages](artifacts.html)** — the technical artifacts.
 - **[Examples](examples.html)** — example instances.
-- **[Dependencies](ImplementationGuide-mii-ig-{{MODULE_SLUG}}.html)** — the
+- **[Dependencies](ImplementationGuide-mii-ig-soziodemographie.html)** — the
   ImplementationGuide resource with the dependency table, cross-version
   analysis and copyright statements.
 
