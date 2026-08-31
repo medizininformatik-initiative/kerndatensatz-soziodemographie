@@ -1,15 +1,15 @@
-# MII CS SDD Berufliche Stellung (Langfversion) - v1.0.0
+# MII CS SDD Berufliche Stellung (Langfversion) - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
-* [**Artifacts**](artifacts.md)
+* [**Artefaktübersicht**](artifacts.md)
 * **MII CS SDD Berufliche Stellung (Langfversion)**
 
 ## CodeSystem: MII CS SDD Berufliche Stellung (Langfversion) 
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-lang | *Version*:1.0.0 |
-| Draft Stand: 2026-08-28 | *Maschinenlesbarer Name*:MII_CS_SDD_Berufliche_Stellung_Lang |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-lang | *Version*:2027.0.0-ballot.rc1 |
+| Draft Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_CS_SDD_Berufliche_Stellung_Lang |
 
  
 Code System für Berufliche Stellung (Langversion) 
@@ -34,21 +34,28 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-lang",
-  "version" : "1.0.0",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_CS_SDD_Berufliche_Stellung_Lang",
   "title" : "MII CS SDD Berufliche Stellung (Langfversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-28T09:25:00+00:00",
-  "publisher" : "Medizininformatik-Initiative",
+  "date" : "2026-08-31T15:46:48+00:00",
+  "publisher" : "NUM-DIZ",
   "contact" : [{
-    "name" : "Medizininformatik-Initiative",
+    "name" : "NUM-DIZ",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.medizininformatik-initiative.de"
+      "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
   "description" : "Code System für Berufliche Stellung (Langversion)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    }]
+  }],
   "content" : "complete",
   "count" : 8,
   "concept" : [{

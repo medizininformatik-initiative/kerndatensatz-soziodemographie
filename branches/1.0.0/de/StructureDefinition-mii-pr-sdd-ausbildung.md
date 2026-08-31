@@ -1,15 +1,15 @@
-# MII PR SDD Ausbildung - v1.0.0
+# MII PR SDD Ausbildung - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
-* [**Artifacts**](artifacts.md)
+* [**Artefaktübersicht**](artifacts.md)
 * **MII PR SDD Ausbildung**
 
 ## Ressourcenprofil: MII PR SDD Ausbildung 
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-ausbildung | *Version*:1.0.0 |
-| Draft Stand: 2026-08-28 | *Maschinenlesbarer Name*:MII_PR_SDD_Ausbildung |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-ausbildung | *Version*:2027.0.0-ballot.rc1 |
+| Draft Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_PR_SDD_Ausbildung |
 
  
 Höchster beruflicher Ausbildungsabschluss 
@@ -18,7 +18,7 @@ Höchster beruflicher Ausbildungsabschluss
 
 * Refer to this Profile: [MII PR SDD Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-ig-soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-ausbildung.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-ausbildung.json)
 
 ### Formale Ansichten des Profilinhalts
 
@@ -87,20 +87,27 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-a
   "resourceType" : "StructureDefinition",
   "id" : "mii-pr-sdd-ausbildung",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-ausbildung",
-  "version" : "1.0.0",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_PR_SDD_Ausbildung",
   "title" : "MII PR SDD Ausbildung",
   "status" : "draft",
-  "date" : "2026-08-28T09:25:00+00:00",
-  "publisher" : "Medizininformatik-Initiative",
+  "date" : "2026-08-31T15:46:48+00:00",
+  "publisher" : "NUM-DIZ",
   "contact" : [{
-    "name" : "Medizininformatik-Initiative",
+    "name" : "NUM-DIZ",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.medizininformatik-initiative.de"
+      "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
   "description" : "Höchster beruflicher Ausbildungsabschluss",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    }]
+  }],
   "fhirVersion" : "4.0.1",
   "mapping" : [{
     "identity" : "workflow",

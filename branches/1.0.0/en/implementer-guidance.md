@@ -1,10 +1,8 @@
-# Guidance for Implementers - v1.0.0
+# Guidance for Implementers - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
 * [**Guidance**](guidance.md)
 * **Guidance for Implementers**
-
-## Guidance for Implementers
 
 ## Guidance for Implementers
 

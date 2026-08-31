@@ -1,6 +1,6 @@
 {
-  "version" : "1.0.0",
-  "date" : "20260828092500",
+  "version" : "2027.0.0-ballot.rc1",
+  "date" : "20260831154648",
   "notForPublication" : true,
-  "name" : "mii-ig-soziodemographie.r4"
+  "name" : "de.medizininformatikinitiative.kerndatensatz.soziodemographie.r4"
 }

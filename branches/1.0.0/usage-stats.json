@@ -1,7 +1,8 @@
 {
-  "package": "mii-ig-soziodemographie",
-  "version": "1.0.0",
+  "package": "de.medizininformatikinitiative.kerndatensatz.soziodemographie",
+  "version": "2027.0.0-ballot.rc1",
   "fhirVersion": "4.0.1",
+  "jurisdiction": "DE",
   "extensions": [],
   "profiles": {
     "Observation": [
