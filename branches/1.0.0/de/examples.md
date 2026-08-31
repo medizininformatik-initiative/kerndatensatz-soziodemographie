@@ -5,13 +5,13 @@
 
 ## Examples
 
- Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt. 
+ Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-This Implementation Guide includes example instances for all profiles. See the [Artifacts](artifacts.md#example-example-instances) page for a complete list of all examples organized by resource type.
+Dieser Implementierungsleitfaden enthält Beispielinstanzen für alle Profile. Eine vollständige Liste aller Beispiele, gegliedert nach Ressourcentyp, finden Sie auf der Seite [Artefakte](artifacts.md#example-example-instances).
 
 -------
 
-**Examples:** all the examples that are used in this Implementation Guide available for download:
+**Beispiele:** alle in diesem Implementierungsleitfaden verwendeten Beispiele stehen zum Download zur Verfügung:
 
 * [XML](../examples.xml.zip)
 * [JSON](../examples.json.zip)

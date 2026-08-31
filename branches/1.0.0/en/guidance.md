@@ -63,7 +63,9 @@ The module includes information from the following areas:
 1. Socioeconomic Factors
 * educational attainment;
 * vocational training;
-* employment status; _ occupational position; _ average monthly net household income.
+* employment status;
+* occupational position;
+* average monthly net household income.
 
 1. Extended Origin
 * country of birth of the mother;

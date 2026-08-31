@@ -170,86 +170,57 @@
             </button>
             <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              <!-- Menu in the IG's DEFAULT language (English).
-     The IG Publisher renders the navigation from this file. To translate it,
-     ship a per-language copy at input/translations/<lang>/includes/menu.xml —
-     this is the mechanism the HL7 reference IG FHIR/multi-lang-test-ig uses and
-     the ONLY way to get a TRANSLATED menu: the `menu:` property in
-     sushi-config.yaml generates a single menu.xml that cannot be translated.
-     Rules: keep the href targets identical across languages; dropdown parents
-     must link to a REAL page (href="#" is rejected by the template's menu QA);
-     only one sub-menu level is supported.
-
-     STRUCTURE: this menu implements the TF-KDS-agreed module menu (see
-     docs/page-structure.md for the full structure with cardinalities).
-     Entries marked OPTIONAL (0..1) below may be removed per module — the
-     removal procedure per entry is in docs/optional-pages.md in this
-     repository. Entries without a marker are mandatory (1..1).
-
-     LINK-ONLY ENTRIES (no page of their own):
-     - "Datasets and Descriptions" points at the Logical Models page
-       (logical-models.html) — the module's datasets ARE its logical models.
-       NEITHER Artifacts-Summary anchor is usable for the TF-KDS "Sec.
-       15.0.2" target: the numeric #2 is POSITIONAL (grouping index — wrong
-       section whenever the artifact mix differs from the full standard set),
-       and the browser-generated NAMED AnchorJS anchor
-       (#structures-logical-models) is invisible to the IG Publisher's link
-       validator — it injects a marker anchor into the menu (rendered as an
-       EMPTY menu entry) and logs a broken-link ERROR on every page's QA.
-       Full analysis: docs/page-structure.md, "Datasets and Descriptions".
-     - The four Conformance entries point at the KDS-wide conformance rules of
-       the Meta module (kerndatensatz-meta). INTERIM: the Meta module has no
-       published IG rendering yet (only a CI build with no conformance pages),
-       so these link to the authoritative meta-wiki sections; switch them to
-       the Meta IG's menu entries once a stable rendering exists (Gate item in
-       docs/page-structure.md). -->
+              <!-- German translation of input/includes/menu.xml.
+     Keep the href targets IDENTICAL to the source menu; translate only labels.
+     Structure notes (OPTIONAL entries, link-only entries, the interim
+     meta-wiki links) are documented in the source menu's header and in
+     docs/page-structure.md / docs/optional-pages.md. -->
 <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
-  <li><a href="index.html">Home</a></li>
+  <li><a href="index.html">Startseite</a></li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="guidance.html" class="dropdown-toggle">Guidance<b class="caret"> </b></a>
+    <a data-toggle="dropdown" href="guidance.html" class="dropdown-toggle">Anleitung<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="guidance.html">Guidance</a></li>
-      <!-- OPTIONAL (0..1) — see docs/optional-pages.md -->
-      <li><a href="researcher-guidance.html">Guidance for Researchers</a></li>
-      <li><a href="implementer-guidance.html">Guidance for Implementers</a></li>
-      <!-- link-only entry: Logical-Models section of the Artifacts Summary (see header note) -->
-      <li><a href="logical-models.html">Datasets and Descriptions</a></li>
-      <li><a href="uml-diagrams.html">UML Diagrams</a></li>
+      <li><a href="guidance.html">Anleitung</a></li>
+      <!-- OPTIONAL (0..1) — siehe docs/optional-pages.md -->
+      <li><a href="researcher-guidance.html">Anleitung für Forschende</a></li>
+      <li><a href="implementer-guidance.html">Anleitung für Implementierende</a></li>
+      <!-- Nur-Link-Eintrag: die Seite "Logische Modelle" (Begründung im Quell-Menü) -->
+      <li><a href="logical-models.html">Datensätze und Beschreibungen</a></li>
+      <li><a href="uml-diagrams.html">UML-Diagramme</a></li>
     </ul>
   </li>
   <li class="dropdown">
-    <!-- The parent and the first four entries link to the KDS-wide conformance
-         rules of the Meta module (INTERIM: meta-wiki; see header note). -->
-    <a data-toggle="dropdown" href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance" class="dropdown-toggle">Conformance<b class="caret"> </b></a>
+    <!-- Eltern-Eintrag und die ersten vier Einträge verlinken die KDS-weiten
+         Konformitätsregeln des Meta-Moduls (INTERIM: Meta-Wiki; siehe
+         Quell-Menü). -->
+    <a data-toggle="dropdown" href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance" class="dropdown-toggle">Konformität<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Conformance</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#anforderungsdokumentation">General Requirements</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#must-support-ms">Must Support</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#fehlende-daten">Handling Missing Data</a></li>
-      <li><a href="security-and-privacy.html">Security and Privacy</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Konformität</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#anforderungsdokumentation">Allgemeine Anforderungen</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#must-support-ms">Must-Support</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#fehlende-daten">Umgang mit fehlenden Daten</a></li>
+      <li><a href="security-and-privacy.html">Sicherheit und Datenschutz</a></li>
     </ul>
   </li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle">Artifacts<b class="caret"> </b></a>
+    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle">Artefakte<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="artifacts.html">Artifacts Summary</a></li>
-      <li><a href="profiles.html">Profiles</a></li>
-      <li><a href="capability-statements.html">Capability Statements</a></li>
-      <!-- OPTIONAL (0..1) — see docs/optional-pages.md -->
-      <!-- <li><a href="search-parameters.html">Search Parameters (optional)</a></li> -->
-      <li><a href="logical-models.html">Logical Models</a></li>
-      <li><a href="examples.html">Examples</a></li>
+      <li><a href="artifacts.html">Artefakt-Übersicht</a></li>
+      <li><a href="profiles.html">Profile</a></li>
+      <li><a href="terminology.html">Terminologie</a></li>
+      <li><a href="capability-statements.html">CapabilityStatements</a></li>
+      <li><a href="logical-models.html">Logische Modelle</a></li>
+      <li><a href="examples.html">Beispiele</a></li>
     </ul>
   </li>
   <li><a href="downloads.html">Downloads</a></li>
-  <li><a href="changes.html">Changelog</a></li>
+  <li><a href="changes.html">Änderungshistorie</a></li>
   <li class="dropdown">
-    <!-- The parent deliberately links the MANDATORY child (Versioning): the
-         Metadata Overview page is optional, and a parent pointing at it would
-         have to be re-targeted when that page is removed. -->
-    <a data-toggle="dropdown" href="version-history.html" class="dropdown-toggle">Metadata<b class="caret"> </b></a>
+    <!-- Der Eltern-Eintrag verlinkt bewusst das PFLICHT-Kind (Versionierung):
+         die Metadaten-Übersicht ist optional. -->
+    <a data-toggle="dropdown" href="version-history.html" class="dropdown-toggle">Metadaten<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="version-history.html">Versioning</a></li>
+      <li><a href="version-history.html">Versionierung</a></li>
     </ul>
   </li>
 </ul>
@@ -323,120 +294,120 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#general-implementation-guidance" id="markdown-toc-general-implementation-guidance">General Implementation Guidance</a></li>
-  <li><a href="#audience-specific-guidance" id="markdown-toc-audience-specific-guidance">Audience-Specific Guidance</a></li>
-  <li><a href="#description-of-the-soziodemographie-module" id="markdown-toc-description-of-the-soziodemographie-module">Description of the Soziodemographie module</a></li>
+  <li><a href="#allgemeine-umsetzungshinweise" id="markdown-toc-allgemeine-umsetzungshinweise">Allgemeine Umsetzungshinweise</a></li>
+  <li><a href="#zielgruppenspezifische-hinweise" id="markdown-toc-zielgruppenspezifische-hinweise">Zielgruppenspezifische Hinweise</a></li>
+  <li><a href="#beschreibung-des-moduls-soziodemographie" id="markdown-toc-beschreibung-des-moduls-soziodemographie">Beschreibung des Moduls Soziodemographie</a></li>
 </ul>
 
 </div>
-<p>This section provides guidance for different audiences implementing and using the MII Kerndatensatz Soziodemographie Implementation Guide.</p>
-<h3 id="general-implementation-guidance">General Implementation Guidance</h3>
+<p>Dieser Abschnitt bietet Hinweise für verschiedene Zielgruppen, die den Implementierungsleitfaden MII Kerndatensatz Soziodemographie einsetzen und nutzen.</p>
+<h3 id="allgemeine-umsetzungshinweise">Allgemeine Umsetzungshinweise</h3>
 
 <ul>
-  <li><strong><a href="datasets-and-descriptions.html">Datasets and Descriptions</a></strong> - Detailed descriptions of the MII core dataset logical models</li>
-  <li><strong><a href="uml-diagrams.html">UML Diagrams</a></strong> - UML diagrams illustrating the data models and relationships</li>
+  <li><strong><a href="datasets-and-descriptions.html">Datensätze und Beschreibungen</a></strong> - Ddie Datenelemente des Moduls, beschrieben als logische Modelle.</li>
+  <li><strong><a href="uml-diagrams.html">UML-Diagramme</a></strong> - isuelle Darstellung der Datenmodelle und ihrer Beziehungen.</li>
 </ul>
 
-<h3 id="audience-specific-guidance">Audience-Specific Guidance</h3>
+<h3 id="zielgruppenspezifische-hinweise">Zielgruppenspezifische Hinweise</h3>
 
 <ul>
-  <li><strong><a href="researcher-guidance.html">Guidance for Researchers</a></strong> - Information for researchers using MII data for research purposes</li>
-  <li><strong><a href="implementer-guidance.html">Guidance for Implementers</a></strong> - Technical guidance for Data Integration Center (DIZ) implementers</li>
+  <li><strong><a href="researcher-guidance.html">Hinweise für Forschende</a></strong> -  für Forschende, die Moduldaten nutzen.</li>
+  <li><strong><a href="implementer-guidance.html">Hinweise für Implementierende</a></strong> - technische Hinweise für DIZ-Implementierende.</li>
 </ul>
 
-<h3 id="description-of-the-soziodemographie-module">Description of the Soziodemographie module</h3>
+<h3 id="beschreibung-des-moduls-soziodemographie">Beschreibung des Moduls Soziodemographie</h3>
 
-<h4 id="purpose-and-objective">Purpose and Objective</h4>
+<h4 id="zweck-und-zielsetzung">Zweck und Zielsetzung</h4>
 
-<p>The Sociodemographic Data module serves the standardized collection of information on the demographic, social, and economic background of patients. It thereby creates a uniform basis for documenting these characteristics in care.</p>
+<p>Das Modul Soziodemographische Daten dient der standardisierten Erfassung von Informationen zum demographischen, sozialen und ökonomischen Hintergrund von Patientinnen und Patienten. Es schafft damit eine einheitliche Grundlage für die Dokumentation dieser Merkmale in der Versorgung.</p>
 
-<p>Medical data describe what has been diagnosed, measured, or treated in a patient. However, they do not describe the social and economic conditions under which the person lives. These conditions can influence whether health services are accessed, how diseases progress, and what treatment outcomes are achieved.</p>
+<p>Medizinische Daten beschreiben, was bei einer Patientin oder einem Patienten diagnostiziert, gemessen oder behandelt wurde. Sie beschreiben jedoch nicht, unter welchen sozialen und ökonomischen Bedingungen die Person lebt. Diese Bedingungen können beeinflussen, ob Gesundheitsleistungen erreicht werden, wie Erkrankungen verlaufen und welche Behandlungsergebnisse erzielt werden.</p>
 
-<p>Without sociodemographic context data, there is a risk that differences between patient groups remain invisible or are incorrectly attributed solely to biological or medical factors. The structured collection of this data makes it possible to interpret results in a more differentiated way and to take relevant influencing factors into account in analyses.</p>
+<p>Ohne soziodemographische Kontextdaten besteht das Risiko, dass Unterschiede zwischen Patientengruppen unsichtbar bleiben oder fälschlich ausschließlich biologischen oder medizinischen Faktoren zugeschrieben werden. Die strukturierte Erfassung dieser Daten ermöglicht es, Ergebnisse differenzierter zu interpretieren und relevante Einflussfaktoren in Analysen zu berücksichtigen.</p>
 
-<p>This data collection should not be understood as an additional documentation burden without direct benefit. It can support care by, for example, making information about the care situation, social support, or home environment visible. At the same time, it provides a basis for identifying and specifically addressing differences in care and study participation.</p>
+<p>Die Erhebung soll dabei nicht als zusätzliche Dokumentationslast ohne unmittelbaren Nutzen verstanden werden. Sie kann die Versorgung unterstützen, wenn sie beispielsweise Informationen zur Betreuungssituation, zur sozialen Unterstützung oder zur häuslichen Situation sichtbar macht. Zugleich schafft sie eine Grundlage dafür, Unterschiede in Versorgung und Studienbeteiligung zu erkennen und gezielt zu adressieren.</p>
 
-<p>The module thus pursues, in particular, the following objectives:</p>
+<p>Das Modul verfolgt damit insbesondere folgende Ziele:</p>
 
 <ul>
-  <li>Improving the comparability of sociodemographic data between institutions;</li>
-  <li>Supporting the interpretation of clinical, epidemiological, and care-related results;</li>
-  <li>Identifying and analyzing differences in care and health inequalities;</li>
-  <li>Improving the informative value of registries, cohorts, and clinical studies;</li>
-  <li>Supporting patient-centered and context-sensitive care;</li>
-  <li>Providing interoperable data for the research infrastructure of the Medical Informatics Initiative.</li>
+  <li>Verbesserung der Vergleichbarkeit soziodemographischer Angaben zwischen Einrichtungen;</li>
+  <li>Unterstützung der Interpretation klinischer, epidemiologischer und versorgungsbezogener Ergebnisse;</li>
+  <li>Erkennung und Analyse von Versorgungsunterschieden und gesundheitlichen Ungleichheiten;</li>
+  <li>Verbesserung der Aussagekraft von Registern, Kohorten und klinischen Studien;</li>
+  <li>Unterstützung einer patientenzentrierten und kontextsensitiven Versorgung;</li>
+  <li>Bereitstellung interoperabler Daten für die Forschungsinfrastruktur der Medizininformatik-Initiative.</li>
 </ul>
 
-<p>The need for standardized data collection also arises from the fact that sociodemographic data have so far often not been documented consistently within and across professional groups and institutions. The module is therefore intended to provide a common, interoperable structure for the collection and reuse of this information.</p>
+<p>Die Notwendigkeit einer standardisierten Erfassung ergibt sich auch daraus, dass soziodemographische Daten bislang häufig nicht einheitlich innerhalb und zwischen Berufsgruppen sowie Einrichtungen dokumentiert werden. Das Modul soll deshalb eine gemeinsame, interoperable Struktur für die Erhebung und Weiterverwendung dieser Angaben bereitstellen.</p>
 
-<h4 id="significance-for-care-and-research">Significance for Care and Research</h4>
+<h4 id="bedeutung-für-versorgung-und-forschung">Bedeutung für Versorgung und Forschung</h4>
 
-<p>The interpretation of medical results is not independent of the social and economic living conditions of the individuals studied. Studies show, for example, associations between socioeconomic conditions and health outcomes, care costs, hospitalizations, and the use of emergency care. The relevant influencing factors can differ depending on the age group and the outcome under investigation.</p>
+<p>Die Interpretation medizinischer Ergebnisse ist nicht unabhängig von den sozialen und ökonomischen Lebensbedingungen der untersuchten Personen. Studien zeigen beispielsweise Zusammenhänge zwischen sozioökonomischen Bedingungen und gesundheitlichen Ergebnissen, Versorgungskosten, Hospitalisierungen und der Nutzung von Notfallversorgung. Dabei können sich die relevanten Einflussfaktoren je nach Altersgruppe und untersuchtem Ergebnis unterscheiden.</p>
 
-<p>The collection of sociodemographic characteristics is also relevant for clinical studies. Sociodemographically selected study populations can limit the transferability of study results to other patient groups. An evaluation by sociodemographic group can also provide insights into differences in recruitment, participation, study dropouts, and treatment outcomes.</p>
+<p>Auch für klinische Studien ist die Erfassung soziodemographischer Merkmale relevant. Soziodemographisch selektierte Studienpopulationen können die Übertragbarkeit der Studienergebnisse auf andere Patientengruppen einschränken. Eine Auswertung nach soziodemographischen Gruppen kann außerdem Hinweise auf Unterschiede bei Rekrutierung, Teilnahme, Studienabbrüchen und Behandlungsergebnissen geben.</p>
 
-<p>Current research indicates that people with lower income or lower educational attainment are less likely to gain access to clinical studies or are less likely to be invited to participate. The standardized collection of corresponding characteristics can help identify such differences and better assess the representativeness of study populations.</p>
+<p>Aktuelle Arbeiten weisen darauf hin, dass Personen mit niedrigerem Einkommen oder niedrigerem Bildungsstand seltener Zugang zu klinischen Studien erhalten oder seltener zur Teilnahme eingeladen werden. Die standardisierte Erfassung entsprechender Merkmale kann dazu beitragen, solche Unterschiede zu erkennen und die Repräsentativität von Studienpopulationen besser zu beurteilen.</p>
 
-<p>A more consistent and reproducible collection of sociodemographic data can thus help to better understand study results and to investigate health inequalities in a more targeted way.</p>
+<p>Eine konsistentere und reproduzierbare Erfassung soziodemographischer Daten kann somit dazu beitragen, Studienergebnisse besser zu verstehen und gesundheitliche Ungleichheiten gezielter zu untersuchen.</p>
 
-<h4 id="scope-of-the-module">Scope of the Module</h4>
-
-<p>The module includes information from the following areas:</p>
+<h4 id="umfang-des-moduls">Umfang des Moduls</h4>
+<p>Das Modul umfasst Angaben aus den folgenden Bereichen:</p>
 
 <ol>
-  <li>Personal Information
+  <li>Personenbezogene Informationen
     <ul>
-      <li>current postal code of residence;</li>
-      <li>first language;</li>
-      <li>country of birth;</li>
-      <li>nationality.</li>
+      <li>aktuelle Postleitzahl des Wohnortes;</li>
+      <li>Erstsprache;</li>
+      <li>Geburtsland;</li>
+      <li>Staatsangehörigkeit.</li>
     </ul>
   </li>
-  <li>Socioeconomic Factors
+  <li>Sozioökonomische Faktoren
     <ul>
-      <li>educational attainment;</li>
-      <li>vocational training;</li>
-      <li>employment status;
-_ occupational position;
-_ average monthly net household income.</li>
+      <li>Schulbildung;</li>
+      <li>berufliche Ausbildung;</li>
+      <li>Beschäftigungsstatus;</li>
+      <li>berufliche Stellung;</li>
+      <li>durchschnittliches monatliches Nettoeinkommen des Haushalts.</li>
     </ul>
   </li>
-  <li>Extended Origin
+  <li>Erweiterte Herkunft
     <ul>
-      <li>country of birth of the mother;</li>
-      <li>country of birth of the father.</li>
+      <li>Geburtsland der Mutter;</li>
+      <li>Geburtsland des Vaters.</li>
     </ul>
   </li>
-  <li>Life Situation
+  <li>Lebenssituation
     <ul>
-      <li>partnership;</li>
-      <li>trusted contact person;</li>
-      <li>household size;</li>
-      <li>care/support situation.</li>
+      <li>Partnerschaft;</li>
+      <li>Vertrauensperson;</li>
+      <li>Haushaltsgröße;</li>
+      <li>Betreuungssituation.</li>
     </ul>
   </li>
-  <li>Severe Disability Certificate
+  <li>Schwerbehindertenausweis
     <ul>
-      <li>presence of a severe disability certificate;</li>
-      <li>degree of disability;</li>
-      <li>markers (Merkzeichen);</li>
-      <li>period of validity.</li>
+      <li>Vorliegen eines Schwerbehindertenausweises;</li>
+      <li>Grad der Behinderung;</li>
+      <li>Merkzeichen;</li>
+      <li>Gültigkeitszeitraum.</li>
     </ul>
   </li>
 </ol>
 
-<p>The central entity of the module is the Sociodemography data collection. It describes the context of a specific data collection event and bundles the information documented at that point in time.</p>
+<p>Die zentrale Entität des Moduls ist die Datenerhebung Soziodemographie. Sie beschreibt den Kontext einer konkreten Erhebung und bündelt die zu diesem Erhebungszeitpunkt dokumentierten Informationen.</p>
 
-<p>Multiple sociodemographic data collections may exist for a person at different points in time, for example in the case of repeated inpatient stays. However, each individual data collection is assigned to exactly one person.</p>
+<p>Für eine Person können mehrere soziodemographische Datenerhebungen zu unterschiedlichen Zeitpunkten vorliegen, beispielsweise bei wiederholten stationären Aufenthalten. Jede einzelne Datenerhebung ist jedoch genau einer Person zugeordnet.</p>
 
-<p>Not all sub-areas need to be present at every collection point. The specialized data areas can each optionally be linked to a data collection. This allows incomplete collections to be represented interoperably as well — for example, when only socioeconomic factors were collected, but not information on origin or life situation.</p>
+<p>Nicht alle Teilbereiche müssen zu jedem Erhebungszeitpunkt vorliegen. Die spezialisierten Datenbereiche können jeweils optional mit einer Datenerhebung verknüpft werden. Dadurch können auch unvollständige Erhebungen interoperabel abgebildet werden, beispielsweise wenn nur sozioökonomische Faktoren, nicht jedoch Angaben zur Herkunft oder Lebenssituation erhoben wurden.</p>
 
-<p>For selected characteristics, in particular education, vocational training, employment status, and occupational position, a more detailed long version and a simplified minimal version are available. This allows the depth of data to be adapted to the respective care context, the time available, and the specific documentation purpose.</p>
+<p>Für ausgewählte Merkmale, insbesondere Bildung, Ausbildung, Beschäftigungsstatus und berufliche Stellung, stehen eine ausführlichere Langversion und eine vereinfachte Minimalversion zur Verfügung. Dadurch kann die Datentiefe an den jeweiligen Versorgungskontext, die verfügbare Zeit und den konkreten Dokumentationszweck angepasst werden.</p>
 
 <hr />
-<p>For the KDS-wide conformance requirements see the
-<a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Conformance rules of the Meta module</a>;
-for the technical artifacts see <a href="profiles.html">Profiles</a>.</p>
+<p>Für die KDS-weiten Konformitätsanforderungen siehe die
+<a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Konformitätsregeln des Meta-Moduls</a>;
+für die technischen Artefakte siehe <a href="profiles.html">Profile</a>.</p>
+
 
 
 
@@ -462,7 +433,7 @@ for the technical artifacts see <a href="profiles.html">Profiles</a>.</p>
 
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Mon, Aug 31, 2026 16:02+0000">2026-08-31</span>
+          Erstellt <span title="Mon, Aug 31, 2026 20:20+0000">2026-08-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

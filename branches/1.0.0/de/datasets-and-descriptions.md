@@ -6,13 +6,13 @@
 
 ## Datasets and Descriptions
 
- Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt. 
+ Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-#### Datasets and descriptions
+#### Datensätze und Beschreibungen
 
-The official, approved version of the information model for the Soziodemographie module is represented as a FHIR logical model; its element structure is rendered on the [Logical Models](logical-models.md) page.
+Die offizielle, freigegebene Version des Informationsmodells für das Modul Soziodemographie wird als FHIR Logical Model dargestellt; seine Elementstruktur ist auf der Seite [Logische Modelle](logical-models.md) abgebildet.
 
-Note that the logical model aims purely at representing the data elements and their descriptions. The data types and cardinalities it uses are not to be regarded as binding; those are settled by the FHIR profiles. For every element within the logical model there is a mapping onto an element of a concrete FHIR resource.
+Zu beachten ist, dass das logische Modell ausschließlich darauf abzielt, die Datenelemente und ihre Beschreibungen darzustellen. Die verwendeten Datentypen und Kardinalitäten sind nicht als verbindlich anzusehen; diese werden durch die FHIR-Profile festgelegt. Für jedes Element im logischen Modell existiert eine Zuordnung zu einem Element einer konkreten FHIR-Ressource.
 
 | | | | |
 | :--- | :--- | :--- | :--- |

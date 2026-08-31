@@ -6,43 +6,44 @@
 
 ## Guidance for Implementers
 
-### Context in the overall project / relationships to other modules
+### Einordnung im Gesamtprojekt / Bezüge zu anderen Modulen
 
-#### Classification within the Core Dataset
+#### Einordnung in den Kerndatensatz
 
-The Sociodemographic Data module is designed as an extension module to the MII core dataset. The underlying information model was coordinated with the PCOR-MII project.
+Das Modul Soziodemographische Daten ist als Erweiterungsmodul des MII-Kerndatensatzes konzipiert. Das zugrunde liegende Informationsmodell wurde mit dem Projekt PCOR-MII abgestimmt.
 
-The module supplements medical, diagnostic, and administrative information with the social and economic context of the affected person. It should not be understood as an isolated dataset, but as a context-providing supplement to the other modules of the core dataset.
+Das Modul ergänzt medizinische, diagnostische und administrative Informationen um den sozialen und ökonomischen Kontext der betroffenen Person. Es soll nicht als isolierter Datensatz verstanden werden, sondern als kontextgebende Ergänzung zu den übrigen Modulen des Kerndatensatzes.
 
-#### Relationship to the Person Module
+#### Bezug zum Modul Person
 
-The module is closely linked to the KDS Person module. The Sociodemography data collection is assigned to a person and can be documented multiple times over time for the same person.
+Das Modul ist eng mit dem KDS-Modul Person verbunden. Die Datenerhebung Soziodemographie wird einer Person zugeordnet und kann im Zeitverlauf mehrfach für dieselbe Person dokumentiert werden.
 
-Certain person-related information is extended within the scope of the Person module. These include:
+Bestimmte personenbezogene Angaben werden im Rahmen des Moduls Person erweitert. Dazu gehören:
 
-* Postal code;
-* First language;
-* Country of birth;
-* Nationality.
-* Relationship to the Intensive Care Module
+* Postleitzahl;
+* Erstsprache;
+* Geburtsland;
+* Staatsangehörigkeit.
 
-The module also has a connection to the KDS Intensive Care module. The characteristics height and body weight are already available there.
+#### Bezug zum Modul Intensivmedizin
 
-#### Relationship to Clinical and Care-Related Modules
+Das Modul weist ebenfalls eine Verbindung zum KDS-Modul Intensivmedizin auf. Die Merkmale Körpergröße und Körpergewicht stehen dort bereits zur Verfügung.
 
-Sociodemographic data can be evaluated together with diagnoses, procedures, medication, laboratory values, vital signs, and other clinical information. In doing so, they do not primarily serve medical classification, but rather the contextualization and stratified analysis of this data.
+#### Bezug zu klinischen und versorgungsbezogenen Modulen
 
-For example, sociodemographic characteristics can be used to:
+Soziodemographische Daten können gemeinsam mit Diagnosen, Prozeduren, Medikation, Laborwerten, Vitaldaten und weiteren klinischen Informationen ausgewertet werden. Sie dienen dabei nicht primär der medizinischen Klassifikation, sondern der Kontextualisierung und stratifizierten Analyse dieser Daten.
 
-* examine differences in the utilization of care;
-* compare treatment outcomes between social groups;
-* identify possible biases in study populations;
-* assess the transferability of results to the care population;
-* analyze relationships between life circumstances and care outcomes.
+Beispielsweise können soziodemographische Merkmale genutzt werden, um:
 
-Their use as an analytical characteristic should not automatically be understood as a causal interpretation. Depending on the research question, sociodemographic characteristics can be confounders, effect modifiers, exposure characteristics, or purely descriptive criteria.
+* Unterschiede in der Inanspruchnahme von Versorgung zu untersuchen;
+* Behandlungsergebnisse zwischen sozialen Gruppen zu vergleichen;
+* mögliche Verzerrungen in Studienpopulationen zu erkennen;
+* die Übertragbarkeit von Ergebnissen auf die Versorgungspopulation einzuschätzen;
+* Zusammenhänge zwischen Lebenssituation und Versorgungserfolg zu analysieren.
 
-### References
+Die Nutzung als Analysemerkmal sollte dabei nicht automatisch als kausale Interpretation verstanden werden. Soziodemographische Merkmale können je nach Fragestellung Confounder, Effektmodifikatoren, Expositionsmerkmale oder reine Beschreibungskriterien sein.
+
+### Referenzen
 
 * GESIS – Leibniz-Institut für Sozialwissenschaften. Demographische Standards 2024. Mannheim: GESIS; 2024.
 * International Organization for Standardization. ISO 3166-1: Codes for the representation of names of countries and subdivisions – Part 1: Country codes.

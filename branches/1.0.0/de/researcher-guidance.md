@@ -6,39 +6,39 @@
 
 ## Guidance for Researchers
 
- Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt. 
+ Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-### Description of scenarios application
+### Beschreibung von Anwendungsszenarien
 
-#### Collection for Patient-Centered Care Planning
+#### Erhebung für die patientenzentrierte Versorgungsplanung
 
-Upon admission to an inpatient facility, sociodemographic information is collected as part of the social history. Collection can be complete or partial, depending on the care context and the time available.
+Bei der Aufnahme in eine stationäre Einrichtung werden soziodemographische Angaben im Rahmen der Sozialanamnese erhoben. Die Erhebung kann vollständig oder teilweise erfolgen, abhängig vom Versorgungskontext und der verfügbaren Zeit.
 
-For example, current living situation, household size, care/support situation, educational attainment, and employment status are documented. The date of collection and the collection method are stored together with the recorded characteristics.
+Dabei werden beispielsweise aktuelle Wohnsituation, Haushaltsgröße, Betreuungssituation, Bildungsstand und Beschäftigungsstatus dokumentiert. Das Erhebungsdatum und die Erhebungsmethode werden gemeinsam mit den erfassten Merkmalen gespeichert.
 
-This information supports patient-centered care planning and can be helpful in organizing discharge, outpatient follow-up care, nursing care, rehabilitation, and social support.
+Die Angaben unterstützen die patientenzentrierte Versorgungsplanung und können bei der Organisation von Entlassung, ambulanter Nachsorge, Pflege, Rehabilitation und sozialer Unterstützung hilfreich sein.
 
-#### Use in a Clinical Study or Cohort
+#### Verwendung in einer klinischen Studie oder Kohorte
 
-In a clinical study, sociodemographic characteristics are collected at study enrollment and linked to study progress, participation, study dropouts, and outcomes.
+In einer klinischen Studie werden soziodemographische Merkmale bei Studieneinschluss erhoben und mit Studienverlauf, Teilnahme, Studienabbrüchen und Ergebnissen verknüpft.
 
-This information can be used to:
+Die Informationen können dazu verwendet werden,
 
-* describe the composition of the study population;
-* assess the representativeness of the enrolled individuals;
-* examine differences in recruitment and participation;
-* compare outcomes between sociodemographic groups;
-* account for possible confounders and effect modifiers in the analysis.
+* die Zusammensetzung der Studienpopulation zu beschreiben;
+* die Repräsentativität der eingeschlossenen Personen zu beurteilen;
+* Unterschiede bei Rekrutierung und Teilnahme zu untersuchen;
+* Ergebnisse zwischen soziodemographischen Gruppen zu vergleichen;
+* mögliche Confounder und Effektmodifikatoren in der Analyse zu berücksichtigen.
 
-Clinical studies may include sociodemographically selected populations, which can limit the transferability of results to other patient groups.
+Klinische Studien können soziodemographisch selektierte Populationen einschließen, wodurch die Übertragbarkeit der Ergebnisse auf andere Patientengruppen eingeschränkt sein kann.
 
-#### Examination of Equity in Care
+#### Untersuchung von Versorgungsgerechtigkeit
 
-A research group investigates whether certain patient groups have differing access to diagnostics, therapy, rehabilitation, or follow-up care.
+Eine Forschungsgruppe untersucht, ob bestimmte Patientengruppen einen unterschiedlichen Zugang zu Diagnostik, Therapie, Rehabilitation oder Nachsorge haben.
 
-For this purpose, sociodemographic characteristics are linked with care data. The analysis can be conducted, for example, by income, employment status, place of residence, care/support situation, or educational attainment.
+Hierzu werden soziodemographische Merkmale mit Versorgungsdaten verknüpft. Die Analyse kann beispielsweise nach Einkommen, Beschäftigungsstatus, Wohnort, Betreuungssituation oder Bildungsstand erfolgen.
 
-The module enables an empirical investigation of differences in care, rather than relying exclusively on aggregated estimates or estimates drawn from other locations.
+Das Modul ermöglicht eine empirische Untersuchung von Versorgungsunterschieden, anstatt ausschließlich aggregierte oder standortfremde Schätzungen zu verwenden.
 
-Differences in socioeconomic and geographic factors can, for example, influence referral to and participation in early-phase clinical trials, and can thus also affect the international transferability of study results.
+Unterschiede in sozioökonomischen und geographischen Faktoren können beispielsweise die Überweisung und Teilnahme an frühen klinischen Studien beeinflussen und damit auch die internationale Übertragbarkeit von Studienergebnissen berühren.
 

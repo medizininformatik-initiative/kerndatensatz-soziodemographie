@@ -1,28 +1,25 @@
-
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
-
-
 <html xml:lang="de" xmlns="http://www.w3.org/1999/xhtml" lang="de" dir="ltr">
   <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <title>Datasets and Descriptions - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link href="fhir.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="fhir.css"/>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
 
-    <!-- Project extras -->
-    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
-    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
-  	<link href="assets/css/prism.css" rel="stylesheet" />
-    <link href="assets/css/project.css" rel="stylesheet"/>
-  	<link href="assets/css/cqf.css" rel="stylesheet" />
-    <!-- Branding override for the fhir2.base.template CSS placeholder
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+    <link rel="stylesheet" href="assets/css/project.css"/>
+  	<link rel="stylesheet" href="assets/css/cqf.css"/>
+      <!-- Branding override for the fhir2.base.template CSS placeholder
      (base ships includes/fragment-css.html as a single comment; it is included
      in <head> AFTER all base stylesheets, so the linked files win the
      cascade).
@@ -39,40 +36,40 @@
      MII design; anything else - including no brand.json at all and unknown
      values - renders NUM-DIZ. Both palettes declare the same variable set
      (scripts/brand-switch.test.mjs). -->
-<link href="assets/css/bootstrap-accessibility.css" rel="stylesheet"/>
-<link href="assets/css/template-base.css" rel="stylesheet"/>
+<link rel="stylesheet" href="assets/css/bootstrap-accessibility.css"/>
+<link rel="stylesheet" href="assets/css/template-base.css"/>
 
-<link href="assets/css/num-diz.css" rel="stylesheet"/>
+<link rel="stylesheet" href="assets/css/num-diz.css"/>
 
 
 
-    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
-    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+    <script src="assets/js/direction-management.js" type="text/javascript"> </script>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    <![endif] -->
 
-    <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-    <script type="text/javascript" src="assets/js/mermaid.js"></script>
-    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <script src="assets/js/mermaid.js" type="text/javascript"></script>
+    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
     <style type="text/css">h2{--heading-prefix:"2.3"}
     h3,h4,h5,h6{--heading-prefix:"2.3"}</style>
-    <div id="segment-header" class="segment">  <!-- segment-header -->
-      <div class="container">  <!-- container -->
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
 
-        <!-- Branding override for the fhir2.base.template header placeholder
+          <!-- Branding override for the fhir2.base.template header placeholder
      (base ships includes/fragment-header.html as a single comment; it is included
      inside "#segment-header > .container", before the #ig-status block).
      Language handling: only the asset and its descriptive alt text switch on
@@ -89,34 +86,34 @@
      (content/assets/images/), so it resolves from the inherited assets without
      shipping it here. -->
 <div id="family-nav">
-  <a id="family-logo" no-external="true" href="https://hl7.org/fhir">
-    <img height="50" alt="HL7 FHIR" src="assets/images/fhir-logo-www.png"/>
+  <a no-external="true" id="family-logo" href="https://hl7.org/fhir">
+    <img src="assets/images/fhir-logo-www.png" alt="HL7 FHIR" height="50"/>
   </a>
 </div>
 <div id="project-nav">
 
-  <a id="project-logo" no-external="true" href="https://www.netzwerk-universitaetsmedizin.de/forschung/num-diz">
+  <a no-external="true" id="project-logo" href="https://www.netzwerk-universitaetsmedizin.de/forschung/num-diz">
 
-    <img height="50" alt="NUM-DIZ (Netzwerk Universitätsmedizin — Datenintegrationszentrum)" src="assets/images/logo-num-diz-de.svg"/>
+    <img src="assets/images/logo-num-diz-de.svg" alt="NUM-DIZ (Netzwerk Universitätsmedizin — Datenintegrationszentrum)" height="50"/>
 
   </a>
 
 </div>
-<!-- Font-size control (A / A+ / A++): three reader-selectable levels; level A
+  <!-- Font-size control (A / A+ / A++): three reader-selectable levels; level A
      is the untouched default. Logic in assets/js/font-size-control.js, the
      zoom mapping + button styling in template-base.css ("font-size control"
      block). All three buttons read "A" — the button's own font size shows the level; labels are language-neutral; only the aria texts switch
      on include.lang. REMOVAL: delete this block, the js file and the CSS
      block - one commit, styleguide §5a. -->
 
-<div class="ig-fontsize" role="group" aria-label="Schriftgröße">
-  <button type="button" data-level="0" aria-pressed="true" aria-label="Schriftgröße: Standard">A</button>
-  <button type="button" data-level="1" aria-pressed="false" aria-label="Schriftgröße: größer">A</button>
-  <button type="button" data-level="2" aria-pressed="false" aria-label="Schriftgröße: am größten">A</button>
+<div role="group" class="ig-fontsize" aria-label="Schriftgröße">
+  <button type="button" aria-label="Schriftgröße: Standard" data-level="0" aria-pressed="true">A</button>
+  <button type="button" aria-label="Schriftgröße: größer" data-level="1" aria-pressed="false">A</button>
+  <button type="button" aria-label="Schriftgröße: am größten" data-level="2" aria-pressed="false">A</button>
 </div>
 
-<script src="assets/js/font-size-control.js" defer></script>
-<!-- PayPal Bootstrap Accessibility Plugin v1.0.7 (vendored + pinned, §8):
+<script defer="null" src="assets/js/font-size-control.js"></script>
+  <!-- PayPal Bootstrap Accessibility Plugin v1.0.7 (vendored + pinned, §8):
      patches the Bootstrap-3 components the publisher renders - navbar
      dropdowns gain ARIA menu semantics + arrow-key navigation, tab panels
      (structure-tabs) the full ARIA tabs pattern, alerts live-region
@@ -126,8 +123,8 @@
      evaluated and rejected: 151 commits behind upstream, its 6 deltas are
      site-specific tab tweaks). REMOVAL: delete this tag, both vendored
      assets and the fragment-css link - guard test pins the hashes. -->
-<script src="assets/js/bootstrap-accessibility.min.js" defer></script>
-<!-- Back-to-top button: appears after one viewport of scrolling (logic in
+<script defer="null" src="assets/js/bootstrap-accessibility.min.js"></script>
+  <!-- Back-to-top button: appears after one viewport of scrolling (logic in
      assets/js/back-to-top.js, styling in template-base.css "back-to-top"
      block). Rendered here inside #segment-header, which is OUTSIDE the
      data-fontsize zoom regions, so the fixed button never scales. REMOVAL:
@@ -135,7 +132,7 @@
 
 <button type="button" class="ig-back-to-top" aria-label="Zurück zum Seitenanfang">↑</button>
 
-<script src="assets/js/back-to-top.js" defer></script>
+<script defer="null" src="assets/js/back-to-top.js"></script>
 
 
         <div id="ig-status">
@@ -151,109 +148,80 @@
             </span>
           </p>
         </div>
-      </div> <!-- /container -->
-    </div>  <!-- /segment-header -->
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">  <!-- container -->
-        <!-- HEADER CONTENT -->
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-          <!--status-bar-->
+            <!-- status-bar -->
           <div class="container">
 
-            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              <!-- Menu in the IG's DEFAULT language (English).
-     The IG Publisher renders the navigation from this file. To translate it,
-     ship a per-language copy at input/translations/<lang>/includes/menu.xml —
-     this is the mechanism the HL7 reference IG FHIR/multi-lang-test-ig uses and
-     the ONLY way to get a TRANSLATED menu: the `menu:` property in
-     sushi-config.yaml generates a single menu.xml that cannot be translated.
-     Rules: keep the href targets identical across languages; dropdown parents
-     must link to a REAL page (href="#" is rejected by the template's menu QA);
-     only one sub-menu level is supported.
-
-     STRUCTURE: this menu implements the TF-KDS-agreed module menu (see
-     docs/page-structure.md for the full structure with cardinalities).
-     Entries marked OPTIONAL (0..1) below may be removed per module — the
-     removal procedure per entry is in docs/optional-pages.md in this
-     repository. Entries without a marker are mandatory (1..1).
-
-     LINK-ONLY ENTRIES (no page of their own):
-     - "Datasets and Descriptions" points at the Logical Models page
-       (logical-models.html) — the module's datasets ARE its logical models.
-       NEITHER Artifacts-Summary anchor is usable for the TF-KDS "Sec.
-       15.0.2" target: the numeric #2 is POSITIONAL (grouping index — wrong
-       section whenever the artifact mix differs from the full standard set),
-       and the browser-generated NAMED AnchorJS anchor
-       (#structures-logical-models) is invisible to the IG Publisher's link
-       validator — it injects a marker anchor into the menu (rendered as an
-       EMPTY menu entry) and logs a broken-link ERROR on every page's QA.
-       Full analysis: docs/page-structure.md, "Datasets and Descriptions".
-     - The four Conformance entries point at the KDS-wide conformance rules of
-       the Meta module (kerndatensatz-meta). INTERIM: the Meta module has no
-       published IG rendering yet (only a CI build with no conformance pages),
-       so these link to the authoritative meta-wiki sections; switch them to
-       the Meta IG's menu entries once a stable rendering exists (Gate item in
-       docs/page-structure.md). -->
-<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
-  <li><a href="index.html">Home</a></li>
+                <!-- German translation of input/includes/menu.xml.
+     Keep the href targets IDENTICAL to the source menu; translate only labels.
+     Structure notes (OPTIONAL entries, link-only entries, the interim
+     meta-wiki links) are documented in the source menu's header and in
+     docs/page-structure.md / docs/optional-pages.md. -->
+<ul class="nav navbar-nav">
+  <li><a href="index.html">Startseite</a></li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="guidance.html" class="dropdown-toggle">Guidance<b class="caret"> </b></a>
+    <a data-toggle="dropdown" href="guidance.html" class="dropdown-toggle">Anleitung<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="guidance.html">Guidance</a></li>
-      <!-- OPTIONAL (0..1) — see docs/optional-pages.md -->
-      <li><a href="researcher-guidance.html">Guidance for Researchers</a></li>
-      <li><a href="implementer-guidance.html">Guidance for Implementers</a></li>
-      <!-- link-only entry: Logical-Models section of the Artifacts Summary (see header note) -->
-      <li><a href="logical-models.html">Datasets and Descriptions</a></li>
-      <li><a href="uml-diagrams.html">UML Diagrams</a></li>
+      <li><a href="guidance.html">Anleitung</a></li>
+        <!-- OPTIONAL (0..1) — siehe docs/optional-pages.md -->
+      <li><a href="researcher-guidance.html">Anleitung für Forschende</a></li>
+      <li><a href="implementer-guidance.html">Anleitung für Implementierende</a></li>
+        <!-- Nur-Link-Eintrag: die Seite "Logische Modelle" (Begründung im Quell-Menü) -->
+      <li><a href="logical-models.html">Datensätze und Beschreibungen</a></li>
+      <li><a href="uml-diagrams.html">UML-Diagramme</a></li>
     </ul>
   </li>
   <li class="dropdown">
-    <!-- The parent and the first four entries link to the KDS-wide conformance
-         rules of the Meta module (INTERIM: meta-wiki; see header note). -->
-    <a data-toggle="dropdown" href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance" class="dropdown-toggle">Conformance<b class="caret"> </b></a>
+      <!-- Eltern-Eintrag und die ersten vier Einträge verlinken die KDS-weiten
+         Konformitätsregeln des Meta-Moduls (INTERIM: Meta-Wiki; siehe
+         Quell-Menü). -->
+    <a data-toggle="dropdown" href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance" class="dropdown-toggle">Konformität<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Conformance</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#anforderungsdokumentation">General Requirements</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#must-support-ms">Must Support</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#fehlende-daten">Handling Missing Data</a></li>
-      <li><a href="security-and-privacy.html">Security and Privacy</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Konformität</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#anforderungsdokumentation">Allgemeine Anforderungen</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#must-support-ms">Must-Support</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#fehlende-daten">Umgang mit fehlenden Daten</a></li>
+      <li><a href="security-and-privacy.html">Sicherheit und Datenschutz</a></li>
     </ul>
   </li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle">Artifacts<b class="caret"> </b></a>
+    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle">Artefakte<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="artifacts.html">Artifacts Summary</a></li>
-      <li><a href="profiles.html">Profiles</a></li>
-      <li><a href="capability-statements.html">Capability Statements</a></li>
-      <!-- OPTIONAL (0..1) — see docs/optional-pages.md -->
-      <!-- <li><a href="search-parameters.html">Search Parameters (optional)</a></li> -->
-      <li><a href="logical-models.html">Logical Models</a></li>
-      <li><a href="examples.html">Examples</a></li>
+      <li><a href="artifacts.html">Artefakt-Übersicht</a></li>
+      <li><a href="profiles.html">Profile</a></li>
+      <li><a href="terminology.html">Terminologie</a></li>
+      <li><a href="capability-statements.html">CapabilityStatements</a></li>
+      <li><a href="logical-models.html">Logische Modelle</a></li>
+      <li><a href="examples.html">Beispiele</a></li>
     </ul>
   </li>
   <li><a href="downloads.html">Downloads</a></li>
-  <li><a href="changes.html">Changelog</a></li>
+  <li><a href="changes.html">Änderungshistorie</a></li>
   <li class="dropdown">
-    <!-- The parent deliberately links the MANDATORY child (Versioning): the
-         Metadata Overview page is optional, and a parent pointing at it would
-         have to be re-targeted when that page is removed. -->
-    <a data-toggle="dropdown" href="version-history.html" class="dropdown-toggle">Metadata<b class="caret"> </b></a>
+      <!-- Der Eltern-Eintrag verlinkt bewusst das PFLICHT-Kind (Versionierung):
+         die Metadaten-Übersicht ist optional. -->
+    <a data-toggle="dropdown" href="version-history.html" class="dropdown-toggle">Metadaten<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="version-history.html">Versioning</a></li>
+      <li><a href="version-history.html">Versionierung</a></li>
     </ul>
   </li>
 </ul>
-            </div>  <!-- /.nav-collapse -->
+            </div>    <!-- /.nav-collapse -->
 
               
 
@@ -261,39 +229,39 @@
 
 
 <div style="float: var(--ig-right);padding: 8px 0px;" id="language">
-  <div id="select_flg" class="flaglist" style="background-image: url(assets/images/icon_arrow_down.png);background-position: 133px 3px;">
-    <div><img class="flag" alt="flag en" src="assets/images/lang-de.png"/>Deutsch</div>
+  <div style="background-image: url(assets/images/icon_arrow_down.png);background-position: 133px 3px;" id="select_flg" class="flaglist">
+    <div><img src="assets/images/lang-de.png" alt="flag en" class="flag"/>Deutsch</div>
   </div>
   <div style="float: var(--ig-right); margin: 2px 0px; padding: 1px 0;color: var(--btn-text-color);font-size:12px">Sprache:</div>
- 	<div id="flaglist" class="flaglist" style="display: none;position: absolute;right: 0;z-index: 100;background-image: url(assets/images/icon_arrow_up.png);background-position: 133px 3px;">
-    <div><img class="flag" alt="flag de" src="assets/images/lang-de.png"/>Deutsch</div>
+ 	<div style="display: none;position: absolute;right: 0;z-index: 100;background-image: url(assets/images/icon_arrow_up.png);background-position: 133px 3px;" id="flaglist" class="flaglist">
+    <div><img src="assets/images/lang-de.png" alt="flag de" class="flag"/>Deutsch</div>
 
-    <div><a href="../en/datasets-and-descriptions.html"><img class="flag" src="assets/images/lang-en.png" alt="flag en"/>English</a></div>
+    <div><a href="../en/datasets-and-descriptions.html"><img src="assets/images/lang-en.png" alt="flag en" class="flag"/>English</a></div>
 
   </div>
 </div>
 
 
 
-          </div>  <!-- /.container -->
-        </nav>  <!-- /.navbar -->
-      <!-- /HEADER CONTENT -->
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-navbar -->
-    <!--status-bar-->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
 
-    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
-      <div class="container">  <!-- container -->
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='guidance.html'><b>Guidance</b></a></li><li><b>Datasets and Descriptions</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="guidance.html"><b>Guidance</b></a></li><li><b>Datasets and Descriptions</b></li>
 
         </ul>
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-breadcrumb -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">  <!-- segment-content -->
-      <div class="container">  <!-- container -->
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
@@ -305,7 +273,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">MII Implementation Guide Soziodemographie - Local Development build (v2027.0.0-ballot.rc1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://medizininformatik-initiative.github.io/kerndatensatz-soziodemographie/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+    <!-- ReleaseHeader --><p id="publish-box">MII Implementation Guide Soziodemographie - Local Development build (v2027.0.0-ballot.rc1) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>Datasets and Descriptions</h2>
   
 
@@ -320,25 +288,25 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
 
-    <p><!-- white space is critical inside of capture --></p>
+    <p>  <!-- white space is critical inside of capture --></p>
 <div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
 </div>
 
-<p style="border:var(--translation-box-border);background-color:var(--translation-background-color);padding: 5px 5px 5px 5px;">
+<p style="border:var(--translation-box-border);background-color:var(--translation-background-color);padding: 5px 5px 5px 5px;"><a name="l433">​</a>
 
-Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt.
+Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde.  Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie <a href="translationinfo.html">hier</a>.
 
 </p>
 
-<h4 id="datasets-and-descriptions">Datasets and descriptions</h4>
-<p>The official, approved version of the information model for the Soziodemographie module is represented as a FHIR logical model; its element structure is rendered on the <a href="logical-models.html">Logical Models</a> page.</p>
+<h4 id="datensätze-und-beschreibungen">Datensätze und Beschreibungen</h4>
+<p>Die offizielle, freigegebene Version des Informationsmodells für das Modul Soziodemographie wird als FHIR Logical Model dargestellt; seine Elementstruktur ist auf der Seite <a href="logical-models.html">Logische Modelle</a> abgebildet.</p>
 
-<p>Note that the logical model aims purely at representing the data elements and their descriptions. The data types and cardinalities it uses are not to be regarded as binding; those are settled by the FHIR profiles. For every element within the logical model there is a mapping onto an element of a concrete FHIR resource.</p>
+<p>Zu beachten ist, dass das logische Modell ausschließlich darauf abzielt, die Datenelemente und ihre Beschreibungen darzustellen. Die verwendeten Datentypen und Kardinalitäten sind nicht als verbindlich anzusehen; diese werden durch die FHIR-Profile festgelegt. Für jedes Element im logischen Modell existiert eine Zuordnung zu einem Element einer konkreten FHIR-Ressource.</p>
 
 <table class="grid">
 <thead>
-<tr><th>Name</th><th>Datatype</th><th>Description</th><th>Comment</th></tr>
+<tr><th>Name</th><th>Datentyp</th><th>Beschreibung</th><th>Kommentar</th></tr>
 </thead>
 <tbody>
 <tr style="background-color:#f2f2f2"><td>_Soziodemographische Daten</td><td></td><td>Das KDS-Modul Soziodemographische Daten enthält Informationen zum demographischen, sozialen und ökonomischen Hintergrund der Patientinnen und Patienten.</td><td></td></tr>
@@ -353,28 +321,28 @@ Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in de
 <tr style="background-color:#f2f2f2"><td>_Datenerhebung Soziodemographie</td><td></td><td>Beschreibung der Datenerhebung</td><td></td></tr>
 <tr><td>Erhebungs-ID</td><td>Identifier</td><td>Einrichtungsinterne ID der Datenerhebung</td><td></td></tr>
 <tr><td>Datum</td><td>Date</td><td>Datum, an dem die soziodemographischen Daten erhoben wurden</td><td></td></tr>
-<tr><td>Erhebungsmethode</td><td>Code</td><td>Art der Datenerhebung</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br />1 Selbstangabe<br />2 Fremdeinschätzung<br />3 Einschätzung durch medizinisches Personal</td></tr>
+<tr><td>Erhebungsmethode</td><td>Code</td><td>Art der Datenerhebung</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br/>1 Selbstangabe<br/>2 Fremdeinschätzung<br/>3 Einschätzung durch medizinisches Personal</td></tr>
 <tr style="background-color:#f2f2f2"><td>_Sozioökonomische Faktoren</td><td></td><td>Merkmale zur Beschreibung der Stellung der Person innerhalb der Gesellschaft</td><td></td></tr>
-<tr><td>Schulbildung [Langversion]</td><td>Code</td><td>Höchster erreichter allgemeinbildender Schulabschluss</td><td>Quelle: Demographische Standards 2024<br />1 noch Schüler:in an einer allgemeinbildenden Schule<br />2 von der Schule abgegangen ohne Schulabschluss<br />3 Hauptschulabschluss, Volksschulabschluss oder vergleichbarer Abschluss<br />4 Polytechnische Oberschule der DDR mit Abschluss der 8. oder 9. Klasse<br />5 Realschulabschluss, Mittlere Reife oder vergleichbarer Abschluss<br />6 Polytechnische Oberschule der DDR mit Abschluss der 10. Klasse<br />7 Fachhochschulreife<br />8 Abitur, Allgemeine/ Fachgebundene Hochschulreife, Gymnasium bzw. Erweiterte Oberschule (EOS), auch EOS mit Lehre<br />9 anderer Schulabschluss, und zwar</td></tr>
+<tr><td>Schulbildung [Langversion]</td><td>Code</td><td>Höchster erreichter allgemeinbildender Schulabschluss</td><td>Quelle: Demographische Standards 2024<br/>1 noch Schüler:in an einer allgemeinbildenden Schule<br/>2 von der Schule abgegangen ohne Schulabschluss<br/>3 Hauptschulabschluss, Volksschulabschluss oder vergleichbarer Abschluss<br/>4 Polytechnische Oberschule der DDR mit Abschluss der 8. oder 9. Klasse<br/>5 Realschulabschluss, Mittlere Reife oder vergleichbarer Abschluss<br/>6 Polytechnische Oberschule der DDR mit Abschluss der 10. Klasse<br/>7 Fachhochschulreife<br/>8 Abitur, Allgemeine/ Fachgebundene Hochschulreife, Gymnasium bzw. Erweiterte Oberschule (EOS), auch EOS mit Lehre<br/>9 anderer Schulabschluss, und zwar</td></tr>
 <tr><td>Schulbildung [Minimalversion]</td><td>Integer</td><td>Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde, inkl. Besuch einer Berufs- oder Hochschule</td><td></td></tr>
-<tr><td>Ausbildung [Langversion]</td><td>Code</td><td>Höchster beruflicher Ausbildungsabschluss</td><td>Quelle: Demographische Standards 2024<br />1 noch in Ausbildung, Studium (Berufsvorbereitungsjahr, Praktikum, [Berufs-]Fachschule o. ä.)<br />2 kein beruflicher Abschluss und bin nicht in beruflicher Ausbildung<br />3 Lehre (beruflich-betriebliche Berufsausbildung)<br />4 berufsqualifizierender Abschluss einer beruflich-schulischen Ausbildung z. B. an einer Berufsfachschule oder einer Kollegschule<br />5 Abschluss einer Fach-, Meister- oder Technikerschule, Verwaltungs- und Wirtschaftsakademie, Berufs- oder Fachakademie<br />6 Bachelor, Diplom (FH)<br />7 Master, Diplom (Uni), Magister, Staatsexamen, Promotion<br />8 anderer beruflicher Abschluss, und zwar</td></tr>
-<tr><td>Beschäftigungsstatus [Langversion]</td><td>Code</td><td>Aktuell hauptsächlich ausgeübte Tätigkeit</td><td>Quelle: Demographische Standards 2024 mit Anpassung<br />1 Besuch einer allgemeinbildenden Schule, Studium, Berufliche Ausbildung, Umschulung<br />2 freiwilliger Wehrdienst, Bundesfreiwilligendienst, freiwilliges soziales oder ökologisches Jahr<br />3 Erwerbsunterbrechung wegen Pflegezeit, Mutterschutz, Elternzeit ohne berufliche Tätigkeit<br />4 vollzeiterwerbstätig gemäß den branchenüblichen oder betrieblichen Regeln<br />5 teilzeiterwerbstätig, auch Midijob, aber mehr als ein Minijob<br />6 in einer geringfügigen, gelegentlichen, kurzfristigen oder unregelmäßigen Beschäftigung (z. B. 538-Euro-Job, Minijob, Ein-Euro-Job, Saisonarbeit)<br />7 Rentner:in, Pensionär:in<br />8 arbeitslos<br />9 dauerhaft erwerbsunfähig<br />10 langzeit krankgemeldet (z. B. länger als 6 Wochen krankgeschrieben, Erwerbsunterbrechung wegen Erkrankung, Bezug von Krankengeld o. ä.)<br />11 Hausfrau/Hausmann<br />12 sonstiges, und zwar</td></tr>
-<tr><td>Beschäftigungsstatus [Minimalversion]</td><td>Code</td><td>Aktuell hauptsächlich ausgeübte Tätigkeit</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br />1 Schüler, Auszubildender, Student<br />2 nicht berufstätig wegen einer Erkrankung<br />3 Rente, Hausfrau/-mann, etc.<br />4 arbeitssuchend<br />5 teilzeitbeschäftigt<br />6 vollzeitbeschäftigt<br />7 gelegentlich oder unregelmäßig beschäftigt</td></tr>
-<tr><td>Berufliche Stellung [Langversion]</td><td>Code</td><td>Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit</td><td>Quelle: Demographische Standards 2024<br />1 Selbstständige:r Landwirt:in oder Genossenschaftsbauer<br />2 Akademiker:in in freiem Beruf (Art/Ärztin, Rechtsanwalt/Rechtsanwältin, Steuerberater:in o. ä.)<br />3 Selbstständig im Handel, im Gastgewerbe, im Handwerk, in der Industrie, in der Dienstleistung, auch Ich-AG oder Mitglied einer Produktionsgenossenschaft des Handwerks (PGH) in der DDR<br />4 Beamter/Beamtin, Richter:in, Berufssoldat:in<br />5 Angestellte:r (Angestellte sind Beschäftigte mit überwiegend geistiger Arbeit/Bürotätigkeiten)<br />6 Arbeiter:in (Arbeiter verrichten mehrheitlich körperliche Arbeit)<br />7 in einer beruflichen Ausbildung/Lehre<br />8 mithelfende:r Familienangehörige:r</td></tr>
-<tr><td>Berufliche Stellung [Minimalversion]</td><td>Code</td><td>Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br />1 Arbeiter<br />2 Selbständige einschließlich mithelfender Familienangehöriger<br />3 Angestellte<br />4 Beamte</td></tr>
-<tr><td>Einkommen</td><td>Code</td><td>Durchschnittliches monatliches Nettoeinkommen des Haushalts</td><td>Quelle: Demographische Standards 2024 mit Zusammenfassung von Kategorien<br />1 Unter 500 €<br />2 500 € bis unter 1.000 €<br />3 1.000 € bis unter 1.500 €<br />4 1.500 € bis unter 2.000 €<br />5 2.000 € bis unter 3.000 €<br />6 3.000 € bis unter 4.000 €<br />7 4.000 € bis unter 5.000 €<br />8 über 5.000 €</td></tr>
+<tr><td>Ausbildung [Langversion]</td><td>Code</td><td>Höchster beruflicher Ausbildungsabschluss</td><td>Quelle: Demographische Standards 2024<br/>1 noch in Ausbildung, Studium (Berufsvorbereitungsjahr, Praktikum, [Berufs-]Fachschule o. ä.)<br/>2 kein beruflicher Abschluss und bin nicht in beruflicher Ausbildung<br/>3 Lehre (beruflich-betriebliche Berufsausbildung)<br/>4 berufsqualifizierender Abschluss einer beruflich-schulischen Ausbildung z. B. an einer Berufsfachschule oder einer Kollegschule<br/>5 Abschluss einer Fach-, Meister- oder Technikerschule, Verwaltungs- und Wirtschaftsakademie, Berufs- oder Fachakademie<br/>6 Bachelor, Diplom (FH)<br/>7 Master, Diplom (Uni), Magister, Staatsexamen, Promotion<br/>8 anderer beruflicher Abschluss, und zwar</td></tr>
+<tr><td>Beschäftigungsstatus [Langversion]</td><td>Code</td><td>Aktuell hauptsächlich ausgeübte Tätigkeit</td><td>Quelle: Demographische Standards 2024 mit Anpassung<br/>1 Besuch einer allgemeinbildenden Schule, Studium, Berufliche Ausbildung, Umschulung<br/>2 freiwilliger Wehrdienst, Bundesfreiwilligendienst, freiwilliges soziales oder ökologisches Jahr<br/>3 Erwerbsunterbrechung wegen Pflegezeit, Mutterschutz, Elternzeit ohne berufliche Tätigkeit<br/>4 vollzeiterwerbstätig gemäß den branchenüblichen oder betrieblichen Regeln<br/>5 teilzeiterwerbstätig, auch Midijob, aber mehr als ein Minijob<br/>6 in einer geringfügigen, gelegentlichen, kurzfristigen oder unregelmäßigen Beschäftigung (z. B. 538-Euro-Job, Minijob, Ein-Euro-Job, Saisonarbeit)<br/>7 Rentner:in, Pensionär:in<br/>8 arbeitslos<br/>9 dauerhaft erwerbsunfähig<br/>10 langzeit krankgemeldet (z. B. länger als 6 Wochen krankgeschrieben, Erwerbsunterbrechung wegen Erkrankung, Bezug von Krankengeld o. ä.)<br/>11 Hausfrau/Hausmann<br/>12 sonstiges, und zwar</td></tr>
+<tr><td>Beschäftigungsstatus [Minimalversion]</td><td>Code</td><td>Aktuell hauptsächlich ausgeübte Tätigkeit</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br/>1 Schüler, Auszubildender, Student<br/>2 nicht berufstätig wegen einer Erkrankung<br/>3 Rente, Hausfrau/-mann, etc.<br/>4 arbeitssuchend<br/>5 teilzeitbeschäftigt<br/>6 vollzeitbeschäftigt<br/>7 gelegentlich oder unregelmäßig beschäftigt</td></tr>
+<tr><td>Berufliche Stellung [Langversion]</td><td>Code</td><td>Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit</td><td>Quelle: Demographische Standards 2024<br/>1 Selbstständige:r Landwirt:in oder Genossenschaftsbauer<br/>2 Akademiker:in in freiem Beruf (Art/Ärztin, Rechtsanwalt/Rechtsanwältin, Steuerberater:in o. ä.)<br/>3 Selbstständig im Handel, im Gastgewerbe, im Handwerk, in der Industrie, in der Dienstleistung, auch Ich-AG oder Mitglied einer Produktionsgenossenschaft des Handwerks (PGH) in der DDR<br/>4 Beamter/Beamtin, Richter:in, Berufssoldat:in<br/>5 Angestellte:r (Angestellte sind Beschäftigte mit überwiegend geistiger Arbeit/Bürotätigkeiten)<br/>6 Arbeiter:in (Arbeiter verrichten mehrheitlich körperliche Arbeit)<br/>7 in einer beruflichen Ausbildung/Lehre<br/>8 mithelfende:r Familienangehörige:r</td></tr>
+<tr><td>Berufliche Stellung [Minimalversion]</td><td>Code</td><td>Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br/>1 Arbeiter<br/>2 Selbständige einschließlich mithelfender Familienangehöriger<br/>3 Angestellte<br/>4 Beamte</td></tr>
+<tr><td>Einkommen</td><td>Code</td><td>Durchschnittliches monatliches Nettoeinkommen des Haushalts</td><td>Quelle: Demographische Standards 2024 mit Zusammenfassung von Kategorien<br/>1 Unter 500 €<br/>2 500 € bis unter 1.000 €<br/>3 1.000 € bis unter 1.500 €<br/>4 1.500 € bis unter 2.000 €<br/>5 2.000 € bis unter 3.000 €<br/>6 3.000 € bis unter 4.000 €<br/>7 4.000 € bis unter 5.000 €<br/>8 über 5.000 €</td></tr>
 <tr style="background-color:#f2f2f2"><td>_Erweiterte Herkunft</td><td></td><td>Merkmale zur Herkunft der Familie der Person</td><td></td></tr>
 <tr><td>Geburtsland Mutter</td><td>Code</td><td>Geburtsland der Mutter der Person</td><td>Ländercodeliste ISO-3166-1 ALPHA-2</td></tr>
 <tr><td>Geburtsland Vater</td><td>Code</td><td>Geburtsland des Vaters der Person</td><td>Ländercodeliste ISO-3166-1 ALPHA-2</td></tr>
 <tr style="background-color:#f2f2f2"><td>_Lebenssituation</td><td></td><td>Merkmale zur Beschreibung der sozialen Lebensumstände der Person</td><td></td></tr>
-<tr><td>Partnerschaft</td><td>Code</td><td>Aktuelle Partnerschaft der Person</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br />1 ja<br />2 nein</td></tr>
-<tr><td>Vertrauensperson</td><td>Code</td><td>Existenz mind. einer Person, der die Person uneingeschränkt vertrauen und mit der die Person persönliche Dinge besprechen kann</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br />1 ja<br />2 nein</td></tr>
+<tr><td>Partnerschaft</td><td>Code</td><td>Aktuelle Partnerschaft der Person</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br/>1 ja<br/>2 nein</td></tr>
+<tr><td>Vertrauensperson</td><td>Code</td><td>Existenz mind. einer Person, der die Person uneingeschränkt vertrauen und mit der die Person persönliche Dinge besprechen kann</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br/>1 ja<br/>2 nein</td></tr>
 <tr><td>Haushaltsgröße</td><td>Integer</td><td>Anzahl der Personen, die ständig im Haushalt der Person leben</td><td></td></tr>
-<tr><td>Betreuungssituation</td><td>Code</td><td>Aktuelle Betreuungssituation</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br />1 Keine Betreuung<br />2 Betreuung auf Anfrage (z. B. betreutes Wohnen, Hausnotruf)<br />3 Zeitweise Betreuung (z. B. ambulante Pflege)<br />4 Dauerhafte Betreuung (z. B. Pflegeheim)<br />5 Anmerkung ____________</td></tr>
+<tr><td>Betreuungssituation</td><td>Code</td><td>Aktuelle Betreuungssituation</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br/>1 Keine Betreuung<br/>2 Betreuung auf Anfrage (z. B. betreutes Wohnen, Hausnotruf)<br/>3 Zeitweise Betreuung (z. B. ambulante Pflege)<br/>4 Dauerhafte Betreuung (z. B. Pflegeheim)<br/>5 Anmerkung ____________</td></tr>
 <tr style="background-color:#f2f2f2"><td>_Schwerbehindertenausweis</td><td></td><td>Vorliegen und Informationen des Schwerbehindertenausweises</td><td></td></tr>
-<tr><td>Vorliegen Schwerbehindertenausweis</td><td>Code</td><td>Vorliegen eines Schwerbehindertenausweises</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br />1 ja<br />2 nein</td></tr>
+<tr><td>Vorliegen Schwerbehindertenausweis</td><td>Code</td><td>Vorliegen eines Schwerbehindertenausweises</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br/>1 ja<br/>2 nein</td></tr>
 <tr><td>Grad der Behinderung</td><td>Integer</td><td>Amtlich festgestellter Grad der Behinderung in Prozent</td><td></td></tr>
-<tr><td>Merkzeichen</td><td>Code</td><td>Merkzeichen laut Schwerbehindertenausweis</td><td>§2-3 Schwerbehindertenausweisverordnung (SchwbAwV)</td></tr>
+<tr><td>Merkzeichen</td><td>Code</td><td>Merkzeichen laut Schwerbehindertenausweis</td><td>&sect;2-3 Schwerbehindertenausweisverordnung (SchwbAwV)</td></tr>
 <tr><td>Gültigkeitszeitraum von</td><td>dateTime</td><td>Startdatum der Gültigkeit laut Schwerbehindertenausweis</td><td></td></tr>
 <tr><td>Gültigkeitszeitraum bis</td><td>dateTime</td><td>Enddatum der Gültigkeit laut Schwerbehindertenausweis</td><td></td></tr>
 </tbody>
@@ -384,31 +352,31 @@ Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in de
 
 
 </div>
-        </div>  <!-- /inner-wrapper -->
-      </div>  <!-- /row -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-content -->
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
 
-  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
-  <script type="text/javascript" src="assets/js/flags.js"> </script>
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script src="assets/js/flags.js" type="text/javascript"> </script>
 
-  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
   <a name="bottom"> </a>
-  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
-    <div class="container">  <!-- container -->
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
         <p>
 
 
 
-          IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
+          IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Mon, Aug 31, 2026 16:02+0000">2026-08-31</span>
+          Erstellt <span title="Mon, Aug 31, 2026 20:20+0000">2026-08-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
-            <!-- Branding override for the fhir2.base.template footer fragment.
+              <!-- Branding override for the fhir2.base.template footer fragment.
      Unlike header/css, the base footer fragment is NOT an empty placeholder: it
      renders "Links: Table of Contents | QA Report [| feedback dashboards]".
      The base uses site.data.stringsBase[include.lang][...] for the labels. The
@@ -433,40 +401,39 @@ Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in de
           Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Inhaltsverzeichnis</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA-Bericht</a>
                  
-                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://www.netzwerk-universitaetsmedizin.de/">netzwerk-universitaetsmedizin.de</a>
-                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://www.medizininformatik-initiative.de/">medizininformatik-initiative.de</a>
-                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://www.netzwerk-universitaetsmedizin.de/impressum">Impressum</a>
+                 | <a style="color: var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de/" target="_blank">netzwerk-universitaetsmedizin.de</a>
+                 | <a style="color: var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de/" target="_blank">medizininformatik-initiative.de</a>
+                 | <a style="color: var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de/impressum" target="_blank">Impressum</a>
                  <br/>
-                 <!-- HL7 trademark attribution (required wherever the FHIR flame
+                   <!-- HL7 trademark attribution (required wherever the FHIR flame
                       renders - the header shows it on every page; see HL7's
                       trademark guidelines; permission request tracked in issue #109). The sentence is
                       HL7's prescribed formula and stays in English on every
                       language's pages (legal wording, styleguide §6). -->
-                 <span>HL7®, FHIR® and the FHIR flame design are registered trademarks of Health Level Seven International. Their use does not constitute endorsement by HL7.</span>
+                 <span>HL7&reg;, FHIR&reg; and the FHIR flame design are registered trademarks of Health Level Seven International. Their use does not constitute endorsement by HL7.</span>
 
           </span>
         </p>
-      </div>  <!-- /inner-wrapper -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-footer -->
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
-    <div class="container">  <!-- container -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
 
-  <!-- JS and analytics only. -->
-  <!-- Bootstrap core JavaScript
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
   ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
-  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
-  <!-- Analytics Below
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+    <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
-

@@ -5,11 +5,11 @@
 
 ## Profiles
 
- Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt. 
+ Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-### Profiles
+### Profile
 
-The following profiles have been defined for this implementation guide.
+Für diesen Implementierungsleitfaden wurden die folgenden Profile definiert.
 
 **Datenerhebung**
 
@@ -41,7 +41,7 @@ The following profiles have been defined for this implementation guide.
 
 -------
 
-For a complete listing of all artifacts (profiles, extensions, value sets, etc.), see the [Artifacts Overview](artifacts.md).
+Eine vollständige Auflistung aller Artefakte (Profile, Extensions, ValueSets usw.) finden Sie in der [Artefaktübersicht](artifacts.md).
 
-For the conceptual data models, see [Logical Models](logical-models.md).
+Die konzeptionellen Datenmodelle finden Sie unter [Logische Modelle](logical-models.md).
 

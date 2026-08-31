@@ -6,11 +6,11 @@
 
 ## UML Diagrams
 
- Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt. 
+ Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-This page provides UML class diagrams for the logical models of the MII core dataset base modules. These diagrams illustrate the relationships between the different data elements and classes.
+Diese Seite enthält UML-Klassendiagramme für die logischen Modelle der Basismodule des MII-Kerndatensatzes. Diese Diagramme veranschaulichen die Beziehungen zwischen den verschiedenen Datenelementen und Klassen.
 
-The following diagram shows the logical structure of the Soziodemographie module:
+Das folgende Diagramm zeigt die logische Struktur des Moduls Soziodemographie:
 
 -------
 

@@ -5,15 +5,15 @@
 
 ## Terminology
 
- Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt. 
+ Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-#### Teminology
+#### Terminologie
 
-The codings of the module are predominantly based on the GESIS Demographic Standards 2024. Individual codings were simplified for use in everyday clinical practice; further codings were developed by the working group for the Sociodemographic Data module.
+Die Kodierungen des Moduls basieren überwiegend auf den Demographischen Standards 2024 von GESIS. Einzelne Kodierungen wurden für die Anwendung im klinischen Alltag vereinfacht; weitere Kodierungen wurden durch die Arbeitsgruppe für das Modul Soziodemographische Daten entwickelt.
 
-Country information for country of birth and nationality is to be represented using ISO 3166-1 Alpha-2. First language is to be coded using ISO 639.
+Die Länderangaben zu Geburtsland und Staatsangehörigkeit sollen mit ISO 3166-1 Alpha-2 abgebildet werden. Die Erstsprache soll mit ISO 639 kodiert werden.
 
-The coding of the markers (Merkzeichen) on the severe disability certificate (Schwerbehindertenausweis) is based on the relevant provisions of the Severe Disability Certificate Ordinance (Schwerbehindertenausweisverordnung).
+Die Kodierung der Merkzeichen des Schwerbehindertenausweises orientiert sich an den einschlägigen Regelungen der Schwerbehindertenausweisverordnung.
 
 | | |
 | :--- | :--- |
@@ -37,5 +37,5 @@ The coding of the markers (Merkzeichen) on the severe disability certificate (Sc
 | Vorliegen Schwerbehindertenausweis | AG KDS-Modul Soziodemographische Daten |
 | Merkzeichen | § 2–3 Schwerbehindertenausweisverordnung |
 
-For the characteristics educational attainment, vocational training, employment status, and occupational position, collection variants of differing levels of detail are provided. The long versions allow for a more differentiated evaluation, while the minimal versions allow for a lower documentation burden in everyday clinical practice. A minimal-version entry must not automatically be converted into a specific category of the long version if the information required to do so is not available.
+Für die Merkmale Schulbildung, Ausbildung, Beschäftigungsstatus und berufliche Stellung sind unterschiedlich detaillierte Erhebungsvarianten vorgesehen. Die Langversionen ermöglichen eine differenziertere Auswertung, während die Minimalversionen eine geringere Dokumentationslast im klinischen Alltag ermöglichen. Eine Minimalangabe darf nicht automatisch in eine spezifische Kategorie der Langversion umgewandelt werden, wenn die erforderliche Information nicht vorliegt.
 

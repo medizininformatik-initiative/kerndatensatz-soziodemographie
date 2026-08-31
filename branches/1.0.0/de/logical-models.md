@@ -5,15 +5,15 @@
 
 ## Logical Models
 
- Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt. 
+ Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-### Logical Model
+### Logisches Modell
 
-Logical models provide a conceptual view of the data structures defined in this implementation guide. They represent the data elements and their relationships independent of the FHIR resource structure.
+Logische Modelle bieten eine konzeptionelle Sicht auf die in diesem Implementierungsleitfaden definierten Datenstrukturen. Sie stellen die Datenelemente und ihre Beziehungen unabhängig von der FHIR-Ressourcenstruktur dar.
 
-* [Soziodemographie Logical Model](StructureDefinition-mii-lm-sdd.md) - Conceptual model for patient demographics, vital status, and identifying information
+* [Logisches Modell Soziodemographie](StructureDefinition-mii-lm-sdd.md) - Konzeptionelles Modell für demographische Angaben, Vitalstatus und identifizierende Informationen zu Patientinnen und Patienten
 
 -------
 
-For the corresponding FHIR resource profiles that implement these logical models, see [Profiles and Extensions](profiles-and-extensions.md).
+Die entsprechenden FHIR-Ressourcenprofile, die diese logischen Modelle umsetzen, finden Sie unter [Profile und Extensions](profiles-and-extensions.md).
 

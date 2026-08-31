@@ -167,86 +167,57 @@
             </button>
             <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- Menu in the IG's DEFAULT language (English).
-     The IG Publisher renders the navigation from this file. To translate it,
-     ship a per-language copy at input/translations/<lang>/includes/menu.xml —
-     this is the mechanism the HL7 reference IG FHIR/multi-lang-test-ig uses and
-     the ONLY way to get a TRANSLATED menu: the `menu:` property in
-     sushi-config.yaml generates a single menu.xml that cannot be translated.
-     Rules: keep the href targets identical across languages; dropdown parents
-     must link to a REAL page (href="#" is rejected by the template's menu QA);
-     only one sub-menu level is supported.
-
-     STRUCTURE: this menu implements the TF-KDS-agreed module menu (see
-     docs/page-structure.md for the full structure with cardinalities).
-     Entries marked OPTIONAL (0..1) below may be removed per module — the
-     removal procedure per entry is in docs/optional-pages.md in this
-     repository. Entries without a marker are mandatory (1..1).
-
-     LINK-ONLY ENTRIES (no page of their own):
-     - "Datasets and Descriptions" points at the Logical Models page
-       (logical-models.html) — the module's datasets ARE its logical models.
-       NEITHER Artifacts-Summary anchor is usable for the TF-KDS "Sec.
-       15.0.2" target: the numeric #2 is POSITIONAL (grouping index — wrong
-       section whenever the artifact mix differs from the full standard set),
-       and the browser-generated NAMED AnchorJS anchor
-       (#structures-logical-models) is invisible to the IG Publisher's link
-       validator — it injects a marker anchor into the menu (rendered as an
-       EMPTY menu entry) and logs a broken-link ERROR on every page's QA.
-       Full analysis: docs/page-structure.md, "Datasets and Descriptions".
-     - The four Conformance entries point at the KDS-wide conformance rules of
-       the Meta module (kerndatensatz-meta). INTERIM: the Meta module has no
-       published IG rendering yet (only a CI build with no conformance pages),
-       so these link to the authoritative meta-wiki sections; switch them to
-       the Meta IG's menu entries once a stable rendering exists (Gate item in
-       docs/page-structure.md). -->
+                <!-- German translation of input/includes/menu.xml.
+     Keep the href targets IDENTICAL to the source menu; translate only labels.
+     Structure notes (OPTIONAL entries, link-only entries, the interim
+     meta-wiki links) are documented in the source menu's header and in
+     docs/page-structure.md / docs/optional-pages.md. -->
 <ul class="nav navbar-nav">
-  <li><a href="index.html">Home</a></li>
+  <li><a href="index.html">Startseite</a></li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="guidance.html" class="dropdown-toggle">Guidance<b class="caret"> </b></a>
+    <a data-toggle="dropdown" href="guidance.html" class="dropdown-toggle">Anleitung<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="guidance.html">Guidance</a></li>
-        <!-- OPTIONAL (0..1) — see docs/optional-pages.md -->
-      <li><a href="researcher-guidance.html">Guidance for Researchers</a></li>
-      <li><a href="implementer-guidance.html">Guidance for Implementers</a></li>
-        <!-- link-only entry: Logical-Models section of the Artifacts Summary (see header note) -->
-      <li><a href="logical-models.html">Datasets and Descriptions</a></li>
-      <li><a href="uml-diagrams.html">UML Diagrams</a></li>
+      <li><a href="guidance.html">Anleitung</a></li>
+        <!-- OPTIONAL (0..1) — siehe docs/optional-pages.md -->
+      <li><a href="researcher-guidance.html">Anleitung für Forschende</a></li>
+      <li><a href="implementer-guidance.html">Anleitung für Implementierende</a></li>
+        <!-- Nur-Link-Eintrag: die Seite "Logische Modelle" (Begründung im Quell-Menü) -->
+      <li><a href="logical-models.html">Datensätze und Beschreibungen</a></li>
+      <li><a href="uml-diagrams.html">UML-Diagramme</a></li>
     </ul>
   </li>
   <li class="dropdown">
-      <!-- The parent and the first four entries link to the KDS-wide conformance
-         rules of the Meta module (INTERIM: meta-wiki; see header note). -->
-    <a data-toggle="dropdown" href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance" class="dropdown-toggle">Conformance<b class="caret"> </b></a>
+      <!-- Eltern-Eintrag und die ersten vier Einträge verlinken die KDS-weiten
+         Konformitätsregeln des Meta-Moduls (INTERIM: Meta-Wiki; siehe
+         Quell-Menü). -->
+    <a data-toggle="dropdown" href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance" class="dropdown-toggle">Konformität<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Conformance</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#anforderungsdokumentation">General Requirements</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#must-support-ms">Must Support</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#fehlende-daten">Handling Missing Data</a></li>
-      <li><a href="security-and-privacy.html">Security and Privacy</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Konformität</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#anforderungsdokumentation">Allgemeine Anforderungen</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#must-support-ms">Must-Support</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#fehlende-daten">Umgang mit fehlenden Daten</a></li>
+      <li><a href="security-and-privacy.html">Sicherheit und Datenschutz</a></li>
     </ul>
   </li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle">Artifacts<b class="caret"> </b></a>
+    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle">Artefakte<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="artifacts.html">Artifacts Summary</a></li>
-      <li><a href="profiles.html">Profiles</a></li>
-      <li><a href="capability-statements.html">Capability Statements</a></li>
-        <!-- OPTIONAL (0..1) — see docs/optional-pages.md -->
-        <!-- <li><a href="search-parameters.html">Search Parameters (optional)</a></li> -->
-      <li><a href="logical-models.html">Logical Models</a></li>
-      <li><a href="examples.html">Examples</a></li>
+      <li><a href="artifacts.html">Artefakt-Übersicht</a></li>
+      <li><a href="profiles.html">Profile</a></li>
+      <li><a href="terminology.html">Terminologie</a></li>
+      <li><a href="capability-statements.html">CapabilityStatements</a></li>
+      <li><a href="logical-models.html">Logische Modelle</a></li>
+      <li><a href="examples.html">Beispiele</a></li>
     </ul>
   </li>
   <li><a href="downloads.html">Downloads</a></li>
-  <li><a href="changes.html">Changelog</a></li>
+  <li><a href="changes.html">Änderungshistorie</a></li>
   <li class="dropdown">
-      <!-- The parent deliberately links the MANDATORY child (Versioning): the
-         Metadata Overview page is optional, and a parent pointing at it would
-         have to be re-targeted when that page is removed. -->
-    <a data-toggle="dropdown" href="version-history.html" class="dropdown-toggle">Metadata<b class="caret"> </b></a>
+      <!-- Der Eltern-Eintrag verlinkt bewusst das PFLICHT-Kind (Versionierung):
+         die Metadaten-Übersicht ist optional. -->
+    <a data-toggle="dropdown" href="version-history.html" class="dropdown-toggle">Metadaten<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="version-history.html">Versioning</a></li>
+      <li><a href="version-history.html">Versionierung</a></li>
     </ul>
   </li>
 </ul>
@@ -322,62 +293,77 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
 </div>
 
-<p style="border:var(--translation-box-border);background-color:var(--translation-background-color);padding: 5px 5px 5px 5px;">
+<p style="border:var(--translation-box-border);background-color:var(--translation-background-color);padding: 5px 5px 5px 5px;"><a name="l429">​</a>
 
-Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt.
+Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde.  Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie <a href="translationinfo.html">hier</a>.
 
 </p>
 
-<p>This page links the downloadable artifacts of the Soziodemographie module.</p>
+  <!-- markdownlint-disable MD041 -->
+  <!-- Deutsche Übersetzung der Standardsprachseite input/pagecontent/downloads.md
+     — beide Dateien müssen dasselbe aussagen. Quelle: kerndatensatz-basis
+     input/pagecontent/downloads.md (Branch main).
 
-<h4 id="package-file">Package file</h4>
+     Die `../<datei>`-Links unten zeigen auf die Artefakte, die der IG-Publisher
+     NEBEN die gerenderten Seiten schreibt. Der Publisher trägt sie NICHT von
+     selbst in eine Fließtext-Seite ein — diese Seite IST die Download-Liste.
+     Halten Sie sie deshalb mit dem in Einklang, was der Build tatsächlich
+     erzeugt (z. B. entfiele examples.xml.zip bei `excludexml: true` in
+     sushi-config.yaml). Die Links funktionieren nur in der veröffentlichten
+     Ausgabe, nicht in einer lokalen Vorschau dieser Markdown-Datei. -->
 
-<p>The package file is an NPM-format FHIR package used by most FHIR tooling. It
-contains all value sets, profiles, extensions and the list of pages and URLs of
-this guide, as defined by this version. It <strong>SHOULD</strong> be the first choice
-whenever implementation artifacts are generated, because it carries all rules
-that make the profiles valid. Implementers still need to know the specification
-content and the applicable profiles to build a conformant implementation — see
-the FHIR documentation on
-<a href="http://hl7.org/fhir/R4/validation.html">validating profiles and resources</a>.</p>
+<p>Diese Seite verlinkt die herunterladbaren Artefakte des Moduls
+Soziodemographie.</p>
+
+<h4 id="paketdatei">Paketdatei</h4>
+
+<p>Die Paketdatei ist ein FHIR-Paket im NPM-Format, wie es die meisten
+FHIR-Werkzeuge verwenden. Sie enthält alle ValueSets, Profile, Extensions sowie
+die Liste der Seiten und URLs dieses Leitfadens in dieser Version. Sie SOLLTE die
+erste Wahl sein, wann immer Implementierungsartefakte erzeugt werden, denn sie
+trägt alle Regeln, die die Profile gültig machen. Implementierende müssen
+darüber hinaus den Inhalt der Spezifikation und die einschlägigen Profile kennen,
+um eine konforme Umsetzung zu bauen — siehe die FHIR-Dokumentation zur
+<a href="http://hl7.org/fhir/R4/validation.html">Validierung von Profilen und Ressourcen</a>.</p>
 
 <ul>
-  <li><a href="../package.tgz">Package (compressed folder)</a></li>
+  <li><a href="../package.tgz">Paket (komprimierter Ordner)</a></li>
 </ul>
 
-<h4 id="downloadable-copy-of-this-guide">Downloadable copy of this guide</h4>
+<h4 id="herunterladbare-kopie-dieses-leitfadens">Herunterladbare Kopie dieses Leitfadens</h4>
 
-<p>A downloadable copy of the rendered guide, for hosting locally:</p>
+<p>Eine herunterladbare Fassung des gerenderten Leitfadens für den lokalen Betrieb:</p>
 
 <ul>
-  <li><a href="../full-ig.zip">Downloadable copy (compressed folder)</a></li>
+  <li><a href="../full-ig.zip">Herunterladbare Kopie (komprimierter Ordner)</a></li>
 </ul>
 
-<h4 id="examples">Examples</h4>
+<h4 id="beispiele">Beispiele</h4>
 
-<p>All examples of this guide:</p>
+<p>Alle Beispiele dieses Leitfadens:</p>
 
 <ul>
-  <li><a name="l475">​</a><a href="../examples.xml.zip">XML (compressed folder)</a></li>
-  <li><a name="l479">​</a><a href="../examples.json.zip">JSON (compressed folder)</a></li>
+  <li><a name="l479">​</a><a href="../examples.xml.zip">XML (komprimierter Ordner)</a></li>
+  <li><a name="l483">​</a><a href="../examples.json.zip">JSON (komprimierter Ordner)</a></li>
 </ul>
 
-<h4 id="consolidated-csv-and-excel-representations-of-the-profiles">Consolidated CSV and Excel representations of the profiles</h4>
+<h4 id="konsolidierte-csv--und-excel-darstellungen-der-profile">Konsolidierte CSV- und Excel-Darstellungen der Profile</h4>
 
-<p>The profile information of the whole guide in a single CSV or Excel file —
-useful for testers and analysts who want to review element properties across
-profiles in one table:</p>
+<p>Die Profilinformationen des gesamten Leitfadens in einer einzigen CSV- oder
+Excel-Datei — nützlich für Testende und Analysierende, die Element-Eigenschaften
+profilübergreifend in einer Tabelle sichten wollen:</p>
 
 <ul>
-  <li><a href="../csvs.zip">CSV (compressed folder)</a></li>
-  <li><a href="../excels.zip">Excel (compressed folder)</a></li>
+  <li><a href="../csvs.zip">CSV (komprimierter Ordner)</a></li>
+  <li><a href="../excels.zip">Excel (komprimierter Ordner)</a></li>
 </ul>
 
 <h4 id="schematrons">Schematrons</h4>
 
 <ul>
-  <li><a href="../schematrons.zip">Schematrons (compressed folder)</a></li>
+  <li><a href="../schematrons.zip">Schematrons (komprimierter Ordner)</a></li>
 </ul>
+
 
 
 
@@ -403,7 +389,7 @@ profiles in one table:</p>
 
           IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Mon, Aug 31, 2026 16:02+0000">2026-08-31</span>
+          Erstellt <span title="Mon, Aug 31, 2026 20:20+0000">2026-08-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
               <!-- Branding override for the fhir2.base.template footer fragment.

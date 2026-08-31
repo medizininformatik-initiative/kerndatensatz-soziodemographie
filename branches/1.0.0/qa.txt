@@ -3,8 +3,8 @@ MII_IG_Soziodemographie : Validation Results
 
 err = 0, warn = 215, info = 74
 IG Publisher Version: 2.3.3
-Generated Mon Aug 31 16:05:49 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie)
- Build Errors : 18 / 5 / 2
+Generated Mon Aug 31 20:23:16 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie)
+ Build Errors : 30 / 5 / 2
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-ausbildung : 0 / 3 / 2
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-berufliche-stellung-lang : 0 / 3 / 2
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-berufliche-stellung-minimal : 0 / 3 / 2
@@ -49,26 +49,38 @@ Generated Mon Aug 31 16:05:49 UTC 2026. FHIR version 4.0.1 for de.medizininforma
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be de.medizininformatikinitiative.kerndatensatz.soziodemographie
-ERROR: de/capability-statements.html#/html/body/div/div/div/div/div/p/a at Line 348, column 51: The link 'conformance.html' for "Conformance" cannot be resolved
-ERROR: de/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 364, column 8: The link '../examples.xml.zip' for "XML (compressed folder)" cannot be resolved
-ERROR: de/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 365, column 8: The link '../examples.json.zip' for "JSON (compressed folder)" cannot be resolved
-ERROR: de/examples.html#/html/body/div/div/div/div/div/p/a at Line 334, column 84: The link 'artifacts.html#example-example-instances' for "Artifacts" cannot be resolved (valid targets: [strukturen-ressourcenprofile, project-nav, publish-box, segment-post-footer, language, family-logo, select_flg, top, strukturen-abstrakte-profile, stripe, segment-footer, segment-content, strukturen-logische-modelle, project-logo, segment-header, bottom, terminologie-valuesets, family-nav, ig-status, 1, 2, terminologie-codesysteme, 3, artefaktübersicht, 4, 5, flaglist, segment-navbar, segment-breadcrumb])
-ERROR: de/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 341, column 8: The link '../examples.xml.zip' for "XML" cannot be resolved
-ERROR: de/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 342, column 8: The link '../examples.json.zip' for "JSON" cannot be resolved
+ERROR: de/capability-statements.html#/html/body/div/div/div/div/div/p/a at Line 301, column 210: The link 'translationinfo.html' for "hier" cannot be resolved
+ERROR: de/capability-statements.html#/html/body/div/div/div/div/div/p/a at Line 319, column 68: The link 'conformance.html' for "Konformität" cannot be resolved
+ERROR: de/changes.html#/html/body/div/div/div/div/div/p/a at Line 301, column 210: The link 'translationinfo.html' for "hier" cannot be resolved
+ERROR: de/datasets-and-descriptions.html#/html/body/div/div/div/div/div/p/a at Line 301, column 210: The link 'translationinfo.html' for "hier" cannot be resolved
+ERROR: de/downloads.html#/html/body/div/div/div/div/div/p/a at Line 301, column 210: The link 'translationinfo.html' for "hier" cannot be resolved
+ERROR: de/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 349, column 8: The link '../examples.xml.zip' for "XML (komprimierter Ordner)" cannot be resolved
+ERROR: de/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 350, column 8: The link '../examples.json.zip' for "JSON (komprimierter Ordner)" cannot be resolved
+ERROR: de/examples.html#/html/body/div/div/div/div/div/p/a at Line 301, column 210: The link 'translationinfo.html' for "hier" cannot be resolved
+ERROR: de/examples.html#/html/body/div/div/div/div/div/p/a at Line 305, column 179: The link 'artifacts.html#example-example-instances' for "Artefakte" cannot be resolved (valid targets: [strukturen-ressourcenprofile, project-nav, publish-box, segment-post-footer, language, family-logo, select_flg, top, strukturen-abstrakte-profile, stripe, segment-footer, segment-content, strukturen-logische-modelle, project-logo, segment-header, bottom, terminologie-valuesets, family-nav, ig-status, 1, 2, terminologie-codesysteme, 3, artefaktübersicht, 4, 5, flaglist, segment-navbar, segment-breadcrumb])
+ERROR: de/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 312, column 8: The link '../examples.xml.zip' for "XML" cannot be resolved
+ERROR: de/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 313, column 8: The link '../examples.json.zip' for "JSON" cannot be resolved
 INFORMATION: de/implementer-guidance.html: No conformance term found in the text: 
-ERROR: de/index.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 436, column 16: The link 'ImplementationGuide-mii-ig-.html' for "Dependencies" cannot be resolved
-ERROR: de/logical-models.html#/html/body/div/div/div/div/div/p/a at Line 344, column 91: The link 'profiles-and-extensions.html' for "Profiles and Extensions" cannot be resolved
-ERROR: de/version-history.html#/html/body/div/div/div/div/div/p/a at Line 363, column 42: The link 'metadata.html' for "Metadata Overview" cannot be resolved
-ERROR: en/capability-statements.html#/html/body/div/div/div/div/div/p/a at Line 342, column 51: The link 'conformance.html' for "Conformance" cannot be resolved
-ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 358, column 8: The link '../examples.xml.zip' for "XML (compressed folder)" cannot be resolved
-ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 359, column 8: The link '../examples.json.zip' for "JSON (compressed folder)" cannot be resolved
-ERROR: en/examples.html#/html/body/div/div/div/div/div/p/a at Line 328, column 84: The link 'artifacts.html#example-example-instances' for "Artifacts" cannot be resolved (valid targets: [terminology-value-sets, project-nav, publish-box, segment-post-footer, language, structures-abstract-profiles, family-logo, select_flg, top, stripe, segment-footer, segment-content, project-logo, segment-header, bottom, structures-resource-profiles, family-nav, ig-status, artifacts-summary, 1, structures-logical-models, 2, terminology-code-systems, 3, 4, 5, flaglist, segment-navbar, segment-breadcrumb])
-ERROR: en/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 335, column 8: The link '../examples.xml.zip' for "XML" cannot be resolved
-ERROR: en/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 336, column 8: The link '../examples.json.zip' for "JSON" cannot be resolved
+ERROR: de/index.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 408, column 16: The link 'ImplementationGuide-mii-ig-soziodemographie.html' for "Abhängigkeiten" cannot be resolved
+ERROR: de/logical-models.html#/html/body/div/div/div/div/div/p/a at Line 301, column 210: The link 'translationinfo.html' for "hier" cannot be resolved
+ERROR: de/logical-models.html#/html/body/div/div/div/div/div/p/a at Line 315, column 103: The link 'profiles-and-extensions.html' for "Profile und Extensions" cannot be resolved
+ERROR: de/profiles.html#/html/body/div/div/div/div/div/p/a at Line 301, column 210: The link 'translationinfo.html' for "hier" cannot be resolved
+ERROR: de/researcher-guidance.html#/html/body/div/div/div/div/div/p/a at Line 301, column 210: The link 'translationinfo.html' for "hier" cannot be resolved
+ERROR: de/security-and-privacy.html#/html/body/div/div/div/div/div/p/a at Line 301, column 210: The link 'translationinfo.html' for "hier" cannot be resolved
+ERROR: de/terminology.html#/html/body/div/div/div/div/div/p/a at Line 301, column 210: The link 'translationinfo.html' for "hier" cannot be resolved
+ERROR: de/uml-diagrams.html#/html/body/div/div/div/div/div/p/a at Line 301, column 210: The link 'translationinfo.html' for "hier" cannot be resolved
+ERROR: de/version-history.html#/html/body/div/div/div/div/div/p/a at Line 301, column 210: The link 'translationinfo.html' for "hier" cannot be resolved
+ERROR: de/version-history.html#/html/body/div/div/div/div/div/p/a at Line 335, column 2: The link 'metadata.html' for "Metadaten-Übersicht" cannot be resolved
+ERROR: en/capability-statements.html#/html/body/div/div/div/div/div/p/a at Line 343, column 51: The link 'conformance.html' for "Conformance" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 359, column 8: The link '../examples.xml.zip' for "XML (compressed folder)" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 360, column 8: The link '../examples.json.zip' for "JSON (compressed folder)" cannot be resolved
+ERROR: en/examples.html#/html/body/div/div/div/div/div/p/a at Line 329, column 84: The link 'artifacts.html#example-example-instances' for "Artifacts" cannot be resolved (valid targets: [terminology-value-sets, project-nav, publish-box, segment-post-footer, language, structures-abstract-profiles, family-logo, select_flg, top, stripe, segment-footer, segment-content, project-logo, segment-header, bottom, structures-resource-profiles, family-nav, ig-status, artifacts-summary, 1, structures-logical-models, 2, terminology-code-systems, 3, 4, 5, flaglist, segment-navbar, segment-breadcrumb])
+ERROR: en/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 336, column 8: The link '../examples.xml.zip' for "XML" cannot be resolved
+ERROR: en/examples.html#/html/body/div/div/div/div/div/ul/li/a at Line 337, column 8: The link '../examples.json.zip' for "JSON" cannot be resolved
 INFORMATION: en/implementer-guidance.html: No conformance term found in the text: 
-ERROR: en/index.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 436, column 16: The link 'ImplementationGuide-mii-ig-.html' for "Dependencies" cannot be resolved
-ERROR: en/logical-models.html#/html/body/div/div/div/div/div/p/a at Line 338, column 91: The link 'profiles-and-extensions.html' for "Profiles and Extensions" cannot be resolved
-ERROR: en/version-history.html#/html/body/div/div/div/div/div/p/a at Line 357, column 42: The link 'metadata.html' for "Metadata Overview" cannot be resolved
+ERROR: en/index.html#/html/body/div/div/div/div/div/ul/li/strong/a at Line 437, column 16: The link 'ImplementationGuide-mii-ig-soziodemographie.html' for "Dependencies" cannot be resolved
+ERROR: en/logical-models.html#/html/body/div/div/div/div/div/p/a at Line 339, column 91: The link 'profiles-and-extensions.html' for "Profiles and Extensions" cannot be resolved
+ERROR: en/version-history.html#/html/body/div/div/div/div/div/p/a at Line 358, column 42: The link 'metadata.html' for "Metadata Overview" cannot be resolved
 WARNING: 1: An HTML fragment from the set [ip-statements.xhtml, ip-statements.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml, cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml, dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide

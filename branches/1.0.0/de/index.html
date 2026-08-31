@@ -167,86 +167,57 @@
             </button>
             <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- Menu in the IG's DEFAULT language (English).
-     The IG Publisher renders the navigation from this file. To translate it,
-     ship a per-language copy at input/translations/<lang>/includes/menu.xml —
-     this is the mechanism the HL7 reference IG FHIR/multi-lang-test-ig uses and
-     the ONLY way to get a TRANSLATED menu: the `menu:` property in
-     sushi-config.yaml generates a single menu.xml that cannot be translated.
-     Rules: keep the href targets identical across languages; dropdown parents
-     must link to a REAL page (href="#" is rejected by the template's menu QA);
-     only one sub-menu level is supported.
-
-     STRUCTURE: this menu implements the TF-KDS-agreed module menu (see
-     docs/page-structure.md for the full structure with cardinalities).
-     Entries marked OPTIONAL (0..1) below may be removed per module — the
-     removal procedure per entry is in docs/optional-pages.md in this
-     repository. Entries without a marker are mandatory (1..1).
-
-     LINK-ONLY ENTRIES (no page of their own):
-     - "Datasets and Descriptions" points at the Logical Models page
-       (logical-models.html) — the module's datasets ARE its logical models.
-       NEITHER Artifacts-Summary anchor is usable for the TF-KDS "Sec.
-       15.0.2" target: the numeric #2 is POSITIONAL (grouping index — wrong
-       section whenever the artifact mix differs from the full standard set),
-       and the browser-generated NAMED AnchorJS anchor
-       (#structures-logical-models) is invisible to the IG Publisher's link
-       validator — it injects a marker anchor into the menu (rendered as an
-       EMPTY menu entry) and logs a broken-link ERROR on every page's QA.
-       Full analysis: docs/page-structure.md, "Datasets and Descriptions".
-     - The four Conformance entries point at the KDS-wide conformance rules of
-       the Meta module (kerndatensatz-meta). INTERIM: the Meta module has no
-       published IG rendering yet (only a CI build with no conformance pages),
-       so these link to the authoritative meta-wiki sections; switch them to
-       the Meta IG's menu entries once a stable rendering exists (Gate item in
-       docs/page-structure.md). -->
+                <!-- German translation of input/includes/menu.xml.
+     Keep the href targets IDENTICAL to the source menu; translate only labels.
+     Structure notes (OPTIONAL entries, link-only entries, the interim
+     meta-wiki links) are documented in the source menu's header and in
+     docs/page-structure.md / docs/optional-pages.md. -->
 <ul class="nav navbar-nav">
-  <li><a href="index.html">Home</a></li>
+  <li><a href="index.html">Startseite</a></li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="guidance.html" class="dropdown-toggle">Guidance<b class="caret"> </b></a>
+    <a data-toggle="dropdown" href="guidance.html" class="dropdown-toggle">Anleitung<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="guidance.html">Guidance</a></li>
-        <!-- OPTIONAL (0..1) — see docs/optional-pages.md -->
-      <li><a href="researcher-guidance.html">Guidance for Researchers</a></li>
-      <li><a href="implementer-guidance.html">Guidance for Implementers</a></li>
-        <!-- link-only entry: Logical-Models section of the Artifacts Summary (see header note) -->
-      <li><a href="logical-models.html">Datasets and Descriptions</a></li>
-      <li><a href="uml-diagrams.html">UML Diagrams</a></li>
+      <li><a href="guidance.html">Anleitung</a></li>
+        <!-- OPTIONAL (0..1) — siehe docs/optional-pages.md -->
+      <li><a href="researcher-guidance.html">Anleitung für Forschende</a></li>
+      <li><a href="implementer-guidance.html">Anleitung für Implementierende</a></li>
+        <!-- Nur-Link-Eintrag: die Seite "Logische Modelle" (Begründung im Quell-Menü) -->
+      <li><a href="logical-models.html">Datensätze und Beschreibungen</a></li>
+      <li><a href="uml-diagrams.html">UML-Diagramme</a></li>
     </ul>
   </li>
   <li class="dropdown">
-      <!-- The parent and the first four entries link to the KDS-wide conformance
-         rules of the Meta module (INTERIM: meta-wiki; see header note). -->
-    <a data-toggle="dropdown" href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance" class="dropdown-toggle">Conformance<b class="caret"> </b></a>
+      <!-- Eltern-Eintrag und die ersten vier Einträge verlinken die KDS-weiten
+         Konformitätsregeln des Meta-Moduls (INTERIM: Meta-Wiki; siehe
+         Quell-Menü). -->
+    <a data-toggle="dropdown" href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance" class="dropdown-toggle">Konformität<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Conformance</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#anforderungsdokumentation">General Requirements</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#must-support-ms">Must Support</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#fehlende-daten">Handling Missing Data</a></li>
-      <li><a href="security-and-privacy.html">Security and Privacy</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Konformität</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#anforderungsdokumentation">Allgemeine Anforderungen</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#must-support-ms">Must-Support</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#fehlende-daten">Umgang mit fehlenden Daten</a></li>
+      <li><a href="security-and-privacy.html">Sicherheit und Datenschutz</a></li>
     </ul>
   </li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle">Artifacts<b class="caret"> </b></a>
+    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle">Artefakte<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="artifacts.html">Artifacts Summary</a></li>
-      <li><a href="profiles.html">Profiles</a></li>
-      <li><a href="capability-statements.html">Capability Statements</a></li>
-        <!-- OPTIONAL (0..1) — see docs/optional-pages.md -->
-        <!-- <li><a href="search-parameters.html">Search Parameters (optional)</a></li> -->
-      <li><a href="logical-models.html">Logical Models</a></li>
-      <li><a href="examples.html">Examples</a></li>
+      <li><a href="artifacts.html">Artefakt-Übersicht</a></li>
+      <li><a href="profiles.html">Profile</a></li>
+      <li><a href="terminology.html">Terminologie</a></li>
+      <li><a href="capability-statements.html">CapabilityStatements</a></li>
+      <li><a href="logical-models.html">Logische Modelle</a></li>
+      <li><a href="examples.html">Beispiele</a></li>
     </ul>
   </li>
   <li><a href="downloads.html">Downloads</a></li>
-  <li><a href="changes.html">Changelog</a></li>
+  <li><a href="changes.html">Änderungshistorie</a></li>
   <li class="dropdown">
-      <!-- The parent deliberately links the MANDATORY child (Versioning): the
-         Metadata Overview page is optional, and a parent pointing at it would
-         have to be re-targeted when that page is removed. -->
-    <a data-toggle="dropdown" href="version-history.html" class="dropdown-toggle">Metadata<b class="caret"> </b></a>
+      <!-- Der Eltern-Eintrag verlinkt bewusst das PFLICHT-Kind (Versionierung):
+         die Metadaten-Übersicht ist optional. -->
+    <a data-toggle="dropdown" href="version-history.html" class="dropdown-toggle">Metadaten<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="version-history.html">Versioning</a></li>
+      <li><a href="version-history.html">Versionierung</a></li>
     </ul>
   </li>
 </ul>
@@ -362,20 +333,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p>  <!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
-  <li><a href="#target-audience" id="markdown-toc-target-audience">Target audience</a></li>
-  <li><a href="#contents" id="markdown-toc-contents">Contents</a></li>
-  <li><a href="#related-guides" id="markdown-toc-related-guides">Related guides</a></li>
-  <li><a href="#imprint" id="markdown-toc-imprint">Imprint</a></li>
-  <li><a href="#contact-information" id="markdown-toc-contact-information">Contact Information</a></li>
-  <li><a href="#copyright-and-license" id="markdown-toc-copyright-and-license">Copyright and License</a></li>
-  <li><a href="#disclaimer" id="markdown-toc-disclaimer">Disclaimer</a></li>
+  <li><a href="#einleitung" id="markdown-toc-einleitung">Einleitung</a></li>
+  <li><a href="#zielgruppe" id="markdown-toc-zielgruppe">Zielgruppe</a></li>
+  <li><a href="#inhalt" id="markdown-toc-inhalt">Inhalt</a></li>
+  <li><a href="#verwandte-leitfäden" id="markdown-toc-verwandte-leitfäden">Verwandte Leitfäden</a></li>
+  <li><a href="#impressum" id="markdown-toc-impressum">Impressum</a></li>
+  <li><a href="#kontaktinformationen" id="markdown-toc-kontaktinformationen">Kontaktinformationen</a></li>
+  <li><a href="#copyright-und-lizenz" id="markdown-toc-copyright-und-lizenz">Copyright und Lizenz</a></li>
+  <li><a href="#haftungsausschluss" id="markdown-toc-haftungsausschluss">Haftungsausschluss</a></li>
 </ul>
 
 </div>
-<h3 id="introduction">Introduction</h3>
+<h3 id="einleitung">Einleitung</h3>
 
-<p>This module defines FHIR profiles for recording sociodemographic characteristics of patients, including origin, living situation (e.g. household size, care/support situation, partnership), and socioeconomic factors (e.g. education, occupation, employment status, income).</p>
+<p>Diese Spezifikation definiert FHIR-Profile zur Erfassung soziodemographischer Merkmale von Patientinnen und Patienten, einschließlich Herkunft, Lebenssituation (z. B. Haushaltsgröße, Betreuungssituation, Partnerschaft) und sozioökonomischer Faktoren (z. B. Schulbildung, Beruf, Beschäftigungsstatus, Einkommen).</p>
 
 <table>
   <thead>
@@ -404,74 +375,75 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<h3 id="target-audience">Target audience</h3>
+<h3 id="zielgruppe">Zielgruppe</h3>
 
 <div class="ig-highlight ig-highlight-blue">
-<h5>Implementers</h5>
-<p>Data Integration Centers (DIC), software developers and system architects building FHIR-based solutions.<br/>
-→ see <a href="profiles.html">Profiles</a> and <a href="logical-models.html">Logical Models</a>.</p>
+<h5>Implementierende</h5>
+<p>Datenintegrationszentren (DIZ), Software-Entwickelnde und System-Architekt:innen, die FHIR-basierte Lösungen umsetzen.<br/>
+→ siehe <a href="profiles.html">Profile</a> und <a href="logical-models.html">Logische Modelle</a>.</p>
 </div>
 
 <div class="ig-highlight ig-highlight-green">
-<h5>Researchers</h5>
-<p>Scientists using KDS data for medical research.<br/>
-→ see <a href="researcher-guidance.html">Guidance for Researchers</a>.</p>
+<h5>Forschende</h5>
+<p>Wissenschaftler:innen, die KDS-Daten für die medizinische Forschung nutzen.<br/>
+→ siehe <a href="researcher-guidance.html">Hinweise für Forschende</a>.</p>
 </div>
 
-<h3 id="contents">Contents</h3>
+<h3 id="inhalt">Inhalt</h3>
 
 <ul>
-  <li><strong><a href="guidance.html">Guidance</a></strong> — getting started and domain notes.</li>
-  <li><strong>Conformance</strong> — the KDS-wide conformance rules (requirements language,
-Must Support, handling missing data) are maintained centrally by the
-<a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Meta module</a>;
-the module-specific <a href="security-and-privacy.html">Security and Privacy</a>
-considerations are part of this guide.</li>
-  <li><strong><a href="profiles.html">Profiles</a></strong> and the further
-<strong><a href="artifacts.html">artifact pages</a></strong> — the technical artifacts.</li>
-  <li><strong><a href="examples.html">Examples</a></strong> — example instances.</li>
-  <li><strong><a name="l632">​</a><a href="ImplementationGuide-mii-ig-.html">Dependencies</a></strong> — the
-ImplementationGuide resource with the dependency table, cross-version
-analysis and copyright statements.</li>
+  <li><strong><a href="guidance.html">Anleitung</a></strong> — Einstieg und fachliche Hinweise.</li>
+  <li><strong>Konformität</strong> — die KDS-weiten Konformitätsregeln (Anforderungssprache,
+Must-Support, Umgang mit fehlenden Daten) pflegt zentral das
+<a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Meta-Modul</a>
+; die modulspezifischen Artefakte zu
+<a href="security-and-privacy.html">Sicherheit und Datenschutz</a>
+sind Teil dieses Leitfadens.</li>
+  <li><strong><a href="profiles.html">Profile</a></strong> und die weiteren
+<strong><a href="artifacts.html">Artefakt-Seiten</a></strong> — die technischen Artefakte.</li>
+  <li><strong><a href="examples.html">Beispiele</a></strong> — Beispielinstanzen.</li>
+  <li><strong><a name="l632">​</a><a href="ImplementationGuide-mii-ig-soziodemographie.html">Abhängigkeiten</a></strong> — die
+ImplementationGuide-Ressource mit der Abhängigkeitstabelle, der
+versionsübergreifenden Analyse und den Copyright-Hinweisen.</li>
 </ul>
 
-<p>More FHIR implementation guides can be found in the official
-<strong><a href="https://fhir.org/guides/registry/">FHIR IG Registry</a></strong> (source:
+<p>Weitere FHIR-Implementierungsleitfäden finden Sie im offiziellen
+<strong><a href="https://fhir.org/guides/registry/">FHIR-IG-Registry</a></strong> (Quelle:
 <a href="https://github.com/FHIR/ig-registry"><code class="language-plaintext highlighter-rouge">FHIR/ig-registry</code></a>).</p>
 
-<h3 id="related-guides">Related guides</h3>
+<h3 id="verwandte-leitfäden">Verwandte Leitfäden</h3>
 
-<p>This module is part of the MII Core Dataset; the other KDS modules and their
-dependencies are described at
-<a href="https://www.medizininformatik-initiative.de/">medizininformatik-initiative.de</a>.</p>
+<p>Dieses Modul ist Teil des MII-Kerndatensatzes; die weiteren KDS-Module und ihre
+Abhängigkeiten werden unter
+<a href="https://www.medizininformatik-initiative.de/">medizininformatik-initiative.de</a> beschrieben.</p>
 
-<h3 id="imprint">Imprint</h3>
+<h3 id="impressum">Impressum</h3>
 
-<p>This guide was created within the Medical Informatics Initiative and is subject,
-by its governance process, to the coordination procedure of the Interoperability
-Forum and the technical committees of HL7 Germany.</p>
+<p>Dieser Leitfaden wurde im Rahmen der Medizininformatik-Initiative erstellt und unterliegt im 
+Rahmen des Governance-Prozesses dem Abstimmungsverfahren des Interoperabilitätsforums sowie 
+der Fachausschüsse von HL7 Deutschland.</p>
 
-<h3 id="contact-information">Contact Information</h3>
+<h3 id="kontaktinformationen">Kontaktinformationen</h3>
 <ul>
-  <li>Margaux Gatrio , Berlin Institute of Health at Charité (BIH)</li>
+  <li>Margaux Gatrio, Berlin Institute of Health at Charité (BIH)</li>
   <li>Jochen Schmitt, UKDD</li>
   <li>Daniela Piontek, UKDD</li>
   <li>Rebecca Mukowski-Kickhöfel, Charité</li>
 </ul>
 
-<p>Questions about this publication can be asked on <a href="https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative">chat.fhir.org</a> in the stream 'german/mi-initiative' or on <a href="https://mii.zulipchat.com/#narrow/channel/430086-MII-Kerndatensatz">mii.zulipchat.com</a>.</p>
+<p>Fragen zu dieser Veröffentlichung können auf <a href="https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative">chat.fhir.org</a> im Stream 'german/mi-initiative' oder auf <a href="https://mii.zulipchat.com/#narrow/channel/430086-MII-Kerndatensatz">mii.zulipchat.com</a> gestellt werden.</p>
 
-<h4 id="authors-alphabetical">Authors (alphabetical)</h4>
+<h4 id="autorinnen-und-autoren-alphabetisch">Autorinnen und Autoren (alphabetisch)</h4>
 <ul>
   <li>Daniela Piontek, UKDD</li>
   <li>Jochen Schmitt, UKDD</li>
-  <li>Margaux Gatrio , Berlin Institute of Health at Charité (BIH)</li>
+  <li>Margaux Gatrio, Berlin Institute of Health at Charité (BIH)</li>
   <li>Matthias Rose, Charité</li>
   <li>Rebecca Mukowski-Kickhöfel, Charité</li>
   <li>Wolfgang Hoffmann, Universitätsmedizin Greifswald</li>
 </ul>
 
-<h3 id="copyright-and-license">Copyright and License</h3>
+<h3 id="copyright-und-lizenz">Copyright und Lizenz</h3>
 
 <p>&copy; 2019+ TMF e. V., Charlottenstraße 42, 10117 Berlin</p>
 
@@ -479,22 +451,23 @@ Forum and the technical committees of HL7 Germany.</p>
     <img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt="CC BY 4.0 Logo" style="border:0;"/>
 </a></p>
 
-<p>This work is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+<p>Dieses Werk ist lizenziert unter der <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International Lizenz</a>.</p>
 
-<p>For usage rights of the underlying FHIR technology, see the FHIR base specification.</p>
+<p>Zu den Nutzungsrechten der zugrunde liegenden FHIR-Technologie siehe die FHIR-Basisspezifikation.</p>
 
-<p>Some code systems used are published and maintained by other organizations. The copyright of the respective publishers applies.</p>
+<p>Einige verwendete Codesysteme werden von anderen Organisationen veröffentlicht und gepflegt. Es gilt das Urheberrecht der jeweiligen Herausgeber.</p>
 
-<h3 id="disclaimer">Disclaimer</h3>
+<h3 id="haftungsausschluss">Haftungsausschluss</h3>
 
 <ul>
   <li>
-    <p>The content of this document is public. Please note that parts of this document are based on FHIR Version R4, which is copyrighted by HL7 International.</p>
+    <p>Der Inhalt dieses Dokuments ist öffentlich. Bitte beachten Sie, dass Teile dieses Dokuments auf der FHIR-Version R4 basieren, die urheberrechtlich durch HL7 International geschützt ist.</p>
   </li>
   <li>
-    <p>Although this publication was prepared with the greatest care, the authors cannot accept any liability for direct or indirect damage that may arise from the content of this specification.</p>
+    <p>Obwohl diese Veröffentlichung mit größter Sorgfalt erstellt wurde, können die Autorinnen und Autoren keine Haftung für direkte oder indirekte Schäden übernehmen, die sich aus dem Inhalt dieser Spezifikation ergeben können.</p>
   </li>
 </ul>
+
 
 
 
@@ -520,7 +493,7 @@ Forum and the technical committees of HL7 Germany.</p>
 
           IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Mon, Aug 31, 2026 16:02+0000">2026-08-31</span>
+          Erstellt <span title="Mon, Aug 31, 2026 20:20+0000">2026-08-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
               <!-- Branding override for the fhir2.base.template footer fragment.

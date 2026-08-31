@@ -12,7 +12,7 @@
 
 ### Introduction
 
-This module defines FHIR profiles for recording sociodemographic characteristics of patients, including origin, living situation (e.g. household size, care/support situation, partnership), and socioeconomic factors (e.g. education, occupation, employment status, income).
+This specification defines FHIR profiles for recording sociodemographic characteristics of patients, including origin, living situation (e.g. household size, care/support situation, partnership), and socioeconomic factors (e.g. education, occupation, employment status, income).
 
 | | |
 | :--- | :--- |
@@ -39,7 +39,7 @@ Scientists using KDS data for medical research.
 * **Conformance** — the KDS-wide conformance rules (requirements language, Must Support, handling missing data) are maintained centrally by the [Meta module](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance); the module-specific [Security and Privacy](security-and-privacy.md) considerations are part of this guide.
 * **[Profiles](profiles.md)** and the further **[artifact pages](artifacts.md)** — the technical artifacts.
 * **[Examples](examples.md)** — example instances.
-* **[Dependencies](ImplementationGuide-mii-ig-.md)** — the ImplementationGuide resource with the dependency table, cross-version analysis and copyright statements.
+* **[Dependencies](ImplementationGuide-mii-ig-soziodemographie.md)** — the ImplementationGuide resource with the dependency table, cross-version analysis and copyright statements.
 
 More FHIR implementation guides can be found in the official **[FHIR IG Registry](https://fhir.org/guides/registry/)** (source: [`FHIR/ig-registry`](https://github.com/FHIR/ig-registry)).
 

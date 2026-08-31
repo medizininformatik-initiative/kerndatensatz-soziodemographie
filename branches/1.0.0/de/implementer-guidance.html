@@ -167,86 +167,57 @@
             </button>
             <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- Menu in the IG's DEFAULT language (English).
-     The IG Publisher renders the navigation from this file. To translate it,
-     ship a per-language copy at input/translations/<lang>/includes/menu.xml —
-     this is the mechanism the HL7 reference IG FHIR/multi-lang-test-ig uses and
-     the ONLY way to get a TRANSLATED menu: the `menu:` property in
-     sushi-config.yaml generates a single menu.xml that cannot be translated.
-     Rules: keep the href targets identical across languages; dropdown parents
-     must link to a REAL page (href="#" is rejected by the template's menu QA);
-     only one sub-menu level is supported.
-
-     STRUCTURE: this menu implements the TF-KDS-agreed module menu (see
-     docs/page-structure.md for the full structure with cardinalities).
-     Entries marked OPTIONAL (0..1) below may be removed per module — the
-     removal procedure per entry is in docs/optional-pages.md in this
-     repository. Entries without a marker are mandatory (1..1).
-
-     LINK-ONLY ENTRIES (no page of their own):
-     - "Datasets and Descriptions" points at the Logical Models page
-       (logical-models.html) — the module's datasets ARE its logical models.
-       NEITHER Artifacts-Summary anchor is usable for the TF-KDS "Sec.
-       15.0.2" target: the numeric #2 is POSITIONAL (grouping index — wrong
-       section whenever the artifact mix differs from the full standard set),
-       and the browser-generated NAMED AnchorJS anchor
-       (#structures-logical-models) is invisible to the IG Publisher's link
-       validator — it injects a marker anchor into the menu (rendered as an
-       EMPTY menu entry) and logs a broken-link ERROR on every page's QA.
-       Full analysis: docs/page-structure.md, "Datasets and Descriptions".
-     - The four Conformance entries point at the KDS-wide conformance rules of
-       the Meta module (kerndatensatz-meta). INTERIM: the Meta module has no
-       published IG rendering yet (only a CI build with no conformance pages),
-       so these link to the authoritative meta-wiki sections; switch them to
-       the Meta IG's menu entries once a stable rendering exists (Gate item in
-       docs/page-structure.md). -->
+                <!-- German translation of input/includes/menu.xml.
+     Keep the href targets IDENTICAL to the source menu; translate only labels.
+     Structure notes (OPTIONAL entries, link-only entries, the interim
+     meta-wiki links) are documented in the source menu's header and in
+     docs/page-structure.md / docs/optional-pages.md. -->
 <ul class="nav navbar-nav">
-  <li><a href="index.html">Home</a></li>
+  <li><a href="index.html">Startseite</a></li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="guidance.html" class="dropdown-toggle">Guidance<b class="caret"> </b></a>
+    <a data-toggle="dropdown" href="guidance.html" class="dropdown-toggle">Anleitung<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="guidance.html">Guidance</a></li>
-        <!-- OPTIONAL (0..1) — see docs/optional-pages.md -->
-      <li><a href="researcher-guidance.html">Guidance for Researchers</a></li>
-      <li><a href="implementer-guidance.html">Guidance for Implementers</a></li>
-        <!-- link-only entry: Logical-Models section of the Artifacts Summary (see header note) -->
-      <li><a href="logical-models.html">Datasets and Descriptions</a></li>
-      <li><a href="uml-diagrams.html">UML Diagrams</a></li>
+      <li><a href="guidance.html">Anleitung</a></li>
+        <!-- OPTIONAL (0..1) — siehe docs/optional-pages.md -->
+      <li><a href="researcher-guidance.html">Anleitung für Forschende</a></li>
+      <li><a href="implementer-guidance.html">Anleitung für Implementierende</a></li>
+        <!-- Nur-Link-Eintrag: die Seite "Logische Modelle" (Begründung im Quell-Menü) -->
+      <li><a href="logical-models.html">Datensätze und Beschreibungen</a></li>
+      <li><a href="uml-diagrams.html">UML-Diagramme</a></li>
     </ul>
   </li>
   <li class="dropdown">
-      <!-- The parent and the first four entries link to the KDS-wide conformance
-         rules of the Meta module (INTERIM: meta-wiki; see header note). -->
-    <a data-toggle="dropdown" href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance" class="dropdown-toggle">Conformance<b class="caret"> </b></a>
+      <!-- Eltern-Eintrag und die ersten vier Einträge verlinken die KDS-weiten
+         Konformitätsregeln des Meta-Moduls (INTERIM: Meta-Wiki; siehe
+         Quell-Menü). -->
+    <a data-toggle="dropdown" href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance" class="dropdown-toggle">Konformität<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Conformance</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#anforderungsdokumentation">General Requirements</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#must-support-ms">Must Support</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#fehlende-daten">Handling Missing Data</a></li>
-      <li><a href="security-and-privacy.html">Security and Privacy</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Konformität</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#anforderungsdokumentation">Allgemeine Anforderungen</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#must-support-ms">Must-Support</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#fehlende-daten">Umgang mit fehlenden Daten</a></li>
+      <li><a href="security-and-privacy.html">Sicherheit und Datenschutz</a></li>
     </ul>
   </li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle">Artifacts<b class="caret"> </b></a>
+    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle">Artefakte<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="artifacts.html">Artifacts Summary</a></li>
-      <li><a href="profiles.html">Profiles</a></li>
-      <li><a href="capability-statements.html">Capability Statements</a></li>
-        <!-- OPTIONAL (0..1) — see docs/optional-pages.md -->
-        <!-- <li><a href="search-parameters.html">Search Parameters (optional)</a></li> -->
-      <li><a href="logical-models.html">Logical Models</a></li>
-      <li><a href="examples.html">Examples</a></li>
+      <li><a href="artifacts.html">Artefakt-Übersicht</a></li>
+      <li><a href="profiles.html">Profile</a></li>
+      <li><a href="terminology.html">Terminologie</a></li>
+      <li><a href="capability-statements.html">CapabilityStatements</a></li>
+      <li><a href="logical-models.html">Logische Modelle</a></li>
+      <li><a href="examples.html">Beispiele</a></li>
     </ul>
   </li>
   <li><a href="downloads.html">Downloads</a></li>
-  <li><a href="changes.html">Changelog</a></li>
+  <li><a href="changes.html">Änderungshistorie</a></li>
   <li class="dropdown">
-      <!-- The parent deliberately links the MANDATORY child (Versioning): the
-         Metadata Overview page is optional, and a parent pointing at it would
-         have to be re-targeted when that page is removed. -->
-    <a data-toggle="dropdown" href="version-history.html" class="dropdown-toggle">Metadata<b class="caret"> </b></a>
+      <!-- Der Eltern-Eintrag verlinkt bewusst das PFLICHT-Kind (Versionierung):
+         die Metadaten-Übersicht ist optional. -->
+    <a data-toggle="dropdown" href="version-history.html" class="dropdown-toggle">Metadaten<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="version-history.html">Versioning</a></li>
+      <li><a href="version-history.html">Versionierung</a></li>
     </ul>
   </li>
 </ul>
@@ -320,54 +291,52 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p>  <!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#context-in-the-overall-project--relationships-to-other-modules" id="markdown-toc-context-in-the-overall-project--relationships-to-other-modules">Context in the overall project / relationships to other modules</a></li>
-  <li><a href="#references" id="markdown-toc-references">References</a></li>
+  <li><a href="#einordnung-im-gesamtprojekt--bezüge-zu-anderen-modulen" id="markdown-toc-einordnung-im-gesamtprojekt--bezüge-zu-anderen-modulen">Einordnung im Gesamtprojekt / Bezüge zu anderen Modulen</a></li>
+  <li><a href="#referenzen" id="markdown-toc-referenzen">Referenzen</a></li>
 </ul>
 
 </div>
-<h3 id="context-in-the-overall-project--relationships-to-other-modules">Context in the overall project / relationships to other modules</h3>
+<h3 id="einordnung-im-gesamtprojekt--bezüge-zu-anderen-modulen">Einordnung im Gesamtprojekt / Bezüge zu anderen Modulen</h3>
 
-<h4 id="classification-within-the-core-dataset">Classification within the Core Dataset</h4>
+<h4 id="einordnung-in-den-kerndatensatz">Einordnung in den Kerndatensatz</h4>
 
-<p>The Sociodemographic Data module is designed as an extension module to the MII core dataset. The underlying information model was coordinated with the PCOR-MII project.</p>
+<p>Das Modul Soziodemographische Daten ist als Erweiterungsmodul des MII-Kerndatensatzes konzipiert. Das zugrunde liegende Informationsmodell wurde mit dem Projekt PCOR-MII abgestimmt.</p>
 
-<p>The module supplements medical, diagnostic, and administrative information with the social and economic context of the affected person. It should not be understood as an isolated dataset, but as a context-providing supplement to the other modules of the core dataset.</p>
+<p>Das Modul ergänzt medizinische, diagnostische und administrative Informationen um den sozialen und ökonomischen Kontext der betroffenen Person. Es soll nicht als isolierter Datensatz verstanden werden, sondern als kontextgebende Ergänzung zu den übrigen Modulen des Kerndatensatzes.</p>
 
-<h4 id="relationship-to-the-person-module">Relationship to the Person Module</h4>
+<h4 id="bezug-zum-modul-person">Bezug zum Modul Person</h4>
 
-<p>The module is closely linked to the KDS Person module. The Sociodemography data collection is assigned to a person and can be documented multiple times over time for the same person.</p>
+<p>Das Modul ist eng mit dem KDS-Modul Person verbunden. Die Datenerhebung Soziodemographie wird einer Person zugeordnet und kann im Zeitverlauf mehrfach für dieselbe Person dokumentiert werden.</p>
 
-<p>Certain person-related information is extended within the scope of the Person module. These include:</p>
-
+<p>Bestimmte personenbezogene Angaben werden im Rahmen des Moduls Person erweitert. Dazu gehören:</p>
 <ul>
-  <li>Postal code;</li>
-  <li>First language;</li>
-  <li>Country of birth;</li>
-  <li>
-    <p>Nationality.</p>
-  </li>
-  <li>Relationship to the Intensive Care Module</li>
+  <li>Postleitzahl;</li>
+  <li>Erstsprache;</li>
+  <li>Geburtsland;</li>
+  <li>Staatsangehörigkeit.</li>
 </ul>
 
-<p>The module also has a connection to the KDS Intensive Care module. The characteristics height and body weight are already available there.</p>
+<h4 id="bezug-zum-modul-intensivmedizin">Bezug zum Modul Intensivmedizin</h4>
 
-<h4 id="relationship-to-clinical-and-care-related-modules">Relationship to Clinical and Care-Related Modules</h4>
+<p>Das Modul weist ebenfalls eine Verbindung zum KDS-Modul Intensivmedizin auf. Die Merkmale Körpergröße und Körpergewicht stehen dort bereits zur Verfügung.</p>
 
-<p>Sociodemographic data can be evaluated together with diagnoses, procedures, medication, laboratory values, vital signs, and other clinical information. In doing so, they do not primarily serve medical classification, but rather the contextualization and stratified analysis of this data.</p>
+<h4 id="bezug-zu-klinischen-und-versorgungsbezogenen-modulen">Bezug zu klinischen und versorgungsbezogenen Modulen</h4>
 
-<p>For example, sociodemographic characteristics can be used to:</p>
+<p>Soziodemographische Daten können gemeinsam mit Diagnosen, Prozeduren, Medikation, Laborwerten, Vitaldaten und weiteren klinischen Informationen ausgewertet werden. Sie dienen dabei nicht primär der medizinischen Klassifikation, sondern der Kontextualisierung und stratifizierten Analyse dieser Daten.</p>
+
+<p>Beispielsweise können soziodemographische Merkmale genutzt werden, um:</p>
 
 <ul>
-  <li>examine differences in the utilization of care;</li>
-  <li>compare treatment outcomes between social groups;</li>
-  <li>identify possible biases in study populations;</li>
-  <li>assess the transferability of results to the care population;</li>
-  <li>analyze relationships between life circumstances and care outcomes.</li>
+  <li>Unterschiede in der Inanspruchnahme von Versorgung zu untersuchen;</li>
+  <li>Behandlungsergebnisse zwischen sozialen Gruppen zu vergleichen;</li>
+  <li>mögliche Verzerrungen in Studienpopulationen zu erkennen;</li>
+  <li>die Übertragbarkeit von Ergebnissen auf die Versorgungspopulation einzuschätzen;</li>
+  <li>Zusammenhänge zwischen Lebenssituation und Versorgungserfolg zu analysieren.</li>
 </ul>
 
-<p>Their use as an analytical characteristic should not automatically be understood as a causal interpretation. Depending on the research question, sociodemographic characteristics can be confounders, effect modifiers, exposure characteristics, or purely descriptive criteria.</p>
+<p>Die Nutzung als Analysemerkmal sollte dabei nicht automatisch als kausale Interpretation verstanden werden. Soziodemographische Merkmale können je nach Fragestellung Confounder, Effektmodifikatoren, Expositionsmerkmale oder reine Beschreibungskriterien sein.</p>
 
-<h3 id="references">References</h3>
+<h3 id="referenzen">Referenzen</h3>
 <ul>
   <li>
     <p>GESIS – Leibniz-Institut für Sozialwissenschaften.
@@ -386,6 +355,7 @@ ISO 639: Codes for the representation of names of languages.</p>
 Schwerbehindertenausweisverordnung, insbesondere <span class="fhir-conformance"></span><span class="fhir-conformance"></span></p>
   </li>
 </ul>
+
 
 
 
@@ -411,7 +381,7 @@ Schwerbehindertenausweisverordnung, insbesondere <span class="fhir-conformance">
 
           IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Mon, Aug 31, 2026 16:02+0000">2026-08-31</span>
+          Erstellt <span title="Mon, Aug 31, 2026 20:20+0000">2026-08-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
               <!-- Branding override for the fhir2.base.template footer fragment.
