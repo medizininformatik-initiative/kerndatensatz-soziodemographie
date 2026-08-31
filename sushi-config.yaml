@@ -6,19 +6,22 @@
 id: mii-ig-soziodemographie
 canonical: https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie
 name: MII_IG_Soziodemographie
-# title: Example Title
+title: MII Implementation Guide Soziodemographie
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
-version: 1.0.0
+version: 2027.0.0-ballot.rc1
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2026+
 releaseLabel: ci-build
-# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+packageId: de.medizininformatikinitiative.kerndatensatz.soziodemographie
+license: CC-BY-4.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
+date: 2026-08-31
+jurisdiction: urn:iso:std:iso:3166#DE "Germany" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: Medizininformatik-Initiative
-  url: https://www.medizininformatik-initiative.de
-  # email: test@example.org
+  name: NUM-DIZ
+  # Language-neutral URL: the footer's publisher link is the same on every
+  # language's pages, so it must not pin one language's site.
+  url: https://www.netzwerk-universitaetsmedizin.de
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
@@ -58,42 +61,30 @@ pages:
     uml-diagrams.md:
       title: UML Diagrams
 
-  conformance.md:
-    title: Conformance
-    general-requirements.md:
-      title: General Requirements
-    must-support.md:
-      title: Must Support
-    missing-data.md:
-      title: Handling Missing Data
     security-and-privacy.md:
       title: Security and Privacy
 
-  artifacts.md:
-    title: Artifacts
-    profiles-and-extensions.md:
-      title: Profiles and Extensions
-    terminology.md:
-      title: Terminology
-    capability-statements.md:
-      title: Capability Statements
-    search-parameters-and-operations.md:
-      title: Search Parameters and Operations
-    logical-models.md:
-      title: Logical Models
-    examples.md:
-      title: Examples
+  profiles.md:
+    title: Profiles
+  terminology.md:
+    title: Terminology
+  capability-statements.md:
+    title: Capability Statements
+#  search-parameters.md: # OPTIONAL (0..1) — see docs/optional-pages.md
+#    title: Search Parameters
+  logical-models.md:
+    title: Logical Models
+  examples.md:
+    title: Examples
 
   downloads.md:
     title: Downloads
 
+  changes.md:
+    title: Changelog
+
   version-history.md:
     title: Versioning
-    changes.md:
-      title: Changelog
-
-  metadata.md:
-    title: Metadata Overview
 #
 #
 # The parameters property represents IG.definition.parameter. Rather
@@ -115,8 +106,10 @@ parameters:
     - de # Additional languages
   translation-sources:
     - input/translations/de # Path to German translations
-#   excludettl: true
-#   validation: [allow-any-extensions, no-broken-links]
+  excludexml: false
+  excludejson: false
+  excludettl: true
+
 #
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
@@ -135,10 +128,6 @@ menu:
     Datasets and Descriptions: datasets-and-descriptions.html
     UML Diagrams: uml-diagrams.html
   Conformance:
-    Overview: conformance.html
-    General Requirements: general-requirements.html
-    Must Support: must-support.html
-    Handling Missing Data: missing-data.html
     Security and Privacy: security-and-privacy.html
   Artifacts:
     Overview: artifacts.html
@@ -153,6 +142,22 @@ menu:
     Overview: version-history.html
     Changelog: changes.html
   Metadata Overview: metadata.html
+
+  # The IG Publisher AUTO-GENERATES the ImplementationGuide resource page
+  # (ImplementationGuide-<id>.html); this entry gives it a hand-authored intro
+  # — dependency table, cross-version analysis, global profiles, copyrights —
+  # the kerndatensatz-basis idiom (ImplementationGuide-mii-ig-base.md there).
+  # BOTH this entry's key and the two source files carry {{MODULE_SLUG}} in
+  # their NAME: like the IG-level .po catalogue, rename
+  # input/pagecontent/ImplementationGuide-mii-ig-{{MODULE_SLUG}}.md and its
+  # German mirror under input/translations/de/pagecontent/ when you set your
+  # slug (docs/recipes/create-a-new-module.md step 4). The CI self-check
+  # substitutes and renames all of them for the template repo's own preview.
+  ImplementationGuide-mii-ig-soziodemographie.md:
+    title: MII ImplementationGuide Resource
+
+  translationinfo.md:
+    title: Translation Information
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

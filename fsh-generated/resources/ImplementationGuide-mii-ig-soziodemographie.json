@@ -2,22 +2,36 @@
   "resourceType": "ImplementationGuide",
   "id": "mii-ig-soziodemographie",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie",
-  "version": "1.0.0",
+  "version": "2027.0.0-ballot.rc1",
   "name": "MII_IG_Soziodemographie",
+  "title": "MII Implementation Guide Soziodemographie",
   "status": "draft",
-  "publisher": "Medizininformatik-Initiative",
+  "date": "2026-08-31",
+  "publisher": "NUM-DIZ",
   "contact": [
     {
-      "name": "Medizininformatik-Initiative",
+      "name": "NUM-DIZ",
       "telecom": [
         {
           "system": "url",
-          "value": "https://www.medizininformatik-initiative.de"
+          "value": "https://www.netzwerk-universitaetsmedizin.de"
         }
       ]
     }
   ],
-  "packageId": "mii-ig-soziodemographie",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "DE",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Germany"
+        }
+      ]
+    }
+  ],
+  "packageId": "de.medizininformatikinitiative.kerndatensatz.soziodemographie",
+  "license": "CC-BY-4.0",
   "fhirVersion": [
     "4.0.1"
   ],
@@ -378,28 +392,6 @@
               "nameUrl": "uml-diagrams.html",
               "title": "UML Diagrams",
               "generation": "markdown"
-            }
-          ]
-        },
-        {
-          "nameUrl": "conformance.html",
-          "title": "Conformance",
-          "generation": "markdown",
-          "page": [
-            {
-              "nameUrl": "general-requirements.html",
-              "title": "General Requirements",
-              "generation": "markdown"
-            },
-            {
-              "nameUrl": "must-support.html",
-              "title": "Must Support",
-              "generation": "markdown"
-            },
-            {
-              "nameUrl": "missing-data.html",
-              "title": "Handling Missing Data",
-              "generation": "markdown"
             },
             {
               "nameUrl": "security-and-privacy.html",
@@ -409,41 +401,29 @@
           ]
         },
         {
-          "nameUrl": "artifacts.html",
-          "title": "Artifacts",
-          "generation": "markdown",
-          "page": [
-            {
-              "nameUrl": "profiles-and-extensions.html",
-              "title": "Profiles and Extensions",
-              "generation": "markdown"
-            },
-            {
-              "nameUrl": "terminology.html",
-              "title": "Terminology",
-              "generation": "markdown"
-            },
-            {
-              "nameUrl": "capability-statements.html",
-              "title": "Capability Statements",
-              "generation": "markdown"
-            },
-            {
-              "nameUrl": "search-parameters-and-operations.html",
-              "title": "Search Parameters and Operations",
-              "generation": "markdown"
-            },
-            {
-              "nameUrl": "logical-models.html",
-              "title": "Logical Models",
-              "generation": "markdown"
-            },
-            {
-              "nameUrl": "examples.html",
-              "title": "Examples",
-              "generation": "markdown"
-            }
-          ]
+          "nameUrl": "profiles.html",
+          "title": "Profiles",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "terminology.html",
+          "title": "Terminology",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "capability-statements.html",
+          "title": "Capability Statements",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "logical-models.html",
+          "title": "Logical Models",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "examples.html",
+          "title": "Examples",
+          "generation": "markdown"
         },
         {
           "nameUrl": "downloads.html",
@@ -451,20 +431,13 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "version-history.html",
-          "title": "Versioning",
-          "generation": "markdown",
-          "page": [
-            {
-              "nameUrl": "changes.html",
-              "title": "Changelog",
-              "generation": "markdown"
-            }
-          ]
+          "nameUrl": "changes.html",
+          "title": "Changelog",
+          "generation": "markdown"
         },
         {
-          "nameUrl": "metadata.html",
-          "title": "Metadata Overview",
+          "nameUrl": "version-history.html",
+          "title": "Versioning",
           "generation": "markdown"
         }
       ]
@@ -497,6 +470,18 @@
       {
         "code": "translation-sources",
         "value": "input/translations/de"
+      },
+      {
+        "code": "excludexml",
+        "value": "false"
+      },
+      {
+        "code": "excludejson",
+        "value": "false"
+      },
+      {
+        "code": "excludettl",
+        "value": "true"
       }
     ]
   }
