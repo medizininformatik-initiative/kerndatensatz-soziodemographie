@@ -1,15 +1,15 @@
-# MII PR SDD Lebenssituation - v1.0.0
+# MII PR SDD Lebenssituation - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
-* [**Artifacts**](artifacts.md)
+* [**Artefaktübersicht**](artifacts.md)
 * **MII PR SDD Lebenssituation**
 
 ## Ressourcenprofil: MII PR SDD Lebenssituation ( Abstrakt ) 
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-lebenssituation | *Version*:1.0.0 |
-| Draft Stand: 2026-08-28 | *Maschinenlesbarer Name*:MII_PR_SDD_Lebenssituation |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-lebenssituation | *Version*:2027.0.0-ballot.rc1 |
+| Draft Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_PR_SDD_Lebenssituation |
 
  
 Lebenssituation des Patienten (abstrakt) 
@@ -18,7 +18,7 @@ Lebenssituation des Patienten (abstrakt)
 
 * Derived from this Profile: [MII PR SDD Betreuungssituation](StructureDefinition-mii-pr-sdd-betreuungssituation.md), [MII PR SDD Haushaltsgroesse](StructureDefinition-mii-pr-sdd-haushaltsgroesse.md), [MII PR SDD Partnerschaft](StructureDefinition-mii-pr-sdd-partnerschaft.md), [MII PR SDD Schwerbehindertenausweis](StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.md) and [MII PR SDD Vertrauensperson](StructureDefinition-mii-pr-sdd-vertrauensperson.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-ig-soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-lebenssituation.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-lebenssituation.json)
 
 ### Formale Ansichten des Profilinhalts
 
@@ -97,20 +97,27 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-l
   "resourceType" : "StructureDefinition",
   "id" : "mii-pr-sdd-lebenssituation",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-lebenssituation",
-  "version" : "1.0.0",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_PR_SDD_Lebenssituation",
   "title" : "MII PR SDD Lebenssituation",
   "status" : "draft",
-  "date" : "2026-08-28T09:31:00+00:00",
-  "publisher" : "Medizininformatik-Initiative",
+  "date" : "2026-08-31T16:07:27+00:00",
+  "publisher" : "NUM-DIZ",
   "contact" : [{
-    "name" : "Medizininformatik-Initiative",
+    "name" : "NUM-DIZ",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.medizininformatik-initiative.de"
+      "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
   "description" : "Lebenssituation des Patienten (abstrakt)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    }]
+  }],
   "fhirVersion" : "4.0.1",
   "mapping" : [{
     "identity" : "workflow",

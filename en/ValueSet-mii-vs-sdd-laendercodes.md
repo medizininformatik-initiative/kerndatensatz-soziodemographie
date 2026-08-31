@@ -1,15 +1,15 @@
-# MII VS SDD Laendercodes - v1.0.0
+# MII VS SDD Laendercodes - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
-* [**Artifacts**](artifacts.md)
+* [**Artifacts Summary**](artifacts.md)
 * **MII VS SDD Laendercodes**
 
 ## ValueSet: MII VS SDD Laendercodes 
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-laendercodes | *Version*:1.0.0 |
-| Draft as of 2026-08-28 | *Computable Name*:MII_VS_SDD_Laendercodes |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-laendercodes | *Version*:2027.0.0-ballot.rc1 |
+| Draft as of 2026-08-31 | *Computable Name*:MII_VS_SDD_Laendercodes |
 
  
 ISO 3166-1 alpha-2 zzgl. Sonderkonzepte für staatenlos und ungeklärt. 
@@ -41,21 +41,28 @@ ISO 3166-1 alpha-2 zzgl. Sonderkonzepte für staatenlos und ungeklärt.
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-laendercodes",
-  "version" : "1.0.0",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_VS_SDD_Laendercodes",
   "title" : "MII VS SDD Laendercodes",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-28T09:31:00+00:00",
-  "publisher" : "Medizininformatik-Initiative",
+  "date" : "2026-08-31T16:07:27+00:00",
+  "publisher" : "NUM-DIZ",
   "contact" : [{
-    "name" : "Medizininformatik-Initiative",
+    "name" : "NUM-DIZ",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.medizininformatik-initiative.de"
+      "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
   "description" : "ISO 3166-1 alpha-2 zzgl. Sonderkonzepte für staatenlos und ungeklärt.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    }]
+  }],
   "compose" : {
     "include" : [{
       "valueSet" : ["http://hl7.org/fhir/ValueSet/iso3166-1-2"]

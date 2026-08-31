@@ -1,14 +1,10 @@
-# Guidance for Researchers - v1.0.0
+# Guidance for Researchers - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
 * [**Guidance**](guidance.md)
 * **Guidance for Researchers**
 
 ## Guidance for Researchers
-
-## Guidance for Researchers
-
-**Note:** Detailed guidance for researchers will be added in a future version of this implementation guide.
 
 ### Description of scenarios application
 

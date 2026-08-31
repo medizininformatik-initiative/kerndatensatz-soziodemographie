@@ -1,15 +1,15 @@
-# MII LM Soziodemographie - v1.0.0
+# MII LM Soziodemographie - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
-* [**Artifacts**](artifacts.md)
+* [**Artefaktübersicht**](artifacts.md)
 * **MII LM Soziodemographie**
 
 ## Logisches Modell: MII LM Soziodemographie 
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-lm-sdd | *Version*:1.0.0 |
-| Draft Stand: 2026-08-28 | *Maschinenlesbarer Name*:MII_LM_SDD |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-lm-sdd | *Version*:2027.0.0-ballot.rc1 |
+| Draft Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_LM_SDD |
 
  
 MII LogicalModel Modul Soziodemographie 
@@ -18,7 +18,7 @@ MII LogicalModel Modul Soziodemographie
 
 * This Logical Model is not used by any profiles in this Specification
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-ig-soziodemographie|current/StructureDefinition/StructureDefinition-mii-lm-sdd.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.soziodemographie|current/StructureDefinition/StructureDefinition-mii-lm-sdd.json)
 
 ### Formale Ansichten des Profilinhalts
 
@@ -73,20 +73,27 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-lm-sdd.c
   "resourceType" : "StructureDefinition",
   "id" : "mii-lm-sdd",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-lm-sdd",
-  "version" : "1.0.0",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_LM_SDD",
   "title" : "MII LM Soziodemographie",
   "status" : "draft",
-  "date" : "2026-08-28T09:31:00+00:00",
-  "publisher" : "Medizininformatik-Initiative",
+  "date" : "2026-08-31T16:07:27+00:00",
+  "publisher" : "NUM-DIZ",
   "contact" : [{
-    "name" : "Medizininformatik-Initiative",
+    "name" : "NUM-DIZ",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.medizininformatik-initiative.de"
+      "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
   "description" : "MII LogicalModel Modul Soziodemographie",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    }]
+  }],
   "fhirVersion" : "4.0.1",
   "mapping" : [{
     "identity" : "rim",

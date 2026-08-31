@@ -1,4 +1,4 @@
-# Guidance - v1.0.0
+# Guidance - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
 * **Guidance**
@@ -7,9 +7,19 @@
 
 This section provides guidance for different audiences implementing and using the MII Kerndatensatz Soziodemographie Implementation Guide.
 
-## Description of the Soziodemographie module
+### General Implementation Guidance
 
-### Purpose and Objective
+* **[Datasets and Descriptions](datasets-and-descriptions.md)** - Detailed descriptions of the MII core dataset logical models
+* **[UML Diagrams](uml-diagrams.md)** - UML diagrams illustrating the data models and relationships
+
+### Audience-Specific Guidance
+
+* **[Guidance for Researchers](researcher-guidance.md)** - Information for researchers using MII data for research purposes
+* **[Guidance for Implementers](implementer-guidance.md)** - Technical guidance for Data Integration Center (DIZ) implementers
+
+### Description of the Soziodemographie module
+
+#### Purpose and Objective
 
 The Sociodemographic Data module serves the standardized collection of information on the demographic, social, and economic background of patients. It thereby creates a uniform basis for documenting these characteristics in care.
 
@@ -30,7 +40,7 @@ The module thus pursues, in particular, the following objectives:
 
 The need for standardized data collection also arises from the fact that sociodemographic data have so far often not been documented consistently within and across professional groups and institutions. The module is therefore intended to provide a common, interoperable structure for the collection and reuse of this information.
 
-### Significance for Care and Research
+#### Significance for Care and Research
 
 The interpretation of medical results is not independent of the social and economic living conditions of the individuals studied. Studies show, for example, associations between socioeconomic conditions and health outcomes, care costs, hospitalizations, and the use of emergency care. The relevant influencing factors can differ depending on the age group and the outcome under investigation.
 
@@ -40,7 +50,7 @@ Current research indicates that people with lower income or lower educational at
 
 A more consistent and reproducible collection of sociodemographic data can thus help to better understand study results and to investigate health inequalities in a more targeted way.
 
-### Scope of the Module
+#### Scope of the Module
 
 The module includes information from the following areas:
 
@@ -79,19 +89,7 @@ Not all sub-areas need to be present at every collection point. The specialized 
 
 For selected characteristics, in particular education, vocational training, employment status, and occupational position, a more detailed long version and a simplified minimal version are available. This allows the depth of data to be adapted to the respective care context, the time available, and the specific documentation purpose.
 
-## General Implementation Guidance
-
-* **[Datasets and Descriptions](datasets-and-descriptions.md)** - Detailed descriptions of the MII core dataset logical models
-* **[UML Diagrams](uml-diagrams.md)** - UML diagrams illustrating the data models and relationships
-
-## Audience-Specific Guidance
-
-* **[Guidance for Researchers](researcher-guidance.md)** - Information for researchers using MII data for research purposes
-* **[Guidance for Implementers](implementer-guidance.md)** - Technical guidance for Data Integration Center (DIZ) implementers
-
 -------
 
-For conformance requirements and must support definitions, see the [Conformance](conformance.md) section.
-
-For technical artifacts including profiles, extensions, and terminology, see the [FHIR Artifacts](artifacts.md) section.
+For the KDS-wide conformance requirements see the [Conformance rules of the Meta module](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance); for the technical artifacts see [Profiles](profiles.md).
 

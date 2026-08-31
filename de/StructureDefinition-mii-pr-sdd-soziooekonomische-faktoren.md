@@ -1,15 +1,15 @@
-# MII PR SDD Soziooekonomische Faktoren - v1.0.0
+# MII PR SDD Soziooekonomische Faktoren - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
-* [**Artifacts**](artifacts.md)
+* [**Artefaktübersicht**](artifacts.md)
 * **MII PR SDD Soziooekonomische Faktoren**
 
 ## Ressourcenprofil: MII PR SDD Soziooekonomische Faktoren 
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-soziooekonomische-faktoren | *Version*:1.0.0 |
-| Draft Stand: 2026-08-28 | *Maschinenlesbarer Name*:MII_PR_SDD_SoziooekonomischeFaktoren |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-soziooekonomische-faktoren | *Version*:2027.0.0-ballot.rc1 |
+| Draft Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_PR_SDD_SoziooekonomischeFaktoren |
 
  
 Soziooekonomische Faktoren für SDD 
@@ -18,7 +18,7 @@ Soziooekonomische Faktoren für SDD
 
 * Derived from this Profile: [MII PR SDD Ausbildung](StructureDefinition-mii-pr-sdd-ausbildung.md), [MII PR SDD Berufliche Stellung](StructureDefinition-mii-pr-sdd-berufliche-stellung.md), [MII PR SDD Beschäftigungsstatus](StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.md), [MII PR SDD Einkommen](StructureDefinition-mii-pr-sdd-einkommen.md)... Show 2 more, [MII PR SDD Schulabschluss](StructureDefinition-mii-pr-sdd-schulabschluss.md) and [MII PR SDD Schuljahre](StructureDefinition-mii-pr-sdd-schuljahre.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/mii-ig-soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-soziooekonomische-faktoren.json)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-soziooekonomische-faktoren.json)
 
 ### Formale Ansichten des Profilinhalts
 
@@ -95,20 +95,27 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-s
   "resourceType" : "StructureDefinition",
   "id" : "mii-pr-sdd-soziooekonomische-faktoren",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-soziooekonomische-faktoren",
-  "version" : "1.0.0",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_PR_SDD_SoziooekonomischeFaktoren",
   "title" : "MII PR SDD Soziooekonomische Faktoren",
   "status" : "draft",
-  "date" : "2026-08-28T09:31:00+00:00",
-  "publisher" : "Medizininformatik-Initiative",
+  "date" : "2026-08-31T16:07:27+00:00",
+  "publisher" : "NUM-DIZ",
   "contact" : [{
-    "name" : "Medizininformatik-Initiative",
+    "name" : "NUM-DIZ",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.medizininformatik-initiative.de"
+      "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
   "description" : "Soziooekonomische Faktoren für SDD",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    }]
+  }],
   "fhirVersion" : "4.0.1",
   "mapping" : [{
     "identity" : "workflow",

@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-ausbildung",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_CS_SDD_Ausbildung",
     "title" : "MII CS SDD Ausbildung",
@@ -12,7 +12,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-lang",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_CS_SDD_Berufliche_Stellung_Lang",
     "title" : "MII CS SDD Berufliche Stellung (Langfversion)",
@@ -23,7 +23,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-minimal",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_CS_SDD_Berufliche_Stellung_Minimal",
     "title" : "MII CS SDD Berufliche Stellung (Minimalversion)",
@@ -34,7 +34,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_CS_SDD_Beschaeftigungsstatus_Lang",
     "title" : "MII CS SDD Beschaeftigungsstatus (Langfversion)",
@@ -45,7 +45,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-minimal",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_CS_SDD_Beschaeftigungsstatus_Minimal",
     "title" : "MII CS SDD Beschaeftigungsstatus (Minimalversion)",
@@ -56,7 +56,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-betreuungssituation",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_CS_SDD_Betreuungssituation",
     "title" : "MII CS SDD Betreuungssituation",
@@ -67,7 +67,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-einkommen",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_CS_SDD_Einkommen",
     "title" : "MII CS SDD Einkommen",
@@ -78,7 +78,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-erhebungsmethode",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_CS_SDD_Erhebungsmethode",
     "title" : "MII CS SDD Erhebungsmethode",
@@ -89,7 +89,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-laendercodes-sonder",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_CS_SDD_Laendercodes_Sonder",
     "title" : "MII CS SDD Laendercodes Sonder",
@@ -100,7 +100,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_CS_Merkzeichen",
     "title" : "MII CS SDD Merkzeichen (SGB IX / SchwbAwV)",
@@ -111,7 +111,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schulabschluss",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_CS_SDD_Schulabschluss",
     "title" : "MII CS SDD Schulabschluss",
@@ -122,7 +122,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_CS_SDD_Schwerbehindertenausweis",
     "title" : "MII CS SDD Schwerbehindertenausweis",

@@ -1,4 +1,4 @@
-# Home - v1.0.0
+# Home - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,19 +7,49 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie | *Version*:1.0.0 |
-| Draft Stand: 2026-08-28 | *Maschinenlesbarer Name*:MII_IG_Soziodemographie |
-
-# MII_IG_Soziodemographie
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie | *Version*:2027.0.0-ballot.rc1 |
+| Draft Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_IG_Soziodemographie |
 
 ### Introduction
 
+This module defines FHIR profiles for recording sociodemographic characteristics of patients, including origin, living situation (e.g. household size, care/support situation, partnership), and socioeconomic factors (e.g. education, occupation, employment status, income).
+
 | | |
 | :--- | :--- |
-| Datum | xx.xx.2026 |
-| Version | 2027.0.0 |
+| Datum | 31.08.2026 |
+| Version | 2027.0.0-ballot.rc1 |
 | Status | active |
 | Realm | EN |
+
+### Target audience
+
+##### Implementers
+
+Data Integration Centers (DIC), software developers and system architects building FHIR-based solutions.
+ → see [Profiles](profiles.md) and [Logical Models](logical-models.md).
+
+##### Researchers
+
+Scientists using KDS data for medical research.
+ → see [Guidance for Researchers](researcher-guidance.md).
+
+### Contents
+
+* **[Guidance](guidance.md)** — getting started and domain notes.
+* **Conformance** — the KDS-wide conformance rules (requirements language, Must Support, handling missing data) are maintained centrally by the [Meta module](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance); the module-specific [Security and Privacy](security-and-privacy.md) considerations are part of this guide.
+* **[Profiles](profiles.md)** and the further **[artifact pages](artifacts.md)** — the technical artifacts.
+* **[Examples](examples.md)** — example instances.
+* **[Dependencies](ImplementationGuide-mii-ig-.md)** — the ImplementationGuide resource with the dependency table, cross-version analysis and copyright statements.
+
+More FHIR implementation guides can be found in the official **[FHIR IG Registry](https://fhir.org/guides/registry/)** (source: [`FHIR/ig-registry`](https://github.com/FHIR/ig-registry)).
+
+### Related guides
+
+This module is part of the MII Core Dataset; the other KDS modules and their dependencies are described at [medizininformatik-initiative.de](https://www.medizininformatik-initiative.de/).
+
+### Imprint
+
+This guide was created within the Medical Informatics Initiative and is subject, by its governance process, to the coordination procedure of the Interoperability Forum and the technical committees of HL7 Germany.
 
 ### Contact Information
 
@@ -38,10 +68,6 @@ Questions about this publication can be asked on [chat.fhir.org](https://chat.fh
 * Matthias Rose, Charité
 * Rebecca Mukowski-Kickhöfel, Charité
 * Wolfgang Hoffmann, Universitätsmedizin Greifswald
-
-#### Contributors
-
-This implementation guide has been created as part of the Medical Informatics Initiative and is subject to the governance process of the Interoperability Forum and Technical Committees of HL7 Germany e.V.
 
 ### Copyright and License
 

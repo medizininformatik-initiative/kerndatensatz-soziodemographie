@@ -10,21 +10,28 @@
     <status value="generated"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem mii-cs-sdd-laendercodes-sonder</b></p><a name="de-mii-cs-sdd-laendercodes-sonder"> </a><a name="de-hcmii-cs-sdd-laendercodes-sonder"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-laendercodes-sonder</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ZZ<a name="de-mii-cs-sdd-laendercodes-sonder-ZZ"> </a></td><td>Staatenlos</td></tr><tr><td style="white-space:nowrap">QU<a name="de-mii-cs-sdd-laendercodes-sonder-QU"> </a></td><td>Ungeklärte Staatsangehörigkeit</td></tr></table></div>
   </text>
   <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-laendercodes-sonder"/>
-  <version value="1.0.0"/>
+  <version value="2027.0.0-ballot.rc1"/>
   <name value="MII_CS_SDD_Laendercodes_Sonder"/>
   <title value="MII CS SDD Laendercodes Sonder"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2026-08-28T09:31:00+00:00"/>
-  <publisher value="Medizininformatik-Initiative"/>
+  <date value="2026-08-31T16:07:27+00:00"/>
+  <publisher value="NUM-DIZ"/>
   <contact>
-    <name value="Medizininformatik-Initiative"/>
+    <name value="NUM-DIZ"/>
     <telecom>
       <system value="url"/>
-      <value value="https://www.medizininformatik-initiative.de"/>
+      <value value="https://www.netzwerk-universitaetsmedizin.de"/>
     </telecom>
   </contact>
   <description value="Sonderkonzepte für Ländercodes, die nicht in ISO 3166-1 alpha-2 enthalten sind: staatenlos und ungeklärte Staatsangehörigkeit."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="DE"/>
+      <display value="Germany"/>
+    </coding>
+  </jurisdiction>
   <content value="complete"/>
   <count value="2"/>
   <concept>

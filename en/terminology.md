@@ -1,7 +1,6 @@
-# Terminology - v1.0.0
+# Terminology - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
-* [**Artifacts**](artifacts.md)
 * **Terminology**
 
 ## Terminology

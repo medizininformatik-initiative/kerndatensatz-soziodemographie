@@ -1,7 +1,6 @@
-# Logical Models - v1.0.0
+# Logical Models - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
-* [**Artifacts**](artifacts.md)
 * **Logical Models**
 
 ## Logical Models

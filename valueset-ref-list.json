@@ -23,13 +23,13 @@
     "sources" : ["2.16.840.1.113883.21.72"],
     "uses" : {
     },
+    "StructureDefinition-mii-pr-sdd-vertrauensperson.html" : "MII PR SDD Vertrauensperson",
     "StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.html" : "MII PR SDD Schwerbehindertenausweis",
-    "StructureDefinition-mii-pr-sdd-partnerschaft.html" : "MII PR SDD Partnerschaft",
-    "StructureDefinition-mii-pr-sdd-vertrauensperson.html" : "MII PR SDD Vertrauensperson"
+    "StructureDefinition-mii-pr-sdd-partnerschaft.html" : "MII PR SDD Partnerschaft"
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-ausbildung",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_VS_SDD_Ausbildung",
     "title" : "MII VS SDD Ausbildung",
@@ -41,7 +41,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-berufliche-stellung-lang",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_VS_SDD_Berufliche_Stellung_Lang",
     "title" : "MII VS SDD Berufliche Stellung (Langversion)",
@@ -53,7 +53,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-berufliche-stellung-minimal",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_VS_SDD_Berufliche_Stellung_Minimal",
     "title" : "MII VS SDD Berufliche Stellung (Minimalversion)",
@@ -65,7 +65,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-beschaeftigungsstatus-lang",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_VS_SDD_Beschaeftigungsstatus_Lang",
     "title" : "MII VS SDD Beschaeftigungsstatus (Langversion)",
@@ -77,7 +77,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-beschaeftigungsstatus-minimal",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_VS_SDD_Beschaeftigungsstatus_Minimal",
     "title" : "MII VS SDD Beschaeftigungsstatus (Minimalversion)",
@@ -89,7 +89,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-betreuungssituation",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_VS_SDD_Betreuungssituation",
     "title" : "MII VS SDD Betreuungssituation",
@@ -101,7 +101,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-einkommen",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_VS_SDD_Einkommen",
     "title" : "MII VS SDD Einkommen",
@@ -113,7 +113,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-erhebungsmethode",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_VS_SDD_Erhebungsmethode",
     "title" : "MII VS SDD Erhebungsmethode",
@@ -125,7 +125,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-laendercodes",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_VS_SDD_Laendercodes",
     "title" : "MII VS SDD Laendercodes",
@@ -134,12 +134,12 @@
     "urn:iso:std:iso:3166"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-sdd-geburtsland-mutter.html" : "MII PR SDD Geburtsland Mutter",
-    "StructureDefinition-mii-pr-sdd-geburtsland-vater.html" : "MII PR SDD Geburtsland Vater"
+    "StructureDefinition-mii-pr-sdd-geburtsland-vater.html" : "MII PR SDD Geburtsland Vater",
+    "StructureDefinition-mii-pr-sdd-geburtsland-mutter.html" : "MII PR SDD Geburtsland Mutter"
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-merkzeichen",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_VS_SDD_Merkzeichen",
     "title" : "MII VS SDD Merkzeichen",
@@ -151,7 +151,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-schulabschluss",
-    "version" : "1.0.0",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "draft",
     "name" : "MII_VS_SDD_Schulabschluss",
     "title" : "MII VS SDD Schulabschluss",

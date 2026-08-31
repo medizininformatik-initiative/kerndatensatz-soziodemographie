@@ -1,4 +1,4 @@
-# mii-ig-soziodemographie#1.0.0: null(de)
+# de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1: MII Implementation Guide Soziodemographie(de)
 
 ## Pages
 
@@ -6,24 +6,18 @@
 * [Examples](examples.md)
 * [Datasets and Descriptions](datasets-and-descriptions.md)
 * [Terminology](terminology.md)
-* [Conformance](conformance.md)
-* [Handling Missing Data](missing-data.md)
 * [Versioning](version-history.md)
 * [Guidance for Researchers](researcher-guidance.md)
-* [Metadata Overview](metadata.md)
 * [Guidance for Implementers](implementer-guidance.md)
-* [Must Support](must-support.md)
-* [Artifacts](artifacts.md)
+* [Profiles](profiles.md)
+* [Artefaktübersicht](artifacts.md)
 * [Changelog](changes.md)
 * [Logical Models](logical-models.md)
 * [Guidance](guidance.md)
-* [General Requirements](general-requirements.md)
 * [Downloads](downloads.md)
 * [Security and Privacy](security-and-privacy.md)
 * [Capability Statements](capability-statements.md)
-* [Search Parameters and Operations](search-parameters-and-operations.md)
 * [UML Diagrams](uml-diagrams.md)
-* [Profiles and Extensions](profiles-and-extensions.md)
 
 ## Resources
 
@@ -81,4 +75,4 @@
 
 ### ImplementationGuides
 
-* [MII_IG_Soziodemographie](ImplementationGuide-mii-ig-soziodemographie.md)
+* [MII Implementation Guide Soziodemographie](ImplementationGuide-mii-ig-soziodemographie.md)

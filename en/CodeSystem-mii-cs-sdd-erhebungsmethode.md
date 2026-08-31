@@ -1,15 +1,15 @@
-# MII CS SDD Erhebungsmethode - v1.0.0
+# MII CS SDD Erhebungsmethode - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
-* [**Artifacts**](artifacts.md)
+* [**Artifacts Summary**](artifacts.md)
 * **MII CS SDD Erhebungsmethode**
 
 ## CodeSystem: MII CS SDD Erhebungsmethode 
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-erhebungsmethode | *Version*:1.0.0 |
-| Draft as of 2026-08-28 | *Computable Name*:MII_CS_SDD_Erhebungsmethode |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-erhebungsmethode | *Version*:2027.0.0-ballot.rc1 |
+| Draft as of 2026-08-31 | *Computable Name*:MII_CS_SDD_Erhebungsmethode |
 
  
 Code System für Erhebungsmethode 
@@ -34,21 +34,28 @@ This Code system is referenced in the definition of the following value sets:
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-erhebungsmethode",
-  "version" : "1.0.0",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_CS_SDD_Erhebungsmethode",
   "title" : "MII CS SDD Erhebungsmethode",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-28T09:31:00+00:00",
-  "publisher" : "Medizininformatik-Initiative",
+  "date" : "2026-08-31T16:07:27+00:00",
+  "publisher" : "NUM-DIZ",
   "contact" : [{
-    "name" : "Medizininformatik-Initiative",
+    "name" : "NUM-DIZ",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.medizininformatik-initiative.de"
+      "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
   "description" : "Code System für Erhebungsmethode",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    }]
+  }],
   "content" : "complete",
   "count" : 3,
   "concept" : [{
