@@ -17,7 +17,7 @@ Certain person-related information is extended within the scope of the Person mo
 * Country of birth;
 * Nationality.
 
-* Relationship to the Intensive Care Module
+#### Relationship to the Intensive Care Module
 
 The module also has a connection to the KDS Intensive Care module. The characteristics height and body weight are already available there.
 

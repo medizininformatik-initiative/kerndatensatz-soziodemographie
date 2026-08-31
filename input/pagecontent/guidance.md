@@ -56,8 +56,8 @@ The module includes information from the following areas:
    - educational attainment;
    - vocational training;
    - employment status;
-   _ occupational position;
-   _ average monthly net household income.
+   - occupational position;
+   - average monthly net household income.
 
 3. Extended Origin
    - country of birth of the mother;
