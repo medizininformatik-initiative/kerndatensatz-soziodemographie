@@ -1,8 +1,3 @@
-## Guidance for Researchers
-
-{:.bg-warning}
-**Note:** Detailed guidance for researchers will be added in a future version of this implementation guide.
-
 ### Description of scenarios application
 
 #### Collection for Patient-Centered Care Planning

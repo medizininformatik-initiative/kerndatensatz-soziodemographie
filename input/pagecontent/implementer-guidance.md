@@ -1,5 +1,3 @@
-## Guidance for Implementers
-
 ### Context in the overall project / relationships to other modules
 
 #### Classification within the Core Dataset
