@@ -5,37 +5,37 @@
 
 ## Downloads
 
- Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt. 
+ Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-This page links the downloadable artifacts of the Soziodemographie module.
+Diese Seite verlinkt die herunterladbaren Artefakte des Moduls Soziodemographie.
 
-#### Package file
+#### Paketdatei
 
-The package file is an NPM-format FHIR package used by most FHIR tooling. It contains all value sets, profiles, extensions and the list of pages and URLs of this guide, as defined by this version. It **SHOULD** be the first choice whenever implementation artifacts are generated, because it carries all rules that make the profiles valid. Implementers still need to know the specification content and the applicable profiles to build a conformant implementation — see the FHIR documentation on [validating profiles and resources](http://hl7.org/fhir/R4/validation.html).
+Die Paketdatei ist ein FHIR-Paket im NPM-Format, wie es die meisten FHIR-Werkzeuge verwenden. Sie enthält alle ValueSets, Profile, Extensions sowie die Liste der Seiten und URLs dieses Leitfadens in dieser Version. Sie SOLLTE die erste Wahl sein, wann immer Implementierungsartefakte erzeugt werden, denn sie trägt alle Regeln, die die Profile gültig machen. Implementierende müssen darüber hinaus den Inhalt der Spezifikation und die einschlägigen Profile kennen, um eine konforme Umsetzung zu bauen — siehe die FHIR-Dokumentation zur [Validierung von Profilen und Ressourcen](http://hl7.org/fhir/R4/validation.html).
 
-* [Package (compressed folder)](../package.tgz)
+* [Paket (komprimierter Ordner)](../package.tgz)
 
-#### Downloadable copy of this guide
+#### Herunterladbare Kopie dieses Leitfadens
 
-A downloadable copy of the rendered guide, for hosting locally:
+Eine herunterladbare Fassung des gerenderten Leitfadens für den lokalen Betrieb:
 
-* [Downloadable copy (compressed folder)](../full-ig.zip)
+* [Herunterladbare Kopie (komprimierter Ordner)](../full-ig.zip)
 
-#### Examples
+#### Beispiele
 
-All examples of this guide:
+Alle Beispiele dieses Leitfadens:
 
-* [XML (compressed folder)](../examples.xml.zip)
-* [JSON (compressed folder)](../examples.json.zip)
+* [XML (komprimierter Ordner)](../examples.xml.zip)
+* [JSON (komprimierter Ordner)](../examples.json.zip)
 
-#### Consolidated CSV and Excel representations of the profiles
+#### Konsolidierte CSV- und Excel-Darstellungen der Profile
 
-The profile information of the whole guide in a single CSV or Excel file — useful for testers and analysts who want to review element properties across profiles in one table:
+Die Profilinformationen des gesamten Leitfadens in einer einzigen CSV- oder Excel-Datei — nützlich für Testende und Analysierende, die Element-Eigenschaften profilübergreifend in einer Tabelle sichten wollen:
 
-* [CSV (compressed folder)](../csvs.zip)
-* [Excel (compressed folder)](../excels.zip)
+* [CSV (komprimierter Ordner)](../csvs.zip)
+* [Excel (komprimierter Ordner)](../excels.zip)
 
 #### Schematrons
 
-* [Schematrons (compressed folder)](../schematrons.zip)
+* [Schematrons (komprimierter Ordner)](../schematrons.zip)
 

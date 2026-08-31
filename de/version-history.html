@@ -167,86 +167,57 @@
             </button>
             <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- Menu in the IG's DEFAULT language (English).
-     The IG Publisher renders the navigation from this file. To translate it,
-     ship a per-language copy at input/translations/<lang>/includes/menu.xml —
-     this is the mechanism the HL7 reference IG FHIR/multi-lang-test-ig uses and
-     the ONLY way to get a TRANSLATED menu: the `menu:` property in
-     sushi-config.yaml generates a single menu.xml that cannot be translated.
-     Rules: keep the href targets identical across languages; dropdown parents
-     must link to a REAL page (href="#" is rejected by the template's menu QA);
-     only one sub-menu level is supported.
-
-     STRUCTURE: this menu implements the TF-KDS-agreed module menu (see
-     docs/page-structure.md for the full structure with cardinalities).
-     Entries marked OPTIONAL (0..1) below may be removed per module — the
-     removal procedure per entry is in docs/optional-pages.md in this
-     repository. Entries without a marker are mandatory (1..1).
-
-     LINK-ONLY ENTRIES (no page of their own):
-     - "Datasets and Descriptions" points at the Logical Models page
-       (logical-models.html) — the module's datasets ARE its logical models.
-       NEITHER Artifacts-Summary anchor is usable for the TF-KDS "Sec.
-       15.0.2" target: the numeric #2 is POSITIONAL (grouping index — wrong
-       section whenever the artifact mix differs from the full standard set),
-       and the browser-generated NAMED AnchorJS anchor
-       (#structures-logical-models) is invisible to the IG Publisher's link
-       validator — it injects a marker anchor into the menu (rendered as an
-       EMPTY menu entry) and logs a broken-link ERROR on every page's QA.
-       Full analysis: docs/page-structure.md, "Datasets and Descriptions".
-     - The four Conformance entries point at the KDS-wide conformance rules of
-       the Meta module (kerndatensatz-meta). INTERIM: the Meta module has no
-       published IG rendering yet (only a CI build with no conformance pages),
-       so these link to the authoritative meta-wiki sections; switch them to
-       the Meta IG's menu entries once a stable rendering exists (Gate item in
-       docs/page-structure.md). -->
+                <!-- German translation of input/includes/menu.xml.
+     Keep the href targets IDENTICAL to the source menu; translate only labels.
+     Structure notes (OPTIONAL entries, link-only entries, the interim
+     meta-wiki links) are documented in the source menu's header and in
+     docs/page-structure.md / docs/optional-pages.md. -->
 <ul class="nav navbar-nav">
-  <li><a href="index.html">Home</a></li>
+  <li><a href="index.html">Startseite</a></li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="guidance.html" class="dropdown-toggle">Guidance<b class="caret"> </b></a>
+    <a data-toggle="dropdown" href="guidance.html" class="dropdown-toggle">Anleitung<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="guidance.html">Guidance</a></li>
-        <!-- OPTIONAL (0..1) — see docs/optional-pages.md -->
-      <li><a href="researcher-guidance.html">Guidance for Researchers</a></li>
-      <li><a href="implementer-guidance.html">Guidance for Implementers</a></li>
-        <!-- link-only entry: Logical-Models section of the Artifacts Summary (see header note) -->
-      <li><a href="logical-models.html">Datasets and Descriptions</a></li>
-      <li><a href="uml-diagrams.html">UML Diagrams</a></li>
+      <li><a href="guidance.html">Anleitung</a></li>
+        <!-- OPTIONAL (0..1) — siehe docs/optional-pages.md -->
+      <li><a href="researcher-guidance.html">Anleitung für Forschende</a></li>
+      <li><a href="implementer-guidance.html">Anleitung für Implementierende</a></li>
+        <!-- Nur-Link-Eintrag: die Seite "Logische Modelle" (Begründung im Quell-Menü) -->
+      <li><a href="logical-models.html">Datensätze und Beschreibungen</a></li>
+      <li><a href="uml-diagrams.html">UML-Diagramme</a></li>
     </ul>
   </li>
   <li class="dropdown">
-      <!-- The parent and the first four entries link to the KDS-wide conformance
-         rules of the Meta module (INTERIM: meta-wiki; see header note). -->
-    <a data-toggle="dropdown" href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance" class="dropdown-toggle">Conformance<b class="caret"> </b></a>
+      <!-- Eltern-Eintrag und die ersten vier Einträge verlinken die KDS-weiten
+         Konformitätsregeln des Meta-Moduls (INTERIM: Meta-Wiki; siehe
+         Quell-Menü). -->
+    <a data-toggle="dropdown" href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance" class="dropdown-toggle">Konformität<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Conformance</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#anforderungsdokumentation">General Requirements</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#must-support-ms">Must Support</a></li>
-      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#fehlende-daten">Handling Missing Data</a></li>
-      <li><a href="security-and-privacy.html">Security and Privacy</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Konformität</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#anforderungsdokumentation">Allgemeine Anforderungen</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#must-support-ms">Must-Support</a></li>
+      <li><a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance#fehlende-daten">Umgang mit fehlenden Daten</a></li>
+      <li><a href="security-and-privacy.html">Sicherheit und Datenschutz</a></li>
     </ul>
   </li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle">Artifacts<b class="caret"> </b></a>
+    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle">Artefakte<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="artifacts.html">Artifacts Summary</a></li>
-      <li><a href="profiles.html">Profiles</a></li>
-      <li><a href="capability-statements.html">Capability Statements</a></li>
-        <!-- OPTIONAL (0..1) — see docs/optional-pages.md -->
-        <!-- <li><a href="search-parameters.html">Search Parameters (optional)</a></li> -->
-      <li><a href="logical-models.html">Logical Models</a></li>
-      <li><a href="examples.html">Examples</a></li>
+      <li><a href="artifacts.html">Artefakt-Übersicht</a></li>
+      <li><a href="profiles.html">Profile</a></li>
+      <li><a href="terminology.html">Terminologie</a></li>
+      <li><a href="capability-statements.html">CapabilityStatements</a></li>
+      <li><a href="logical-models.html">Logische Modelle</a></li>
+      <li><a href="examples.html">Beispiele</a></li>
     </ul>
   </li>
   <li><a href="downloads.html">Downloads</a></li>
-  <li><a href="changes.html">Changelog</a></li>
+  <li><a href="changes.html">Änderungshistorie</a></li>
   <li class="dropdown">
-      <!-- The parent deliberately links the MANDATORY child (Versioning): the
-         Metadata Overview page is optional, and a parent pointing at it would
-         have to be re-targeted when that page is removed. -->
-    <a data-toggle="dropdown" href="version-history.html" class="dropdown-toggle">Metadata<b class="caret"> </b></a>
+      <!-- Der Eltern-Eintrag verlinkt bewusst das PFLICHT-Kind (Versionierung):
+         die Metadaten-Übersicht ist optional. -->
+    <a data-toggle="dropdown" href="version-history.html" class="dropdown-toggle">Metadaten<b class="caret"> </b></a>
     <ul class="dropdown-menu">
-      <li><a href="version-history.html">Versioning</a></li>
+      <li><a href="version-history.html">Versionierung</a></li>
     </ul>
   </li>
 </ul>
@@ -322,90 +293,95 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
 </div>
 
-<p style="border:var(--translation-box-border);background-color:var(--translation-background-color);padding: 5px 5px 5px 5px;">
+<p style="border:var(--translation-box-border);background-color:var(--translation-background-color);padding: 5px 5px 5px 5px;"><a name="l429">​</a>
 
-Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt.
+Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde.  Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie <a href="translationinfo.html">hier</a>.
 
 </p>
 
-<h4 id="version-scheme">Version scheme</h4>
+<h4 id="versionsschema">Versionsschema</h4>
 
-<p>The Soziodemographie module follows the KDS calendar-versioning (CalVer)
-scheme in a SemVer-compatible numeric form:</p>
+<p>Das Modul Soziodemographie folgt dem KDS-Schema der Kalender-Versionierung
+(CalVer) in einer SemVer-kompatiblen numerischen Form:</p>
 
 <ul>
-  <li>format <strong><code class="language-plaintext highlighter-rouge">YYYY.MINOR.PATCH[-label]</code></strong> — the current version is
+  <li>Format <strong><code class="language-plaintext highlighter-rouge">JJJJ.MINOR.PATCH[-label]</code></strong> — die aktuelle Version ist
 ``;</li>
-  <li><strong><code class="language-plaintext highlighter-rouge">YYYY</code></strong> — the year in which the guide applies and is intended to be used;
-it takes the place of the major version;</li>
-  <li><strong><code class="language-plaintext highlighter-rouge">MINOR</code></strong> — incremented for non-breaking additions and refinements;</li>
-  <li><strong><code class="language-plaintext highlighter-rouge">PATCH</code></strong> — incremented for corrections and bug fixes;</li>
-  <li><strong><code class="language-plaintext highlighter-rouge">label</code></strong> — optional pre-release or build label, e.g. <code class="language-plaintext highlighter-rouge">draft</code>, <code class="language-plaintext highlighter-rouge">ballot</code> or
+  <li><strong><code class="language-plaintext highlighter-rouge">JJJJ</code></strong> — das Jahr, in dem der Leitfaden gilt und genutzt werden soll; es
+tritt an die Stelle der Major-Version;</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">MINOR</code></strong> — wird für nicht brechende Ergänzungen und Präzisierungen erhöht;</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">PATCH</code></strong> — wird für Korrekturen und Fehlerbehebungen erhöht;</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">label</code></strong> — optionales Vorab- oder Build-Label, z. B. <code class="language-plaintext highlighter-rouge">draft</code>, <code class="language-plaintext highlighter-rouge">ballot</code> oder
 <code class="language-plaintext highlighter-rouge">cibuild</code>.</li>
 </ul>
 
-<h4 id="comparing-versions">Comparing versions</h4>
+<h4 id="versionen-vergleichen">Versionen vergleichen</h4>
 
-<p>Stable releases can be compared by reading the numeric components as
-SemVer-style <code class="language-plaintext highlighter-rouge">&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;</code>, with the calendar year as the major
-component: <code class="language-plaintext highlighter-rouge">2026.1.0</code> is newer than <code class="language-plaintext highlighter-rouge">2026.0.3</code>. Labels denote pre-release or
-build status; no ordering is inferred among labels.</p>
+<p>Stabile Releases lassen sich vergleichen, indem die numerischen Bestandteile als
+SemVer-artiges <code class="language-plaintext highlighter-rouge">&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;</code> gelesen werden, mit dem Kalenderjahr
+als Major-Komponente: <code class="language-plaintext highlighter-rouge">2026.1.0</code> ist neuer als <code class="language-plaintext highlighter-rouge">2026.0.3</code>. Labels kennzeichnen
+den Vorab- oder Build-Status; zwischen Labels wird keine Reihenfolge abgeleitet.</p>
 
-<h4 id="artifact-versions">Artifact versions</h4>
+<h4 id="artefakt-versionen">Artefakt-Versionen</h4>
 
-<p><a name="l499">​</a>All released FHIR artifacts in the package carry the same version as the guide
-and its package. An artifact may therefore receive a new version on release even
-when the artifact itself did not change. The computable metadata that declares
-the version algorithm, the versioning policy, the package source and the
-manifest parameters is described on the <a href="metadata.html">Metadata Overview</a> page.</p>
+<p><a name="l502">​</a>Alle veröffentlichten FHIR-Artefakte im Paket tragen dieselbe Version wie der
+Leitfaden und sein Paket. Ein Artefakt kann daher beim Release eine neue Version
+erhalten, obwohl es selbst unverändert geblieben ist. Die maschinenlesbaren
+Metadaten, die Versionsalgorithmus, Versionierungs-Politik, Paketquelle und
+Manifest-Parameter deklarieren, beschreibt die Seite
+<a href="metadata.html">Metadaten-Übersicht</a>.</p>
 
-<h4 id="release-process">Release process</h4>
+<h4 id="release-prozess">Release-Prozess</h4>
 
-<p>Releases follow the
+<p>Releases folgen dem
 <a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Module-Release-Workflow">Module Release Workflow</a>:
-the version is raised in the release branch, the changelog entry is written, the
-validation workflows run on the release pull request, and the release is tagged
-after the merge.</p>
+Die Version wird im Release-Branch angehoben, der Changelog-Eintrag geschrieben,
+die Validierungs-Workflows laufen auf dem Release-Pull-Request, und nach dem
+Merge wird das Release getaggt.</p>
 
-<h4 id="version-history-and-changes">Version history and changes</h4>
+<h4 id="versionshistorie-und-änderungen">Versionshistorie und Änderungen</h4>
 
 <ul>
-  <li><strong><a href="changes.html">Changelog</a></strong> — the changes of each released version.</li>
+  <li><strong><a href="changes.html">Änderungshistorie</a></strong> — die Änderungen jeder veröffentlichten
+Version.</li>
 </ul>
 
-<h4 id="version-comparison">Version comparison</h4>
+<h4 id="versionsvergleich">Versionsvergleich</h4>
 
-<p>From the second <strong>formal publication</strong> on, this guide also publishes a
-<strong>machine-generated version comparison</strong>. It complements the changelog: the
-changelog explains <em>why</em> and <em>what to do</em>, the comparison shows <em>exactly what
-changed</em>.</p>
+<p>Ab der zweiten <strong>formalen Publikation</strong> veröffentlicht dieser Leitfaden
+zusätzlich einen <strong>maschinell erzeugten Versionsvergleich</strong>. Er ergänzt die
+Änderungshistorie: Die Änderungshistorie erklärt <em>warum</em> und <em>was zu tun
+ist</em>, der Vergleich zeigt, <em>was sich genau geändert hat</em>.</p>
 
-<p><strong>Where it lives.</strong> The report is part of the published site itself:
-<code class="language-plaintext highlighter-rouge">comparison-v&lt;previous&gt;/index.html</code> next to the guide's pages, linked from the
-QA report. The index lists the compared artifact pairs; each pair links a
-detail page with three views — the <strong>difference</strong> analysis (what changed
-element by element), the <strong>union</strong> (everything either version allows) and the
-<strong>intersection</strong> (only what both versions allow).</p>
+<p><strong>Wo er liegt.</strong> Der Bericht ist Teil der veröffentlichten Website selbst:
+<code class="language-plaintext highlighter-rouge">comparison-v&lt;Vorversion&gt;/index.html</code> neben den Seiten des Leitfadens,
+verlinkt aus dem QA-Bericht. Der Index listet die verglichenen
+Artefakt-Paare; jedes Paar verlinkt eine Detailseite mit drei Ansichten — der
+<strong>Differenz</strong>-Analyse (was sich Element für Element geändert hat), der
+<strong>Vereinigung</strong> (alles, was eine der beiden Versionen erlaubt) und dem
+<strong>Schnitt</strong> (nur was beide Versionen erlauben).</p>
 
-<p><strong>How it is performed.</strong> The IG Publisher's previous-version comparator loads
-the previous release's package, pairs every profile, value set and code
-system with its counterpart by canonical URL, compares the pairs, and renders
-the report into the build output — so it publishes with the site, with no
-extra deployment step. It is enabled by the <code class="language-plaintext highlighter-rouge">version-comparison</code> parameter — an official IG
-Publisher parameter from the
-<a href="https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html">ig-parameters registry</a>,
-passed through <code class="language-plaintext highlighter-rouge">sushi-config.yaml</code> (the commented block there explains the
-setup and its two prerequisites: a publication history at the canonical, and
-a loadable previous package). Absent, it defaults to <code class="language-plaintext highlighter-rouge">{last}</code>; the value
-<code class="language-plaintext highlighter-rouge">n/a</code> is the documented way to switch the comparison off.</p>
+<p><strong>Wie er erzeugt wird.</strong> Der Vorversions-Vergleicher des IG Publishers lädt
+das Paket des vorherigen Releases, ordnet jedes Profil, ValueSet und
+CodeSystem über die kanonische URL seinem Gegenstück zu, vergleicht die Paare
+und rendert den Bericht in die Build-Ausgabe — er wird also mit der Website
+veröffentlicht, ohne zusätzlichen Deployment-Schritt. Aktiviert wird er über den Parameter <code class="language-plaintext highlighter-rouge">version-comparison</code> — einen
+offiziellen IG-Publisher-Parameter aus der
+<a href="https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html">ig-parameters-Registry</a>,
+durchgereicht über die <code class="language-plaintext highlighter-rouge">sushi-config.yaml</code> (der auskommentierte Block dort
+erklärt die Einrichtung und ihre beiden Voraussetzungen: eine
+Publikationshistorie an der kanonischen URL und ein ladbares
+Vorversions-Paket). Fehlt der Parameter, gilt der Standard <code class="language-plaintext highlighter-rouge">{last}</code>; der
+Wert <code class="language-plaintext highlighter-rouge">n/a</code> ist der dokumentierte Weg, den Vergleich abzuschalten.</p>
 
-<p><strong>The demonstration below</strong> (this template repository's preview only) shows
-the same kind of report before any formal publication exists: the build
-compares itself against the previous <code class="language-plaintext highlighter-rouge">dev</code> preview using the FHIR validator's
-<code class="language-plaintext highlighter-rouge">-compare</code> command and publishes the result at <code class="language-plaintext highlighter-rouge">comparison-demo/index.html</code>.
-The repository variable <code class="language-plaintext highlighter-rouge">ENABLE_VERSION_COMPARISON=false</code> switches the whole
-feature off — the publisher's comparison in every build workflow and this
-demonstration alike; a created module never renders the demonstration.</p>
+<p><strong>Die Demonstration unten</strong> (nur in der Vorschau dieses
+Vorlagen-Repositories) zeigt dieselbe Art Bericht, bevor eine formale
+Publikation existiert: Der Build vergleicht sich mit der vorherigen
+<code class="language-plaintext highlighter-rouge">dev</code>-Vorschau über das <code class="language-plaintext highlighter-rouge">-compare</code>-Kommando des FHIR-Validators und
+veröffentlicht das Ergebnis unter <code class="language-plaintext highlighter-rouge">comparison-demo/index.html</code>.
+Die Repository-Variable <code class="language-plaintext highlighter-rouge">ENABLE_VERSION_COMPARISON=false</code> schaltet das
+gesamte Feature ab — den Publisher-Vergleich in allen Build-Workflows ebenso
+wie diese Demonstration; ein erstelltes Modul rendert die Demonstration nie.</p>
 
 
 
@@ -432,7 +408,7 @@ demonstration alike; a created module never renders the demonstration.</p>
 
           IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Mon, Aug 31, 2026 16:07+0000">2026-08-31</span>
+          Erstellt <span title="Mon, Aug 31, 2026 20:29+0000">2026-08-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
               <!-- Branding override for the fhir2.base.template footer fragment.

@@ -10,9 +10,9 @@
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie | *Version*:2027.0.0-ballot.rc1 |
 | Draft Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_IG_Soziodemographie |
 
-### Introduction
+### Einleitung
 
-This module defines FHIR profiles for recording sociodemographic characteristics of patients, including origin, living situation (e.g. household size, care/support situation, partnership), and socioeconomic factors (e.g. education, occupation, employment status, income).
+Diese Spezifikation definiert FHIR-Profile zur Erfassung soziodemographischer Merkmale von Patientinnen und Patienten, einschließlich Herkunft, Lebenssituation (z. B. Haushaltsgröße, Betreuungssituation, Partnerschaft) und sozioökonomischer Faktoren (z. B. Schulbildung, Beruf, Beschäftigungsstatus, Einkommen).
 
 | | |
 | :--- | :--- |
@@ -21,68 +21,68 @@ This module defines FHIR profiles for recording sociodemographic characteristics
 | Status | active |
 | Realm | EN |
 
-### Target audience
+### Zielgruppe
 
-##### Implementers
+##### Implementierende
 
-Data Integration Centers (DIC), software developers and system architects building FHIR-based solutions.
- → see [Profiles](profiles.md) and [Logical Models](logical-models.md).
+Datenintegrationszentren (DIZ), Software-Entwickelnde und System-Architekt:innen, die FHIR-basierte Lösungen umsetzen.
+ → siehe [Profile](profiles.md) und [Logische Modelle](logical-models.md).
 
-##### Researchers
+##### Forschende
 
-Scientists using KDS data for medical research.
- → see [Guidance for Researchers](researcher-guidance.md).
+Wissenschaftler:innen, die KDS-Daten für die medizinische Forschung nutzen.
+ → siehe [Hinweise für Forschende](researcher-guidance.md).
 
-### Contents
+### Inhalt
 
-* **[Guidance](guidance.md)** — getting started and domain notes.
-* **Conformance** — the KDS-wide conformance rules (requirements language, Must Support, handling missing data) are maintained centrally by the [Meta module](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance); the module-specific [Security and Privacy](security-and-privacy.md) considerations are part of this guide.
-* **[Profiles](profiles.md)** and the further **[artifact pages](artifacts.md)** — the technical artifacts.
-* **[Examples](examples.md)** — example instances.
-* **[Dependencies](ImplementationGuide-mii-ig-.md)** — the ImplementationGuide resource with the dependency table, cross-version analysis and copyright statements.
+* **[Anleitung](guidance.md)** — Einstieg und fachliche Hinweise.
+* **Konformität** — die KDS-weiten Konformitätsregeln (Anforderungssprache, Must-Support, Umgang mit fehlenden Daten) pflegt zentral das [Meta-Modul](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance) ; die modulspezifischen Artefakte zu [Sicherheit und Datenschutz](security-and-privacy.md) sind Teil dieses Leitfadens.
+* **[Profile](profiles.md)** und die weiteren **[Artefakt-Seiten](artifacts.md)** — die technischen Artefakte.
+* **[Beispiele](examples.md)** — Beispielinstanzen.
+* **[Abhängigkeiten](ImplementationGuide-mii-ig-soziodemographie.md)** — die ImplementationGuide-Ressource mit der Abhängigkeitstabelle, der versionsübergreifenden Analyse und den Copyright-Hinweisen.
 
-More FHIR implementation guides can be found in the official **[FHIR IG Registry](https://fhir.org/guides/registry/)** (source: [`FHIR/ig-registry`](https://github.com/FHIR/ig-registry)).
+Weitere FHIR-Implementierungsleitfäden finden Sie im offiziellen **[FHIR-IG-Registry](https://fhir.org/guides/registry/)** (Quelle: [`FHIR/ig-registry`](https://github.com/FHIR/ig-registry)).
 
-### Related guides
+### Verwandte Leitfäden
 
-This module is part of the MII Core Dataset; the other KDS modules and their dependencies are described at [medizininformatik-initiative.de](https://www.medizininformatik-initiative.de/).
+Dieses Modul ist Teil des MII-Kerndatensatzes; die weiteren KDS-Module und ihre Abhängigkeiten werden unter [medizininformatik-initiative.de](https://www.medizininformatik-initiative.de/) beschrieben.
 
-### Imprint
+### Impressum
 
-This guide was created within the Medical Informatics Initiative and is subject, by its governance process, to the coordination procedure of the Interoperability Forum and the technical committees of HL7 Germany.
+Dieser Leitfaden wurde im Rahmen der Medizininformatik-Initiative erstellt und unterliegt im Rahmen des Governance-Prozesses dem Abstimmungsverfahren des Interoperabilitätsforums sowie der Fachausschüsse von HL7 Deutschland.
 
-### Contact Information
+### Kontaktinformationen
 
-* Margaux Gatrio , Berlin Institute of Health at Charité (BIH)
+* Margaux Gatrio, Berlin Institute of Health at Charité (BIH)
 * Jochen Schmitt, UKDD
 * Daniela Piontek, UKDD
 * Rebecca Mukowski-Kickhöfel, Charité
 
-Questions about this publication can be asked on [chat.fhir.org](https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative) in the stream 'german/mi-initiative' or on [mii.zulipchat.com](https://mii.zulipchat.com/#narrow/channel/430086-MII-Kerndatensatz).
+Fragen zu dieser Veröffentlichung können auf [chat.fhir.org](https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative) im Stream 'german/mi-initiative' oder auf [mii.zulipchat.com](https://mii.zulipchat.com/#narrow/channel/430086-MII-Kerndatensatz) gestellt werden.
 
-#### Authors (alphabetical)
+#### Autorinnen und Autoren (alphabetisch)
 
 * Daniela Piontek, UKDD
 * Jochen Schmitt, UKDD
-* Margaux Gatrio , Berlin Institute of Health at Charité (BIH)
+* Margaux Gatrio, Berlin Institute of Health at Charité (BIH)
 * Matthias Rose, Charité
 * Rebecca Mukowski-Kickhöfel, Charité
 * Wolfgang Hoffmann, Universitätsmedizin Greifswald
 
-### Copyright and License
+### Copyright und Lizenz
 
 © 2019+ TMF e. V., Charlottenstraße 42, 10117 Berlin
 
  ![](https://licensebuttons.net/l/by/4.0/88x31.png) 
 
-This work is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+Dieses Werk ist lizenziert unter der [Creative Commons Attribution 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/).
 
-For usage rights of the underlying FHIR technology, see the FHIR base specification.
+Zu den Nutzungsrechten der zugrunde liegenden FHIR-Technologie siehe die FHIR-Basisspezifikation.
 
-Some code systems used are published and maintained by other organizations. The copyright of the respective publishers applies.
+Einige verwendete Codesysteme werden von anderen Organisationen veröffentlicht und gepflegt. Es gilt das Urheberrecht der jeweiligen Herausgeber.
 
-### Disclaimer
+### Haftungsausschluss
 
-* The content of this document is public. Please note that parts of this document are based on FHIR Version R4, which is copyrighted by HL7 International.
-* Although this publication was prepared with the greatest care, the authors cannot accept any liability for direct or indirect damage that may arise from the content of this specification.
+* Der Inhalt dieses Dokuments ist öffentlich. Bitte beachten Sie, dass Teile dieses Dokuments auf der FHIR-Version R4 basieren, die urheberrechtlich durch HL7 International geschützt ist.
+* Obwohl diese Veröffentlichung mit größter Sorgfalt erstellt wurde, können die Autorinnen und Autoren keine Haftung für direkte oder indirekte Schäden übernehmen, die sich aus dem Inhalt dieser Spezifikation ergeben können.
 

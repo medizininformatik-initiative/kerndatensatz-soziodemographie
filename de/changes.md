@@ -5,19 +5,19 @@
 
 ## Changelog
 
- Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt. 
+ Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-### Changelog
+### Änderungsprotokoll
 
-This page records the changes between the released versions of the Soziodemographoe module, newest version first. It follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the KDS calendar versioning scheme described on the [Versioning](version-history.md) page.
+Diese Seite hält die Änderungen zwischen den veröffentlichten Versionen des Moduls ****** fest, die neueste Version zuerst. Sie folgt [Keep a Changelog](https://keepachangelog.com/de/1.1.0/) und dem KDS-CalVer-Schema, das die Seite [Versionierung](version-history.md) beschreibt.
 
 -------
 
-#### Version
+#### Version 2027.0.0-ballot.rc1
 
-**Date:**
+**Datum:** 31.08.2026
 
-##### Added
+##### Hinzugefügt
 
-* First publication of the Soziodemographie module.
+* Erstveröffentlichung des Moduls Soziodemographie.
 

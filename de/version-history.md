@@ -5,41 +5,41 @@
 
 ## Versioning
 
- Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt. 
+ Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-#### Version scheme
+#### Versionsschema
 
-The Soziodemographie module follows the KDS calendar-versioning (CalVer) scheme in a SemVer-compatible numeric form:
+Das Modul Soziodemographie folgt dem KDS-Schema der Kalender-Versionierung (CalVer) in einer SemVer-kompatiblen numerischen Form:
 
-* format **`YYYY.MINOR.PATCH[-label]`** — the current version is ``;
-* **`YYYY`** — the year in which the guide applies and is intended to be used; it takes the place of the major version;
-* **`MINOR`** — incremented for non-breaking additions and refinements;
-* **`PATCH`** — incremented for corrections and bug fixes;
-* **`label`** — optional pre-release or build label, e.g. `draft`, `ballot` or `cibuild`.
+* Format **`JJJJ.MINOR.PATCH[-label]`** — die aktuelle Version ist ``;
+* **`JJJJ`** — das Jahr, in dem der Leitfaden gilt und genutzt werden soll; es tritt an die Stelle der Major-Version;
+* **`MINOR`** — wird für nicht brechende Ergänzungen und Präzisierungen erhöht;
+* **`PATCH`** — wird für Korrekturen und Fehlerbehebungen erhöht;
+* **`label`** — optionales Vorab- oder Build-Label, z. B. `draft`, `ballot` oder `cibuild`.
 
-#### Comparing versions
+#### Versionen vergleichen
 
-Stable releases can be compared by reading the numeric components as SemVer-style `<major>.<minor>.<patch>`, with the calendar year as the major component: `2026.1.0` is newer than `2026.0.3`. Labels denote pre-release or build status; no ordering is inferred among labels.
+Stabile Releases lassen sich vergleichen, indem die numerischen Bestandteile als SemVer-artiges `<major>.<minor>.<patch>` gelesen werden, mit dem Kalenderjahr als Major-Komponente: `2026.1.0` ist neuer als `2026.0.3`. Labels kennzeichnen den Vorab- oder Build-Status; zwischen Labels wird keine Reihenfolge abgeleitet.
 
-#### Artifact versions
+#### Artefakt-Versionen
 
-All released FHIR artifacts in the package carry the same version as the guide and its package. An artifact may therefore receive a new version on release even when the artifact itself did not change. The computable metadata that declares the version algorithm, the versioning policy, the package source and the manifest parameters is described on the [Metadata Overview](metadata.md) page.
+Alle veröffentlichten FHIR-Artefakte im Paket tragen dieselbe Version wie der Leitfaden und sein Paket. Ein Artefakt kann daher beim Release eine neue Version erhalten, obwohl es selbst unverändert geblieben ist. Die maschinenlesbaren Metadaten, die Versionsalgorithmus, Versionierungs-Politik, Paketquelle und Manifest-Parameter deklarieren, beschreibt die Seite [Metadaten-Übersicht](metadata.md).
 
-#### Release process
+#### Release-Prozess
 
-Releases follow the [Module Release Workflow](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Module-Release-Workflow): the version is raised in the release branch, the changelog entry is written, the validation workflows run on the release pull request, and the release is tagged after the merge.
+Releases folgen dem [Module Release Workflow](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Module-Release-Workflow): Die Version wird im Release-Branch angehoben, der Changelog-Eintrag geschrieben, die Validierungs-Workflows laufen auf dem Release-Pull-Request, und nach dem Merge wird das Release getaggt.
 
-#### Version history and changes
+#### Versionshistorie und Änderungen
 
-* **[Changelog](changes.md)** — the changes of each released version.
+* **[Änderungshistorie](changes.md)** — die Änderungen jeder veröffentlichten Version.
 
-#### Version comparison
+#### Versionsvergleich
 
-From the second **formal publication** on, this guide also publishes a **machine-generated version comparison**. It complements the changelog: the changelog explains **why** and **what to do**, the comparison shows **exactly what changed**.
+Ab der zweiten **formalen Publikation** veröffentlicht dieser Leitfaden zusätzlich einen **maschinell erzeugten Versionsvergleich**. Er ergänzt die Änderungshistorie: Die Änderungshistorie erklärt **warum** und **was zu tun ist**, der Vergleich zeigt, **was sich genau geändert hat**.
 
-**Where it lives.** The report is part of the published site itself: `comparison-v<previous>/index.html` next to the guide's pages, linked from the QA report. The index lists the compared artifact pairs; each pair links a detail page with three views — the **difference** analysis (what changed element by element), the **union** (everything either version allows) and the **intersection** (only what both versions allow).
+**Wo er liegt.** Der Bericht ist Teil der veröffentlichten Website selbst: `comparison-v<Vorversion>/index.html` neben den Seiten des Leitfadens, verlinkt aus dem QA-Bericht. Der Index listet die verglichenen Artefakt-Paare; jedes Paar verlinkt eine Detailseite mit drei Ansichten — der **Differenz**-Analyse (was sich Element für Element geändert hat), der **Vereinigung** (alles, was eine der beiden Versionen erlaubt) und dem **Schnitt** (nur was beide Versionen erlauben).
 
-**How it is performed.** The IG Publisher's previous-version comparator loads the previous release's package, pairs every profile, value set and code system with its counterpart by canonical URL, compares the pairs, and renders the report into the build output — so it publishes with the site, with no extra deployment step. It is enabled by the `version-comparison` parameter — an official IG Publisher parameter from the [ig-parameters registry](https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html), passed through `sushi-config.yaml` (the commented block there explains the setup and its two prerequisites: a publication history at the canonical, and a loadable previous package). Absent, it defaults to `{last}`; the value `n/a` is the documented way to switch the comparison off.
+**Wie er erzeugt wird.** Der Vorversions-Vergleicher des IG Publishers lädt das Paket des vorherigen Releases, ordnet jedes Profil, ValueSet und CodeSystem über die kanonische URL seinem Gegenstück zu, vergleicht die Paare und rendert den Bericht in die Build-Ausgabe — er wird also mit der Website veröffentlicht, ohne zusätzlichen Deployment-Schritt. Aktiviert wird er über den Parameter `version-comparison` — einen offiziellen IG-Publisher-Parameter aus der [ig-parameters-Registry](https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html), durchgereicht über die `sushi-config.yaml` (der auskommentierte Block dort erklärt die Einrichtung und ihre beiden Voraussetzungen: eine Publikationshistorie an der kanonischen URL und ein ladbares Vorversions-Paket). Fehlt der Parameter, gilt der Standard `{last}`; der Wert `n/a` ist der dokumentierte Weg, den Vergleich abzuschalten.
 
-**The demonstration below** (this template repository's preview only) shows the same kind of report before any formal publication exists: the build compares itself against the previous `dev` preview using the FHIR validator's `-compare` command and publishes the result at `comparison-demo/index.html`. The repository variable `ENABLE_VERSION_COMPARISON=false` switches the whole feature off — the publisher's comparison in every build workflow and this demonstration alike; a created module never renders the demonstration.
+**Die Demonstration unten** (nur in der Vorschau dieses Vorlagen-Repositories) zeigt dieselbe Art Bericht, bevor eine formale Publikation existiert: Der Build vergleicht sich mit der vorherigen `dev`-Vorschau über das `-compare`-Kommando des FHIR-Validators und veröffentlicht das Ergebnis unter `comparison-demo/index.html`. Die Repository-Variable `ENABLE_VERSION_COMPARISON=false` schaltet das gesamte Feature ab — den Publisher-Vergleich in allen Build-Workflows ebenso wie diese Demonstration; ein erstelltes Modul rendert die Demonstration nie.
 

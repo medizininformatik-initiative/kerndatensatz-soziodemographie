@@ -11,9 +11,9 @@ This page records the changes between the released versions of the Soziodemograp
 
 -------
 
-#### Version
+#### Version 2027.0.0-ballot.rc1
 
-**Date:**
+**Date:** 31.08.2026
 
 ##### Added
 

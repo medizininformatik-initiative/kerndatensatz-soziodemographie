@@ -5,91 +5,93 @@
 
 ## Guidance
 
-This section provides guidance for different audiences implementing and using the MII Kerndatensatz Soziodemographie Implementation Guide.
+Dieser Abschnitt bietet Hinweise für verschiedene Zielgruppen, die den Implementierungsleitfaden MII Kerndatensatz Soziodemographie einsetzen und nutzen.
 
-### General Implementation Guidance
+### Allgemeine Umsetzungshinweise
 
-* **[Datasets and Descriptions](datasets-and-descriptions.md)** - Detailed descriptions of the MII core dataset logical models
-* **[UML Diagrams](uml-diagrams.md)** - UML diagrams illustrating the data models and relationships
+* **[Datensätze und Beschreibungen](datasets-and-descriptions.md)** - Ddie Datenelemente des Moduls, beschrieben als logische Modelle.
+* **[UML-Diagramme](uml-diagrams.md)** - isuelle Darstellung der Datenmodelle und ihrer Beziehungen.
 
-### Audience-Specific Guidance
+### Zielgruppenspezifische Hinweise
 
-* **[Guidance for Researchers](researcher-guidance.md)** - Information for researchers using MII data for research purposes
-* **[Guidance for Implementers](implementer-guidance.md)** - Technical guidance for Data Integration Center (DIZ) implementers
+* **[Hinweise für Forschende](researcher-guidance.md)** - für Forschende, die Moduldaten nutzen.
+* **[Hinweise für Implementierende](implementer-guidance.md)** - technische Hinweise für DIZ-Implementierende.
 
-### Description of the Soziodemographie module
+### Beschreibung des Moduls Soziodemographie
 
-#### Purpose and Objective
+#### Zweck und Zielsetzung
 
-The Sociodemographic Data module serves the standardized collection of information on the demographic, social, and economic background of patients. It thereby creates a uniform basis for documenting these characteristics in care.
+Das Modul Soziodemographische Daten dient der standardisierten Erfassung von Informationen zum demographischen, sozialen und ökonomischen Hintergrund von Patientinnen und Patienten. Es schafft damit eine einheitliche Grundlage für die Dokumentation dieser Merkmale in der Versorgung.
 
-Medical data describe what has been diagnosed, measured, or treated in a patient. However, they do not describe the social and economic conditions under which the person lives. These conditions can influence whether health services are accessed, how diseases progress, and what treatment outcomes are achieved.
+Medizinische Daten beschreiben, was bei einer Patientin oder einem Patienten diagnostiziert, gemessen oder behandelt wurde. Sie beschreiben jedoch nicht, unter welchen sozialen und ökonomischen Bedingungen die Person lebt. Diese Bedingungen können beeinflussen, ob Gesundheitsleistungen erreicht werden, wie Erkrankungen verlaufen und welche Behandlungsergebnisse erzielt werden.
 
-Without sociodemographic context data, there is a risk that differences between patient groups remain invisible or are incorrectly attributed solely to biological or medical factors. The structured collection of this data makes it possible to interpret results in a more differentiated way and to take relevant influencing factors into account in analyses.
+Ohne soziodemographische Kontextdaten besteht das Risiko, dass Unterschiede zwischen Patientengruppen unsichtbar bleiben oder fälschlich ausschließlich biologischen oder medizinischen Faktoren zugeschrieben werden. Die strukturierte Erfassung dieser Daten ermöglicht es, Ergebnisse differenzierter zu interpretieren und relevante Einflussfaktoren in Analysen zu berücksichtigen.
 
-This data collection should not be understood as an additional documentation burden without direct benefit. It can support care by, for example, making information about the care situation, social support, or home environment visible. At the same time, it provides a basis for identifying and specifically addressing differences in care and study participation.
+Die Erhebung soll dabei nicht als zusätzliche Dokumentationslast ohne unmittelbaren Nutzen verstanden werden. Sie kann die Versorgung unterstützen, wenn sie beispielsweise Informationen zur Betreuungssituation, zur sozialen Unterstützung oder zur häuslichen Situation sichtbar macht. Zugleich schafft sie eine Grundlage dafür, Unterschiede in Versorgung und Studienbeteiligung zu erkennen und gezielt zu adressieren.
 
-The module thus pursues, in particular, the following objectives:
+Das Modul verfolgt damit insbesondere folgende Ziele:
 
-* Improving the comparability of sociodemographic data between institutions;
-* Supporting the interpretation of clinical, epidemiological, and care-related results;
-* Identifying and analyzing differences in care and health inequalities;
-* Improving the informative value of registries, cohorts, and clinical studies;
-* Supporting patient-centered and context-sensitive care;
-* Providing interoperable data for the research infrastructure of the Medical Informatics Initiative.
+* Verbesserung der Vergleichbarkeit soziodemographischer Angaben zwischen Einrichtungen;
+* Unterstützung der Interpretation klinischer, epidemiologischer und versorgungsbezogener Ergebnisse;
+* Erkennung und Analyse von Versorgungsunterschieden und gesundheitlichen Ungleichheiten;
+* Verbesserung der Aussagekraft von Registern, Kohorten und klinischen Studien;
+* Unterstützung einer patientenzentrierten und kontextsensitiven Versorgung;
+* Bereitstellung interoperabler Daten für die Forschungsinfrastruktur der Medizininformatik-Initiative.
 
-The need for standardized data collection also arises from the fact that sociodemographic data have so far often not been documented consistently within and across professional groups and institutions. The module is therefore intended to provide a common, interoperable structure for the collection and reuse of this information.
+Die Notwendigkeit einer standardisierten Erfassung ergibt sich auch daraus, dass soziodemographische Daten bislang häufig nicht einheitlich innerhalb und zwischen Berufsgruppen sowie Einrichtungen dokumentiert werden. Das Modul soll deshalb eine gemeinsame, interoperable Struktur für die Erhebung und Weiterverwendung dieser Angaben bereitstellen.
 
-#### Significance for Care and Research
+#### Bedeutung für Versorgung und Forschung
 
-The interpretation of medical results is not independent of the social and economic living conditions of the individuals studied. Studies show, for example, associations between socioeconomic conditions and health outcomes, care costs, hospitalizations, and the use of emergency care. The relevant influencing factors can differ depending on the age group and the outcome under investigation.
+Die Interpretation medizinischer Ergebnisse ist nicht unabhängig von den sozialen und ökonomischen Lebensbedingungen der untersuchten Personen. Studien zeigen beispielsweise Zusammenhänge zwischen sozioökonomischen Bedingungen und gesundheitlichen Ergebnissen, Versorgungskosten, Hospitalisierungen und der Nutzung von Notfallversorgung. Dabei können sich die relevanten Einflussfaktoren je nach Altersgruppe und untersuchtem Ergebnis unterscheiden.
 
-The collection of sociodemographic characteristics is also relevant for clinical studies. Sociodemographically selected study populations can limit the transferability of study results to other patient groups. An evaluation by sociodemographic group can also provide insights into differences in recruitment, participation, study dropouts, and treatment outcomes.
+Auch für klinische Studien ist die Erfassung soziodemographischer Merkmale relevant. Soziodemographisch selektierte Studienpopulationen können die Übertragbarkeit der Studienergebnisse auf andere Patientengruppen einschränken. Eine Auswertung nach soziodemographischen Gruppen kann außerdem Hinweise auf Unterschiede bei Rekrutierung, Teilnahme, Studienabbrüchen und Behandlungsergebnissen geben.
 
-Current research indicates that people with lower income or lower educational attainment are less likely to gain access to clinical studies or are less likely to be invited to participate. The standardized collection of corresponding characteristics can help identify such differences and better assess the representativeness of study populations.
+Aktuelle Arbeiten weisen darauf hin, dass Personen mit niedrigerem Einkommen oder niedrigerem Bildungsstand seltener Zugang zu klinischen Studien erhalten oder seltener zur Teilnahme eingeladen werden. Die standardisierte Erfassung entsprechender Merkmale kann dazu beitragen, solche Unterschiede zu erkennen und die Repräsentativität von Studienpopulationen besser zu beurteilen.
 
-A more consistent and reproducible collection of sociodemographic data can thus help to better understand study results and to investigate health inequalities in a more targeted way.
+Eine konsistentere und reproduzierbare Erfassung soziodemographischer Daten kann somit dazu beitragen, Studienergebnisse besser zu verstehen und gesundheitliche Ungleichheiten gezielter zu untersuchen.
 
-#### Scope of the Module
+#### Umfang des Moduls
 
-The module includes information from the following areas:
+Das Modul umfasst Angaben aus den folgenden Bereichen:
 
-1. Personal Information
-* current postal code of residence;
-* first language;
-* country of birth;
-* nationality.
+1. Personenbezogene Informationen
+* aktuelle Postleitzahl des Wohnortes;
+* Erstsprache;
+* Geburtsland;
+* Staatsangehörigkeit.
 
-1. Socioeconomic Factors
-* educational attainment;
-* vocational training;
-* employment status; _ occupational position; _ average monthly net household income.
+1. Sozioökonomische Faktoren
+* Schulbildung;
+* berufliche Ausbildung;
+* Beschäftigungsstatus;
+* berufliche Stellung;
+* durchschnittliches monatliches Nettoeinkommen des Haushalts.
 
-1. Extended Origin
-* country of birth of the mother;
-* country of birth of the father.
+1. Erweiterte Herkunft
+* Geburtsland der Mutter;
+* Geburtsland des Vaters.
 
-1. Life Situation
-* partnership;
-* trusted contact person;
-* household size;
-* care/support situation.
+1. Lebenssituation
+* Partnerschaft;
+* Vertrauensperson;
+* Haushaltsgröße;
+* Betreuungssituation.
 
-1. Severe Disability Certificate
-* presence of a severe disability certificate;
-* degree of disability;
-* markers (Merkzeichen);
-* period of validity.
+1. Schwerbehindertenausweis
+* Vorliegen eines Schwerbehindertenausweises;
+* Grad der Behinderung;
+* Merkzeichen;
+* Gültigkeitszeitraum.
 
-The central entity of the module is the Sociodemography data collection. It describes the context of a specific data collection event and bundles the information documented at that point in time.
+Die zentrale Entität des Moduls ist die Datenerhebung Soziodemographie. Sie beschreibt den Kontext einer konkreten Erhebung und bündelt die zu diesem Erhebungszeitpunkt dokumentierten Informationen.
 
-Multiple sociodemographic data collections may exist for a person at different points in time, for example in the case of repeated inpatient stays. However, each individual data collection is assigned to exactly one person.
+Für eine Person können mehrere soziodemographische Datenerhebungen zu unterschiedlichen Zeitpunkten vorliegen, beispielsweise bei wiederholten stationären Aufenthalten. Jede einzelne Datenerhebung ist jedoch genau einer Person zugeordnet.
 
-Not all sub-areas need to be present at every collection point. The specialized data areas can each optionally be linked to a data collection. This allows incomplete collections to be represented interoperably as well — for example, when only socioeconomic factors were collected, but not information on origin or life situation.
+Nicht alle Teilbereiche müssen zu jedem Erhebungszeitpunkt vorliegen. Die spezialisierten Datenbereiche können jeweils optional mit einer Datenerhebung verknüpft werden. Dadurch können auch unvollständige Erhebungen interoperabel abgebildet werden, beispielsweise wenn nur sozioökonomische Faktoren, nicht jedoch Angaben zur Herkunft oder Lebenssituation erhoben wurden.
 
-For selected characteristics, in particular education, vocational training, employment status, and occupational position, a more detailed long version and a simplified minimal version are available. This allows the depth of data to be adapted to the respective care context, the time available, and the specific documentation purpose.
+Für ausgewählte Merkmale, insbesondere Bildung, Ausbildung, Beschäftigungsstatus und berufliche Stellung, stehen eine ausführlichere Langversion und eine vereinfachte Minimalversion zur Verfügung. Dadurch kann die Datentiefe an den jeweiligen Versorgungskontext, die verfügbare Zeit und den konkreten Dokumentationszweck angepasst werden.
 
 -------
 
-For the KDS-wide conformance requirements see the [Conformance rules of the Meta module](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance); for the technical artifacts see [Profiles](profiles.md).
+Für die KDS-weiten Konformitätsanforderungen siehe die [Konformitätsregeln des Meta-Moduls](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance); für die technischen Artefakte siehe [Profile](profiles.md).
 

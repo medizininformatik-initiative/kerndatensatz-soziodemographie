@@ -107,7 +107,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-b
   "name" : "MII_PR_SDD_Beschaeftigungsstatus",
   "title" : "MII PR SDD Beschäftigungsstatus",
   "status" : "draft",
-  "date" : "2026-08-31T16:07:27+00:00",
+  "date" : "2026-08-31T20:29:59+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

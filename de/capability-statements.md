@@ -5,20 +5,20 @@
 
 ## Capability Statements
 
- Für die aktuelle Seite ist keine Übersetzung verfügbar, daher wurde sie in der Standardsprache dargestellt. 
+ Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-The following CapabilityStatements define the expected FHIR capabilities of systems implementing this implementation guide. Each module defines the required FHIR RESTful interactions, search parameters, and supported profiles.
+Die folgenden CapabilityStatements definieren die erwarteten FHIR-Fähigkeiten von Systemen, die diesen Implementierungsleitfaden umsetzen. Jedes Modul definiert die erforderlichen FHIR-RESTful-Interaktionen, Suchparameter und unterstützten Profile.
 
 ### Capability Statements
 
 -------
 
-Each CapabilityStatement specifies:
+Jedes CapabilityStatement legt fest:
 
-* **Server conformance requirements** - The FHIR resources and operations that must be supported
-* **Required search parameters** - The search parameters that SHALL be implemented
-* **Supported profiles** - The MII profiles that constrain the resources
-* **RESTful interactions** - The create, read, update, delete, and search operations supported
+* **Anforderungen an die Server-Konformität** - Die FHIR-Ressourcen und -Operationen, die unterstützt werden müssen
+* **Erforderliche Suchparameter** - Die Suchparameter, die implementiert werden MÜSSEN
+* **Unterstützte Profile** - Die MII-Profile, die die Ressourcen einschränken
+* **RESTful-Interaktionen** - Die unterstützten Create-, Read-, Update-, Delete- und Search-Operationen
 
-For detailed implementation guidance, see the [Conformance](conformance.md) page.
+Ausführliche Implementierungshinweise finden Sie auf der Seite [Konformität](conformance.md).
 
