@@ -56,7 +56,8 @@ Rahmen des Governance-Prozesses dem Abstimmungsverfahren des Interoperabilitäts
 der Fachausschüsse von HL7 Deutschland.
 
 ### Kontaktinformationen
-* Margaux Gatrio, Berlin Institute of Health at Charité (BIH)
+* Margaux Gatrio , Berlin Institute of Health at Charité (BIH)
+* Karoline Buckow, TMF – Technologie- und Methodenplattform für die vernetzte medizinische Forschung e.V.
 * Jochen Schmitt, UKDD
 * Daniela Piontek, UKDD
 * Rebecca Mukowski-Kickhöfel, Charité
@@ -66,9 +67,10 @@ Fragen zu dieser Veröffentlichung können auf [chat.fhir.org](https://chat.fhir
 #### Autorinnen und Autoren (alphabetisch)
 * Daniela Piontek, UKDD
 * Jochen Schmitt, UKDD
-* Margaux Gatrio, Berlin Institute of Health at Charité (BIH)
-* Matthias Rose, Charité
-* Rebecca Mukowski-Kickhöfel, Charité
+* Margaux Gatrio , Berlin Institute of Health at Charité (BIH)
+* Matthias Rose, Charité - Universitätsmedizin Berlin
+* Rebecca Mukowski-Kickhöfel, Charité - Universitätsmedizin Berlin
+* Richard Karsch
 * Wolfgang Hoffmann, Universitätsmedizin Greifswald
 
 ### Copyright und Lizenz

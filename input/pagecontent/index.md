@@ -4,7 +4,7 @@ This specification defines FHIR profiles for recording sociodemographic characte
 
 | Veröffentlichung   |   |
 |---------|---|
-| Datum   | 31.08.2026 |
+| Datum   | 01.09.2026 |
 | Version | 2027.0.0-ballot.rc1        |
 | Status  | active       |
 | Realm   | DE          | 
@@ -56,6 +56,7 @@ Forum and the technical committees of HL7 Germany.
 
 ### Contact Information
 * Margaux Gatrio , Berlin Institute of Health at Charité (BIH)
+* Karoline Buckow, TMF – Technologie- und Methodenplattform für die vernetzte medizinische Forschung e.V.
 * Jochen Schmitt, UKDD
 * Daniela Piontek, UKDD
 * Rebecca Mukowski-Kickhöfel, Charité
@@ -66,8 +67,9 @@ Questions about this publication can be asked on [chat.fhir.org](https://chat.fh
 * Daniela Piontek, UKDD
 * Jochen Schmitt, UKDD
 * Margaux Gatrio , Berlin Institute of Health at Charité (BIH)
-* Matthias Rose, Charité
-* Rebecca Mukowski-Kickhöfel, Charité
+* Matthias Rose, Charité - Universitätsmedizin Berlin
+* Rebecca Mukowski-Kickhöfel, Charité - Universitätsmedizin Berlin
+* Richard Karsch
 * Wolfgang Hoffmann, Universitätsmedizin Greifswald
 
 ### Copyright and License
