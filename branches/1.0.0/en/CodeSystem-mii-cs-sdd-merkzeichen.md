@@ -39,7 +39,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "MII CS SDD Merkzeichen (SGB IX / SchwbAwV)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-01T13:10:54+00:00",
+  "date" : "2026-09-01T13:41:09+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
