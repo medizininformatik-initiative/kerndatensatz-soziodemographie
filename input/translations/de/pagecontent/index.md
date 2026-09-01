@@ -4,7 +4,7 @@ Diese Spezifikation definiert FHIR-Profile zur Erfassung soziodemographischer Me
 
 | Veröffentlichung   |   |
 |---------|---|
-| Datum   | 31.08.2026 |
+| Datum   | 01.09.2026 |
 | Version | 2027.0.0-ballot.rc1        |
 | Status  | active       |
 | Realm   | EN          | 
@@ -60,7 +60,7 @@ der Fachausschüsse von HL7 Deutschland.
 * Karoline Buckow, TMF – Technologie- und Methodenplattform für die vernetzte medizinische Forschung e.V.
 * Jochen Schmitt, UKDD
 * Daniela Piontek, UKDD
-* Rebecca Mukowski-Kickhöfel, Charité
+* Rebecca Mukowski-Kickhöfel, Charité - Universitätsmedizin Berlin
 
 Fragen zu dieser Veröffentlichung können auf [chat.fhir.org](https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative) im Stream 'german/mi-initiative' oder auf [mii.zulipchat.com](https://mii.zulipchat.com/#narrow/channel/430086-MII-Kerndatensatz) gestellt werden.
 

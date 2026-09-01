@@ -59,7 +59,7 @@ Forum and the technical committees of HL7 Germany.
 * Karoline Buckow, TMF – Technologie- und Methodenplattform für die vernetzte medizinische Forschung e.V.
 * Jochen Schmitt, UKDD
 * Daniela Piontek, UKDD
-* Rebecca Mukowski-Kickhöfel, Charité
+* Rebecca Mukowski-Kickhöfel, Charité - Universitätsmedizin Berlin
 
 Questions about this publication can be asked on [chat.fhir.org](https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative) in the stream 'german/mi-initiative' or on [mii.zulipchat.com](https://mii.zulipchat.com/#narrow/channel/430086-MII-Kerndatensatz).
 
