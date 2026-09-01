@@ -51,4 +51,4 @@ OECD Publishing, Paris, OECD 2025, https://doi.org/10.1787/c8af05a5-en.
 Dragano, N., Reuter, M., Greiser, K.H. et al., Bundesgesundheitsbl 63, 267–278, 2020, https://doi.org/10.1007/s00103-020-03098-8
 
 * Bundesministerium für Arbeit und Soziales.
-Schwerbehindertenausweisverordnung, insbesondere §§ 2–3.
+Schwerbehindertenausweisverordnung, insbesondere § 2–3.
