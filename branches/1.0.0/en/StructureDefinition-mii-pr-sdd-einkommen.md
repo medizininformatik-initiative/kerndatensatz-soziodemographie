@@ -41,7 +41,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-einkom
   "name" : "MII_PR_SDD_Einkommen",
   "title" : "MII PR SDD Einkommen",
   "status" : "draft",
-  "date" : "2026-09-01T09:54:08+00:00",
+  "date" : "2026-09-01T09:59:02+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

@@ -48,5 +48,7 @@ Die Nutzung als Analysemerkmal sollte dabei nicht automatisch als kausale Interp
 * GESIS – Leibniz-Institut für Sozialwissenschaften. Demographische Standards 2024. Mannheim: GESIS; 2024.
 * International Organization for Standardization. ISO 3166-1: Codes for the representation of names of countries and subdivisions – Part 1: Country codes.
 * International Organization for Standardization. ISO 639: Codes for the representation of names of languages.
+* Does Healthcare Deliver?: Results from the Patient-Reported Indicator Surveys (PaRIS) OECD Publishing, Paris, OECD 2025, https://doi.org/10.1787/c8af05a5-en.
+* Soziodemografische und erwerbsbezogene Merkmale in der NAKO Gesundheitsstudie. Dragano, N., Reuter, M., Greiser, K.H. et al., Bundesgesundheitsbl 63, 267–278, 2020, https://doi.org/10.1007/s00103-020-03098-8
 * Bundesministerium für Arbeit und Soziales. Schwerbehindertenausweisverordnung, insbesondere §§ 2–3.
 

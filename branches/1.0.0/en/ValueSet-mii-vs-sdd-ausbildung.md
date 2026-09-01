@@ -45,7 +45,7 @@ Value Set für Ausbildung
   "title" : "MII VS SDD Ausbildung",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-01T09:54:08+00:00",
+  "date" : "2026-09-01T09:59:02+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

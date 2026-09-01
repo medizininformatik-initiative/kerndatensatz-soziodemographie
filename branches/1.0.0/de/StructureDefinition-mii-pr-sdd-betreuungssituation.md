@@ -109,7 +109,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-b
   "name" : "MII_PR_SDD_Betreuungssituation",
   "title" : "MII PR SDD Betreuungssituation",
   "status" : "draft",
-  "date" : "2026-09-01T09:54:08+00:00",
+  "date" : "2026-09-01T09:59:02+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
