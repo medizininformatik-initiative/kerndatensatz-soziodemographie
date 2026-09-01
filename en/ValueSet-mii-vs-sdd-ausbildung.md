@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-ausbildung | *Version*:2027.0.0-ballot.rc1 |
-| Draft as of 2026-08-31 | *Computable Name*:MII_VS_SDD_Ausbildung |
+| Draft as of 2026-09-01 | *Computable Name*:MII_VS_SDD_Ausbildung |
 
  
 Value Set für Ausbildung 
@@ -45,7 +45,7 @@ Value Set für Ausbildung
   "title" : "MII VS SDD Ausbildung",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-31T20:29:59+00:00",
+  "date" : "2026-09-01T08:25:15+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

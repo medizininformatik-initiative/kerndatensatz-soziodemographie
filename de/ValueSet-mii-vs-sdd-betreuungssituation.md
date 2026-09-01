@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-betreuungssituation | *Version*:2027.0.0-ballot.rc1 |
-| Draft Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_VS_SDD_Betreuungssituation |
+| Draft Stand: 2026-09-01 | *Maschinenlesbarer Name*:MII_VS_SDD_Betreuungssituation |
 
  
 Value Set für Betreuungssituation 
@@ -45,7 +45,7 @@ Value Set für Betreuungssituation
   "title" : "MII VS SDD Betreuungssituation",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-31T20:29:59+00:00",
+  "date" : "2026-09-01T08:25:15+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

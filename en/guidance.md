@@ -27,7 +27,7 @@ Medical data describe what has been diagnosed, measured, or treated in a patient
 
 Without sociodemographic context data, there is a risk that differences between patient groups remain invisible or are incorrectly attributed solely to biological or medical factors. The structured collection of this data makes it possible to interpret results in a more differentiated way and to take relevant influencing factors into account in analyses.
 
-This data collection should not be understood as an additional documentation burden without direct benefit. It can support care by, for example, making information about the care situation, social support, or home environment visible. At the same time, it provides a basis for identifying and specifically addressing differences in care and study participation.
+This data collection should be understood as a valuable contribution to care rather than an additional documentation burden. It can support care by, for example, making information about the care situation, social support, or home environment visible. At the same time, it provides a basis for identifying and specifically addressing differences in care and study participation.
 
 The module thus pursues, in particular, the following objectives:
 

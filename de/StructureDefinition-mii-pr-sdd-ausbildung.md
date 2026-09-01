@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-ausbildung | *Version*:2027.0.0-ballot.rc1 |
-| Draft Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_PR_SDD_Ausbildung |
+| Draft Stand: 2026-09-01 | *Maschinenlesbarer Name*:MII_PR_SDD_Ausbildung |
 
  
 Höchster beruflicher Ausbildungsabschluss 
@@ -91,7 +91,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-a
   "name" : "MII_PR_SDD_Ausbildung",
   "title" : "MII PR SDD Ausbildung",
   "status" : "draft",
-  "date" : "2026-08-31T20:29:59+00:00",
+  "date" : "2026-09-01T08:25:15+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
