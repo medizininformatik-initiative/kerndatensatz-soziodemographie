@@ -105,7 +105,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-v
   "name" : "MII_PR_SDD_Vertrauensperson",
   "title" : "MII PR SDD Vertrauensperson",
   "status" : "draft",
-  "date" : "2026-09-01T09:49:43+00:00",
+  "date" : "2026-09-01T09:54:08+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
