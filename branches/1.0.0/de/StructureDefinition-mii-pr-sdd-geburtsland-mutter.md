@@ -103,7 +103,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-g
   "name" : "MII_PR_SDD_Geburtsland_Mutter",
   "title" : "MII PR SDD Geburtsland Mutter",
   "status" : "draft",
-  "date" : "2026-09-01T08:07:41+00:00",
+  "date" : "2026-09-01T08:58:43+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

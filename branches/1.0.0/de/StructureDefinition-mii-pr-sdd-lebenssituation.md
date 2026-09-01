@@ -101,7 +101,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-l
   "name" : "MII_PR_SDD_Lebenssituation",
   "title" : "MII PR SDD Lebenssituation",
   "status" : "draft",
-  "date" : "2026-09-01T08:07:41+00:00",
+  "date" : "2026-09-01T08:58:43+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
