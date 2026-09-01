@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-berufliche-stellung-lang | *Version*:2027.0.0-ballot.rc1 |
-| Draft as of 2026-08-31 | *Computable Name*:MII_VS_SDD_Berufliche_Stellung_Lang |
+| Draft as of 2026-09-01 | *Computable Name*:MII_VS_SDD_Berufliche_Stellung_Lang |
 
  
 Value Set für Berufliche Stellung (Langversion) 
@@ -45,7 +45,7 @@ Value Set für Berufliche Stellung (Langversion)
   "title" : "MII VS SDD Berufliche Stellung (Langversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-31T20:24:53+00:00",
+  "date" : "2026-09-01T08:07:41+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

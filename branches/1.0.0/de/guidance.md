@@ -27,7 +27,7 @@ Medizinische Daten beschreiben, was bei einer Patientin oder einem Patienten dia
 
 Ohne soziodemographische Kontextdaten besteht das Risiko, dass Unterschiede zwischen Patientengruppen unsichtbar bleiben oder fälschlich ausschließlich biologischen oder medizinischen Faktoren zugeschrieben werden. Die strukturierte Erfassung dieser Daten ermöglicht es, Ergebnisse differenzierter zu interpretieren und relevante Einflussfaktoren in Analysen zu berücksichtigen.
 
-Die Erhebung soll dabei nicht als zusätzliche Dokumentationslast ohne unmittelbaren Nutzen verstanden werden. Sie kann die Versorgung unterstützen, wenn sie beispielsweise Informationen zur Betreuungssituation, zur sozialen Unterstützung oder zur häuslichen Situation sichtbar macht. Zugleich schafft sie eine Grundlage dafür, Unterschiede in Versorgung und Studienbeteiligung zu erkennen und gezielt zu adressieren.
+Diese Datenerhebung sollte als wertvoller Beitrag zur Versorgung verstanden werden und nicht als zusätzlicher Dokumentationsaufwand. Sie kann die Versorgung unterstützen, indem sie beispielsweise Informationen zur Pflegesituation, zur sozialen Unterstützung oder zum häuslichen Umfeld sichtbar macht. Zugleich schafft sie eine Grundlage dafür, Unterschiede in Versorgung und Studienbeteiligung zu erkennen und gezielt zu adressieren.
 
 Das Modul verfolgt damit insbesondere folgende Ziele:
 

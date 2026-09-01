@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-datenerhebung | *Version*:2027.0.0-ballot.rc1 |
-| Draft Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_PR_SDD_Datenerhebung |
+| Draft Stand: 2026-09-01 | *Maschinenlesbarer Name*:MII_PR_SDD_Datenerhebung |
 
  
 Datenerhebung für SDD 
@@ -145,7 +145,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-d
   "name" : "MII_PR_SDD_Datenerhebung",
   "title" : "MII PR SDD Datenerhebung",
   "status" : "draft",
-  "date" : "2026-08-31T20:24:53+00:00",
+  "date" : "2026-09-01T08:07:41+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
