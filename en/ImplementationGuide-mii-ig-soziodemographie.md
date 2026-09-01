@@ -145,6 +145,28 @@
     {
       "extension" : [{
         "url" : "code",
+        "valueString" : "ImplementationGuide-mii-ig-soziodemographie.md"
+      },
+      {
+        "url" : "value",
+        "valueString" : "[object Object]"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "translationinfo.md"
+      },
+      {
+        "url" : "value",
+        "valueString" : "[object Object]"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
         "valueString" : "autoload-resources"
       },
       {
@@ -506,6 +528,28 @@
       {
         "url" : "value",
         "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "ImplementationGuide-mii-ig-soziodemographie.md"
+      },
+      {
+        "url" : "value",
+        "valueString" : "[object Object]"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "translationinfo.md"
+      },
+      {
+        "url" : "value",
+        "valueString" : "[object Object]"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

@@ -1,7 +1,7 @@
 MII_IG_Soziodemographie : Validation Results
 =========================================
 
-err = 0, warn = 215, info = 74
+err = 8, warn = 216, info = 74
 $--
 Generated $--. FHIR version $-- for de.medizininformatikinitiative.kerndatensatz.soziodemographie#$-- (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie)
  Build Errors : 30 / 5 / 2
@@ -17,7 +17,7 @@ Generated $--. FHIR version $-- for de.medizininformatikinitiative.kerndatensatz
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-merkzeichen : 0 / 3 / 2
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-schulabschluss : 0 / 3 / 2
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-schwerbehindertenausweis : 0 / 3 / 2
- /workspace/fsh-generated/resources/ImplementationGuide-mii-ig-soziodemographie : 0 / 2 / 2
+ /workspace/fsh-generated/resources/ImplementationGuide-mii-ig-soziodemographie : 8 / 3 / 2
  /workspace/fsh-generated/resources/StructureDefinition-mii-lm-sdd : 0 / 85 / 2
  /workspace/fsh-generated/resources/StructureDefinition-mii-pr-sdd-ausbildung : 0 / 4 / 4
  /workspace/fsh-generated/resources/StructureDefinition-mii-pr-sdd-berufliche-stellung : 0 / 4 / 6
@@ -147,8 +147,17 @@ INFORMATION: CodeSystem/mii-cs-sdd-schwerbehindertenausweis: CodeSystem: CodeSys
 WARNING: CodeSystem/mii-cs-sdd-schwerbehindertenausweis: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 WARNING: Resource: The resource CodeSystem/mii-cs-sdd-schwerbehindertenausweis should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ImplementationGuide-mii-ig-soziodemographie.json ==
+WARNING: /workspace/fsh-generated/resources/ImplementationGuide-mii-ig-soziodemographie: Unknown Parameters: [ImplementationGuide-mii-ig-soziodemographie.md=[object Object], translationinfo.md=[object Object]]
 WARNING: ImplementationGuide/mii-ig-soziodemographie: ImplementationGuide.language: A definition for CodeSystem 'urn:ietf:bcp:47' could not be found, so the code cannot be validated
 WARNING: ImplementationGuide/mii-ig-soziodemographie: ImplementationGuide.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166:-2' could not be found, so the code cannot be validated
+ERROR: ImplementationGuide/mii-ig-soziodemographie: ImplementationGuide.definition.extension[8].extension[0].value.ofType(string): The System URI could not be determined for the code 'ImplementationGuide-mii-ig-soziodemographie.md' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2'
+ERROR: ImplementationGuide/mii-ig-soziodemographie: ImplementationGuide.definition.extension[8].extension[0].value.ofType(string): The value provided ('ImplementationGuide-mii-ig-soziodemographie.md') was not found in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2), and a code is required from this value set  (error message = The System URI could not be determined for the code 'ImplementationGuide-mii-ig-soziodemographie.md' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2'; The provided code '#ImplementationGuide-mii-ig-soziodemographie.md' was not found in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2')
+ERROR: ImplementationGuide/mii-ig-soziodemographie: ImplementationGuide.definition.extension[9].extension[0].value.ofType(string): The System URI could not be determined for the code 'translationinfo.md' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2'
+ERROR: ImplementationGuide/mii-ig-soziodemographie: ImplementationGuide.definition.extension[9].extension[0].value.ofType(string): The value provided ('translationinfo.md') was not found in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2), and a code is required from this value set  (error message = The System URI could not be determined for the code 'translationinfo.md' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2'; The provided code '#translationinfo.md' was not found in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2')
+ERROR: ImplementationGuide/mii-ig-soziodemographie: ImplementationGuide.definition.extension[44].extension[0].value.ofType(code): The System URI could not be determined for the code 'ImplementationGuide-mii-ig-soziodemographie.md' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2'
+ERROR: ImplementationGuide/mii-ig-soziodemographie: ImplementationGuide.definition.extension[44].extension[0].value.ofType(code): The value provided ('ImplementationGuide-mii-ig-soziodemographie.md') was not found in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2), and a code is required from this value set  (error message = The System URI could not be determined for the code 'ImplementationGuide-mii-ig-soziodemographie.md' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2'; The provided code '#ImplementationGuide-mii-ig-soziodemographie.md' was not found in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2')
+ERROR: ImplementationGuide/mii-ig-soziodemographie: ImplementationGuide.definition.extension[45].extension[0].value.ofType(code): The System URI could not be determined for the code 'translationinfo.md' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2'
+ERROR: ImplementationGuide/mii-ig-soziodemographie: ImplementationGuide.definition.extension[45].extension[0].value.ofType(code): The value provided ('translationinfo.md') was not found in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2), and a code is required from this value set  (error message = The System URI could not be determined for the code 'translationinfo.md' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2'; The provided code '#translationinfo.md' was not found in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.1.2')
 INFORMATION: Resource: The resource ImplementationGuide/mii-ig-soziodemographie could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/StructureDefinition-mii-lm-sdd.json ==
 WARNING: StructureDefinition/mii-lm-sdd: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166:-2' could not be found, so the code cannot be validated

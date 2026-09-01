@@ -113,6 +113,22 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
+        <valueString value="ImplementationGuide-mii-ig-soziodemographie.md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="[object Object]"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="translationinfo.md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="[object Object]"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
         <valueString value="autoload-resources"/>
       </extension>
       <extension url="value">
@@ -376,6 +392,22 @@
       </extension>
       <extension url="value">
         <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="ImplementationGuide-mii-ig-soziodemographie.md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="[object Object]"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="translationinfo.md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="[object Object]"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

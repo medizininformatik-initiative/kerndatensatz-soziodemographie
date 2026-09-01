@@ -45,7 +45,7 @@ Value Set für Erhebungsmethode
   "title" : "MII VS SDD Erhebungsmethode",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-01T09:40:46+00:00",
+  "date" : "2026-09-01T10:03:55+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
