@@ -109,7 +109,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-s
   "name" : "MII_PR_SDD_Schwerbehindertenausweis",
   "title" : "MII PR SDD Schwerbehindertenausweis",
   "status" : "draft",
-  "date" : "2026-09-01T09:59:02+00:00",
+  "date" : "2026-09-01T13:10:54+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
