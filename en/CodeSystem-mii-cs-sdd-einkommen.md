@@ -39,7 +39,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "MII CS SDD Einkommen",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-01T08:25:15+00:00",
+  "date" : "2026-09-01T09:40:46+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
