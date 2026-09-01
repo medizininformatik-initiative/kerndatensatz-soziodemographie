@@ -15,7 +15,7 @@ copyrightYear: 2026+
 releaseLabel: ci-build
 packageId: de.medizininformatikinitiative.kerndatensatz.soziodemographie
 license: CC-BY-4.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-date: 2026-08-31
+date: 2026-09-01
 jurisdiction: urn:iso:std:iso:3166#DE "Germany" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: NUM-DIZ
