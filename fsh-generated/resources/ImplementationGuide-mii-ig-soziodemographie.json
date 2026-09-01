@@ -482,6 +482,14 @@
       {
         "code": "excludettl",
         "value": "true"
+      },
+      {
+        "code": "ImplementationGuide-mii-ig-soziodemographie.md",
+        "value": "[object Object]"
+      },
+      {
+        "code": "translationinfo.md",
+        "value": "[object Object]"
       }
     ]
   }

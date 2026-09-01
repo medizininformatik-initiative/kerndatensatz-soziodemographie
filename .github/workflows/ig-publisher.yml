@@ -231,7 +231,7 @@ jobs:
 
   deploy:
     name: Deploy GitHub Pages
-    if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/') && vars.PAGES_ACTIONS_ENABLED == 'true'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && vars.PAGES_ACTIONS_ENABLED == 'true'
     needs: build
     runs-on: ubuntu-latest
     environment:
@@ -251,7 +251,7 @@ jobs:
   announce:
     name: Report preview deployment
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/') && vars.PAGES_ACTIONS_ENABLED == 'true'
-    needs: deploy
+    needs: build
     runs-on: ubuntu-latest
     permissions:
       contents: read
