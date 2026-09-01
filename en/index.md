@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie | *Version*:2027.0.0-ballot.rc1 |
-| Draft as of 2026-08-31 | *Computable Name*:MII_IG_Soziodemographie |
+| Draft as of 2026-09-01 | *Computable Name*:MII_IG_Soziodemographie |
 
 ### Introduction
 
@@ -57,7 +57,7 @@ This guide was created within the Medical Informatics Initiative and is subject,
 * Karoline Buckow, TMF – Technologie- und Methodenplattform für die vernetzte medizinische Forschung e.V.
 * Jochen Schmitt, UKDD
 * Daniela Piontek, UKDD
-* Rebecca Mukowski-Kickhöfel, Charité
+* Rebecca Mukowski-Kickhöfel, Charité - Universitätsmedizin Berlin
 
 Questions about this publication can be asked on [chat.fhir.org](https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative) in the stream 'german/mi-initiative' or on [mii.zulipchat.com](https://mii.zulipchat.com/#narrow/channel/430086-MII-Kerndatensatz).
 
