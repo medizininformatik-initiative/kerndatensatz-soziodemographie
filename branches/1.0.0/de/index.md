@@ -68,7 +68,7 @@ Fragen zu dieser Veröffentlichung können auf [chat.fhir.org](https://chat.fhir
 * Margaux Gatrio , Berlin Institute of Health at Charité (BIH)
 * Matthias Rose, Charité - Universitätsmedizin Berlin
 * Rebecca Mukowski-Kickhöfel, Charité - Universitätsmedizin Berlin
-* Richard Karsch
+* Richard Karsch, Zentralinstitut für Seelische Gesundheit
 * Wolfgang Hoffmann, Universitätsmedizin Greifswald
 
 ### Copyright und Lizenz

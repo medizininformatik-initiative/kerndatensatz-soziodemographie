@@ -41,7 +41,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-schula
   "name" : "MII_PR_SDD_Schulabschluss",
   "title" : "MII PR SDD Schulabschluss",
   "status" : "draft",
-  "date" : "2026-09-01T08:58:43+00:00",
+  "date" : "2026-09-01T09:49:43+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
