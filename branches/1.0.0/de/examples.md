@@ -7,7 +7,7 @@
 
  Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-Dieser Implementierungsleitfaden enthält Beispielinstanzen für alle Profile. Eine vollständige Liste aller Beispiele, gegliedert nach Ressourcentyp, finden Sie auf der Seite [Artefakte](artifacts.md#example-example-instances).
+Dieser Implementierungsleitfaden enthält Beispielinstanzen für alle Profile. Eine vollständige Liste aller Beispiele, gegliedert nach Ressourcentyp, finden Sie auf der Seite [Artefakte](artifacts.md#beispiel-beispielinstanzen).
 
 -------
 

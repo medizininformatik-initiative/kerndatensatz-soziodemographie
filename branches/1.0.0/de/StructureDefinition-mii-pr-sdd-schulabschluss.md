@@ -17,6 +17,7 @@ Höchster erreichter allgemeinbildender Schulabschluss
 **Usages:**
 
 * Refer to this Profile: [MII PR SDD Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md)
+* Examples for this Profile: [Observation/mii-exa-sdd-schulabschluss](Observation-mii-exa-sdd-schulabschluss.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-schulabschluss.json)
 
@@ -91,7 +92,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-s
   "name" : "MII_PR_SDD_Schulabschluss",
   "title" : "MII PR SDD Schulabschluss",
   "status" : "draft",
-  "date" : "2026-09-03T13:48:05+00:00",
+  "date" : "2026-09-03T16:09:48+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -158,6 +159,10 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-s
       "id" : "Observation.code.coding",
       "path" : "Observation.code.coding",
       "min" : 1,
+      "patternCoding" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "276031006"
+      },
       "mustSupport" : true
     },
     {

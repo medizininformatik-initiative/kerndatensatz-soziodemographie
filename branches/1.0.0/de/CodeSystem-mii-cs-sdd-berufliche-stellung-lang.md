@@ -39,7 +39,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "title" : "MII CS SDD Berufliche Stellung (Langfversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-03T13:48:05+00:00",
+  "date" : "2026-09-03T16:09:48+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -56,6 +56,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
       "display" : "Germany"
     }]
   }],
+  "caseSensitive" : true,
   "content" : "complete",
   "count" : 8,
   "concept" : [{

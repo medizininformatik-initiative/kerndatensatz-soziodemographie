@@ -17,6 +17,7 @@ Vorliegen eines Schwerbehindertenausweises des Patienten
 **Usages:**
 
 * Refer to this Profile: [MII PR SDD Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md)
+* Examples for this Profile: [Observation/mii-exa-sdd-schwerbehindertenausweis](Observation-mii-exa-sdd-schwerbehindertenausweis.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.json)
 
@@ -48,8 +49,8 @@ Diese Struktur ist abgeleitet von [MII_PR_SDD_Lebenssituation](StructureDefiniti
 
 ** Summary **
 
-Mandatory: 0 element(1 nested mandatory element)
- Must-Support: 5 elements
+Mandatory: 1 element(1 nested mandatory element)
+ Must-Support: 7 elements
 
 **Slices**
 
@@ -82,8 +83,8 @@ Diese Struktur ist abgeleitet von [MII_PR_SDD_Lebenssituation](StructureDefiniti
 
 ** Summary **
 
-Mandatory: 0 element(1 nested mandatory element)
- Must-Support: 5 elements
+Mandatory: 1 element(1 nested mandatory element)
+ Must-Support: 7 elements
 
 **Slices**
 
@@ -109,7 +110,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-s
   "name" : "MII_PR_SDD_Schwerbehindertenausweis",
   "title" : "MII PR SDD Schwerbehindertenausweis",
   "status" : "draft",
-  "date" : "2026-09-03T13:48:05+00:00",
+  "date" : "2026-09-03T16:09:48+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -170,9 +171,24 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-s
         "key" : "sba-1",
         "severity" : "error",
         "human" : "Details (GdB, Merkzeichen, Gültigkeitszeitraum) nur zulässig, wenn ein Schwerbehindertenausweis vorliegt (valueCodeableConcept = ja/Code 1).",
-        "expression" : "component.exists() implies value.ofType(CodeableConcept).coding.where(system = 'http://terminology.hl7.org/CodeSystem/v2-0136' and code = 'Y').exists()",
+        "expression" : "component.exists() implies value.ofType(CodeableConcept).coding.where(system = 'http://terminology.hl7.org/CodeSystem/v2-0532' and code = 'Y').exists()",
         "source" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schwerbehindertenausweis"
       }]
+    },
+    {
+      "id" : "Observation.code",
+      "path" : "Observation.code",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Observation.code.coding",
+      "path" : "Observation.code.coding",
+      "min" : 1,
+      "patternCoding" : {
+        "system" : "http://loinc.org",
+        "code" : "101720-1"
+      },
+      "mustSupport" : true
     },
     {
       "id" : "Observation.value[x]",

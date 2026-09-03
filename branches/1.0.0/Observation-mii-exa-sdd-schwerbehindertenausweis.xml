@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-sdd-schwerbehindertenausweis"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schwerbehindertenausweis"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Observation mii-exa-sdd-schwerbehindertenausweis</b></p><a name="mii-exa-sdd-schwerbehindertenausweis"> </a><a name="hcmii-exa-sdd-schwerbehindertenausweis"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.html">MII PR SDD Schwerbehindertenausweis</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category social-history}">Social History</span>, <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span></p><p><b>code</b>: <span title="Codes:{http://loinc.org 101720-1}">Schwerbehindertenausweis</span></p><p><b>subject</b>: <a href="Patient-mii-exa-sdd-patient.html">Max Mustermann (official) Male, DoB: 1965-04-12 ( Medical record number (use: official, ))</a></p><p><b>effective</b>: 2026-06-15</p><p><b>value</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v2-0532 Y}">Yes</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis gdb}">Grad der Behinderung</span></p><p><b>value</b>: 50 %</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis merkzeichen}">Merkzeichen</span></p><p><b>value</b>: <span title="Codes:{https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen G}">G – erhebliche Gehbehinderung</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis gueltig-von}">Gültigkeitszeitraum von</span></p><p><b>value</b>: 2024-01-15</p></blockquote></div><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Observation mii-exa-sdd-schwerbehindertenausweis</b></p><a name="de-mii-exa-sdd-schwerbehindertenausweis"> </a><a name="de-hcmii-exa-sdd-schwerbehindertenausweis"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.html">MII PR SDD Schwerbehindertenausweis</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category social-history}">Social History</span>, <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span></p><p><b>code</b>: <span title="Codes:{http://loinc.org 101720-1}">Schwerbehindertenausweis</span></p><p><b>subject</b>: <a href="Patient-mii-exa-sdd-patient.html">Max Mustermann (official) Male, DoB: 1965-04-12 ( Krankenaktennummer (use: official, ))</a></p><p><b>effective</b>: 2026-06-15</p><p><b>value</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v2-0532 Y}">Yes</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis gdb}">Grad der Behinderung</span></p><p><b>value</b>: 50 %</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis merkzeichen}">Merkzeichen</span></p><p><b>value</b>: <span title="Codes:{https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen G}">G – erhebliche Gehbehinderung</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis gueltig-von}">Gültigkeitszeitraum von</span></p><p><b>value</b>: 2024-01-15</p></blockquote></div></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="social-history"/>
+    </coding>
+  </category>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="survey"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="101720-1"/>
+    </coding>
+    <text value="Schwerbehindertenausweis"/>
+  </code>
+  <subject>
+    <reference value="Patient/mii-exa-sdd-patient"/>
+  </subject>
+  <effectiveDateTime value="2026-06-15"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+      <code value="Y"/>
+      <display value="Yes"/>
+    </coding>
+  </valueCodeableConcept>
+  <component>
+    <code>
+      <coding>
+        <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis"/>
+        <code value="gdb"/>
+        <display value="Grad der Behinderung"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="50"/>
+      <unit value="%"/>
+      <system value="http://unitsofmeasure.org"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis"/>
+        <code value="merkzeichen"/>
+        <display value="Merkzeichen"/>
+      </coding>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen"/>
+        <code value="G"/>
+        <display value="G – erhebliche Gehbehinderung"/>
+      </coding>
+    </valueCodeableConcept>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis"/>
+        <code value="gueltig-von"/>
+        <display value="Gültigkeitszeitraum von"/>
+      </coding>
+    </code>
+    <valueDateTime value="2024-01-15"/>
+  </component>
+</Observation>

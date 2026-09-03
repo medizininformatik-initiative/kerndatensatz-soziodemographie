@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="mii-exa-sdd-datenerhebung"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-datenerhebung"/>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Observation mii-exa-sdd-datenerhebung</b></p><a name="de-mii-exa-sdd-datenerhebung"> </a><a name="de-hcmii-exa-sdd-datenerhebung"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-sdd-datenerhebung.html">MII PR SDD Datenerhebung</a></p></div><p><b>identifier</b>: <code>https://krankenhaus-example.de/sid/sdd-erhebung</code>/erhebung-2026-000123</p><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category social-history}">Social History</span>, <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span></p><p><b>code</b>: <span title="Codes:{http://loinc.org 45970-1}, {http://snomed.info/sct 302147001}">Demographic information section</span></p><p><b>subject</b>: <a href="Patient-mii-exa-sdd-patient.html">Max Mustermann (official) Male, DoB: 1965-04-12 ( Krankenaktennummer (use: official, ))</a></p><p><b>effective</b>: 2026-06-15</p><p><b>method</b>: <span title="Codes:{https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-erhebungsmethode selbstauskunft}">Selbstangabe</span></p><p><b>hasMember</b>: </p><ul><li><a href="Observation-mii-exa-sdd-geburtsland-mutter.html">Observation Mother birthplace [PhenX]</a></li><li><a href="Observation-mii-exa-sdd-geburtsland-vater.html">Observation Father birthplace</a></li><li><a href="Observation-mii-exa-sdd-partnerschaft.html">Observation Marital or partnership status</a></li><li><a href="Observation-mii-exa-sdd-vertrauensperson.html">Observation Receives as much social support as wanted</a></li><li><a href="Observation-mii-exa-sdd-haushaltsgroesse.html">Observation Household size [#]</a></li><li><a href="Observation-mii-exa-sdd-betreuungssituation.html">Observation Patient care statuses</a></li><li><a href="Observation-mii-exa-sdd-schwerbehindertenausweis.html">Observation Disability status</a></li><li><a href="Observation-mii-exa-sdd-ausbildung.html">Observation Highest level of education</a></li><li><a href="Observation-mii-exa-sdd-beschaeftigungsstatus.html">Observation Employment status - current</a></li><li><a href="Observation-mii-exa-sdd-einkommen.html">Observation Monthly household net income</a></li><li><a href="Observation-mii-exa-sdd-berufliche-stellung.html">Observation Employment status - current</a></li><li><a href="Observation-mii-exa-sdd-schulabschluss.html">Observation Details of education</a></li><li><a href="Observation-mii-exa-sdd-schuljahre.html">Observation Years of education [#] - Reported</a></li></ul></div>
+  </text>
+  <identifier>
+    <system value="https://krankenhaus-example.de/sid/sdd-erhebung"/>
+    <value value="erhebung-2026-000123"/>
+  </identifier>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="social-history"/>
+    </coding>
+  </category>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="survey"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="45970-1"/>
+    </coding>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="302147001"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/mii-exa-sdd-patient"/>
+  </subject>
+  <effectiveDateTime value="2026-06-15"/>
+  <method>
+    <coding>
+      <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-erhebungsmethode"/>
+      <code value="selbstauskunft"/>
+      <display value="Selbstangabe"/>
+    </coding>
+  </method>
+  <hasMember>
+    <reference value="Observation/mii-exa-sdd-geburtsland-mutter"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/mii-exa-sdd-geburtsland-vater"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/mii-exa-sdd-partnerschaft"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/mii-exa-sdd-vertrauensperson"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/mii-exa-sdd-haushaltsgroesse"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/mii-exa-sdd-betreuungssituation"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/mii-exa-sdd-schwerbehindertenausweis"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/mii-exa-sdd-ausbildung"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/mii-exa-sdd-beschaeftigungsstatus"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/mii-exa-sdd-einkommen"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/mii-exa-sdd-berufliche-stellung"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/mii-exa-sdd-schulabschluss"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/mii-exa-sdd-schuljahre"/>
+  </hasMember>
+</Observation>

@@ -17,6 +17,7 @@ Geburtsland der Mutter
 **Usages:**
 
 * Refer to this Profile: [MII PR SDD Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md)
+* Examples for this Profile: [Observation/mii-exa-sdd-geburtsland-mutter](Observation-mii-exa-sdd-geburtsland-mutter.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-geburtsland-mutter.json)
 
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-geburt
   "name" : "MII_PR_SDD_Geburtsland_Mutter",
   "title" : "MII PR SDD Geburtsland Mutter",
   "status" : "draft",
-  "date" : "2026-09-03T13:48:05+00:00",
+  "date" : "2026-09-03T16:09:48+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -158,8 +159,8 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-geburt
       "path" : "Observation.code.coding",
       "min" : 1,
       "patternCoding" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "246062003"
+        "system" : "http://loinc.org",
+        "code" : "63515-1"
       },
       "mustSupport" : true
     },

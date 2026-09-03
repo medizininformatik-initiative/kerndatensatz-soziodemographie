@@ -188,16 +188,11 @@
      repository. Entries without a marker are mandatory (1..1).
 
      LINK-ONLY ENTRIES (no page of their own):
-     - "Datasets and Descriptions" points at the Logical Models page
-       (logical-models.html) — the module's datasets ARE its logical models.
-       NEITHER Artifacts-Summary anchor is usable for the TF-KDS "Sec.
-       15.0.2" target: the numeric #2 is POSITIONAL (grouping index — wrong
-       section whenever the artifact mix differs from the full standard set),
-       and the browser-generated NAMED AnchorJS anchor
-       (#structures-logical-models) is invisible to the IG Publisher's link
-       validator — it injects a marker anchor into the menu (rendered as an
-       EMPTY menu entry) and logs a broken-link ERROR on every page's QA.
-       Full analysis: docs/page-structure.md, "Datasets and Descriptions".
+     - "Datasets and Descriptions" has its OWN page in this module
+       (datasets-and-descriptions.html, authored in input/pagecontent/) rather
+       than the template default of pointing at Logical Models — the
+       Artifacts-Summary-anchor caveats from docs/page-structure.md don't
+       apply here since this module doesn't use that link-only fallback.
      - The four Conformance entries point at the KDS-wide conformance rules of
        the Meta module (kerndatensatz-meta). INTERIM: the Meta module has no
        published IG rendering yet (only a CI build with no conformance pages),
@@ -339,6 +334,16 @@
 
 
 
+  
+    
+      <li>
+        <a href="StructureDefinition-mii-pr-sdd-geburtsland-mutter-examples.html">Examples</a>
+      </li>
+    
+  
+
+
+
 
   
     <li>
@@ -411,7 +416,7 @@
 
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Generated <span title="Thu, Sep 3, 2026 13:48+0000">2026-09-03</span>
+          Generated <span title="Thu, Sep 3, 2026 16:09+0000">2026-09-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

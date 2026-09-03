@@ -17,6 +17,7 @@ Soziooekonomische Faktoren für SDD
 **Usages:**
 
 * Derived from this Profile: [MII PR SDD Ausbildung](StructureDefinition-mii-pr-sdd-ausbildung.md), [MII PR SDD Berufliche Stellung](StructureDefinition-mii-pr-sdd-berufliche-stellung.md), [MII PR SDD Beschäftigungsstatus](StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.md), [MII PR SDD Einkommen](StructureDefinition-mii-pr-sdd-einkommen.md)... Show 2 more, [MII PR SDD Schulabschluss](StructureDefinition-mii-pr-sdd-schulabschluss.md) and [MII PR SDD Schuljahre](StructureDefinition-mii-pr-sdd-schuljahre.md)
+* Examples for this Profile: [Observation/mii-exa-sdd-soziooekonomische-faktoren](Observation-mii-exa-sdd-soziooekonomische-faktoren.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-soziooekonomische-faktoren.json)
 
@@ -99,7 +100,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-s
   "name" : "MII_PR_SDD_SoziooekonomischeFaktoren",
   "title" : "MII PR SDD Soziooekonomische Faktoren",
   "status" : "draft",
-  "date" : "2026-09-03T13:48:05+00:00",
+  "date" : "2026-09-03T16:09:48+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

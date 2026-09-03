@@ -84,3 +84,26 @@ Diese definieren neue CodeSysteme, die von Systemen verwendet werden, die mit di
 | [ MII CS SDD Schulabschluss  ](CodeSystem-mii-cs-sdd-schulabschluss.md) | Code System für Schulabschluss |
 | [ MII CS SDD Schwerbehindertenausweis  ](CodeSystem-mii-cs-sdd-schwerbehindertenausweis.md) | Code System für Schwerbehindertenausweis |
 
+### Beispiel: Beispielinstanzen 
+
+Dies sind Beispielinstanzen, die zeigen, wie Daten aussehen könnten, die von Systemen produziert und konsumiert werden, die mit diesem Implementierungsleitfaden konform sind.
+
+| | |
+| :--- | :--- |
+| [ MII EXA SDD Ausbildung  ](Observation-mii-exa-sdd-ausbildung.md) | Beispiel: Höchster beruflicher Ausbildungsabschluss. |
+| [ MII EXA SDD Berufliche Stellung  ](Observation-mii-exa-sdd-berufliche-stellung.md) | Beispiel: Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit. |
+| [ MII EXA SDD Beschaeftigungsstatus  ](Observation-mii-exa-sdd-beschaeftigungsstatus.md) | Beispiel: Aktuell hauptsächlich ausgeübte Tätigkeit. |
+| [ MII EXA SDD Betreuungssituation  ](Observation-mii-exa-sdd-betreuungssituation.md) | Beispiel: Aktuelle Betreuungssituation. |
+| [ MII EXA SDD Datenerhebung  ](Observation-mii-exa-sdd-datenerhebung.md) | Beispiel: Sammel-Beobachtung, die alle Einzelerhebungen der Soziodemographie für einen Patienten referenziert. |
+| [ MII EXA SDD Einkommen  ](Observation-mii-exa-sdd-einkommen.md) | Beispiel: Durchschnittliches monatliches Nettoeinkommen des Haushalts. |
+| [ MII EXA SDD Geburtsland Mutter  ](Observation-mii-exa-sdd-geburtsland-mutter.md) | Beispiel: Geburtsland der Mutter der Patientin/des Patienten. |
+| [ MII EXA SDD Geburtsland Vater  ](Observation-mii-exa-sdd-geburtsland-vater.md) | Beispiel: Geburtsland des Vaters der Patientin/des Patienten. |
+| [ MII EXA SDD Haushaltsgroesse  ](Observation-mii-exa-sdd-haushaltsgroesse.md) | Beispiel: Anzahl der Personen, die ständig im Haushalt der Person leben. |
+| [ MII EXA SDD Partnerschaft  ](Observation-mii-exa-sdd-partnerschaft.md) | Beispiel: Aktuelle Partnerschaft der Person. |
+| [ MII EXA SDD Patient  ](Patient-mii-exa-sdd-patient.md) | Beispiel-Patient (MII Person Patient), auf den sich die Beispiel-Erhebungen dieses Moduls beziehen. |
+| [ MII EXA SDD Schulabschluss  ](Observation-mii-exa-sdd-schulabschluss.md) | Beispiel: Höchster erreichter allgemeinbildender Schulabschluss. |
+| [ MII EXA SDD Schuljahre  ](Observation-mii-exa-sdd-schuljahre.md) | Beispiel: Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde. |
+| [ MII EXA SDD Schwerbehindertenausweis  ](Observation-mii-exa-sdd-schwerbehindertenausweis.md) | Beispiel: Vorliegen eines Schwerbehindertenausweises mit Grad der Behinderung und Merkzeichen. |
+| [ MII EXA SDD Soziooekonomische Faktoren  ](Observation-mii-exa-sdd-soziooekonomische-faktoren.md) | Beispiel: generische Beobachtung eines sozioökonomischen Faktors. |
+| [ MII EXA SDD Vertrauensperson  ](Observation-mii-exa-sdd-vertrauensperson.md) | Beispiel: Existenz mind. einer Vertrauensperson. |
+

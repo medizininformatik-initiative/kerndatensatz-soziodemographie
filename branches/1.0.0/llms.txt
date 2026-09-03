@@ -3,22 +3,22 @@
 ## Pages
 
 * [Home](en/index.md)
-* [Security and Privacy](en/security-and-privacy.md)
-* [Changelog](en/changes.md)
 * [Examples](en/examples.md)
 * [Datasets and Descriptions](en/datasets-and-descriptions.md)
-* [Guidance for Researchers](en/researcher-guidance.md)
-* [Capability Statements](en/capability-statements.md)
-* [Artifacts Summary](en/artifacts.md)
-* [UML Diagrams](en/uml-diagrams.md)
-* [Translation Information](en/translationinfo.md)
-* [Downloads](en/downloads.md)
-* [Guidance](en/guidance.md)
-* [Profiles](en/profiles.md)
-* [Versioning](en/version-history.md)
-* [Guidance for Implementers](en/implementer-guidance.md)
 * [Terminology](en/terminology.md)
+* [Versioning](en/version-history.md)
+* [Guidance for Researchers](en/researcher-guidance.md)
+* [Guidance for Implementers](en/implementer-guidance.md)
+* [Profiles](en/profiles.md)
+* [Artifacts Summary](en/artifacts.md)
+* [Translation Information](en/translationinfo.md)
+* [Changelog](en/changes.md)
 * [Logical Models](en/logical-models.md)
+* [Guidance](en/guidance.md)
+* [Downloads](en/downloads.md)
+* [Security and Privacy](en/security-and-privacy.md)
+* [Capability Statements](en/capability-statements.md)
+* [UML Diagrams](en/uml-diagrams.md)
 
 ## Resources
 
@@ -77,3 +77,22 @@
 ### ImplementationGuides
 
 * [MII Implementation Guide Soziodemographie](en/ImplementationGuide-mii-ig-soziodemographie.md)
+
+### Examples
+
+* [mii-exa-sdd-ausbildung (Observation)](en/Observation-mii-exa-sdd-ausbildung.md)
+* [mii-exa-sdd-berufliche-stellung (Observation)](en/Observation-mii-exa-sdd-berufliche-stellung.md)
+* [mii-exa-sdd-beschaeftigungsstatus (Observation)](en/Observation-mii-exa-sdd-beschaeftigungsstatus.md)
+* [mii-exa-sdd-betreuungssituation (Observation)](en/Observation-mii-exa-sdd-betreuungssituation.md)
+* [mii-exa-sdd-datenerhebung (Observation)](en/Observation-mii-exa-sdd-datenerhebung.md)
+* [mii-exa-sdd-einkommen (Observation)](en/Observation-mii-exa-sdd-einkommen.md)
+* [mii-exa-sdd-geburtsland-mutter (Observation)](en/Observation-mii-exa-sdd-geburtsland-mutter.md)
+* [mii-exa-sdd-geburtsland-vater (Observation)](en/Observation-mii-exa-sdd-geburtsland-vater.md)
+* [mii-exa-sdd-haushaltsgroesse (Observation)](en/Observation-mii-exa-sdd-haushaltsgroesse.md)
+* [mii-exa-sdd-partnerschaft (Observation)](en/Observation-mii-exa-sdd-partnerschaft.md)
+* [mii-exa-sdd-schulabschluss (Observation)](en/Observation-mii-exa-sdd-schulabschluss.md)
+* [mii-exa-sdd-schuljahre (Observation)](en/Observation-mii-exa-sdd-schuljahre.md)
+* [mii-exa-sdd-schwerbehindertenausweis (Observation)](en/Observation-mii-exa-sdd-schwerbehindertenausweis.md)
+* [mii-exa-sdd-soziooekonomische-faktoren (Observation)](en/Observation-mii-exa-sdd-soziooekonomische-faktoren.md)
+* [mii-exa-sdd-vertrauensperson (Observation)](en/Observation-mii-exa-sdd-vertrauensperson.md)
+* [mii-exa-sdd-patient (Patient)](en/Patient-mii-exa-sdd-patient.md)

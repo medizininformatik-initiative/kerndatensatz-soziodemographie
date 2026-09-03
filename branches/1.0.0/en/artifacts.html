@@ -187,16 +187,11 @@
      repository. Entries without a marker are mandatory (1..1).
 
      LINK-ONLY ENTRIES (no page of their own):
-     - "Datasets and Descriptions" points at the Logical Models page
-       (logical-models.html) — the module's datasets ARE its logical models.
-       NEITHER Artifacts-Summary anchor is usable for the TF-KDS "Sec.
-       15.0.2" target: the numeric #2 is POSITIONAL (grouping index — wrong
-       section whenever the artifact mix differs from the full standard set),
-       and the browser-generated NAMED AnchorJS anchor
-       (#structures-logical-models) is invisible to the IG Publisher's link
-       validator — it injects a marker anchor into the menu (rendered as an
-       EMPTY menu entry) and logs a broken-link ERROR on every page's QA.
-       Full analysis: docs/page-structure.md, "Datasets and Descriptions".
+     - "Datasets and Descriptions" has its OWN page in this module
+       (datasets-and-descriptions.html, authored in input/pagecontent/) rather
+       than the template default of pointing at Logical Models — the
+       Artifacts-Summary-anchor caveats from docs/page-structure.md don't
+       apply here since this module doesn't use that link-only fallback.
      - The four Conformance entries point at the KDS-wide conformance rules of
        the Meta module (kerndatensatz-meta). INTERIM: the Meta module has no
        published IG rendering yet (only a CI build with no conformance pages),
@@ -331,6 +326,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </li>
       <li>
          <a href="#5">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#6">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -858,6 +856,206 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
+   <a name="6"> </a>
+   <h3>Example: Example Instances </h3>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-mii-exa-sdd-ausbildung.html"
+                  title="Observation/mii-exa-sdd-ausbildung">
+                  <span title="Observation/mii-exa-sdd-ausbildung">MII EXA SDD Ausbildung
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel: Höchster beruflicher Ausbildungsabschluss.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-mii-exa-sdd-berufliche-stellung.html"
+                  title="Observation/mii-exa-sdd-berufliche-stellung">
+                  <span title="Observation/mii-exa-sdd-berufliche-stellung">MII EXA SDD Berufliche Stellung
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel: Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-mii-exa-sdd-beschaeftigungsstatus.html"
+                  title="Observation/mii-exa-sdd-beschaeftigungsstatus">
+                  <span title="Observation/mii-exa-sdd-beschaeftigungsstatus">MII EXA SDD Beschaeftigungsstatus
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel: Aktuell hauptsächlich ausgeübte Tätigkeit.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-mii-exa-sdd-betreuungssituation.html"
+                  title="Observation/mii-exa-sdd-betreuungssituation">
+                  <span title="Observation/mii-exa-sdd-betreuungssituation">MII EXA SDD Betreuungssituation
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel: Aktuelle Betreuungssituation.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-mii-exa-sdd-datenerhebung.html"
+                  title="Observation/mii-exa-sdd-datenerhebung">
+                  <span title="Observation/mii-exa-sdd-datenerhebung">MII EXA SDD Datenerhebung
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel: Sammel-Beobachtung, die alle Einzelerhebungen der Soziodemographie für einen Patienten referenziert.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-mii-exa-sdd-einkommen.html"
+                  title="Observation/mii-exa-sdd-einkommen">
+                  <span title="Observation/mii-exa-sdd-einkommen">MII EXA SDD Einkommen
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel: Durchschnittliches monatliches Nettoeinkommen des Haushalts.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-mii-exa-sdd-geburtsland-mutter.html"
+                  title="Observation/mii-exa-sdd-geburtsland-mutter">
+                  <span title="Observation/mii-exa-sdd-geburtsland-mutter">MII EXA SDD Geburtsland Mutter
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel: Geburtsland der Mutter der Patientin/des Patienten.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-mii-exa-sdd-geburtsland-vater.html"
+                  title="Observation/mii-exa-sdd-geburtsland-vater">
+                  <span title="Observation/mii-exa-sdd-geburtsland-vater">MII EXA SDD Geburtsland Vater
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel: Geburtsland des Vaters der Patientin/des Patienten.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-mii-exa-sdd-haushaltsgroesse.html"
+                  title="Observation/mii-exa-sdd-haushaltsgroesse">
+                  <span title="Observation/mii-exa-sdd-haushaltsgroesse">MII EXA SDD Haushaltsgroesse
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel: Anzahl der Personen, die ständig im Haushalt der Person leben.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-mii-exa-sdd-partnerschaft.html"
+                  title="Observation/mii-exa-sdd-partnerschaft">
+                  <span title="Observation/mii-exa-sdd-partnerschaft">MII EXA SDD Partnerschaft
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel: Aktuelle Partnerschaft der Person.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-mii-exa-sdd-patient.html"
+                  title="Patient/mii-exa-sdd-patient">
+                  <span title="Patient/mii-exa-sdd-patient">MII EXA SDD Patient
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel-Patient (MII Person Patient), auf den sich die Beispiel-Erhebungen dieses Moduls beziehen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-mii-exa-sdd-schulabschluss.html"
+                  title="Observation/mii-exa-sdd-schulabschluss">
+                  <span title="Observation/mii-exa-sdd-schulabschluss">MII EXA SDD Schulabschluss
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel: Höchster erreichter allgemeinbildender Schulabschluss.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-mii-exa-sdd-schuljahre.html"
+                  title="Observation/mii-exa-sdd-schuljahre">
+                  <span title="Observation/mii-exa-sdd-schuljahre">MII EXA SDD Schuljahre
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel: Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-mii-exa-sdd-schwerbehindertenausweis.html"
+                  title="Observation/mii-exa-sdd-schwerbehindertenausweis">
+                  <span title="Observation/mii-exa-sdd-schwerbehindertenausweis">MII EXA SDD Schwerbehindertenausweis
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel: Vorliegen eines Schwerbehindertenausweises mit Grad der Behinderung und Merkzeichen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-mii-exa-sdd-soziooekonomische-faktoren.html"
+                  title="Observation/mii-exa-sdd-soziooekonomische-faktoren">
+                  <span title="Observation/mii-exa-sdd-soziooekonomische-faktoren">MII EXA SDD Soziooekonomische Faktoren
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel: generische Beobachtung eines sozioökonomischen Faktors.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-mii-exa-sdd-vertrauensperson.html"
+                  title="Observation/mii-exa-sdd-vertrauensperson">
+                  <span title="Observation/mii-exa-sdd-vertrauensperson">MII EXA SDD Vertrauensperson
+</span>
+               </a>
+            </td>
+            <td>
+<p>Beispiel: Existenz mind. einer Vertrauensperson.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
 </div>
 
 </div>
@@ -882,7 +1080,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Generated <span title="Thu, Sep 3, 2026 13:48+0000">2026-09-03</span>
+          Generated <span title="Thu, Sep 3, 2026 16:09+0000">2026-09-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.
