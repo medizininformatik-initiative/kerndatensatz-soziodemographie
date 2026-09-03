@@ -27,7 +27,8 @@ publisher:
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
-# dependencies:
+dependencies:
+    de.medizininformatikinitiative.kerndatensatz.meta: 2027.0.0-ballot.rc3
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
@@ -85,6 +86,22 @@ pages:
 
   version-history.md:
     title: Versioning
+
+  # The IG Publisher AUTO-GENERATES the ImplementationGuide resource page
+  # (ImplementationGuide-<id>.html); this entry gives it a hand-authored intro
+  # — dependency table, cross-version analysis, global profiles, copyrights —
+  # the kerndatensatz-basis idiom (ImplementationGuide-mii-ig-base.md there).
+  # BOTH this entry's key and the two source files carry {{MODULE_SLUG}} in
+  # their NAME: like the IG-level .po catalogue, rename
+  # input/pagecontent/ImplementationGuide-mii-ig-{{MODULE_SLUG}}.md and its
+  # German mirror under input/translations/de/pagecontent/ when you set your
+  # slug (docs/recipes/create-a-new-module.md step 4). The CI self-check
+  # substitutes and renames all of them for the template repo's own preview.
+  ImplementationGuide-mii-ig-soziodemographie.md:
+    title: MII ImplementationGuide Resource
+
+  translationinfo.md:
+    title: Translation Information
 #
 #
 # The parameters property represents IG.definition.parameter. Rather
@@ -121,22 +138,6 @@ parameters:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 # menu:
 #   Home: index.html
-
-  # The IG Publisher AUTO-GENERATES the ImplementationGuide resource page
-  # (ImplementationGuide-<id>.html); this entry gives it a hand-authored intro
-  # — dependency table, cross-version analysis, global profiles, copyrights —
-  # the kerndatensatz-basis idiom (ImplementationGuide-mii-ig-base.md there).
-  # BOTH this entry's key and the two source files carry {{MODULE_SLUG}} in
-  # their NAME: like the IG-level .po catalogue, rename
-  # input/pagecontent/ImplementationGuide-mii-ig-{{MODULE_SLUG}}.md and its
-  # German mirror under input/translations/de/pagecontent/ when you set your
-  # slug (docs/recipes/create-a-new-module.md step 4). The CI self-check
-  # substitutes and renames all of them for the template repo's own preview.
-  ImplementationGuide-mii-ig-soziodemographie.md:
-    title: MII ImplementationGuide Resource
-
-  translationinfo.md:
-    title: Translation Information
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

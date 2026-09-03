@@ -35,6 +35,14 @@
   "fhirVersion": [
     "4.0.1"
   ],
+  "dependsOn": [
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.meta",
+      "version": "2027.0.0-ballot.rc3",
+      "uri": "https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta",
+      "id": "de_medizininformatikinitiative_kerndatensatz_meta"
+    }
+  ],
   "definition": {
     "resource": [
       {
@@ -439,6 +447,16 @@
           "nameUrl": "version-history.html",
           "title": "Versioning",
           "generation": "markdown"
+        },
+        {
+          "nameUrl": "ImplementationGuide-mii-ig-soziodemographie.html",
+          "title": "MII ImplementationGuide Resource",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "translationinfo.html",
+          "title": "Translation Information",
+          "generation": "markdown"
         }
       ]
     },
@@ -482,14 +500,6 @@
       {
         "code": "excludettl",
         "value": "true"
-      },
-      {
-        "code": "ImplementationGuide-mii-ig-soziodemographie.md",
-        "value": "[object Object]"
-      },
-      {
-        "code": "translationinfo.md",
-        "value": "[object Object]"
       }
     ]
   }

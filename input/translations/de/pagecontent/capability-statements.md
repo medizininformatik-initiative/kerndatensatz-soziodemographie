@@ -10,4 +10,4 @@ Jedes CapabilityStatement legt fest:
 * **Unterstützte Profile** - Die MII-Profile, die die Ressourcen einschränken
 * **RESTful-Interaktionen** - Die unterstützten Create-, Read-, Update-, Delete- und Search-Operationen
 
-Ausführliche Implementierungshinweise finden Sie auf der Seite [Konformität](conformance.html).
+Ausführliche Implementierungshinweise finden Sie auf der Seite [Konformität](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance).

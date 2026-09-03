@@ -6,4 +6,4 @@ Logische Modelle bieten eine konzeptionelle Sicht auf die in diesem Implementier
 
 ---
 
-Die entsprechenden FHIR-Ressourcenprofile, die diese logischen Modelle umsetzen, finden Sie unter [Profile und Extensions](profiles-and-extensions.html).
+Die entsprechenden FHIR-Ressourcenprofile, die diese logischen Modelle umsetzen, finden Sie unter [Profile](profiles.html).
