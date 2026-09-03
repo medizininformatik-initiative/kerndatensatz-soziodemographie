@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-geburtsland-mutter | *Version*:2027.0.0-ballot.rc1 |
-| Draft as of 2026-09-01 | *Computable Name*:MII_PR_SDD_Geburtsland_Mutter |
+| Draft as of 2026-09-03 | *Computable Name*:MII_PR_SDD_Geburtsland_Mutter |
 
  
 Geburtsland der Mutter 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-geburt
   "name" : "MII_PR_SDD_Geburtsland_Mutter",
   "title" : "MII PR SDD Geburtsland Mutter",
   "status" : "draft",
-  "date" : "2026-09-01T13:41:09+00:00",
+  "date" : "2026-09-03T13:48:05+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

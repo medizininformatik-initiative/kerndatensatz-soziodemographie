@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-merkzeichen | *Version*:2027.0.0-ballot.rc1 |
-| Draft Stand: 2026-09-01 | *Maschinenlesbarer Name*:MII_VS_SDD_Merkzeichen |
+| Draft Stand: 2026-09-03 | *Maschinenlesbarer Name*:MII_VS_SDD_Merkzeichen |
 
  
 Value Set für Merkzeichen 
@@ -45,7 +45,7 @@ Value Set für Merkzeichen
   "title" : "MII VS SDD Merkzeichen",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-01T13:41:09+00:00",
+  "date" : "2026-09-03T13:48:05+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

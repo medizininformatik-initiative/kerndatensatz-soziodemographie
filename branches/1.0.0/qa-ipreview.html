@@ -21,8 +21,8 @@
       </li>
     </ul>
     <h2>Copyright Fragment</h2>
-    <p style="color: maroon">
-      <b>This fragment is not visible to the reader</b>
+    <p>
+This fragment is available on       <a href="en/ImplementationGuide-mii-ig-soziodemographie.html">en/ImplementationGuide-mii-ig-soziodemographie.html</a>
     </p>
     <div>
       <p>This publication includes IP covered under the following statements.</p>
@@ -121,7 +121,7 @@ This material derives from the HL7 Terminology (THO). THO is copyright &copy;198
 
           IG &copy; 2026+ NUM-DIZ.  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 based on FHIR 4.0.1.
-          Generated 2026-09-01
+          Generated 2026-09-03
           
           
             
@@ -147,7 +147,7 @@ This material derives from the HL7 Terminology (THO). THO is copyright &copy;198
 
           IG &copy; 2026+ NUM-DIZ.  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 basiert auf FHIR 4.0.1.
-          Erstellt 2026-09-01
+          Erstellt 2026-09-03
           
           
             
@@ -180,6 +180,32 @@ HL7&reg;, FHIR&reg; and the FHIR flame design are registered trademarks of Healt
       </li>
       <li>
 MII Implementation Guide Soziodemographie - Local Development build (v2027.0.0-ballot.rc1) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the Directory of published versions (        <a href="version-history.html">src</a>
+)
+      </li>
+      <li>
+This material contains content from LOINC. LOINC is copyright &copy; 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license. LOINC&reg; is a registered United States trademark of Regenstrief Institute, Inc. Show Usage
+
+
+* LOINC: MII_PR_SDD_Datenerhebung
+
+
+
+
+ (        <a href="en/ImplementationGuide-mii-ig-soziodemographie.html">src</a>
+)
+      </li>
+      <li>
+This material derives from the HL7 Terminology (THO). THO is copyright &copy;1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html Show Usage
+
+
+* Observation Category Codes: MII_PR_SDD_Ausbildung, MII_PR_SDD_Berufliche_Stellung... Show 14 more, MII_PR_SDD_Beschaeftigungsstatus, MII_PR_SDD_Betreuungssituation, MII_PR_SDD_Datenerhebung, MII_PR_SDD_Einkommen, MII_PR_SDD_Geburtsland_Mutter, MII_PR_SDD_Geburtsland_Vater, MII_PR_SDD_Haushaltsgroesse, MII_PR_SDD_Lebenssituation, MII_PR_SDD_Partnerschaft, MII_PR_SDD_Schulabschluss, MII_PR_SDD_Schuljahre, MII_PR_SDD_Schwerbehindertenausweis, MII_PR_SDD_SoziooekonomischeFaktoren and MII_PR_SDD_Vertrauensperson
+
+* expandedYes-NoIndicator: MII_PR_SDD_Partnerschaft, MII_PR_SDD_Schwerbehindertenausweis and MII_PR_SDD_Vertrauensperson
+
+
+
+
+ (        <a href="en/ImplementationGuide-mii-ig-soziodemographie.html">src</a>
 )
       </li>
       <li>
@@ -326,7 +352,7 @@ Konformität<b class="caret"> </b>          </a>
 .  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 basiert auf           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>
 .
-          Erstellt           <span title="Tue, Sep 1, 2026 13:41+0000">2026-09-01</span>
+          Erstellt           <span title="Thu, Sep 3, 2026 13:48+0000">2026-09-03</span>
 
                     <br/>
 
@@ -547,6 +573,30 @@ Konformität<b class="caret"> </b>          </a>
       </tr>
       <tr>
         <td>
+          <a href="de/ImplementationGuide-mii-ig-soziodemographie.html">web</a>
+        </td>
+        <td>
+          <a href="https://github.com/medizininformatik-initiative/kerndatensatz-soziodemographie/blob/main/sushi-config.yaml">github.com</a>
+        </td>
+        <td>
+Expansionsparameter sind Query-Parameter, die an eine           <code class="language-plaintext highlighter-rouge">ValueSet</code>
+-
+          <code class="language-plaintext highlighter-rouge">$expand</code>
+-Operation übergeben werden können, um zu steuern, wie das ValueSet
+expandiert wird — also wie die vollständige Liste der Codes aus der
+ValueSet-Definition erzeugt wird. Die für diesen IG verwendeten
+          <a href="https://hl7.org/fhir/tools/en/CodeSystem-ig-parameters.html">IG-Parameter</a>
+
+sind in
+          <a href="https://github.com/medizininformatik-initiative/kerndatensatz-soziodemographie/blob/main/sushi-config.yaml">
+<code class="language-plaintext highlighter-rouge">sushi-config.yaml</code>          </a>
+
+(          <code class="language-plaintext highlighter-rouge">parameters:</code>
+) deklariert.
+        </td>
+      </tr>
+      <tr>
+        <td>
           <a href="de/StructureDefinition-mii-pr-sdd-ausbildung-mappings.html">web</a>
         </td>
         <td>
@@ -554,6 +604,18 @@ Konformität<b class="caret"> </b>          </a>
         </td>
         <td>
           <a href="http://snomed.info/conceptdomain" title="http://snomed.info/conceptdomain">SNOMED CT Concept Domain Binding</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="de/capability-statements.html">web</a>
+        </td>
+        <td>
+          <a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">github.com</a>
+        </td>
+        <td>
+Ausführliche Implementierungshinweise finden Sie auf der Seite           <a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Konformität</a>
+.
         </td>
       </tr>
       <tr>
@@ -872,7 +934,7 @@ Conformance<b class="caret"> </b>          </a>
 .  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>
 .
-          Generated           <span title="Tue, Sep 1, 2026 13:41+0000">2026-09-01</span>
+          Generated           <span title="Thu, Sep 3, 2026 13:48+0000">2026-09-03</span>
 
                     <br/>
 
@@ -1089,6 +1151,41 @@ Conformance<b class="caret"> </b>          </a>
 
 
           
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="en/ImplementationGuide-mii-ig-soziodemographie.html">web</a>
+        </td>
+        <td>
+          <a href="https://github.com/medizininformatik-initiative/kerndatensatz-soziodemographie/blob/main/sushi-config.yaml">github.com</a>
+        </td>
+        <td>
+Expansion parameters are query parameters that can be passed to a           <code class="language-plaintext highlighter-rouge">ValueSet</code>
+
+          <code class="language-plaintext highlighter-rouge">$expand</code>
+ operation to control how the ValueSet is expanded — that is, how the
+full list of codes is generated from the ValueSet definition. The
+          <a href="https://hl7.org/fhir/tools/en/CodeSystem-ig-parameters.html">IG Parameters</a>
+
+used for this IG are declared in
+          <a href="https://github.com/medizininformatik-initiative/kerndatensatz-soziodemographie/blob/main/sushi-config.yaml">
+<code class="language-plaintext highlighter-rouge">sushi-config.yaml</code>          </a>
+
+(          <code class="language-plaintext highlighter-rouge">parameters:</code>
+).
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="en/capability-statements.html">web</a>
+        </td>
+        <td>
+          <a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">github.com</a>
+        </td>
+        <td>
+For detailed implementation guidance, see the           <a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Conformance</a>
+ page.
         </td>
       </tr>
       <tr>

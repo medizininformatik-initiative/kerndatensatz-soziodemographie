@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-beschaeftigungsstatus | *Version*:2027.0.0-ballot.rc1 |
-| Draft as of 2026-09-01 | *Computable Name*:MII_PR_SDD_Beschaeftigungsstatus |
+| Draft as of 2026-09-03 | *Computable Name*:MII_PR_SDD_Beschaeftigungsstatus |
 
  
 Aktuell hauptsächlich ausgeübte Tätigkeit 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-bescha
   "name" : "MII_PR_SDD_Beschaeftigungsstatus",
   "title" : "MII PR SDD Beschäftigungsstatus",
   "status" : "draft",
-  "date" : "2026-09-01T13:41:09+00:00",
+  "date" : "2026-09-03T13:48:05+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

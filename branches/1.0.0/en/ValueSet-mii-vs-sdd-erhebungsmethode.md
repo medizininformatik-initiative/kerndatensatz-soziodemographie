@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-erhebungsmethode | *Version*:2027.0.0-ballot.rc1 |
-| Draft as of 2026-09-01 | *Computable Name*:MII_VS_SDD_Erhebungsmethode |
+| Draft as of 2026-09-03 | *Computable Name*:MII_VS_SDD_Erhebungsmethode |
 
  
 Value Set für Erhebungsmethode 
@@ -45,7 +45,7 @@ Value Set für Erhebungsmethode
   "title" : "MII VS SDD Erhebungsmethode",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-01T13:41:09+00:00",
+  "date" : "2026-09-03T13:48:05+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

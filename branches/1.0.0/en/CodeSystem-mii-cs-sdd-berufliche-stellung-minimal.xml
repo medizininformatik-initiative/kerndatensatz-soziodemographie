@@ -7,7 +7,7 @@
   </meta>
   <language value="en"/>
   <text>
-    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem mii-cs-sdd-berufliche-stellung-minimal</b></p><a name="mii-cs-sdd-berufliche-stellung-minimal"> </a><a name="hcmii-cs-sdd-berufliche-stellung-minimal"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-minimal</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="mii-cs-sdd-berufliche-stellung-minimal-1"> </a></td><td>Arbeiter</td></tr><tr><td style="white-space:nowrap">2<a name="mii-cs-sdd-berufliche-stellung-minimal-2"> </a></td><td>Selbständige einschließlich mithelfender Familienangehöriger</td></tr><tr><td style="white-space:nowrap">3<a name="mii-cs-sdd-berufliche-stellung-minimal-3"> </a></td><td>Angestellte</td></tr><tr><td style="white-space:nowrap">4<a name="mii-cs-sdd-berufliche-stellung-minimal-4"> </a></td><td>Beamte</td></tr></table></div>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem mii-cs-sdd-berufliche-stellung-minimal</b></p><a name="mii-cs-sdd-berufliche-stellung-minimal"> </a><a name="hcmii-cs-sdd-berufliche-stellung-minimal"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/uv/crmi/STU2/StructureDefinition-shareablecodesystem.html">Shareable CodeSystem</a></p></div><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-minimal</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="mii-cs-sdd-berufliche-stellung-minimal-1"> </a></td><td>Arbeiter</td></tr><tr><td style="white-space:nowrap">2<a name="mii-cs-sdd-berufliche-stellung-minimal-2"> </a></td><td>Selbständige einschließlich mithelfender Familienangehöriger</td></tr><tr><td style="white-space:nowrap">3<a name="mii-cs-sdd-berufliche-stellung-minimal-3"> </a></td><td>Angestellte</td></tr><tr><td style="white-space:nowrap">4<a name="mii-cs-sdd-berufliche-stellung-minimal-4"> </a></td><td>Beamte</td></tr></table></div>
   </text>
   <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-minimal"/>
   <version value="2027.0.0-ballot.rc1"/>
@@ -15,7 +15,7 @@
   <title value="MII CS SDD Berufliche Stellung (Minimalversion)"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2026-09-01T13:41:09+00:00"/>
+  <date value="2026-09-03T13:48:05+00:00"/>
   <publisher value="NUM-DIZ"/>
   <contact>
     <name value="NUM-DIZ"/>

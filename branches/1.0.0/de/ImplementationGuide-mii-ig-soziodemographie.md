@@ -1,4 +1,57 @@
-# Resource MII Implementation Guide Soziodemographie
+# MII ImplementationGuide Resource - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
+
+* [**Table of Contents**](toc.md)
+* **MII ImplementationGuide Resource**
+
+## MII ImplementationGuide Resource
+
+Diese ImplementationGuide-Ressource definiert die technischen Details dieser Publikation, einschließlich Abhängigkeiten und Veröffentlichungsparametern.
+
+* [XML](../ImplementationGuide-mii-ig-soziodemographie.xml)
+* [JSON](../ImplementationGuide-mii-ig-soziodemographie.json)
+
+### Versionsübergreifende Analyse
+
+This is an R4 IG. None of the features it uses are changed in R4B, so it can be used as is with R4B systems. Packages for both [R4 (de.medizininformatikinitiative.kerndatensatz.soziodemographie.r4)](../package.r4.tgz) and [R4B (de.medizininformatikinitiative.kerndatensatz.soziodemographie.r4b)](../package.r4b.tgz) are available.
+
+### IG-Abhängigkeiten
+
+Dieser IG enthält die folgenden Abhängigkeiten von anderen IGs.
+
+
+
+
+
+
+### Globale Profile
+
+Dieser IG deklariert die folgenden globalen Profile — Profile, die für jede unter diesem Leitfaden ausgetauschte Instanz ihres Ressourcentyps gelten. Eine leere Tabelle bedeutet: Dieses Modul deklariert keine.
+
+*There are no Global profiles defined*
+
+### Urheberrechte
+
+This publication includes IP covered under the following statements.
+
+* This material contains content from [LOINC](http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the [license](http://loinc.org/license). LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
+
+* LOINC: [MII_PR_SDD_Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md)
+
+
+* This material contains content that is copyright of SNOMED International. Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact [https://www.snomed.org/get-snomed](https://www.snomed.org/get-snomed) or [info@snomed.org](mailto:info@snomed.org).
+
+* [SNOMED Clinical Terms&reg; (SNOMED CT&reg;)](http://hl7.org/fhir/R4/codesystem-snomedct.html): [MII_PR_SDD_Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md), [MII_PR_SDD_Geburtsland_Mutter](StructureDefinition-mii-pr-sdd-geburtsland-mutter.md) and [MII_PR_SDD_Geburtsland_Vater](StructureDefinition-mii-pr-sdd-geburtsland-vater.md)
+
+
+* This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: [https://terminology.hl7.org/license.html](https://terminology.hl7.org/license.html)
+
+* [Observation Category Codes](http://terminology.hl7.org/7.3.0/CodeSystem-observation-category.html): [MII_PR_SDD_Ausbildung](StructureDefinition-mii-pr-sdd-ausbildung.md), [MII_PR_SDD_Berufliche_Stellung](StructureDefinition-mii-pr-sdd-berufliche-stellung.md)... Show 14 more, [MII_PR_SDD_Beschaeftigungsstatus](StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.md), [MII_PR_SDD_Betreuungssituation](StructureDefinition-mii-pr-sdd-betreuungssituation.md), [MII_PR_SDD_Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md), [MII_PR_SDD_Einkommen](StructureDefinition-mii-pr-sdd-einkommen.md), [MII_PR_SDD_Geburtsland_Mutter](StructureDefinition-mii-pr-sdd-geburtsland-mutter.md), [MII_PR_SDD_Geburtsland_Vater](StructureDefinition-mii-pr-sdd-geburtsland-vater.md), [MII_PR_SDD_Haushaltsgroesse](StructureDefinition-mii-pr-sdd-haushaltsgroesse.md), [MII_PR_SDD_Lebenssituation](StructureDefinition-mii-pr-sdd-lebenssituation.md), [MII_PR_SDD_Partnerschaft](StructureDefinition-mii-pr-sdd-partnerschaft.md), [MII_PR_SDD_Schulabschluss](StructureDefinition-mii-pr-sdd-schulabschluss.md), [MII_PR_SDD_Schuljahre](StructureDefinition-mii-pr-sdd-schuljahre.md), [MII_PR_SDD_Schwerbehindertenausweis](StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.md), [MII_PR_SDD_SoziooekonomischeFaktoren](StructureDefinition-mii-pr-sdd-soziooekonomische-faktoren.md) and [MII_PR_SDD_Vertrauensperson](StructureDefinition-mii-pr-sdd-vertrauensperson.md)
+* [expandedYes-NoIndicator](http://terminology.hl7.org/7.3.0/CodeSystem-v2-0532.html): [MII_PR_SDD_Partnerschaft](StructureDefinition-mii-pr-sdd-partnerschaft.md), [MII_PR_SDD_Schwerbehindertenausweis](StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.md) and [MII_PR_SDD_Vertrauensperson](StructureDefinition-mii-pr-sdd-vertrauensperson.md)
+
+
+### IG-Parametereinstellungen und Expansionsparameter
+
+Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Operation übergeben werden können, um zu steuern, wie das ValueSet expandiert wird — also wie die vollständige Liste der Codes aus der ValueSet-Definition erzeugt wird. Die für diesen IG verwendeten [IG-Parameter](https://hl7.org/fhir/tools/en/CodeSystem-ig-parameters.html) sind in [`sushi-config.yaml`](https://github.com/medizininformatik-initiative/kerndatensatz-soziodemographie/blob/main/sushi-config.yaml) (`parameters:`) deklariert.
 
 
 
@@ -52,6 +105,12 @@
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
     "version" : "5.3.0"
+  },
+  {
+    "id" : "de_medizininformatikinitiative_kerndatensatz_meta",
+    "uri" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta",
+    "packageId" : "de.medizininformatikinitiative.kerndatensatz.meta",
+    "version" : "2027.0.0-ballot.rc3"
   }],
   "definition" : {
     "extension" : [{
@@ -139,28 +198,6 @@
       {
         "url" : "value",
         "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "ImplementationGuide-mii-ig-soziodemographie.md"
-      },
-      {
-        "url" : "value",
-        "valueString" : "[object Object]"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "translationinfo.md"
-      },
-      {
-        "url" : "value",
-        "valueString" : "[object Object]"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -528,28 +565,6 @@
       {
         "url" : "value",
         "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "ImplementationGuide-mii-ig-soziodemographie.md"
-      },
-      {
-        "url" : "value",
-        "valueString" : "[object Object]"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "translationinfo.md"
-      },
-      {
-        "url" : "value",
-        "valueString" : "[object Object]"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -1609,6 +1624,24 @@
         }],
         "nameUrl" : "version-history.html",
         "title" : "Versioning",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "ImplementationGuide-mii-ig-soziodemographie.html"
+        }],
+        "nameUrl" : "ImplementationGuide-mii-ig-soziodemographie.html",
+        "title" : "MII ImplementationGuide Resource",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "translationinfo.html"
+        }],
+        "nameUrl" : "translationinfo.html",
+        "title" : "Translation Information",
         "generation" : "markdown"
       }]
     },

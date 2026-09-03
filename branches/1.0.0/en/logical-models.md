@@ -13,5 +13,5 @@ Logical models provide a conceptual view of the data structures defined in this 
 
 -------
 
-For the corresponding FHIR resource profiles that implement these logical models, see [Profiles and Extensions](profiles-and-extensions.md).
+For the corresponding FHIR resource profiles that implement these logical models, see [Profiles](profiles.md).
 

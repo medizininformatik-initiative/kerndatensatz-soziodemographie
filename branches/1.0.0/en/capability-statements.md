@@ -18,5 +18,5 @@ Each CapabilityStatement specifies:
 * **Supported profiles** - The MII profiles that constrain the resources
 * **RESTful interactions** - The create, read, update, delete, and search operations supported
 
-For detailed implementation guidance, see the [Conformance](conformance.md) page.
+For detailed implementation guidance, see the [Conformance](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance) page.
 
