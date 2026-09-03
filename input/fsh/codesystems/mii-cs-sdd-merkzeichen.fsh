@@ -6,6 +6,7 @@ Description: "Code System für Merkzeichen (SGB IX / SchwbAwV)"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen"
 * ^status = #draft
 * ^experimental = false
+* ^caseSensitive = true
 * insert Publisher
 * insert PR_CS_VS_Version
 * #G "G – erhebliche Gehbehinderung"

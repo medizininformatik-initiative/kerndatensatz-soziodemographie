@@ -6,6 +6,7 @@ Description: "Code System für Einkommen"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-einkommen"
 * ^status = #draft
 * ^experimental = false
+* ^caseSensitive = true
 * insert Publisher
 * insert PR_CS_VS_Version
 * #500 "Unter 500 €"

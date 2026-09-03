@@ -91,8 +91,8 @@
         "path": "Observation.code.coding",
         "min": 1,
         "patternCoding": {
-          "code": "246062003",
-          "system": "http://snomed.info/sct"
+          "code": "63515-1",
+          "system": "http://loinc.org"
         },
         "mustSupport": true
       },

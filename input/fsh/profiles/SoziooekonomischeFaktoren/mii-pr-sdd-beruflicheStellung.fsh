@@ -9,7 +9,7 @@ Description: "Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigke
 
 * code 1..1 MS
 * code.coding 1..* MS
-// * code.coding = // ?
+* code.coding = $LNC#67875-5 // Employment status - current
 
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1 MS

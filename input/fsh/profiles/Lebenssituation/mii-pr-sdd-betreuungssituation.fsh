@@ -9,7 +9,7 @@ Description: "Aktuelle Betreuungssituation"
 
 * code 1..1 MS
 * code.coding 1..* MS
-// * code.coding = // ?
+* code.coding = $SCT#305060004 // Patient care statuses (finding)
 
 * valueCodeableConcept 1..1 MS
 * valueCodeableConcept from mii-vs-sdd-betreuungssituation (required)

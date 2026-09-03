@@ -14,7 +14,7 @@ Description: "Geburtsland des Vaters des Patienten"
 
 * code 1..1 MS
 * code.coding 1..* MS
-* code.coding = $SCT#246062003 // origin? // evtl eigenes VS
+* code.coding = $LNC#63492-3 // origin? // evtl eigenes VS
 
 * category 1..* MS
 * category ^slicing.discriminator.type = #pattern

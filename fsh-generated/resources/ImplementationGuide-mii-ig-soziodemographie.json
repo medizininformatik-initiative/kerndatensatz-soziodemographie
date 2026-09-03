@@ -35,6 +35,20 @@
   "fhirVersion": [
     "4.0.1"
   ],
+  "dependsOn": [
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.meta",
+      "version": "2027.0.0-ballot.rc3",
+      "uri": "https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta",
+      "id": "de_medizininformatikinitiative_kerndatensatz_meta"
+    },
+    {
+      "packageId": "de.medizininformatikinitiative.kerndatensatz.base",
+      "version": "2027.0.0-ballot.rc1",
+      "uri": "https://www.medizininformatik-initiative.de/fhir/modul-base/ImplementationGuide/mii-ig-base",
+      "id": "de_medizininformatikinitiative_kerndatensatz_base"
+    }
+  ],
   "definition": {
     "resource": [
       {
@@ -132,6 +146,134 @@
         "name": "MII CS SDD Schwerbehindertenausweis",
         "description": "Code System für Schwerbehindertenausweis",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-sdd-ausbildung"
+        },
+        "name": "MII EXA SDD Ausbildung",
+        "description": "Beispiel: Höchster beruflicher Ausbildungsabschluss.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-ausbildung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-sdd-berufliche-stellung"
+        },
+        "name": "MII EXA SDD Berufliche Stellung",
+        "description": "Beispiel: Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-berufliche-stellung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-sdd-beschaeftigungsstatus"
+        },
+        "name": "MII EXA SDD Beschaeftigungsstatus",
+        "description": "Beispiel: Aktuell hauptsächlich ausgeübte Tätigkeit.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-beschaeftigungsstatus"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-sdd-betreuungssituation"
+        },
+        "name": "MII EXA SDD Betreuungssituation",
+        "description": "Beispiel: Aktuelle Betreuungssituation.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-betreuungssituation"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-sdd-datenerhebung"
+        },
+        "name": "MII EXA SDD Datenerhebung",
+        "description": "Beispiel: Sammel-Beobachtung, die alle Einzelerhebungen der Soziodemographie für einen Patienten referenziert.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-datenerhebung"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-sdd-einkommen"
+        },
+        "name": "MII EXA SDD Einkommen",
+        "description": "Beispiel: Durchschnittliches monatliches Nettoeinkommen des Haushalts.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-einkommen"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-sdd-geburtsland-mutter"
+        },
+        "name": "MII EXA SDD Geburtsland Mutter",
+        "description": "Beispiel: Geburtsland der Mutter der Patientin/des Patienten.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-geburtsland-mutter"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-sdd-geburtsland-vater"
+        },
+        "name": "MII EXA SDD Geburtsland Vater",
+        "description": "Beispiel: Geburtsland des Vaters der Patientin/des Patienten.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-geburtsland-vater"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-sdd-haushaltsgroesse"
+        },
+        "name": "MII EXA SDD Haushaltsgroesse",
+        "description": "Beispiel: Anzahl der Personen, die ständig im Haushalt der Person leben.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-haushaltsgroesse"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-sdd-partnerschaft"
+        },
+        "name": "MII EXA SDD Partnerschaft",
+        "description": "Beispiel: Aktuelle Partnerschaft der Person.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-partnerschaft"
+      },
+      {
+        "reference": {
+          "reference": "Patient/mii-exa-sdd-patient"
+        },
+        "name": "MII EXA SDD Patient",
+        "description": "Beispiel-Patient (MII Person Patient), auf den sich die Beispiel-Erhebungen dieses Moduls beziehen.",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-sdd-schulabschluss"
+        },
+        "name": "MII EXA SDD Schulabschluss",
+        "description": "Beispiel: Höchster erreichter allgemeinbildender Schulabschluss.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schulabschluss"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-sdd-schuljahre"
+        },
+        "name": "MII EXA SDD Schuljahre",
+        "description": "Beispiel: Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schuljahre"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-sdd-schwerbehindertenausweis"
+        },
+        "name": "MII EXA SDD Schwerbehindertenausweis",
+        "description": "Beispiel: Vorliegen eines Schwerbehindertenausweises mit Grad der Behinderung und Merkzeichen.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schwerbehindertenausweis"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-sdd-soziooekonomische-faktoren"
+        },
+        "name": "MII EXA SDD Soziooekonomische Faktoren",
+        "description": "Beispiel: generische Beobachtung eines sozioökonomischen Faktors.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-soziooekonomische-faktoren"
+      },
+      {
+        "reference": {
+          "reference": "Observation/mii-exa-sdd-vertrauensperson"
+        },
+        "name": "MII EXA SDD Vertrauensperson",
+        "description": "Beispiel: Existenz mind. einer Vertrauensperson.",
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-vertrauensperson"
       },
       {
         "reference": {
@@ -439,6 +581,16 @@
           "nameUrl": "version-history.html",
           "title": "Versioning",
           "generation": "markdown"
+        },
+        {
+          "nameUrl": "ImplementationGuide-mii-ig-soziodemographie.html",
+          "title": "MII ImplementationGuide Resource",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "translationinfo.html",
+          "title": "Translation Information",
+          "generation": "markdown"
         }
       ]
     },
@@ -482,14 +634,6 @@
       {
         "code": "excludettl",
         "value": "true"
-      },
-      {
-        "code": "ImplementationGuide-mii-ig-soziodemographie.md",
-        "value": "[object Object]"
-      },
-      {
-        "code": "translationinfo.md",
-        "value": "[object Object]"
       }
     ]
   }

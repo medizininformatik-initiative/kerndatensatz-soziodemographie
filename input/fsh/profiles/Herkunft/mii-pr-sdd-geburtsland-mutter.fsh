@@ -15,7 +15,7 @@ Description: "Geburtsland der Mutter"
 
 * code 1..1 MS
 * code.coding 1..* MS
-* code.coding = $SCT#246062003 // origin?
+* code.coding = $LNC#63515-1 // Mother birthplace 
 
 * category 1..* MS
 * category ^slicing.discriminator.type = #pattern

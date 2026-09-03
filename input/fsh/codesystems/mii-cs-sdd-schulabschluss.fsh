@@ -6,6 +6,7 @@ Description: "Code System für Schulabschluss"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schulabschluss"
 * ^status = #draft
 * ^experimental = false
+* ^caseSensitive = true
 * insert Publisher
 * insert PR_CS_VS_Version
 * #1 "noch Schüler:in an einer allgemeinbildenden Schule"
