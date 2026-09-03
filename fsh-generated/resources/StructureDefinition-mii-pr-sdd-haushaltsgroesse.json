@@ -35,6 +35,10 @@
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
         "min": 1,
+        "patternCoding": {
+          "code": "86639-2",
+          "system": "http://loinc.org"
+        },
         "mustSupport": true
       },
       {

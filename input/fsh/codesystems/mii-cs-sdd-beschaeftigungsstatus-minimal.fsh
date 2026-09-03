@@ -6,6 +6,7 @@ Description: "Code System für Beschäftigungsstatus (Minimalversion)"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-minimal"
 * ^status = #draft
 * ^experimental = false
+* ^caseSensitive = true
 * insert Publisher
 * insert PR_CS_VS_Version
 * #1 "Schüler, Auszubildender, Student"

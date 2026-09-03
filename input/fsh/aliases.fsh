@@ -4,6 +4,7 @@ Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation
 // Code Systems
 Alias: $SCT = http://snomed.info/sct
 Alias: $LNC = http://loinc.org
+Alias: $v2-0532 = http://terminology.hl7.org/CodeSystem/v2-0532 // codes actually used by $V2_YesNo_VS (http://terminology.hl7.org/ValueSet/v2-0136), despite the matching name
 Alias: $UCUM =  http://unitsofmeasure.org
 Alias: $mii-cs-sdd-erhebungsmethode = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-erhebungsmethode
 Alias: $mii-cs-sdd-haushaltsgroesse = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-haushaltsgroesse
@@ -19,7 +20,8 @@ Alias: $mii-cs-sdd-berufliche-stellung-lang = https://www.medizininformatik-init
 Alias: $mii-cs-sdd-berufliche-stellung-minimal = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-minimal
 
 // Value Systems
-Alias: $iso3166-alpha2 = http://hl7.org/fhir/ValueSet/iso3166-1-2 
+Alias: $iso3166-alpha2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
+Alias: $iso3166 = urn:iso:std:iso:3166
 Alias: $V2_YesNo_VS  = http://terminology.hl7.org/ValueSet/v2-0136 // Julian verweiset eher auf snomed -> sucht beste Variante noch raus
 
 // licenses

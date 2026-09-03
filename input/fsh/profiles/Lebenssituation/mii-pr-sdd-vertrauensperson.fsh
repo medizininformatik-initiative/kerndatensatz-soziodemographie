@@ -9,7 +9,7 @@ Description: "Existenz mind. einer Person, der die Person uneingeschränkt vertr
 
 * code 1..1 MS
 * code.coding 1..* MS
-// * code.coding = // ?
+* code.coding = $SCT#445091000124106 // Receives as much social support as wanted (finding)
 
 * valueCodeableConcept 1..1 MS
 * valueCodeableConcept from $V2_YesNo_VS (required)

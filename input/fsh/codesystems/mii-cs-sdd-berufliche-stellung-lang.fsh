@@ -6,6 +6,7 @@ Description: "Code System für Berufliche Stellung (Langversion)"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-berufliche-stellung-lang"
 * ^status = #draft
 * ^experimental = false
+* ^caseSensitive = true
 * insert Publisher
 * insert PR_CS_VS_Version
 * #1 "Selbstständige:r Landwirt:in oder Genossenschaftsbauer"

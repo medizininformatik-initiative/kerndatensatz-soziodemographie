@@ -11,6 +11,10 @@ Description: "Vorliegen eines Schwerbehindertenausweises des Patienten"
 
 * status MS
 
+* code 1..1 MS
+* code.coding 1..* MS
+* code.coding = $LNC#101720-1 // Disability status
+
 * subject 1..1 MS
 * subject only Reference(Patient)
 

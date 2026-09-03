@@ -6,6 +6,7 @@ Description: "Sonderkonzepte für Ländercodes, die nicht in ISO 3166-1 alpha-2 
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-laendercodes-sonder"
 * ^status = #draft
 * ^experimental = false
+* ^caseSensitive = true
 * insert Publisher
 * insert PR_CS_VS_Version
 * #ZZ "Staatenlos"

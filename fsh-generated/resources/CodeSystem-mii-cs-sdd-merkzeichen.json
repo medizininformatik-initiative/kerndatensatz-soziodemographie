@@ -51,6 +51,7 @@
     ]
   },
   "experimental": false,
+  "caseSensitive": true,
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {

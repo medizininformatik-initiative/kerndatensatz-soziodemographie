@@ -35,6 +35,10 @@
         "id": "Observation.code.coding",
         "path": "Observation.code.coding",
         "min": 1,
+        "patternCoding": {
+          "code": "445091000124106",
+          "system": "http://snomed.info/sct"
+        },
         "mustSupport": true
       },
       {
