@@ -29,7 +29,7 @@ publisher:
 #
 dependencies:
     de.medizininformatikinitiative.kerndatensatz.meta: 2027.0.0-ballot.rc3
-    de.medizininformatikinitiative.kerndatensatz.base: 2026.0.1 # Person module (MII_PR_Person_Patient) for the example Patient
+    de.medizininformatikinitiative.kerndatensatz.base: 2027.0.0-ballot.rc1 # Person module (MII_PR_Person_Patient) for the example Patient
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
