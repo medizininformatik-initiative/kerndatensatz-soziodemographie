@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-einkommen | *Version*:2027.0.0-ballot.rc1 |
-| Draft Stand: 2026-09-01 | *Maschinenlesbarer Name*:MII_PR_SDD_Einkommen |
+| Draft Stand: 2026-09-03 | *Maschinenlesbarer Name*:MII_PR_SDD_Einkommen |
 
  
 Durchschnittliches monatliches Nettoeinkommen des Haushalts 
@@ -91,7 +91,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-e
   "name" : "MII_PR_SDD_Einkommen",
   "title" : "MII PR SDD Einkommen",
   "status" : "draft",
-  "date" : "2026-09-01T13:17:32+00:00",
+  "date" : "2026-09-03T11:23:31+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

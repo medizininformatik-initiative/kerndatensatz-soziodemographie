@@ -23,8 +23,8 @@
     "sources" : ["2.16.840.1.113883.21.72"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-sdd-vertrauensperson.html" : "MII PR SDD Vertrauensperson",
     "StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.html" : "MII PR SDD Schwerbehindertenausweis",
+    "StructureDefinition-mii-pr-sdd-vertrauensperson.html" : "MII PR SDD Vertrauensperson",
     "StructureDefinition-mii-pr-sdd-partnerschaft.html" : "MII PR SDD Partnerschaft"
   },
   {

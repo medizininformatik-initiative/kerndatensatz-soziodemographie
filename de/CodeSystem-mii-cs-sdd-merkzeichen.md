@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen | *Version*:2027.0.0-ballot.rc1 |
-| Draft Stand: 2026-09-01 | *Maschinenlesbarer Name*:MII_CS_Merkzeichen |
+| Draft Stand: 2026-09-03 | *Maschinenlesbarer Name*:MII_CS_Merkzeichen |
 
  
 Code System für Merkzeichen (SGB IX / SchwbAwV) 
@@ -39,7 +39,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "title" : "MII CS SDD Merkzeichen (SGB IX / SchwbAwV)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-01T13:17:32+00:00",
+  "date" : "2026-09-03T11:23:31+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
