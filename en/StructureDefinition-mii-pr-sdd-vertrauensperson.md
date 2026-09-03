@@ -17,6 +17,7 @@ Existenz mind. einer Person, der die Person uneingeschränkt vertrauen und mit d
 **Usages:**
 
 * Refer to this Profile: [MII PR SDD Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md)
+* Examples for this Profile: [Observation/mii-exa-sdd-vertrauensperson](Observation-mii-exa-sdd-vertrauensperson.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-vertrauensperson.json)
 
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-vertra
   "name" : "MII_PR_SDD_Vertrauensperson",
   "title" : "MII PR SDD Vertrauensperson",
   "status" : "draft",
-  "date" : "2026-09-03T11:23:31+00:00",
+  "date" : "2026-09-03T16:19:13+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -108,6 +109,10 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-vertra
       "id" : "Observation.code.coding",
       "path" : "Observation.code.coding",
       "min" : 1,
+      "patternCoding" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "445091000124106"
+      },
       "mustSupport" : true
     },
     {

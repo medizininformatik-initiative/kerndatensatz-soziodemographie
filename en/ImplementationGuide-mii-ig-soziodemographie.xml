@@ -46,6 +46,16 @@
     <packageId value="hl7.fhir.uv.extensions.r4"/>
     <version value="5.3.0"/>
   </dependsOn>
+  <dependsOn id="de_medizininformatikinitiative_kerndatensatz_meta">
+    <uri value="https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta"/>
+    <packageId value="de.medizininformatikinitiative.kerndatensatz.meta"/>
+    <version value="2027.0.0-ballot.rc3"/>
+  </dependsOn>
+  <dependsOn id="de_medizininformatikinitiative_kerndatensatz_base">
+    <uri value="https://www.medizininformatik-initiative.de/fhir/modul-base/ImplementationGuide/mii-ig-base"/>
+    <packageId value="de.medizininformatikinitiative.kerndatensatz.base"/>
+    <version value="2027.0.0-ballot.rc1"/>
+  </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -109,22 +119,6 @@
       </extension>
       <extension url="value">
         <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="ImplementationGuide-mii-ig-soziodemographie.md"/>
-      </extension>
-      <extension url="value">
-        <valueString value="[object Object]"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="translationinfo.md"/>
-      </extension>
-      <extension url="value">
-        <valueString value="[object Object]"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -392,22 +386,6 @@
       </extension>
       <extension url="value">
         <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="ImplementationGuide-mii-ig-soziodemographie.md"/>
-      </extension>
-      <extension url="value">
-        <valueString value="[object Object]"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="translationinfo.md"/>
-      </extension>
-      <extension url="value">
-        <valueString value="[object Object]"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -741,6 +719,182 @@
       <name value="MII CS SDD Schwerbehindertenausweis"/>
       <description value="Code System für Schwerbehindertenausweis"/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mii-exa-sdd-ausbildung"/>
+      </reference>
+      <name value="MII EXA SDD Ausbildung"/>
+      <description value="Beispiel: Höchster beruflicher Ausbildungsabschluss."/>
+      <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-ausbildung"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mii-exa-sdd-berufliche-stellung"/>
+      </reference>
+      <name value="MII EXA SDD Berufliche Stellung"/>
+      <description value="Beispiel: Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit."/>
+      <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-berufliche-stellung"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mii-exa-sdd-beschaeftigungsstatus"/>
+      </reference>
+      <name value="MII EXA SDD Beschaeftigungsstatus"/>
+      <description value="Beispiel: Aktuell hauptsächlich ausgeübte Tätigkeit."/>
+      <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-beschaeftigungsstatus"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mii-exa-sdd-betreuungssituation"/>
+      </reference>
+      <name value="MII EXA SDD Betreuungssituation"/>
+      <description value="Beispiel: Aktuelle Betreuungssituation."/>
+      <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-betreuungssituation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mii-exa-sdd-datenerhebung"/>
+      </reference>
+      <name value="MII EXA SDD Datenerhebung"/>
+      <description value="Beispiel: Sammel-Beobachtung, die alle Einzelerhebungen der Soziodemographie für einen Patienten referenziert."/>
+      <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-datenerhebung"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mii-exa-sdd-einkommen"/>
+      </reference>
+      <name value="MII EXA SDD Einkommen"/>
+      <description value="Beispiel: Durchschnittliches monatliches Nettoeinkommen des Haushalts."/>
+      <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-einkommen"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mii-exa-sdd-geburtsland-mutter"/>
+      </reference>
+      <name value="MII EXA SDD Geburtsland Mutter"/>
+      <description value="Beispiel: Geburtsland der Mutter der Patientin/des Patienten."/>
+      <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-geburtsland-mutter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mii-exa-sdd-geburtsland-vater"/>
+      </reference>
+      <name value="MII EXA SDD Geburtsland Vater"/>
+      <description value="Beispiel: Geburtsland des Vaters der Patientin/des Patienten."/>
+      <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-geburtsland-vater"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mii-exa-sdd-haushaltsgroesse"/>
+      </reference>
+      <name value="MII EXA SDD Haushaltsgroesse"/>
+      <description value="Beispiel: Anzahl der Personen, die ständig im Haushalt der Person leben."/>
+      <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-haushaltsgroesse"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mii-exa-sdd-partnerschaft"/>
+      </reference>
+      <name value="MII EXA SDD Partnerschaft"/>
+      <description value="Beispiel: Aktuelle Partnerschaft der Person."/>
+      <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-partnerschaft"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/mii-exa-sdd-patient"/>
+      </reference>
+      <name value="MII EXA SDD Patient"/>
+      <description value="Beispiel-Patient (MII Person Patient), auf den sich die Beispiel-Erhebungen dieses Moduls beziehen."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mii-exa-sdd-schulabschluss"/>
+      </reference>
+      <name value="MII EXA SDD Schulabschluss"/>
+      <description value="Beispiel: Höchster erreichter allgemeinbildender Schulabschluss."/>
+      <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schulabschluss"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mii-exa-sdd-schuljahre"/>
+      </reference>
+      <name value="MII EXA SDD Schuljahre"/>
+      <description value="Beispiel: Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde."/>
+      <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schuljahre"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mii-exa-sdd-schwerbehindertenausweis"/>
+      </reference>
+      <name value="MII EXA SDD Schwerbehindertenausweis"/>
+      <description value="Beispiel: Vorliegen eines Schwerbehindertenausweises mit Grad der Behinderung und Merkzeichen."/>
+      <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schwerbehindertenausweis"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mii-exa-sdd-soziooekonomische-faktoren"/>
+      </reference>
+      <name value="MII EXA SDD Soziooekonomische Faktoren"/>
+      <description value="Beispiel: generische Beobachtung eines sozioökonomischen Faktors."/>
+      <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-soziooekonomische-faktoren"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/mii-exa-sdd-vertrauensperson"/>
+      </reference>
+      <name value="MII EXA SDD Vertrauensperson"/>
+      <description value="Beispiel: Existenz mind. einer Vertrauensperson."/>
+      <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-vertrauensperson"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1175,6 +1329,22 @@
         </extension>
         <nameUrl value="version-history.html"/>
         <title value="Versioning"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="ImplementationGuide-mii-ig-soziodemographie.html"/>
+        </extension>
+        <nameUrl value="ImplementationGuide-mii-ig-soziodemographie.html"/>
+        <title value="MII ImplementationGuide Resource"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="translationinfo.html"/>
+        </extension>
+        <nameUrl value="translationinfo.html"/>
+        <title value="Translation Information"/>
         <generation value="markdown"/>
       </page>
     </page>

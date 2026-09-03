@@ -17,6 +17,7 @@ Aktuell hauptsächlich ausgeübte Tätigkeit
 **Usages:**
 
 * Refer to this Profile: [MII PR SDD Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md)
+* Examples for this Profile: [Observation/mii-exa-sdd-beschaeftigungsstatus](Observation-mii-exa-sdd-beschaeftigungsstatus.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.json)
 
@@ -107,7 +108,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-b
   "name" : "MII_PR_SDD_Beschaeftigungsstatus",
   "title" : "MII PR SDD Beschäftigungsstatus",
   "status" : "draft",
-  "date" : "2026-09-03T11:23:31+00:00",
+  "date" : "2026-09-03T16:19:13+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -181,6 +182,10 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-b
       "id" : "Observation.code.coding",
       "path" : "Observation.code.coding",
       "min" : 1,
+      "patternCoding" : {
+        "system" : "http://loinc.org",
+        "code" : "67875-5"
+      },
       "mustSupport" : true
     },
     {

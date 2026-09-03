@@ -16,7 +16,7 @@ Datenerhebung für SDD
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Specification
+* Examples for this Profile: [Observation/mii-exa-sdd-datenerhebung](Observation-mii-exa-sdd-datenerhebung.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-datenerhebung.json)
 
@@ -145,7 +145,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-d
   "name" : "MII_PR_SDD_Datenerhebung",
   "title" : "MII PR SDD Datenerhebung",
   "status" : "draft",
-  "date" : "2026-09-03T11:23:31+00:00",
+  "date" : "2026-09-03T16:19:13+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

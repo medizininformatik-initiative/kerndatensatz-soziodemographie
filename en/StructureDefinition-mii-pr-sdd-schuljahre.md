@@ -17,6 +17,7 @@ Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde, inkl. Besuch ein
 **Usages:**
 
 * Refer to this Profile: [MII PR SDD Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md)
+* Examples for this Profile: [Observation/mii-exa-sdd-schuljahre](Observation-mii-exa-sdd-schuljahre.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-schuljahre.json)
 
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-schulj
   "name" : "MII_PR_SDD_Schuljahre",
   "title" : "MII PR SDD Schuljahre",
   "status" : "draft",
-  "date" : "2026-09-03T11:23:31+00:00",
+  "date" : "2026-09-03T16:19:13+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -108,6 +109,10 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-schulj
       "id" : "Observation.code.coding",
       "path" : "Observation.code.coding",
       "min" : 1,
+      "patternCoding" : {
+        "system" : "http://loinc.org",
+        "code" : "82590-1"
+      },
       "mustSupport" : true
     },
     {

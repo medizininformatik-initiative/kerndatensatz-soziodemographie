@@ -45,7 +45,7 @@ Value Set für Merkzeichen
   "title" : "MII VS SDD Merkzeichen",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-03T11:23:31+00:00",
+  "date" : "2026-09-03T16:19:13+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

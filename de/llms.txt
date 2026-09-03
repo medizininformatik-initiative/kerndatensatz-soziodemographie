@@ -11,6 +11,7 @@
 * [Guidance for Implementers](implementer-guidance.md)
 * [Profiles](profiles.md)
 * [Artefaktübersicht](artifacts.md)
+* [Translation Information](translationinfo.md)
 * [Changelog](changes.md)
 * [Logical Models](logical-models.md)
 * [Guidance](guidance.md)
@@ -76,3 +77,22 @@
 ### ImplementationGuides
 
 * [MII Implementation Guide Soziodemographie](ImplementationGuide-mii-ig-soziodemographie.md)
+
+### Examples
+
+* [mii-exa-sdd-ausbildung (Observation)](Observation-mii-exa-sdd-ausbildung.md)
+* [mii-exa-sdd-berufliche-stellung (Observation)](Observation-mii-exa-sdd-berufliche-stellung.md)
+* [mii-exa-sdd-beschaeftigungsstatus (Observation)](Observation-mii-exa-sdd-beschaeftigungsstatus.md)
+* [mii-exa-sdd-betreuungssituation (Observation)](Observation-mii-exa-sdd-betreuungssituation.md)
+* [mii-exa-sdd-datenerhebung (Observation)](Observation-mii-exa-sdd-datenerhebung.md)
+* [mii-exa-sdd-einkommen (Observation)](Observation-mii-exa-sdd-einkommen.md)
+* [mii-exa-sdd-geburtsland-mutter (Observation)](Observation-mii-exa-sdd-geburtsland-mutter.md)
+* [mii-exa-sdd-geburtsland-vater (Observation)](Observation-mii-exa-sdd-geburtsland-vater.md)
+* [mii-exa-sdd-haushaltsgroesse (Observation)](Observation-mii-exa-sdd-haushaltsgroesse.md)
+* [mii-exa-sdd-partnerschaft (Observation)](Observation-mii-exa-sdd-partnerschaft.md)
+* [mii-exa-sdd-schulabschluss (Observation)](Observation-mii-exa-sdd-schulabschluss.md)
+* [mii-exa-sdd-schuljahre (Observation)](Observation-mii-exa-sdd-schuljahre.md)
+* [mii-exa-sdd-schwerbehindertenausweis (Observation)](Observation-mii-exa-sdd-schwerbehindertenausweis.md)
+* [mii-exa-sdd-soziooekonomische-faktoren (Observation)](Observation-mii-exa-sdd-soziooekonomische-faktoren.md)
+* [mii-exa-sdd-vertrauensperson (Observation)](Observation-mii-exa-sdd-vertrauensperson.md)
+* [mii-exa-sdd-patient (Patient)](Patient-mii-exa-sdd-patient.md)

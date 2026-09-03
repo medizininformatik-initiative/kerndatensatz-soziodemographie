@@ -17,6 +17,7 @@ Durchschnittliches monatliches Nettoeinkommen des Haushalts
 **Usages:**
 
 * Refer to this Profile: [MII PR SDD Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md)
+* Examples for this Profile: [Observation/mii-exa-sdd-einkommen](Observation-mii-exa-sdd-einkommen.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-einkommen.json)
 
@@ -91,7 +92,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-e
   "name" : "MII_PR_SDD_Einkommen",
   "title" : "MII PR SDD Einkommen",
   "status" : "draft",
-  "date" : "2026-09-03T11:23:31+00:00",
+  "date" : "2026-09-03T16:19:13+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -158,6 +159,10 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-e
       "id" : "Observation.code.coding",
       "path" : "Observation.code.coding",
       "min" : 1,
+      "patternCoding" : {
+        "system" : "http://loinc.org",
+        "code" : "98161-3"
+      },
       "mustSupport" : true
     },
     {

@@ -17,6 +17,7 @@ Anzahl der Personen, die ständig im Haushalt der Person leben.
 **Usages:**
 
 * Refer to this Profile: [MII PR SDD Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md)
+* Examples for this Profile: [Observation/mii-exa-sdd-haushaltsgroesse](Observation-mii-exa-sdd-haushaltsgroesse.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.soziodemographie|current/StructureDefinition/StructureDefinition-mii-pr-sdd-haushaltsgroesse.json)
 
@@ -87,7 +88,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-h
   "name" : "MII_PR_SDD_Haushaltsgroesse",
   "title" : "MII PR SDD Haushaltsgroesse",
   "status" : "draft",
-  "date" : "2026-09-03T11:23:31+00:00",
+  "date" : "2026-09-03T16:19:13+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -154,6 +155,10 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-h
       "id" : "Observation.code.coding",
       "path" : "Observation.code.coding",
       "min" : 1,
+      "patternCoding" : {
+        "system" : "http://loinc.org",
+        "code" : "86639-2"
+      },
       "mustSupport" : true
     },
     {

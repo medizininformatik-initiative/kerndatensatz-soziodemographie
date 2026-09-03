@@ -7,7 +7,7 @@
   "language" : "en",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mii-cs-sdd-merkzeichen</b></p><a name=\"mii-cs-sdd-merkzeichen\"> </a><a name=\"hcmii-cs-sdd-merkzeichen\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">G<a name=\"mii-cs-sdd-merkzeichen-G\"> </a></td><td>G – erhebliche Gehbehinderung</td></tr><tr><td style=\"white-space:nowrap\">aG<a name=\"mii-cs-sdd-merkzeichen-aG\"> </a></td><td>aG – außergewöhnliche Gehbehinderung</td></tr><tr><td style=\"white-space:nowrap\">H<a name=\"mii-cs-sdd-merkzeichen-H\"> </a></td><td>H – Hilflosigkeit</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"mii-cs-sdd-merkzeichen-B\"> </a></td><td>B – Begleitperson</td></tr><tr><td style=\"white-space:nowrap\">Bl<a name=\"mii-cs-sdd-merkzeichen-Bl\"> </a></td><td>Bl – Blindheit</td></tr><tr><td style=\"white-space:nowrap\">Gl<a name=\"mii-cs-sdd-merkzeichen-Gl\"> </a></td><td>Gl – Gehörlosigkeit</td></tr><tr><td style=\"white-space:nowrap\">TBl<a name=\"mii-cs-sdd-merkzeichen-TBl\"> </a></td><td>TBl – Taubblindheit</td></tr><tr><td style=\"white-space:nowrap\">RF<a name=\"mii-cs-sdd-merkzeichen-RF\"> </a></td><td>RF – Rundfunkbeitragsermäßigung</td></tr><tr><td style=\"white-space:nowrap\">1Kl<a name=\"mii-cs-sdd-merkzeichen-1Kl\"> </a></td><td>1. Kl. – 1. Klasse (Bahn)</td></tr></table></div>"
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mii-cs-sdd-merkzeichen</b></p><a name=\"mii-cs-sdd-merkzeichen\"> </a><a name=\"hcmii-cs-sdd-merkzeichen\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/crmi/STU2/StructureDefinition-shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This case-sensitive code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">G<a name=\"mii-cs-sdd-merkzeichen-G\"> </a></td><td>G – erhebliche Gehbehinderung</td></tr><tr><td style=\"white-space:nowrap\">aG<a name=\"mii-cs-sdd-merkzeichen-aG\"> </a></td><td>aG – außergewöhnliche Gehbehinderung</td></tr><tr><td style=\"white-space:nowrap\">H<a name=\"mii-cs-sdd-merkzeichen-H\"> </a></td><td>H – Hilflosigkeit</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"mii-cs-sdd-merkzeichen-B\"> </a></td><td>B – Begleitperson</td></tr><tr><td style=\"white-space:nowrap\">Bl<a name=\"mii-cs-sdd-merkzeichen-Bl\"> </a></td><td>Bl – Blindheit</td></tr><tr><td style=\"white-space:nowrap\">Gl<a name=\"mii-cs-sdd-merkzeichen-Gl\"> </a></td><td>Gl – Gehörlosigkeit</td></tr><tr><td style=\"white-space:nowrap\">TBl<a name=\"mii-cs-sdd-merkzeichen-TBl\"> </a></td><td>TBl – Taubblindheit</td></tr><tr><td style=\"white-space:nowrap\">RF<a name=\"mii-cs-sdd-merkzeichen-RF\"> </a></td><td>RF – Rundfunkbeitragsermäßigung</td></tr><tr><td style=\"white-space:nowrap\">1Kl<a name=\"mii-cs-sdd-merkzeichen-1Kl\"> </a></td><td>1. Kl. – 1. Klasse (Bahn)</td></tr></table></div>"
   },
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen",
   "version" : "2027.0.0-ballot.rc1",
@@ -15,7 +15,7 @@
   "title" : "MII CS SDD Merkzeichen (SGB IX / SchwbAwV)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-03T11:23:31+00:00",
+  "date" : "2026-09-03T16:19:13+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -32,6 +32,7 @@
       "display" : "Germany"
     }]
   }],
+  "caseSensitive" : true,
   "content" : "complete",
   "count" : 9,
   "concept" : [{
