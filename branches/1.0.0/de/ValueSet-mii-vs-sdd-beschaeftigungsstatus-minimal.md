@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-beschaeftigungsstatus-minimal | *Version*:2027.0.0-ballot.rc1 |
-| Draft Stand: 2026-09-03 | *Maschinenlesbarer Name*:MII_VS_SDD_Beschaeftigungsstatus_Minimal |
+| Draft Stand: 2026-09-04 | *Maschinenlesbarer Name*:MII_VS_SDD_Beschaeftigungsstatus_Minimal |
 
  
 Value Set für Beschäftigungsstatus (Minimalversion) 
@@ -45,7 +45,7 @@ Value Set für Beschäftigungsstatus (Minimalversion)
   "title" : "MII VS SDD Beschaeftigungsstatus (Minimalversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-03T16:09:48+00:00",
+  "date" : "2026-09-04T09:46:57+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-betreuungssituation | *Version*:2027.0.0-ballot.rc1 |
-| Draft Stand: 2026-09-03 | *Maschinenlesbarer Name*:MII_CS_SDD_Betreuungssituation |
+| Draft Stand: 2026-09-04 | *Maschinenlesbarer Name*:MII_CS_SDD_Betreuungssituation |
 
  
 Code System für Betreuungssituation 
@@ -39,7 +39,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "title" : "MII CS SDD Betreuungssituation",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-03T16:09:48+00:00",
+  "date" : "2026-09-04T09:46:57+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

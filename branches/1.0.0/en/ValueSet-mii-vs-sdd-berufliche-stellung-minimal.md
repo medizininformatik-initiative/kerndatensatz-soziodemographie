@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-berufliche-stellung-minimal | *Version*:2027.0.0-ballot.rc1 |
-| Draft as of 2026-09-03 | *Computable Name*:MII_VS_SDD_Berufliche_Stellung_Minimal |
+| Draft as of 2026-09-04 | *Computable Name*:MII_VS_SDD_Berufliche_Stellung_Minimal |
 
  
 Value Set für Berufliche Stellung (Minimalversion) 
@@ -45,7 +45,7 @@ Value Set für Berufliche Stellung (Minimalversion)
   "title" : "MII VS SDD Berufliche Stellung (Minimalversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-03T16:09:48+00:00",
+  "date" : "2026-09-04T09:46:57+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

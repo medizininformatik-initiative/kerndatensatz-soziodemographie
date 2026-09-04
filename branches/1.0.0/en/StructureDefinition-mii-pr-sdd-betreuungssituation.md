@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-betreuungssituation | *Version*:2027.0.0-ballot.rc1 |
-| Draft as of 2026-09-03 | *Computable Name*:MII_PR_SDD_Betreuungssituation |
+| Draft as of 2026-09-04 | *Computable Name*:MII_PR_SDD_Betreuungssituation |
 
  
 Aktuelle Betreuungssituation 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-betreu
   "name" : "MII_PR_SDD_Betreuungssituation",
   "title" : "MII PR SDD Betreuungssituation",
   "status" : "draft",
-  "date" : "2026-09-03T16:09:48+00:00",
+  "date" : "2026-09-04T09:46:57+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

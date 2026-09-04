@@ -50,12 +50,10 @@ Generic: line 0, col 0, Warning - The Implementation Guide Resource id should be
 /workspace/fsh-generated/resources/Observation-mii-exa-sdd-beschaeftigungsstatus.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have a performer (INVALID)
 /workspace/fsh-generated/resources/Observation-mii-exa-sdd-betreuungssituation.json: line 41, col 4, Info - Reference to draft CodeSystem https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-betreuungssituation|2027.0.0-ballot.rc1 (BUSINESSRULE)
 /workspace/fsh-generated/resources/Observation-mii-exa-sdd-betreuungssituation.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have a performer (INVALID)
-/workspace/fsh-generated/resources/Observation-mii-exa-sdd-datenerhebung.json: line 46, col 6, Info - This element does not match any known slice defined in the profile https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-datenerhebung|2027.0.0-ballot.rc1 (this may not be a problem, but you should check that it's not intended to match a slice) (INFORMATIONAL)
 /workspace/fsh-generated/resources/Observation-mii-exa-sdd-datenerhebung.json: line 11, col 66, Warning - No definition could be found for URL value 'https://krankenhaus-example.de/sid/sdd-erhebung' (INVALID)
 /workspace/fsh-generated/resources/Observation-mii-exa-sdd-datenerhebung.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have a performer (INVALID)
 /workspace/fsh-generated/resources/Observation-mii-exa-sdd-einkommen.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have a performer (INVALID)
 /workspace/fsh-generated/resources/Observation-mii-exa-sdd-geburtsland-mutter.json: line 41, col 4, Info - Reference to experimental CodeSystem urn:iso:std:iso:3166|20240629 (BUSINESSRULE)
-/workspace/fsh-generated/resources/Observation-mii-exa-sdd-geburtsland-mutter.json: line 41, col 4, Error - Wrong Display Name 'Turkey' for urn:iso:std:iso:3166#TR. Valid display is 'Türkiye' (for the language(s) 'en') (INVALID)
 /workspace/fsh-generated/resources/Observation-mii-exa-sdd-geburtsland-mutter.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have a performer (INVALID)
 /workspace/fsh-generated/resources/Observation-mii-exa-sdd-geburtsland-vater.json: line 41, col 4, Info - Reference to experimental CodeSystem urn:iso:std:iso:3166|20240629 (BUSINESSRULE)
 /workspace/fsh-generated/resources/Observation-mii-exa-sdd-geburtsland-vater.json: line 1, col 2, Warning - Best Practice Recommendation: In general, all observations should have a performer (INVALID)
@@ -311,5 +309,5 @@ Generic: line 0, col 0, Warning - The Implementation Guide Resource id should be
 /workspace/fsh-generated/resources/ValueSet-mii-vs-sdd-schulabschluss.json: line 1, col 2797, Warning - A definition for CodeSystem 'urn:iso:std:iso:3166:-2' could not be found, so the code cannot be validated (NOTFOUND)
 /workspace/fsh-generated/resources/ValueSet-mii-vs-sdd-schulabschluss.json: line 0, col 0, Warning - The resource ValueSet/mii-vs-sdd-schulabschluss should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root) (BUSINESSRULE)
 
-err = 1, warn = 225, info = 83
+err = 0, warn = 225, info = 82
 IG Publisher Version: 2.3.3

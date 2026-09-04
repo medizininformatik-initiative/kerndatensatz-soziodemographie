@@ -1,7 +1,7 @@
 MII_IG_Soziodemographie : Validation Results
 =========================================
 
-err = 1, warn = 225, info = 83
+err = 0, warn = 225, info = 82
 $--
 Generated $--. FHIR version $-- for de.medizininformatikinitiative.kerndatensatz.soziodemographie#$-- (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie)
  Build Errors : 0 / 1 / 0
@@ -22,9 +22,9 @@ Generated $--. FHIR version $-- for de.medizininformatikinitiative.kerndatensatz
  /workspace/fsh-generated/resources/Observation-mii-exa-sdd-berufliche-stellung : 0 / 1 / 2
  /workspace/fsh-generated/resources/Observation-mii-exa-sdd-beschaeftigungsstatus : 0 / 1 / 2
  /workspace/fsh-generated/resources/Observation-mii-exa-sdd-betreuungssituation : 0 / 1 / 2
- /workspace/fsh-generated/resources/Observation-mii-exa-sdd-datenerhebung : 0 / 2 / 2
+ /workspace/fsh-generated/resources/Observation-mii-exa-sdd-datenerhebung : 0 / 2 / 1
  /workspace/fsh-generated/resources/Observation-mii-exa-sdd-einkommen : 0 / 1 / 1
- /workspace/fsh-generated/resources/Observation-mii-exa-sdd-geburtsland-mutter : 1 / 1 / 2
+ /workspace/fsh-generated/resources/Observation-mii-exa-sdd-geburtsland-mutter : 0 / 1 / 2
  /workspace/fsh-generated/resources/Observation-mii-exa-sdd-geburtsland-vater : 0 / 1 / 2
  /workspace/fsh-generated/resources/Observation-mii-exa-sdd-haushaltsgroesse : 0 / 2 / 1
  /workspace/fsh-generated/resources/Observation-mii-exa-sdd-partnerschaft : 0 / 1 / 1
@@ -131,14 +131,12 @@ WARNING: Observation/mii-exa-sdd-beschaeftigungsstatus: Observation: Best Practi
 INFORMATION: Observation/mii-exa-sdd-betreuungssituation: Observation.value.ofType(CodeableConcept): Reference to draft CodeSystem https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-betreuungssituation|2027.0.0-ballot.rc1
 WARNING: Observation/mii-exa-sdd-betreuungssituation: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Observation-mii-exa-sdd-datenerhebung.json ==
-INFORMATION: Observation/mii-exa-sdd-datenerhebung: Observation.hasMember[0]: This element does not match any known slice defined in the profile https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-datenerhebung|2027.0.0-ballot.rc1 (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Observation/mii-exa-sdd-datenerhebung: Observation.identifier[0].system: No definition could be found for URL value 'https://krankenhaus-example.de/sid/sdd-erhebung'
 WARNING: Observation/mii-exa-sdd-datenerhebung: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Observation-mii-exa-sdd-einkommen.json ==
 WARNING: Observation/mii-exa-sdd-einkommen: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Observation-mii-exa-sdd-geburtsland-mutter.json ==
 INFORMATION: Observation/mii-exa-sdd-geburtsland-mutter: Observation.value.ofType(CodeableConcept): Reference to experimental CodeSystem urn:iso:std:iso:3166|20240629
-ERROR: Observation/mii-exa-sdd-geburtsland-mutter: Observation.value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Turkey' for urn:iso:std:iso:3166#TR. Valid display is 'Türkiye' (for the language(s) 'en')
 WARNING: Observation/mii-exa-sdd-geburtsland-mutter: Observation: Best Practice Recommendation: In general, all observations should have a performer
 == fsh-generated/resources/Observation-mii-exa-sdd-geburtsland-vater.json ==
 INFORMATION: Observation/mii-exa-sdd-geburtsland-vater: Observation.value.ofType(CodeableConcept): Reference to experimental CodeSystem urn:iso:std:iso:3166|20240629
