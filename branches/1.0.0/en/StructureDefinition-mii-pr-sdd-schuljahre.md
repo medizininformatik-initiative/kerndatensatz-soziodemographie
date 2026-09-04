@@ -42,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-schulj
   "name" : "MII_PR_SDD_Schuljahre",
   "title" : "MII PR SDD Schuljahre",
   "status" : "draft",
-  "date" : "2026-09-04T09:46:57+00:00",
+  "date" : "2026-09-04T09:58:25+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

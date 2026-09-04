@@ -106,7 +106,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-p
   "name" : "MII_PR_SDD_Partnerschaft",
   "title" : "MII PR SDD Partnerschaft",
   "status" : "draft",
-  "date" : "2026-09-04T09:46:57+00:00",
+  "date" : "2026-09-04T09:58:25+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

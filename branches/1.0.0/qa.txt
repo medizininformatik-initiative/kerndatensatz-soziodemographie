@@ -3,7 +3,7 @@ MII_IG_Soziodemographie : Validation Results
 
 err = 0, warn = 225, info = 82
 IG Publisher Version: 2.3.3 Out of date - current version is 2.3.4
-Generated Fri Sep 04 09:51:27 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie)
+Generated Fri Sep 04 10:03:02 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot.rc1 (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie)
  Build Errors : 0 / 1 / 0
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-ausbildung : 0 / 3 / 1
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-berufliche-stellung-lang : 0 / 3 / 1

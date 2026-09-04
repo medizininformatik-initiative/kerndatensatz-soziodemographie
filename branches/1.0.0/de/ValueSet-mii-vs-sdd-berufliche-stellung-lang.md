@@ -45,7 +45,7 @@ Value Set für Berufliche Stellung (Langversion)
   "title" : "MII VS SDD Berufliche Stellung (Langversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-04T09:46:57+00:00",
+  "date" : "2026-09-04T09:58:25+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
