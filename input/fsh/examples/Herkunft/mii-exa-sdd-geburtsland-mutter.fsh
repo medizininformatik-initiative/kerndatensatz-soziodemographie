@@ -11,4 +11,4 @@ Description: "Beispiel: Geburtsland der Mutter der Patientin/des Patienten."
 * code.coding = $LNC#63515-1
 * subject = Reference(mii-exa-sdd-patient)
 * effectiveDateTime = "2026-06-15"
-* valueCodeableConcept = $iso3166#TR "Turkey"
+* valueCodeableConcept = $iso3166#TR "Türkiye"
