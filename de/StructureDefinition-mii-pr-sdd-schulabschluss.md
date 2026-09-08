@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schulabschluss | *Version*:2027.0.0-ballot.rc1 |
-| Draft Stand: 2026-09-03 | *Maschinenlesbarer Name*:MII_PR_SDD_Schulabschluss |
+| Draft Stand: 2026-09-08 | *Maschinenlesbarer Name*:MII_PR_SDD_Schulabschluss |
 
  
 Höchster erreichter allgemeinbildender Schulabschluss 
@@ -92,7 +92,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-s
   "name" : "MII_PR_SDD_Schulabschluss",
   "title" : "MII PR SDD Schulabschluss",
   "status" : "draft",
-  "date" : "2026-09-03T16:19:13+00:00",
+  "date" : "2026-09-08T13:04:20+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
