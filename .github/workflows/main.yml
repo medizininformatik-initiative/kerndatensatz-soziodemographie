@@ -1,4 +1,4 @@
-name: CI (FHIR Validation & Release)
+name: Release CI
 
 on:
   push:
@@ -12,29 +12,8 @@ on:
     types: [published]
 
 jobs:
-  DOTNET_FHIR_VALIDATION:
-    if: github.event_name != 'release'
-    uses: medizininformatik-initiative/kerndatensatz-meta/.github/workflows/ci_dotnet_validation.yml@master
-    with:
-      ref: ${{ github.event.pull_request.head.ref }}
-      SUSHI_VERSION: ${{ vars.SUSHI_VERSION }}
-    secrets: inherit
-
-  JAVA_FHIR_VALIDATION:
-    if: github.event_name != 'release'
-    uses: medizininformatik-initiative/kerndatensatz-meta/.github/workflows/ci_java_validation.yml@master
-    with:
-      ref: ${{ github.event.pull_request.head.ref }}
-      PATH_TO_CONFORMANCE_RESOURCES: fsh-generated/resources
-      PATH_TO_EXAMPLES: fsh-generated/resources
-      JAVA_VALIDATION_ENABLED: true
-      JAVA_VALIDATION_OPTIONS: ${{ vars.JAVA_VALIDATION_OPTIONS }}
-      JAVA_VALIDATOR_VERSION: ${{ vars.JAVA_VALIDATOR_VERSION }}
-    secrets: inherit
-
   RELEASE:
     if: startsWith(github.ref, 'refs/tags/v') && github.event_name != 'release'
-    needs: [DOTNET_FHIR_VALIDATION, JAVA_FHIR_VALIDATION]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -84,7 +63,7 @@ jobs:
           content: |
             **New Release:** `${{ github.event.release.tag_name }}`
             **Repository:** `${{ github.repository }}`
-            **Module:** Onkologie
+            **Module:** Soziodemographie
 
             ${{ github.event.release.body }}
 
