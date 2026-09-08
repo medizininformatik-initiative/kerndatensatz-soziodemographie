@@ -1,0 +1,1986 @@
+# MII ImplementationGuide Resource - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
+
+* [**Table of Contents**](toc.md)
+* **MII ImplementationGuide Resource**
+
+## MII ImplementationGuide Resource
+
+Diese ImplementationGuide-Ressource definiert die technischen Details dieser Publikation, einschließlich Abhängigkeiten und Veröffentlichungsparametern.
+
+* [XML](../ImplementationGuide-mii-ig-soziodemographie.xml)
+* [JSON](../ImplementationGuide-mii-ig-soziodemographie.json)
+
+### Versionsübergreifende Analyse
+
+This is an R4 IG. None of the features it uses are changed in R4B, so it can be used as is with R4B systems. Packages for both [R4 (de.medizininformatikinitiative.kerndatensatz.soziodemographie.r4)](../package.r4.tgz) and [R4B (de.medizininformatikinitiative.kerndatensatz.soziodemographie.r4b)](../package.r4b.tgz) are available.
+
+### IG-Abhängigkeiten
+
+Dieser IG enthält die folgenden Abhängigkeiten von anderen IGs.
+
+
+
+
+
+
+
+
+
+### Globale Profile
+
+Dieser IG deklariert die folgenden globalen Profile — Profile, die für jede unter diesem Leitfaden ausgetauschte Instanz ihres Ressourcentyps gelten. Eine leere Tabelle bedeutet: Dieses Modul deklariert keine.
+
+*There are no Global profiles defined*
+
+### Urheberrechte
+
+This publication includes IP covered under the following statements.
+
+* The UCUM codes, UCUM table (regardless of format), and UCUM Specification are copyright 1999-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved. [https://ucum.org/trac/wiki/TermsOfUse](https://ucum.org/trac/wiki/TermsOfUse)
+
+* [Unified Code for Units of Measure (UCUM)](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-v3-ucum.html): [Observation/mii-exa-sdd-haushaltsgroesse](Observation-mii-exa-sdd-haushaltsgroesse.md), [Observation/mii-exa-sdd-schuljahre](Observation-mii-exa-sdd-schuljahre.md) and [Observation/mii-exa-sdd-schwerbehindertenausweis](Observation-mii-exa-sdd-schwerbehindertenausweis.md)
+
+
+* This material contains content from [LOINC](http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the [license](http://loinc.org/license). LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
+
+* LOINC: [MII_PR_SDD_Ausbildung](StructureDefinition-mii-pr-sdd-ausbildung.md), [MII_PR_SDD_Berufliche_Stellung](StructureDefinition-mii-pr-sdd-berufliche-stellung.md)... Show 18 more, [MII_PR_SDD_Beschaeftigungsstatus](StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.md), [MII_PR_SDD_Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md), [MII_PR_SDD_Einkommen](StructureDefinition-mii-pr-sdd-einkommen.md), [MII_PR_SDD_Geburtsland_Mutter](StructureDefinition-mii-pr-sdd-geburtsland-mutter.md), [MII_PR_SDD_Geburtsland_Vater](StructureDefinition-mii-pr-sdd-geburtsland-vater.md), [MII_PR_SDD_Haushaltsgroesse](StructureDefinition-mii-pr-sdd-haushaltsgroesse.md), [MII_PR_SDD_Schuljahre](StructureDefinition-mii-pr-sdd-schuljahre.md), [MII_PR_SDD_Schwerbehindertenausweis](StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.md), [Observation/mii-exa-sdd-ausbildung](Observation-mii-exa-sdd-ausbildung.md), [Observation/mii-exa-sdd-berufliche-stellung](Observation-mii-exa-sdd-berufliche-stellung.md), [Observation/mii-exa-sdd-beschaeftigungsstatus](Observation-mii-exa-sdd-beschaeftigungsstatus.md), [Observation/mii-exa-sdd-datenerhebung](Observation-mii-exa-sdd-datenerhebung.md), [Observation/mii-exa-sdd-einkommen](Observation-mii-exa-sdd-einkommen.md), [Observation/mii-exa-sdd-geburtsland-mutter](Observation-mii-exa-sdd-geburtsland-mutter.md), [Observation/mii-exa-sdd-geburtsland-vater](Observation-mii-exa-sdd-geburtsland-vater.md), [Observation/mii-exa-sdd-haushaltsgroesse](Observation-mii-exa-sdd-haushaltsgroesse.md), [Observation/mii-exa-sdd-schuljahre](Observation-mii-exa-sdd-schuljahre.md) and [Observation/mii-exa-sdd-schwerbehindertenausweis](Observation-mii-exa-sdd-schwerbehindertenausweis.md)
+
+
+* This material contains content that is copyright of SNOMED International. Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact [https://www.snomed.org/get-snomed](https://www.snomed.org/get-snomed) or [info@snomed.org](mailto:info@snomed.org).
+
+* [SNOMED Clinical Terms&reg; (SNOMED CT&reg;)](http://hl7.org/fhir/R4/codesystem-snomedct.html): [MII_PR_SDD_Betreuungssituation](StructureDefinition-mii-pr-sdd-betreuungssituation.md), [MII_PR_SDD_Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md)... Show 9 more, [MII_PR_SDD_Partnerschaft](StructureDefinition-mii-pr-sdd-partnerschaft.md), [MII_PR_SDD_Schulabschluss](StructureDefinition-mii-pr-sdd-schulabschluss.md), [MII_PR_SDD_Vertrauensperson](StructureDefinition-mii-pr-sdd-vertrauensperson.md), [Observation/mii-exa-sdd-betreuungssituation](Observation-mii-exa-sdd-betreuungssituation.md), [Observation/mii-exa-sdd-datenerhebung](Observation-mii-exa-sdd-datenerhebung.md), [Observation/mii-exa-sdd-partnerschaft](Observation-mii-exa-sdd-partnerschaft.md), [Observation/mii-exa-sdd-schulabschluss](Observation-mii-exa-sdd-schulabschluss.md), [Observation/mii-exa-sdd-soziooekonomische-faktoren](Observation-mii-exa-sdd-soziooekonomische-faktoren.md) and [Observation/mii-exa-sdd-vertrauensperson](Observation-mii-exa-sdd-vertrauensperson.md)
+
+
+* This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: [https://terminology.hl7.org/license.html](https://terminology.hl7.org/license.html)
+
+* [Observation Category Codes](http://terminology.hl7.org/7.3.0/CodeSystem-observation-category.html): [MII_PR_SDD_Ausbildung](StructureDefinition-mii-pr-sdd-ausbildung.md), [MII_PR_SDD_Berufliche_Stellung](StructureDefinition-mii-pr-sdd-berufliche-stellung.md)... Show 29 more, [MII_PR_SDD_Beschaeftigungsstatus](StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.md), [MII_PR_SDD_Betreuungssituation](StructureDefinition-mii-pr-sdd-betreuungssituation.md), [MII_PR_SDD_Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.md), [MII_PR_SDD_Einkommen](StructureDefinition-mii-pr-sdd-einkommen.md), [MII_PR_SDD_Geburtsland_Mutter](StructureDefinition-mii-pr-sdd-geburtsland-mutter.md), [MII_PR_SDD_Geburtsland_Vater](StructureDefinition-mii-pr-sdd-geburtsland-vater.md), [MII_PR_SDD_Haushaltsgroesse](StructureDefinition-mii-pr-sdd-haushaltsgroesse.md), [MII_PR_SDD_Lebenssituation](StructureDefinition-mii-pr-sdd-lebenssituation.md), [MII_PR_SDD_Partnerschaft](StructureDefinition-mii-pr-sdd-partnerschaft.md), [MII_PR_SDD_Schulabschluss](StructureDefinition-mii-pr-sdd-schulabschluss.md), [MII_PR_SDD_Schuljahre](StructureDefinition-mii-pr-sdd-schuljahre.md), [MII_PR_SDD_Schwerbehindertenausweis](StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.md), [MII_PR_SDD_SoziooekonomischeFaktoren](StructureDefinition-mii-pr-sdd-soziooekonomische-faktoren.md), [MII_PR_SDD_Vertrauensperson](StructureDefinition-mii-pr-sdd-vertrauensperson.md), [Observation/mii-exa-sdd-ausbildung](Observation-mii-exa-sdd-ausbildung.md), [Observation/mii-exa-sdd-berufliche-stellung](Observation-mii-exa-sdd-berufliche-stellung.md), [Observation/mii-exa-sdd-beschaeftigungsstatus](Observation-mii-exa-sdd-beschaeftigungsstatus.md), [Observation/mii-exa-sdd-betreuungssituation](Observation-mii-exa-sdd-betreuungssituation.md), [Observation/mii-exa-sdd-datenerhebung](Observation-mii-exa-sdd-datenerhebung.md), [Observation/mii-exa-sdd-einkommen](Observation-mii-exa-sdd-einkommen.md), [Observation/mii-exa-sdd-geburtsland-mutter](Observation-mii-exa-sdd-geburtsland-mutter.md), [Observation/mii-exa-sdd-geburtsland-vater](Observation-mii-exa-sdd-geburtsland-vater.md), [Observation/mii-exa-sdd-haushaltsgroesse](Observation-mii-exa-sdd-haushaltsgroesse.md), [Observation/mii-exa-sdd-partnerschaft](Observation-mii-exa-sdd-partnerschaft.md), [Observation/mii-exa-sdd-schulabschluss](Observation-mii-exa-sdd-schulabschluss.md), [Observation/mii-exa-sdd-schuljahre](Observation-mii-exa-sdd-schuljahre.md), [Observation/mii-exa-sdd-schwerbehindertenausweis](Observation-mii-exa-sdd-schwerbehindertenausweis.md), [Observation/mii-exa-sdd-soziooekonomische-faktoren](Observation-mii-exa-sdd-soziooekonomische-faktoren.md) and [Observation/mii-exa-sdd-vertrauensperson](Observation-mii-exa-sdd-vertrauensperson.md)
+* [identifierType](http://terminology.hl7.org/7.3.0/CodeSystem-v2-0203.html): [Patient/mii-exa-sdd-patient](Patient-mii-exa-sdd-patient.md)
+* [expandedYes-NoIndicator](http://terminology.hl7.org/7.3.0/CodeSystem-v2-0532.html): [MII_PR_SDD_Partnerschaft](StructureDefinition-mii-pr-sdd-partnerschaft.md), [MII_PR_SDD_Schwerbehindertenausweis](StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.md)... Show 4 more, [MII_PR_SDD_Vertrauensperson](StructureDefinition-mii-pr-sdd-vertrauensperson.md), [Observation/mii-exa-sdd-partnerschaft](Observation-mii-exa-sdd-partnerschaft.md), [Observation/mii-exa-sdd-schwerbehindertenausweis](Observation-mii-exa-sdd-schwerbehindertenausweis.md) and [Observation/mii-exa-sdd-vertrauensperson](Observation-mii-exa-sdd-vertrauensperson.md)
+
+
+### IG-Parametereinstellungen und Expansionsparameter
+
+Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Operation übergeben werden können, um zu steuern, wie das ValueSet expandiert wird — also wie die vollständige Liste der Codes aus der ValueSet-Definition erzeugt wird. Die für diesen IG verwendeten [IG-Parameter](https://hl7.org/fhir/tools/en/CodeSystem-ig-parameters.html) sind in [`sushi-config.yaml`](https://github.com/medizininformatik-initiative/kerndatensatz-soziodemographie/blob/main/sushi-config.yaml) (`parameters:`) deklariert.
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ImplementationGuide",
+  "id" : "mii-ig-soziodemographie",
+  "language" : "en",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie",
+  "version" : "2027.0.0-ballot.rc1",
+  "name" : "MII_IG_Soziodemographie",
+  "title" : "MII Implementation Guide Soziodemographie",
+  "status" : "draft",
+  "date" : "2026-09-01",
+  "publisher" : "NUM-DIZ",
+  "contact" : [{
+    "name" : "NUM-DIZ",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.netzwerk-universitaetsmedizin.de"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DE",
+      "display" : "Germany"
+    }]
+  }],
+  "packageId" : "de.medizininformatikinitiative.kerndatensatz.soziodemographie",
+  "license" : "CC-BY-4.0",
+  "fhirVersion" : ["4.0.1"],
+  "dependsOn" : [{
+    "id" : "hl7tx",
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on HL7 Terminology"
+    }],
+    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+    "packageId" : "hl7.terminology.r4",
+    "version" : "7.3.0"
+  },
+  {
+    "id" : "hl7ext",
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
+    }],
+    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "packageId" : "hl7.fhir.uv.extensions.r4",
+    "version" : "5.3.0"
+  },
+  {
+    "id" : "de_medizininformatikinitiative_kerndatensatz_meta",
+    "uri" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta",
+    "packageId" : "de.medizininformatikinitiative.kerndatensatz.meta",
+    "version" : "2027.0.0-ballot.rc3"
+  },
+  {
+    "id" : "de_medizininformatikinitiative_kerndatensatz_base",
+    "uri" : "https://www.medizininformatik-initiative.de/fhir/modul-base/ImplementationGuide/mii-ig-base",
+    "packageId" : "de.medizininformatikinitiative.kerndatensatz.base",
+    "version" : "2027.0.0-ballot.rc1"
+  }],
+  "definition" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "copyrightyear"
+      },
+      {
+        "url" : "value",
+        "valueString" : "2026+"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "releaselabel"
+      },
+      {
+        "url" : "value",
+        "valueString" : "ci-build"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "i18n-default-lang"
+      },
+      {
+        "url" : "value",
+        "valueString" : "en"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "i18n-lang"
+      },
+      {
+        "url" : "value",
+        "valueString" : "de"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "translation-sources"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/translations/de"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "excludexml"
+      },
+      {
+        "url" : "value",
+        "valueString" : "false"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "excludejson"
+      },
+      {
+        "url" : "value",
+        "valueString" : "false"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "excludettl"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "autoload-resources"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-liquid"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template/liquid"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-liquid"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/liquid"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-qa"
+      },
+      {
+        "url" : "value",
+        "valueString" : "temp/qa"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-temp"
+      },
+      {
+        "url" : "value",
+        "valueString" : "temp/pages"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-output"
+      },
+      {
+        "url" : "value",
+        "valueString" : "output"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-suppressed-warnings"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/ignoreWarnings.txt"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-history"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/history.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "template-html"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template-page.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "template-md"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template-page-md.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-contact"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-context"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-copyright"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-jurisdiction"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-license"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-publisher"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-version"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-wg"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "active-tables"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "fmm-definition"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://hl7.org/fhir/versions.html#maturity"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "propagate-status"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "excludelogbinaryformat"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "tabbed-snapshots"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "wantGen-ttl"
+      },
+      {
+        "url" : "value",
+        "valueString" : "false"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "wantGen-ttl-html"
+      },
+      {
+        "url" : "value",
+        "valueString" : "false"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
+      "valueCode" : "hl7.fhir.uv.tools.r4#1.1.2"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "copyrightyear"
+      },
+      {
+        "url" : "value",
+        "valueString" : "2026+"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "releaselabel"
+      },
+      {
+        "url" : "value",
+        "valueString" : "ci-build"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "i18n-default-lang"
+      },
+      {
+        "url" : "value",
+        "valueString" : "en"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "i18n-lang"
+      },
+      {
+        "url" : "value",
+        "valueString" : "de"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "translation-sources"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/translations/de"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "excludexml"
+      },
+      {
+        "url" : "value",
+        "valueString" : "false"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "excludejson"
+      },
+      {
+        "url" : "value",
+        "valueString" : "false"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "excludettl"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "autoload-resources"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-liquid"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template/liquid"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-liquid"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/liquid"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-qa"
+      },
+      {
+        "url" : "value",
+        "valueString" : "temp/qa"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-temp"
+      },
+      {
+        "url" : "value",
+        "valueString" : "temp/pages"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-output"
+      },
+      {
+        "url" : "value",
+        "valueString" : "output"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-suppressed-warnings"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/ignoreWarnings.txt"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-history"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/history.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "template-html"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template-page.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "template-md"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template-page-md.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-contact"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-context"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-copyright"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-jurisdiction"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-license"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-publisher"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-version"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-wg"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "active-tables"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "fmm-definition"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://hl7.org/fhir/versions.html#maturity"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "propagate-status"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "excludelogbinaryformat"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "tabbed-snapshots"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "wantGen-ttl"
+      },
+      {
+        "url" : "value",
+        "valueString" : "false"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "wantGen-ttl-html"
+      },
+      {
+        "url" : "value",
+        "valueString" : "false"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    }],
+    "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-mii-cs-sdd-ausbildung.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/mii-cs-sdd-ausbildung"
+      },
+      "name" : "MII CS SDD Ausbildung",
+      "description" : "Code System für Ausbildung",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-mii-cs-sdd-berufliche-stellung-lang.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/mii-cs-sdd-berufliche-stellung-lang"
+      },
+      "name" : "MII CS SDD Berufliche Stellung (Langfversion)",
+      "description" : "Code System für Berufliche Stellung (Langversion)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-mii-cs-sdd-berufliche-stellung-minimal.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/mii-cs-sdd-berufliche-stellung-minimal"
+      },
+      "name" : "MII CS SDD Berufliche Stellung (Minimalversion)",
+      "description" : "Code System für Berufliche Stellung (Minimalversion)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-mii-cs-sdd-beschaeftigungsstatus-lang.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang"
+      },
+      "name" : "MII CS SDD Beschaeftigungsstatus (Langfversion)",
+      "description" : "Code System für Beschäftigungsstatus (Langversion)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-mii-cs-sdd-beschaeftigungsstatus-minimal.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/mii-cs-sdd-beschaeftigungsstatus-minimal"
+      },
+      "name" : "MII CS SDD Beschaeftigungsstatus (Minimalversion)",
+      "description" : "Code System für Beschäftigungsstatus (Minimalversion)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-mii-cs-sdd-betreuungssituation.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/mii-cs-sdd-betreuungssituation"
+      },
+      "name" : "MII CS SDD Betreuungssituation",
+      "description" : "Code System für Betreuungssituation",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-mii-cs-sdd-einkommen.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/mii-cs-sdd-einkommen"
+      },
+      "name" : "MII CS SDD Einkommen",
+      "description" : "Code System für Einkommen",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-mii-cs-sdd-erhebungsmethode.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/mii-cs-sdd-erhebungsmethode"
+      },
+      "name" : "MII CS SDD Erhebungsmethode",
+      "description" : "Code System für Erhebungsmethode",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-mii-cs-sdd-laendercodes-sonder.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/mii-cs-sdd-laendercodes-sonder"
+      },
+      "name" : "MII CS SDD Laendercodes Sonder",
+      "description" : "Sonderkonzepte für Ländercodes, die nicht in ISO 3166-1 alpha-2 enthalten sind: staatenlos und ungeklärte Staatsangehörigkeit.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-mii-cs-sdd-merkzeichen.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/mii-cs-sdd-merkzeichen"
+      },
+      "name" : "MII CS SDD Merkzeichen (SGB IX / SchwbAwV)",
+      "description" : "Code System für Merkzeichen (SGB IX / SchwbAwV)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-mii-cs-sdd-schulabschluss.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/mii-cs-sdd-schulabschluss"
+      },
+      "name" : "MII CS SDD Schulabschluss",
+      "description" : "Code System für Schulabschluss",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-mii-cs-sdd-schwerbehindertenausweis.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/mii-cs-sdd-schwerbehindertenausweis"
+      },
+      "name" : "MII CS SDD Schwerbehindertenausweis",
+      "description" : "Code System für Schwerbehindertenausweis",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-mii-exa-sdd-ausbildung.html"
+      }],
+      "reference" : {
+        "reference" : "Observation/mii-exa-sdd-ausbildung"
+      },
+      "name" : "MII EXA SDD Ausbildung",
+      "description" : "Beispiel: Höchster beruflicher Ausbildungsabschluss.",
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-ausbildung"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-mii-exa-sdd-berufliche-stellung.html"
+      }],
+      "reference" : {
+        "reference" : "Observation/mii-exa-sdd-berufliche-stellung"
+      },
+      "name" : "MII EXA SDD Berufliche Stellung",
+      "description" : "Beispiel: Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit.",
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-berufliche-stellung"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-mii-exa-sdd-beschaeftigungsstatus.html"
+      }],
+      "reference" : {
+        "reference" : "Observation/mii-exa-sdd-beschaeftigungsstatus"
+      },
+      "name" : "MII EXA SDD Beschaeftigungsstatus",
+      "description" : "Beispiel: Aktuell hauptsächlich ausgeübte Tätigkeit.",
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-beschaeftigungsstatus"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-mii-exa-sdd-betreuungssituation.html"
+      }],
+      "reference" : {
+        "reference" : "Observation/mii-exa-sdd-betreuungssituation"
+      },
+      "name" : "MII EXA SDD Betreuungssituation",
+      "description" : "Beispiel: Aktuelle Betreuungssituation.",
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-betreuungssituation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-mii-exa-sdd-datenerhebung.html"
+      }],
+      "reference" : {
+        "reference" : "Observation/mii-exa-sdd-datenerhebung"
+      },
+      "name" : "MII EXA SDD Datenerhebung",
+      "description" : "Beispiel: Sammel-Beobachtung, die alle Einzelerhebungen der Soziodemographie für einen Patienten referenziert.",
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-datenerhebung"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-mii-exa-sdd-einkommen.html"
+      }],
+      "reference" : {
+        "reference" : "Observation/mii-exa-sdd-einkommen"
+      },
+      "name" : "MII EXA SDD Einkommen",
+      "description" : "Beispiel: Durchschnittliches monatliches Nettoeinkommen des Haushalts.",
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-einkommen"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-mii-exa-sdd-geburtsland-mutter.html"
+      }],
+      "reference" : {
+        "reference" : "Observation/mii-exa-sdd-geburtsland-mutter"
+      },
+      "name" : "MII EXA SDD Geburtsland Mutter",
+      "description" : "Beispiel: Geburtsland der Mutter der Patientin/des Patienten.",
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-geburtsland-mutter"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-mii-exa-sdd-geburtsland-vater.html"
+      }],
+      "reference" : {
+        "reference" : "Observation/mii-exa-sdd-geburtsland-vater"
+      },
+      "name" : "MII EXA SDD Geburtsland Vater",
+      "description" : "Beispiel: Geburtsland des Vaters der Patientin/des Patienten.",
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-geburtsland-vater"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-mii-exa-sdd-haushaltsgroesse.html"
+      }],
+      "reference" : {
+        "reference" : "Observation/mii-exa-sdd-haushaltsgroesse"
+      },
+      "name" : "MII EXA SDD Haushaltsgroesse",
+      "description" : "Beispiel: Anzahl der Personen, die ständig im Haushalt der Person leben.",
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-haushaltsgroesse"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-mii-exa-sdd-partnerschaft.html"
+      }],
+      "reference" : {
+        "reference" : "Observation/mii-exa-sdd-partnerschaft"
+      },
+      "name" : "MII EXA SDD Partnerschaft",
+      "description" : "Beispiel: Aktuelle Partnerschaft der Person.",
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-partnerschaft"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Patient-mii-exa-sdd-patient.html"
+      }],
+      "reference" : {
+        "reference" : "Patient/mii-exa-sdd-patient"
+      },
+      "name" : "MII EXA SDD Patient",
+      "description" : "Beispiel-Patient (MII Person Patient), auf den sich die Beispiel-Erhebungen dieses Moduls beziehen.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-mii-exa-sdd-schulabschluss.html"
+      }],
+      "reference" : {
+        "reference" : "Observation/mii-exa-sdd-schulabschluss"
+      },
+      "name" : "MII EXA SDD Schulabschluss",
+      "description" : "Beispiel: Höchster erreichter allgemeinbildender Schulabschluss.",
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schulabschluss"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-mii-exa-sdd-schuljahre.html"
+      }],
+      "reference" : {
+        "reference" : "Observation/mii-exa-sdd-schuljahre"
+      },
+      "name" : "MII EXA SDD Schuljahre",
+      "description" : "Beispiel: Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde.",
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schuljahre"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-mii-exa-sdd-schwerbehindertenausweis.html"
+      }],
+      "reference" : {
+        "reference" : "Observation/mii-exa-sdd-schwerbehindertenausweis"
+      },
+      "name" : "MII EXA SDD Schwerbehindertenausweis",
+      "description" : "Beispiel: Vorliegen eines Schwerbehindertenausweises mit Grad der Behinderung und Merkzeichen.",
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schwerbehindertenausweis"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-mii-exa-sdd-soziooekonomische-faktoren.html"
+      }],
+      "reference" : {
+        "reference" : "Observation/mii-exa-sdd-soziooekonomische-faktoren"
+      },
+      "name" : "MII EXA SDD Soziooekonomische Faktoren",
+      "description" : "Beispiel: generische Beobachtung eines sozioökonomischen Faktors.",
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-soziooekonomische-faktoren"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-mii-exa-sdd-vertrauensperson.html"
+      }],
+      "reference" : {
+        "reference" : "Observation/mii-exa-sdd-vertrauensperson"
+      },
+      "name" : "MII EXA SDD Vertrauensperson",
+      "description" : "Beispiel: Existenz mind. einer Vertrauensperson.",
+      "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-vertrauensperson"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-lm-sdd.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-lm-sdd"
+      },
+      "name" : "MII LM Soziodemographie",
+      "description" : "MII LogicalModel Modul Soziodemographie",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-ausbildung.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-ausbildung"
+      },
+      "name" : "MII PR SDD Ausbildung",
+      "description" : "Höchster beruflicher Ausbildungsabschluss",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-berufliche-stellung.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-berufliche-stellung"
+      },
+      "name" : "MII PR SDD Berufliche Stellung",
+      "description" : "Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-beschaeftigungsstatus"
+      },
+      "name" : "MII PR SDD Beschäftigungsstatus",
+      "description" : "Aktuell hauptsächlich ausgeübte Tätigkeit",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-betreuungssituation.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-betreuungssituation"
+      },
+      "name" : "MII PR SDD Betreuungssituation",
+      "description" : "Aktuelle Betreuungssituation",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-datenerhebung.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-datenerhebung"
+      },
+      "name" : "MII PR SDD Datenerhebung",
+      "description" : "Datenerhebung für SDD",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-einkommen.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-einkommen"
+      },
+      "name" : "MII PR SDD Einkommen",
+      "description" : "Durchschnittliches monatliches Nettoeinkommen des Haushalts",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-geburtsland-mutter.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-geburtsland-mutter"
+      },
+      "name" : "MII PR SDD Geburtsland Mutter",
+      "description" : "Geburtsland der Mutter",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-geburtsland-vater.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-geburtsland-vater"
+      },
+      "name" : "MII PR SDD Geburtsland Vater",
+      "description" : "Geburtsland des Vaters des Patienten",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-haushaltsgroesse.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-haushaltsgroesse"
+      },
+      "name" : "MII PR SDD Haushaltsgroesse",
+      "description" : "Anzahl der Personen, die ständig im Haushalt der Person leben.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-lebenssituation.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-lebenssituation"
+      },
+      "name" : "MII PR SDD Lebenssituation",
+      "description" : "Lebenssituation des Patienten (abstrakt)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-partnerschaft.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-partnerschaft"
+      },
+      "name" : "MII PR SDD Partnerschaft",
+      "description" : "Aktuelle Partnerschaft der Person",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-schulabschluss.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-schulabschluss"
+      },
+      "name" : "MII PR SDD Schulabschluss",
+      "description" : "Höchster erreichter allgemeinbildender Schulabschluss",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-schuljahre.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-schuljahre"
+      },
+      "name" : "MII PR SDD Schuljahre",
+      "description" : "Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde, inkl. Besuch einer Berufs- oder Hochschule",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-schwerbehindertenausweis"
+      },
+      "name" : "MII PR SDD Schwerbehindertenausweis",
+      "description" : "Vorliegen eines Schwerbehindertenausweises des Patienten",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-soziooekonomische-faktoren.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-soziooekonomische-faktoren"
+      },
+      "name" : "MII PR SDD Soziooekonomische Faktoren",
+      "description" : "Soziooekonomische Faktoren für SDD",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-mii-pr-sdd-vertrauensperson.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-pr-sdd-vertrauensperson"
+      },
+      "name" : "MII PR SDD Vertrauensperson",
+      "description" : "Existenz mind. einer Person, der die Person uneingeschränkt vertrauen und mit der die Person persönliche Dinge besprechen kann",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-mii-vs-sdd-ausbildung.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/mii-vs-sdd-ausbildung"
+      },
+      "name" : "MII VS SDD Ausbildung",
+      "description" : "Value Set für Ausbildung",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-mii-vs-sdd-berufliche-stellung-lang.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/mii-vs-sdd-berufliche-stellung-lang"
+      },
+      "name" : "MII VS SDD Berufliche Stellung (Langversion)",
+      "description" : "Value Set für Berufliche Stellung (Langversion)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-mii-vs-sdd-berufliche-stellung-minimal.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/mii-vs-sdd-berufliche-stellung-minimal"
+      },
+      "name" : "MII VS SDD Berufliche Stellung (Minimalversion)",
+      "description" : "Value Set für Berufliche Stellung (Minimalversion)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-mii-vs-sdd-beschaeftigungsstatus-lang.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/mii-vs-sdd-beschaeftigungsstatus-lang"
+      },
+      "name" : "MII VS SDD Beschaeftigungsstatus (Langversion)",
+      "description" : "Value Set für Beschäftigungsstatus (Langversion)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-mii-vs-sdd-beschaeftigungsstatus-minimal.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/mii-vs-sdd-beschaeftigungsstatus-minimal"
+      },
+      "name" : "MII VS SDD Beschaeftigungsstatus (Minimalversion)",
+      "description" : "Value Set für Beschäftigungsstatus (Minimalversion)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-mii-vs-sdd-betreuungssituation.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/mii-vs-sdd-betreuungssituation"
+      },
+      "name" : "MII VS SDD Betreuungssituation",
+      "description" : "Value Set für Betreuungssituation",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-mii-vs-sdd-einkommen.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/mii-vs-sdd-einkommen"
+      },
+      "name" : "MII VS SDD Einkommen",
+      "description" : "Value Set für Einkommen",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-mii-vs-sdd-erhebungsmethode.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/mii-vs-sdd-erhebungsmethode"
+      },
+      "name" : "MII VS SDD Erhebungsmethode",
+      "description" : "Value Set für Erhebungsmethode",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-mii-vs-sdd-laendercodes.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/mii-vs-sdd-laendercodes"
+      },
+      "name" : "MII VS SDD Laendercodes",
+      "description" : "ISO 3166-1 alpha-2 zzgl. Sonderkonzepte für staatenlos und ungeklärt.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-mii-vs-sdd-merkzeichen.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/mii-vs-sdd-merkzeichen"
+      },
+      "name" : "MII VS SDD Merkzeichen",
+      "description" : "Value Set für Merkzeichen",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-mii-vs-sdd-schulabschluss.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/mii-vs-sdd-schulabschluss"
+      },
+      "name" : "MII VS SDD Schulabschluss",
+      "description" : "Value Set für Schulabschluss",
+      "exampleBoolean" : false
+    }],
+    "page" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+        "valueUrl" : "toc.html"
+      }],
+      "nameUrl" : "toc.html",
+      "title" : "Table of Contents",
+      "generation" : "html",
+      "page" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "index.html"
+        }],
+        "nameUrl" : "index.html",
+        "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "guidance.html"
+        }],
+        "nameUrl" : "guidance.html",
+        "title" : "Guidance",
+        "generation" : "markdown",
+        "page" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "researcher-guidance.html"
+          }],
+          "nameUrl" : "researcher-guidance.html",
+          "title" : "Guidance for Researchers",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "implementer-guidance.html"
+          }],
+          "nameUrl" : "implementer-guidance.html",
+          "title" : "Guidance for Implementers",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "datasets-and-descriptions.html"
+          }],
+          "nameUrl" : "datasets-and-descriptions.html",
+          "title" : "Datasets and Descriptions",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "uml-diagrams.html"
+          }],
+          "nameUrl" : "uml-diagrams.html",
+          "title" : "UML Diagrams",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "security-and-privacy.html"
+          }],
+          "nameUrl" : "security-and-privacy.html",
+          "title" : "Security and Privacy",
+          "generation" : "markdown"
+        }]
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "profiles.html"
+        }],
+        "nameUrl" : "profiles.html",
+        "title" : "Profiles",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "terminology.html"
+        }],
+        "nameUrl" : "terminology.html",
+        "title" : "Terminology",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "capability-statements.html"
+        }],
+        "nameUrl" : "capability-statements.html",
+        "title" : "Capability Statements",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "logical-models.html"
+        }],
+        "nameUrl" : "logical-models.html",
+        "title" : "Logical Models",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "examples.html"
+        }],
+        "nameUrl" : "examples.html",
+        "title" : "Examples",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "downloads.html"
+        }],
+        "nameUrl" : "downloads.html",
+        "title" : "Downloads",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "changes.html"
+        }],
+        "nameUrl" : "changes.html",
+        "title" : "Changelog",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "version-history.html"
+        }],
+        "nameUrl" : "version-history.html",
+        "title" : "Versioning",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "ImplementationGuide-mii-ig-soziodemographie.html"
+        }],
+        "nameUrl" : "ImplementationGuide-mii-ig-soziodemographie.html",
+        "title" : "MII ImplementationGuide Resource",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "translationinfo.html"
+        }],
+        "nameUrl" : "translationinfo.html",
+        "title" : "Translation Information",
+        "generation" : "markdown"
+      }]
+    },
+    "parameter" : [{
+      "code" : "path-resource",
+      "value" : "input/predefined-resources"
+    },
+    {
+      "code" : "path-pages",
+      "value" : "input/intro-notes"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/capabilities"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/examples"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/extensions"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/models"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/operations"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/profiles"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/resources"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/vocabulary"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/testing"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/history"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "fsh-generated/resources"
+    },
+    {
+      "code" : "path-pages",
+      "value" : "template/config"
+    },
+    {
+      "code" : "path-pages",
+      "value" : "input/images"
+    },
+    {
+      "code" : "path-tx-cache",
+      "value" : "input-cache/txcache"
+    }]
+  }
+}
+
+```
