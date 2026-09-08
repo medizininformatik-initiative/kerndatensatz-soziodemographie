@@ -2,8 +2,6 @@
 
 [![FHIR Project on GitHub.com](https://img.shields.io/badge/FHIR_project_on_GitHub.com-kerndatensatz--soziodemographie-green)](https://github.com/medizininformatik-initiative/kerndatensatz-soziodemographie)
 
-[![CI (FHIR Validation)](https://github.com/medizininformatik-initiative/kerndatensatz-soziodemographie/actions/workflows/main.yml/badge.svg)](https://github.com/medizininformatik-initiative/kerndatensatz-soziodemographie/actions/workflows/main.yml)
-
 ### Übersicht
 Das Repository beschreibt die FHIR-Spezifikation des Innovationsmodul Soziodemographische Daten. Die hier veröffentlichten FHIR-Profile und Beispiele dienen als zentrale und verbindliche Spezifikation für die syntaktische und semantische Kodierung der Modulinhalte.
 
