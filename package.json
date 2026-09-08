@@ -1,6 +1,8 @@
 {
   "name": "de.medizininformatikinitiative.kerndatensatz.soziodemographie",
   "title": "MII IG Soziodemographie",
+  "description": "Medizininformatik Initiative - Kerndatensatz Soziodemographie",
+  "version": "2027.0.0-ballot.rc1",
   "maintainers": [
     {
       "name": "Medizininformatik Initiative"
@@ -11,6 +13,9 @@
       "4.0.1"
   ],
   "dependencies": {
-    "hl7.fhir.uv.tools.r4": "1.1.2"
+    "hl7.fhir.uv.tools.r4": "1.1.2",
+    "hl7.fhir.r4.core": "4.0.1",
+    "de.medizininformatikinitiative.kerndatensatz.meta": "2027.0.0-ballot.rc3",
+    "de.medizininformatikinitiative.kerndatensatz.base": "2027.0.0-ballot.rc1"
   }
 }
