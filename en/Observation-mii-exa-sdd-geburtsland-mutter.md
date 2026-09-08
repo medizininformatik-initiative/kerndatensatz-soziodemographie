@@ -24,7 +24,7 @@ Profile: [MII PR SDD Geburtsland Mutter](StructureDefinition-mii-pr-sdd-geburtsl
 
 **effective**: 2026-06-15
 
-**value**: Türkiye
+**value**: Turkey
 
 
 
@@ -65,7 +65,7 @@ Profile: [MII PR SDD Geburtsland Mutter](StructureDefinition-mii-pr-sdd-geburtsl
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "TR",
-      "display" : "Türkiye"
+      "display" : "Turkey"
     }]
   }
 }

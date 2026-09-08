@@ -77,7 +77,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-lm-sdd.c
   "name" : "MII_LM_SDD",
   "title" : "MII LM Soziodemographie",
   "status" : "draft",
-  "date" : "2026-09-08T13:04:20+00:00",
+  "date" : "2026-09-08T13:56:19+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
