@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-lebenssituation | *Version*:2027.0.0-ballot.rc1 |
-| Draft Stand: 2026-09-04 | *Maschinenlesbarer Name*:MII_PR_SDD_Lebenssituation |
+| Draft Stand: 2026-09-08 | *Maschinenlesbarer Name*:MII_PR_SDD_Lebenssituation |
 
  
 Lebenssituation des Patienten (abstrakt) 
@@ -101,7 +101,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-l
   "name" : "MII_PR_SDD_Lebenssituation",
   "title" : "MII PR SDD Lebenssituation",
   "status" : "draft",
-  "date" : "2026-09-04T09:58:25+00:00",
+  "date" : "2026-09-08T12:47:32+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

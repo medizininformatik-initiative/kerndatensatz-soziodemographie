@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-berufliche-stellung | *Version*:2027.0.0-ballot.rc1 |
-| Draft as of 2026-09-04 | *Computable Name*:MII_PR_SDD_Berufliche_Stellung |
+| Draft as of 2026-09-08 | *Computable Name*:MII_PR_SDD_Berufliche_Stellung |
 
  
 Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-berufl
   "name" : "MII_PR_SDD_Berufliche_Stellung",
   "title" : "MII PR SDD Berufliche Stellung",
   "status" : "draft",
-  "date" : "2026-09-04T09:58:25+00:00",
+  "date" : "2026-09-08T12:47:32+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
