@@ -7,6 +7,8 @@
   - /**/*.xml
   - /**/*.json
   - "!package.json"
+  - "!publication-request.json"
+  - "!/publication/**"
   - "!/**/fsh-index.json"
   - "!/**/fhirpkg.lock.json"
   - "!/**/menu.xml"
@@ -20,6 +22,8 @@
     - /**/*.xml
     - /**/*.json
     - "!package.json"
+    - "!publication-request.json"
+    - "!/publication/**"
 
 - name: instance-version-filled
   category: example 
@@ -40,6 +44,8 @@
     - /**/*.xml
     - /**/*.json
     - "!package.json"
+    - "!publication-request.json"
+    - "!/publication/**"
     - "!/**/icd10who*.json"
 
 - name: naming-convention-name
@@ -51,6 +57,8 @@
     - /**/*.xml
     - /**/*.json
     - "!package.json"
+    - "!publication-request.json"
+    - "!/publication/**"
     - "!/**/icd10who*.json"
 
 - name: naming-convention-title
@@ -62,6 +70,8 @@
     - /**/*.xml
     - /**/*.json
     - "!package.json"
+    - "!publication-request.json"
+    - "!/publication/**"
 
 - name: naming-convention-url
   filter: (StructureDefinition or ValueSet or CodeSystem or ConceptMap or StructureMap or NamingSystem or SearchParameter or CapabilityStatement or OperationDefinition or ImplementationGuide).exists()
@@ -72,3 +82,5 @@
     - /**/*.xml
     - /**/*.json
     - "!package.json"
+    - "!publication-request.json"
+    - "!/publication/**"

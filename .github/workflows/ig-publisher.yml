@@ -139,7 +139,7 @@ jobs:
             "${publication_base}"
 
       - name: Record branch metadata for Pages cleanup
-        if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/') && github.ref_name != 'main'
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/')
         run: |
           set -eu
           echo "${GITHUB_REF_NAME}" > "output/.branch-name"
@@ -185,21 +185,14 @@ jobs:
             cd ..
           fi
 
-          if [[ "${GITHUB_REF_NAME}" == "main" ]]; then
-            # main is the canonical/default IG and publishes to the site root.
-            # branches/ (other refs' previews) and .git are left untouched.
-            rsync -a --delete --exclude '.git' --exclude '.nojekyll' --exclude 'branches' \
-              "output/" "gh-pages/"
-            echo "Published main to the site root"
-          else
-            # Preview builds live below a collision-free namespace so they never
-            # clash with the main publication at the root.
-            branch_dir="gh-pages/branches/${GITHUB_REF_NAME}"
-            rm -rf "${branch_dir}"
-            mkdir -p "${branch_dir}"
-            cp -R "output/." "${branch_dir}/"
-            echo "Published ${GITHUB_REF_NAME} to branches/${GITHUB_REF_NAME}/"
-          fi
+          # The site root is reserved for the formal publication (go-publish).
+          # Every branch build (including main) lives below a collision-free
+          # namespace so it never clashes with the formal publication.
+          branch_dir="gh-pages/branches/${GITHUB_REF_NAME}"
+          rm -rf "${branch_dir}"
+          mkdir -p "${branch_dir}"
+          cp -R "output/." "${branch_dir}/"
+          echo "Published ${GITHUB_REF_NAME} to branches/${GITHUB_REF_NAME}/"
 
           cd gh-pages
           if [[ "${PAGES_ACTIONS_ENABLED}" == "true" ]]; then
@@ -231,7 +224,7 @@ jobs:
 
   deploy:
     name: Deploy GitHub Pages
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && vars.PAGES_ACTIONS_ENABLED == 'true'
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/') && vars.PAGES_ACTIONS_ENABLED == 'true'
     needs: build
     runs-on: ubuntu-latest
     environment:
@@ -266,11 +259,7 @@ jobs:
           repo_owner="${GITHUB_REPOSITORY_OWNER}"
           repo_name="${GITHUB_REPOSITORY#*/}"
           branch="${GITHUB_REF_NAME}"
-          if [[ "${branch}" == "main" ]]; then
-            url="https://${repo_owner}.github.io/${repo_name}/"
-          else
-            url="https://${repo_owner}.github.io/${repo_name}/branches/${branch}/"
-          fi
+          url="https://${repo_owner}.github.io/${repo_name}/branches/${branch}/"
 
           echo "Published to ${url}"
           printf '### Deployment\n[Open published IG for branch `%s`](%s)\n' \
@@ -289,9 +278,7 @@ jobs:
             const { owner, repo } = context.repo;
             const branch = process.env.BRANCH_NAME;
             const marker = '<!-- ig-publish-url -->';
-            const url = branch === 'main'
-              ? `https://${owner}.github.io/${repo}/`
-              : `https://${owner}.github.io/${repo}/branches/${branch}/`;
+            const url = `https://${owner}.github.io/${repo}/branches/${branch}/`;
             const body = `${marker}
             ### Deployment
             [Open published IG for branch \`${branch}\`](${url})`;

@@ -1,0 +1,16 @@
+{
+  "package-id": "de.medizininformatikinitiative.kerndatensatz.soziodemographie",
+  "canonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie",
+  "title": "MII Implementation Guide Soziodemographie",
+  "category": "Research",
+  "introduction": "Implementation Guide for the Medical Informatics Initiative Core Dataset module Sociodemographic Data (Soziodemographie).",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build (latest in version control) - Content subject to frequent changes",
+      "path": "https://medizininformatik-initiative.github.io/kerndatensatz-soziodemographie/branches/main/",
+      "status": "ci-build",
+      "sequence": "ci-build"
+    }
+  ]
+}
