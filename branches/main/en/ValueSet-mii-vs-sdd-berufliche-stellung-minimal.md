@@ -45,7 +45,7 @@ Value Set für Berufliche Stellung (Minimalversion)
   "title" : "MII VS SDD Berufliche Stellung (Minimalversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-14T20:35:38+00:00",
+  "date" : "2026-09-14T21:09:09+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

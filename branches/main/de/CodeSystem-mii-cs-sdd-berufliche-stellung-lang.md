@@ -39,7 +39,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "title" : "MII CS SDD Berufliche Stellung (Langfversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-14T20:35:38+00:00",
+  "date" : "2026-09-14T21:09:09+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
