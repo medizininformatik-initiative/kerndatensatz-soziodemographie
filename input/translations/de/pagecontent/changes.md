@@ -8,6 +8,9 @@ beschreibt.
 
 ---
 
+#### Version 2027.0.0-ballot
+**Datum:** 14.09.2026
+
 #### Version 2027.0.0-ballot.rc1
 **Datum:** 31.08.2026
 
