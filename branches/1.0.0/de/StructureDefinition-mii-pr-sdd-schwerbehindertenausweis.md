@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schwerbehindertenausweis | *Version*:2027.0.0-ballot.rc1 |
-| Draft Stand: 2026-09-08 | *Maschinenlesbarer Name*:MII_PR_SDD_Schwerbehindertenausweis |
+| Draft Stand: 2026-09-14 | *Maschinenlesbarer Name*:MII_PR_SDD_Schwerbehindertenausweis |
 
  
 Vorliegen eines Schwerbehindertenausweises des Patienten 
@@ -110,7 +110,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-s
   "name" : "MII_PR_SDD_Schwerbehindertenausweis",
   "title" : "MII PR SDD Schwerbehindertenausweis",
   "status" : "draft",
-  "date" : "2026-09-08T12:47:32+00:00",
+  "date" : "2026-09-14T12:30:19+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

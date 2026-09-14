@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-partnerschaft | *Version*:2027.0.0-ballot.rc1 |
-| Draft as of 2026-09-08 | *Computable Name*:MII_PR_SDD_Partnerschaft |
+| Draft as of 2026-09-14 | *Computable Name*:MII_PR_SDD_Partnerschaft |
 
  
 Aktuelle Partnerschaft der Person 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-partne
   "name" : "MII_PR_SDD_Partnerschaft",
   "title" : "MII PR SDD Partnerschaft",
   "status" : "draft",
-  "date" : "2026-09-08T12:47:32+00:00",
+  "date" : "2026-09-14T12:30:19+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
