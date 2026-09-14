@@ -7,6 +7,10 @@ versioning scheme described on the [Versioning](version-history.html) page.
 
 ---
 
+#### Version 2027.0.0-ballot
+
+**Date:** 14.09.2026
+
 #### Version 2027.0.0-ballot.rc1
 
 **Date:** 31.08.2026

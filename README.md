@@ -7,7 +7,7 @@ Das Repository beschreibt die FHIR-Spezifikation des Innovationsmodul Soziodemog
 
 ### Status:
 
-Aktuelle draft Version: 2027.0.0-ballot.rc1 [Link zum Implementation Guide](https://medizininformatik-initiative.github.io/kerndatensatz-soziodemographie/en/)
+Aktuelle draft Version: 2027.0.0-ballot [Link zum Implementation Guide](https://medizininformatik-initiative.github.io/kerndatensatz-soziodemographie/en/)
 
 <!-- Reifegrad: -->
 
