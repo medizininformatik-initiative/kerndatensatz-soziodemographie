@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fhir="http://hl7.org/fhir/feed" version="2.0">
+  <channel>
+    <title>MII Soziodemographie FHIR packages</title>
+    <description>FHIR packages published by the Medical Informatics Initiative</description>
+    <link>https://medizininformatik-initiative.github.io/kerndatensatz-soziodemographie</link>
+    <atom:link href="https://medizininformatik-initiative.github.io/kerndatensatz-soziodemographie/package-feed.xml" rel="self" type="application/rss+xml"/>
+    <generator>Medical Informatics Initiative (MII)</generator>
+    <lastBuildDate>Mon, 14 Sep 2026 09:48:45 +0000</lastBuildDate>
+    <pubDate>Mon, 14 Sep 2026 09:48:45 +0000</pubDate>
+    <language>en</language>
+    <ttl>600</ttl>
+  
+    <item>
+      <title>de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot</title>
+      <description>Ballot release of the MII Core Dataset module Sociodemographic Data.</description>
+      <link>https://medizininformatik-initiative.github.io/kerndatensatz-soziodemographie/2027.0.0-ballot/package.tgz</link>
+      <guid isPermaLink="true">https://medizininformatik-initiative.github.io/kerndatensatz-soziodemographie/2027.0.0-ballot/package.tgz</guid>
+      <dc:creator>Medical Informatics Initiative (MII)</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Mon, 14 Sep 2026 09:48:45 +0000</pubDate>
+      <fhir:details>Publication run at 14/09/2026 by runner using Version 2.3.4 (Git# 7ae92f79415a). Built 2026-09-04T06:21:07.840Z (10 days old) source id Unknown (todo)</fhir:details>
+    </item></channel>
+</rss>

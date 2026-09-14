@@ -1,0 +1,27 @@
+{
+  "list": [
+    {
+      "version": "current",
+      "path": "https://medizininformatik-initiative.github.io/kerndatensatz-soziodemographie/branches/main/",
+      "status": "ci-build",
+      "sequence": "ci-build",
+      "desc": "Continuous Integration Build (latest in version control) - Content subject to frequent changes"
+    },
+    {
+      "version": "2027.0.0-ballot",
+      "path": "https://medizininformatik-initiative.github.io/kerndatensatz-soziodemographie/2027.0.0-ballot",
+      "status": "ballot",
+      "sequence": "2027",
+      "fhirversion": "4.0.1",
+      "date": "2026-09-14",
+      "current": true,
+      "desc": "Ballot release of the MII Core Dataset module Sociodemographic Data.",
+      "altloc": "https://medizininformatik-initiative.github.io/kerndatensatz-soziodemographie/2027.0.0-ballot"
+    }
+  ],
+  "package-id": "de.medizininformatikinitiative.kerndatensatz.soziodemographie",
+  "canonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie",
+  "title": "MII Implementation Guide Soziodemographie",
+  "category": "Research",
+  "introduction": "Implementation Guide for the Medical Informatics Initiative Core Dataset module Sociodemographic Data (Soziodemographie)."
+}

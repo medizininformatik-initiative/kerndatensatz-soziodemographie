@@ -39,7 +39,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "MII CS SDD Schulabschluss",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-14T16:01:26+00:00",
+  "date" : "2026-09-14T21:51:48+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
