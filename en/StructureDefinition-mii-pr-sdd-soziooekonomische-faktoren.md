@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-soziooekonomische-faktoren | *Version*:2027.0.0-ballot.rc1 |
-| Draft as of 2026-09-08 | *Computable Name*:MII_PR_SDD_SoziooekonomischeFaktoren |
+| Draft as of 2026-09-14 | *Computable Name*:MII_PR_SDD_SoziooekonomischeFaktoren |
 
  
 Soziooekonomische Faktoren für SDD 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-sozioo
   "name" : "MII_PR_SDD_SoziooekonomischeFaktoren",
   "title" : "MII PR SDD Soziooekonomische Faktoren",
   "status" : "draft",
-  "date" : "2026-09-08T13:56:19+00:00",
+  "date" : "2026-09-14T12:35:45+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
