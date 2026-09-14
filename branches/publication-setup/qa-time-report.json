@@ -1,0 +1,2752 @@
+{
+  "date" : "Mon, 14 Sep, 2026 20:29:55 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "/fsh-generated/resources/ImplementationGuide-mii-ig-soziodemographie.json",
+    "size" : 22602,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 92,
+      "length" : 14
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 93,
+      "length" : 18
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 55
+    },
+    {
+      "activity" : "validate",
+      "start" : 110,
+      "length" : 3251
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 21
+    },
+    {
+      "activity" : "generate1",
+      "start" : 128,
+      "length" : 146
+    },
+    {
+      "activity" : "generate2",
+      "start" : 135,
+      "length" : 361
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 3
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 224,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-sdd-ausbildung.json",
+    "size" : 1776,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 5
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 93,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 10
+    },
+    {
+      "activity" : "validate",
+      "start" : 106,
+      "length" : 500
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 13
+    },
+    {
+      "activity" : "generate1",
+      "start" : 128,
+      "length" : 16
+    },
+    {
+      "activity" : "generate2",
+      "start" : 136,
+      "length" : 97
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 156,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-sdd-berufliche-stellung-lang.json",
+    "size" : 1917,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 106,
+      "length" : 12
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 11
+    },
+    {
+      "activity" : "generate1",
+      "start" : 128,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 136,
+      "length" : 68
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-sdd-berufliche-stellung-minimal.json",
+    "size" : 1194,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 93,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 106,
+      "length" : 9
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 128,
+      "length" : 14
+    },
+    {
+      "activity" : "generate2",
+      "start" : 136,
+      "length" : 60
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-sdd-beschaeftigungsstatus-lang.json",
+    "size" : 2311,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 106,
+      "length" : 12
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 6
+    },
+    {
+      "activity" : "generate1",
+      "start" : 128,
+      "length" : 16
+    },
+    {
+      "activity" : "generate2",
+      "start" : 136,
+      "length" : 97
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-sdd-beschaeftigungsstatus-minimal.json",
+    "size" : 1472,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 106,
+      "length" : 11
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 128,
+      "length" : 13
+    },
+    {
+      "activity" : "generate2",
+      "start" : 136,
+      "length" : 62
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-sdd-betreuungssituation.json",
+    "size" : 1266,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 106,
+      "length" : 9
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 128,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 136,
+      "length" : 84
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-sdd-einkommen.json",
+    "size" : 1446,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 93,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 93,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 106,
+      "length" : 11
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 128,
+      "length" : 13
+    },
+    {
+      "activity" : "generate2",
+      "start" : 136,
+      "length" : 55
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-sdd-erhebungsmethode.json",
+    "size" : 1107,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 106,
+      "length" : 7
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 128,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 136,
+      "length" : 48
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-sdd-laendercodes-sonder.json",
+    "size" : 1082,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 106,
+      "length" : 7
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 128,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 136,
+      "length" : 48
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-sdd-merkzeichen.json",
+    "size" : 1542,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 93,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 106,
+      "length" : 10
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 136,
+      "length" : 53
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-sdd-schulabschluss.json",
+    "size" : 1806,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 106,
+      "length" : 67
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 13
+    },
+    {
+      "activity" : "generate2",
+      "start" : 136,
+      "length" : 51
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-sdd-schwerbehindertenausweis.json",
+    "size" : 1184,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "scan",
+      "start" : 93,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 5
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 13
+    },
+    {
+      "activity" : "generate2",
+      "start" : 136,
+      "length" : 43
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-sdd-ausbildung.json",
+    "size" : 1167,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 670
+    },
+    {
+      "activity" : "validate",
+      "start" : 113,
+      "length" : 369
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 136,
+      "length" : 20
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-sdd-berufliche-stellung.json",
+    "size" : 1253,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 93,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 94,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 114,
+      "length" : 360
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 136,
+      "length" : 12
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-sdd-beschaeftigungsstatus.json",
+    "size" : 1277,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 94,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 114,
+      "length" : 364
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 137,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-sdd-betreuungssituation.json",
+    "size" : 1202,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 94,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 114,
+      "length" : 359
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 137,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-sdd-datenerhebung.json",
+    "size" : 2334,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 94,
+      "length" : 9179
+    },
+    {
+      "activity" : "validate",
+      "start" : 115,
+      "length" : 11562
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 14
+    },
+    {
+      "activity" : "generate2",
+      "start" : 137,
+      "length" : 44
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-sdd-einkommen.json",
+    "size" : 1176,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 93,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 103,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 126,
+      "length" : 3
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 137,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-sdd-geburtsland-mutter.json",
+    "size" : 1061,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 103,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 126,
+      "length" : 2
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 17
+    },
+    {
+      "activity" : "generate2",
+      "start" : 137,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-sdd-geburtsland-vater.json",
+    "size" : 1059,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 103,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 126,
+      "length" : 2
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 137,
+      "length" : 27
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-sdd-haushaltsgroesse.json",
+    "size" : 1013,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 103,
+      "length" : 690
+    },
+    {
+      "activity" : "validate",
+      "start" : 126,
+      "length" : 337
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 137,
+      "length" : 20
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-sdd-partnerschaft.json",
+    "size" : 1080,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 104,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 4
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 137,
+      "length" : 12
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-sdd-schulabschluss.json",
+    "size" : 1279,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 104,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 3
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 137,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 152,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-sdd-schuljahre.json",
+    "size" : 1000,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 104,
+      "length" : 676
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 347
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 137,
+      "length" : 15
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-sdd-schwerbehindertenausweis.json",
+    "size" : 2536,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 93,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 5
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 137,
+      "length" : 20
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-sdd-soziooekonomische-faktoren.json",
+    "size" : 974,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 363
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 137,
+      "length" : 14
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Observation-mii-exa-sdd-vertrauensperson.json",
+    "size" : 1096,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "loadDepInfo",
+      "start" : 93,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 3
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 137,
+      "length" : 14
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Patient-mii-exa-sdd-patient.json",
+    "size" : 1661,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 127,
+      "length" : 487
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 137,
+      "length" : 17
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-lm-sdd.json",
+    "size" : 11817,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 8
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 23
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 84
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 285
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 170
+    },
+    {
+      "activity" : "generate2",
+      "start" : 137,
+      "length" : 1244
+    },
+    {
+      "activity" : "generate2",
+      "start" : 152,
+      "length" : 364
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 7
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 224,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-ausbildung.json",
+    "size" : 1895,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 79
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 93,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 32
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 259
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 144
+    },
+    {
+      "activity" : "generate2",
+      "start" : 138,
+      "length" : 1142
+    },
+    {
+      "activity" : "generate2",
+      "start" : 152,
+      "length" : 212
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 9
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 224,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-berufliche-stellung.json",
+    "size" : 3469,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 39
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 38
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 234
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 178
+    },
+    {
+      "activity" : "generate2",
+      "start" : 139,
+      "length" : 1054
+    },
+    {
+      "activity" : "generate2",
+      "start" : 153,
+      "length" : 168
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.json",
+    "size" : 4448,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 38
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 37
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 242
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 177
+    },
+    {
+      "activity" : "generate2",
+      "start" : 140,
+      "length" : 884
+    },
+    {
+      "activity" : "generate2",
+      "start" : 153,
+      "length" : 186
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 10
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 224,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-betreuungssituation.json",
+    "size" : 3250,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 92,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 57
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 28
+    },
+    {
+      "activity" : "validate",
+      "start" : 108,
+      "length" : 184
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 129,
+      "length" : 148
+    },
+    {
+      "activity" : "generate2",
+      "start" : 141,
+      "length" : 729
+    },
+    {
+      "activity" : "generate2",
+      "start" : 153,
+      "length" : 112
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-datenerhebung.json",
+    "size" : 12191,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 6
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 39
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 76
+    },
+    {
+      "activity" : "validate",
+      "start" : 108,
+      "length" : 574
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 130,
+      "length" : 292
+    },
+    {
+      "activity" : "generate2",
+      "start" : 142,
+      "length" : 1172
+    },
+    {
+      "activity" : "generate2",
+      "start" : 153,
+      "length" : 142
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 16
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 224,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-einkommen.json",
+    "size" : 1702,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 22
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 93,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 18
+    },
+    {
+      "activity" : "validate",
+      "start" : 108,
+      "length" : 121
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 130,
+      "length" : 126
+    },
+    {
+      "activity" : "generate2",
+      "start" : 143,
+      "length" : 733
+    },
+    {
+      "activity" : "generate2",
+      "start" : 153,
+      "length" : 98
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 9
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 224,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-geburtsland-mutter.json",
+    "size" : 3589,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 21
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 29
+    },
+    {
+      "activity" : "validate",
+      "start" : 109,
+      "length" : 138
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 130,
+      "length" : 171
+    },
+    {
+      "activity" : "generate2",
+      "start" : 144,
+      "length" : 1140
+    },
+    {
+      "activity" : "generate2",
+      "start" : 153,
+      "length" : 93
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-geburtsland-vater.json",
+    "size" : 3599,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 19
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 28
+    },
+    {
+      "activity" : "validate",
+      "start" : 109,
+      "length" : 137
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 130,
+      "length" : 168
+    },
+    {
+      "activity" : "generate2",
+      "start" : 145,
+      "length" : 528
+    },
+    {
+      "activity" : "generate2",
+      "start" : 153,
+      "length" : 90
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 10
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 224,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-haushaltsgroesse.json",
+    "size" : 1619,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 15
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 18
+    },
+    {
+      "activity" : "validate",
+      "start" : 109,
+      "length" : 118
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 130,
+      "length" : 126
+    },
+    {
+      "activity" : "generate2",
+      "start" : 145,
+      "length" : 424
+    },
+    {
+      "activity" : "generate2",
+      "start" : 153,
+      "length" : 110
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 9
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-lebenssituation.json",
+    "size" : 3336,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 35
+    },
+    {
+      "activity" : "validate",
+      "start" : 109,
+      "length" : 124
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 130,
+      "length" : 163
+    },
+    {
+      "activity" : "generate2",
+      "start" : 146,
+      "length" : 703
+    },
+    {
+      "activity" : "generate2",
+      "start" : 154,
+      "length" : 132
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-partnerschaft.json",
+    "size" : 2204,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 16
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 21
+    },
+    {
+      "activity" : "validate",
+      "start" : 109,
+      "length" : 118
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 131,
+      "length" : 138
+    },
+    {
+      "activity" : "generate2",
+      "start" : 147,
+      "length" : 584
+    },
+    {
+      "activity" : "generate2",
+      "start" : 154,
+      "length" : 138
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 9
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 224,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-schulabschluss.json",
+    "size" : 1928,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 17
+    },
+    {
+      "activity" : "loadInfo",
+      "start" : 93,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 19
+    },
+    {
+      "activity" : "validate",
+      "start" : 109,
+      "length" : 118
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 131,
+      "length" : 135
+    },
+    {
+      "activity" : "generate2",
+      "start" : 147,
+      "length" : 555
+    },
+    {
+      "activity" : "generate2",
+      "start" : 154,
+      "length" : 142
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-schuljahre.json",
+    "size" : 1680,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 15
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 16
+    },
+    {
+      "activity" : "validate",
+      "start" : 109,
+      "length" : 110
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 131,
+      "length" : 127
+    },
+    {
+      "activity" : "generate2",
+      "start" : 148,
+      "length" : 476
+    },
+    {
+      "activity" : "generate2",
+      "start" : 154,
+      "length" : 125
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 8
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 224,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.json",
+    "size" : 7359,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 31
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 93,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 68
+    },
+    {
+      "activity" : "validate",
+      "start" : 109,
+      "length" : 328
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 131,
+      "length" : 295
+    },
+    {
+      "activity" : "generate2",
+      "start" : 148,
+      "length" : 1227
+    },
+    {
+      "activity" : "generate2",
+      "start" : 154,
+      "length" : 203
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 16
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-soziooekonomische-faktoren.json",
+    "size" : 2879,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 24
+    },
+    {
+      "activity" : "validate",
+      "start" : 110,
+      "length" : 112
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 131,
+      "length" : 149
+    },
+    {
+      "activity" : "generate2",
+      "start" : 149,
+      "length" : 620
+    },
+    {
+      "activity" : "generate2",
+      "start" : 154,
+      "length" : 154
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 9
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-sdd-vertrauensperson.json",
+    "size" : 2317,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 92,
+      "length" : 19
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 19
+    },
+    {
+      "activity" : "validate",
+      "start" : 110,
+      "length" : 116
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 113,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 131,
+      "length" : 134
+    },
+    {
+      "activity" : "generate2",
+      "start" : 150,
+      "length" : 550
+    },
+    {
+      "activity" : "generate2",
+      "start" : 154,
+      "length" : 104
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 14
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 224,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-sdd-ausbildung.json",
+    "size" : 892,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 105,
+      "length" : 509
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 15
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 132,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 151,
+      "length" : 155
+    },
+    {
+      "activity" : "generate2",
+      "start" : 155,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-sdd-berufliche-stellung-lang.json",
+    "size" : 994,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 106,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 7
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 132,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 151,
+      "length" : 88
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 161,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-sdd-berufliche-stellung-minimal.json",
+    "size" : 1012,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 106,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 7
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 132,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 151,
+      "length" : 77
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-sdd-beschaeftigungsstatus-lang.json",
+    "size" : 1006,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 106,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 6
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 132,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 151,
+      "length" : 77
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-sdd-beschaeftigungsstatus-minimal.json",
+    "size" : 1024,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 106,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 5
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 132,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 151,
+      "length" : 77
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-sdd-betreuungssituation.json",
+    "size" : 946,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 106,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 5
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 132,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 151,
+      "length" : 75
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-sdd-einkommen.json",
+    "size" : 886,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 93,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 106,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 5
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 132,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 151,
+      "length" : 96
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-sdd-erhebungsmethode.json",
+    "size" : 928,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 106,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 5
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 132,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 151,
+      "length" : 70
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-sdd-laendercodes.json",
+    "size" : 1057,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 106,
+      "length" : 46
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 5
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 132,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 151,
+      "length" : 592
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-sdd-merkzeichen.json",
+    "size" : 898,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 106,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 5
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 132,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 152,
+      "length" : 52
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 172,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-sdd-schulabschluss.json",
+    "size" : 916,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 92,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 92,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 106,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 107,
+      "length" : 6
+    },
+    {
+      "activity" : "translate",
+      "start" : 128,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 132,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 152,
+      "length" : 51
+    }]
+  },
+  {
+    "name" : "/input/includes/menu.xml",
+    "size" : 4883,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 152,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/fsh-link-references.md",
+    "size" : 4449,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 152,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/version-history.md",
+    "size" : 3591
+  },
+  {
+    "name" : "/input/pagecontent/datasets-and-descriptions.md",
+    "size" : 9789,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 152,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/search-parameters-and-operations.md",
+    "size" : 1293
+  },
+  {
+    "name" : "/input/pagecontent/profiles.md",
+    "size" : 2685
+  },
+  {
+    "name" : "/input/pagecontent/researcher-guidance.md",
+    "size" : 2195,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 152,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/downloads.md",
+    "size" : 1447
+  },
+  {
+    "name" : "/input/pagecontent/examples.md",
+    "size" : 2684
+  },
+  {
+    "name" : "/input/pagecontent/security-and-privacy.md",
+    "size" : 1761
+  },
+  {
+    "name" : "/input/pagecontent/logical-models.md",
+    "size" : 502
+  },
+  {
+    "name" : "/input/pagecontent/translationinfo.md",
+    "size" : 697
+  },
+  {
+    "name" : "/input/pagecontent/guidance.md",
+    "size" : 6355,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 152,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/changes.md",
+    "size" : 472
+  },
+  {
+    "name" : "/input/pagecontent/capability-statements.md",
+    "size" : 795
+  },
+  {
+    "name" : "/input/pagecontent/terminology.md",
+    "size" : 2357,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 152,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/uml-diagrams.md",
+    "size" : 396
+  },
+  {
+    "name" : "/input/pagecontent/index.md",
+    "size" : 4346,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 152,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/implementer-guidance.md",
+    "size" : 2980
+  },
+  {
+    "name" : "/input/pagecontent/ImplementationGuide-mii-ig-soziodemographie.md",
+    "size" : 1302,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 152,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/template/config",
+    "size" : 0
+  },
+  {
+    "name" : "/template/config/_config.yml",
+    "size" : 140
+  },
+  {
+    "name" : "/input/images",
+    "size" : 0
+  },
+  {
+    "name" : "/input/images/sdd-uml.png",
+    "size" : 157797
+  },
+  {
+    "name" : "/temp/pages/_includes/artifacts.xml",
+    "size" : 35158,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 152,
+      "length" : 3
+    }]
+  }]
+}
