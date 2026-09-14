@@ -1,4 +1,4 @@
-# MII PR SDD Datenerhebung - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
+# MII PR SDD Datenerhebung - MII Implementation Guide Soziodemographie v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-datenerhebung | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-datenerhebung | *Version*:2027.0.0-ballot |
 | Draft as of 2026-09-14 | *Computable Name*:MII_PR_SDD_Datenerhebung |
 
  
@@ -37,11 +37,11 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-datene
   "resourceType" : "StructureDefinition",
   "id" : "mii-pr-sdd-datenerhebung",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-datenerhebung",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_SDD_Datenerhebung",
   "title" : "MII PR SDD Datenerhebung",
   "status" : "draft",
-  "date" : "2026-09-14T13:12:23+00:00",
+  "date" : "2026-09-14T16:01:26+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

@@ -395,7 +395,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-ausbildung",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_SDD_Ausbildung",
     "title" : "MII VS SDD Ausbildung",
@@ -407,7 +407,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-berufliche-stellung-lang",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_SDD_Berufliche_Stellung_Lang",
     "title" : "MII VS SDD Berufliche Stellung (Langversion)",
@@ -419,7 +419,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-berufliche-stellung-minimal",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_SDD_Berufliche_Stellung_Minimal",
     "title" : "MII VS SDD Berufliche Stellung (Minimalversion)",
@@ -431,7 +431,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-beschaeftigungsstatus-lang",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_SDD_Beschaeftigungsstatus_Lang",
     "title" : "MII VS SDD Beschaeftigungsstatus (Langversion)",
@@ -443,7 +443,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-beschaeftigungsstatus-minimal",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_SDD_Beschaeftigungsstatus_Minimal",
     "title" : "MII VS SDD Beschaeftigungsstatus (Minimalversion)",
@@ -455,7 +455,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-betreuungssituation",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_SDD_Betreuungssituation",
     "title" : "MII VS SDD Betreuungssituation",
@@ -467,7 +467,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-einkommen",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_SDD_Einkommen",
     "title" : "MII VS SDD Einkommen",
@@ -479,7 +479,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-erhebungsmethode",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_SDD_Erhebungsmethode",
     "title" : "MII VS SDD Erhebungsmethode",
@@ -491,7 +491,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-laendercodes",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_SDD_Laendercodes",
     "title" : "MII VS SDD Laendercodes",
@@ -505,7 +505,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-merkzeichen",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_SDD_Merkzeichen",
     "title" : "MII VS SDD Merkzeichen",
@@ -517,7 +517,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-schulabschluss",
-    "version" : "2027.0.0-ballot.rc1",
+    "version" : "2027.0.0-ballot",
     "status" : "draft",
     "name" : "MII_VS_SDD_Schulabschluss",
     "title" : "MII VS SDD Schulabschluss",

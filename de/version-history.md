@@ -1,4 +1,4 @@
-# Versioning - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
+# Versioning - MII Implementation Guide Soziodemographie v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Versioning**

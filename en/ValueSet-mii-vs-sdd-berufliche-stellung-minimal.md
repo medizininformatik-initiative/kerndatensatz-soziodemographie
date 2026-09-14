@@ -1,4 +1,4 @@
-# MII VS SDD Berufliche Stellung (Minimalversion) - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
+# MII VS SDD Berufliche Stellung (Minimalversion) - MII Implementation Guide Soziodemographie v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-berufliche-stellung-minimal | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-berufliche-stellung-minimal | *Version*:2027.0.0-ballot |
 | Draft as of 2026-09-14 | *Computable Name*:MII_VS_SDD_Berufliche_Stellung_Minimal |
 
  
@@ -40,12 +40,12 @@ Value Set für Berufliche Stellung (Minimalversion)
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-berufliche-stellung-minimal",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_SDD_Berufliche_Stellung_Minimal",
   "title" : "MII VS SDD Berufliche Stellung (Minimalversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-14T13:12:23+00:00",
+  "date" : "2026-09-14T16:01:26+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

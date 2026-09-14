@@ -1,4 +1,4 @@
-# MII CS SDD Schwerbehindertenausweis - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
+# MII CS SDD Schwerbehindertenausweis - MII Implementation Guide Soziodemographie v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis | *Version*:2027.0.0-ballot |
 | Draft Stand: 2026-09-14 | *Maschinenlesbarer Name*:MII_CS_SDD_Schwerbehindertenausweis |
 
  
@@ -34,12 +34,12 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_CS_SDD_Schwerbehindertenausweis",
   "title" : "MII CS SDD Schwerbehindertenausweis",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-14T13:12:23+00:00",
+  "date" : "2026-09-14T16:01:26+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

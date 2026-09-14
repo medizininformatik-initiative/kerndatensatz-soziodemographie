@@ -1,4 +1,4 @@
-# Home - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
+# Home - MII Implementation Guide Soziodemographie v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie | *Version*:2027.0.0-ballot |
 | Draft as of 2026-09-01 | *Computable Name*:MII_IG_Soziodemographie |
 
 ### Introduction
@@ -16,10 +16,10 @@ This specification defines FHIR profiles for recording sociodemographic characte
 
 | | |
 | :--- | :--- |
-| Datum | 01.09.2026 |
+| Datum | 14.09.2026 |
 | Version | 2027.0.0-ballot |
 | Status | active |
-| Realm | DE |
+| Realm | EN |
 
 ### Target audience
 
