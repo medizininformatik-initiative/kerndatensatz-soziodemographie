@@ -1,4 +1,4 @@
-# MII ImplementationGuide Resource - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
+# MII ImplementationGuide Resource - MII Implementation Guide Soziodemographie v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **MII ImplementationGuide Resource**
@@ -78,7 +78,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
   "id" : "mii-ig-soziodemographie",
   "language" : "en",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_IG_Soziodemographie",
   "title" : "MII Implementation Guide Soziodemographie",
   "status" : "draft",

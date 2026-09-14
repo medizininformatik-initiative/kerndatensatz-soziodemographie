@@ -1,4 +1,4 @@
-# MII PR SDD Haushaltsgroesse - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
+# MII PR SDD Haushaltsgroesse - MII Implementation Guide Soziodemographie v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-haushaltsgroesse | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-haushaltsgroesse | *Version*:2027.0.0-ballot |
 | Draft Stand: 2026-09-14 | *Maschinenlesbarer Name*:MII_PR_SDD_Haushaltsgroesse |
 
  
@@ -84,11 +84,11 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-h
   "resourceType" : "StructureDefinition",
   "id" : "mii-pr-sdd-haushaltsgroesse",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-haushaltsgroesse",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_SDD_Haushaltsgroesse",
   "title" : "MII PR SDD Haushaltsgroesse",
   "status" : "draft",
-  "date" : "2026-09-14T13:03:57+00:00",
+  "date" : "2026-09-14T14:47:05+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

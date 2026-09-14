@@ -1,4 +1,4 @@
-# MII VS SDD Laendercodes - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
+# MII VS SDD Laendercodes - MII Implementation Guide Soziodemographie v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-laendercodes | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-laendercodes | *Version*:2027.0.0-ballot |
 | Draft Stand: 2026-09-14 | *Maschinenlesbarer Name*:MII_VS_SDD_Laendercodes |
 
  
@@ -41,12 +41,12 @@ ISO 3166-1 alpha-2 zzgl. Sonderkonzepte für staatenlos und ungeklärt.
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-laendercodes",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_SDD_Laendercodes",
   "title" : "MII VS SDD Laendercodes",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-14T13:03:57+00:00",
+  "date" : "2026-09-14T14:47:05+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

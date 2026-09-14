@@ -1,4 +1,4 @@
-# MII LM Soziodemographie - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
+# MII LM Soziodemographie - MII Implementation Guide Soziodemographie v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-lm-sdd | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-lm-sdd | *Version*:2027.0.0-ballot |
 | Draft as of 2026-09-14 | *Computable Name*:MII_LM_SDD |
 
  
@@ -37,11 +37,11 @@ Other representations of profile: [CSV](../StructureDefinition-mii-lm-sdd.csv), 
   "resourceType" : "StructureDefinition",
   "id" : "mii-lm-sdd",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-lm-sdd",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_LM_SDD",
   "title" : "MII LM Soziodemographie",
   "status" : "draft",
-  "date" : "2026-09-14T13:03:57+00:00",
+  "date" : "2026-09-14T14:47:05+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

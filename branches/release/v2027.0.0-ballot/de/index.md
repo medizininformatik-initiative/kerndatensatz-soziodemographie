@@ -1,4 +1,4 @@
-# Home - MII Implementation Guide Soziodemographie v2027.0.0-ballot.rc1
+# Home - MII Implementation Guide Soziodemographie v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie | *Version*:2027.0.0-ballot |
 | Draft Stand: 2026-09-01 | *Maschinenlesbarer Name*:MII_IG_Soziodemographie |
 
 ### Einleitung
