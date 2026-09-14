@@ -106,8 +106,8 @@
     "urn:iso:std:iso:3166"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-sdd-geburtsland-vater.html" : "MII PR SDD Geburtsland Vater",
-    "StructureDefinition-mii-pr-sdd-geburtsland-mutter.html" : "MII PR SDD Geburtsland Mutter"
+    "StructureDefinition-mii-pr-sdd-geburtsland-mutter.html" : "MII PR SDD Geburtsland Mutter",
+    "StructureDefinition-mii-pr-sdd-geburtsland-vater.html" : "MII PR SDD Geburtsland Vater"
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-merkzeichen",

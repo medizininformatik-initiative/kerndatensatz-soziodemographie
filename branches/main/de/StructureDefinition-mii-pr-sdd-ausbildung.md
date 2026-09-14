@@ -92,7 +92,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-a
   "name" : "MII_PR_SDD_Ausbildung",
   "title" : "MII PR SDD Ausbildung",
   "status" : "draft",
-  "date" : "2026-09-14T21:09:09+00:00",
+  "date" : "2026-09-14T21:29:30+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

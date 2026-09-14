@@ -39,7 +39,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "MII CS SDD Beschaeftigungsstatus (Langfversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-09-14T21:09:09+00:00",
+  "date" : "2026-09-14T21:29:30+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
