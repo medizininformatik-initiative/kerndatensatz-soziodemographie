@@ -16,10 +16,10 @@ This specification defines FHIR profiles for recording sociodemographic characte
 
 | | |
 | :--- | :--- |
-| Datum | 01.09.2026 |
+| Datum | 14.09.2026 |
 | Version | 2027.0.0-ballot |
 | Status | active |
-| Realm | DE |
+| Realm | EN |
 
 ### Target audience
 
