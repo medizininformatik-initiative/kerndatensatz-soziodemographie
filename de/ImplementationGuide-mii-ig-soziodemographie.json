@@ -54,13 +54,13 @@
     "id" : "de_medizininformatikinitiative_kerndatensatz_meta",
     "uri" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta",
     "packageId" : "de.medizininformatikinitiative.kerndatensatz.meta",
-    "version" : "2027.0.0-ballot.rc3"
+    "version" : "2027.0.0-ballot"
   },
   {
     "id" : "de_medizininformatikinitiative_kerndatensatz_base",
     "uri" : "https://www.medizininformatik-initiative.de/fhir/modul-base/ImplementationGuide/mii-ig-base",
     "packageId" : "de.medizininformatikinitiative.kerndatensatz.base",
-    "version" : "2027.0.0-ballot.rc1"
+    "version" : "2027.0.0-ballot"
   }],
   "definition" : {
     "extension" : [{

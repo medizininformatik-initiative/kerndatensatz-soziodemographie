@@ -12,7 +12,7 @@
 
 -------
 
-Profile: [MII PR Person Patient](https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot.rc1/StructureDefinition-mii-pr-person-patient.html)
+Profile: [MII PR Person Patient](https://medizininformatik-initiative.github.io/kerndatensatz-basis/2027.0.0-ballot/StructureDefinition-mii-pr-person-patient.html)
 
 Max Mustermann (official) Male, DoB: 1965-04-12 ( Krankenaktennummer (use: official, ))
 
