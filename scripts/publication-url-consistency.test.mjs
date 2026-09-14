@@ -5,9 +5,9 @@ import test from "node:test";
 
 const repository = fileURLToPath(new URL("../", import.meta.url));
 const canonical =
-  "https://www.medizininformatik-initiative.de/fhir/modul-base";
+  "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie";
 const publicationBase =
-  "https://medizininformatik-initiative.github.io/kerndatensatz-basis";
+  "https://medizininformatik-initiative.github.io/kerndatensatz-soziodemographie";
 
 function read(relativePath) {
   return readFileSync(new URL(relativePath, `file://${repository}/`), "utf8");
@@ -34,7 +34,7 @@ test("keeps publication locations separate from the FHIR canonical", () => {
   assert.equal(setup.website.server, "cloud");
   assert.deepEqual(setup["layout-rules"], [
     {
-      npm: "de.medizininformatikinitiative.kerndatensatz.base",
+      npm: "de.medizininformatikinitiative.kerndatensatz.soziodemographie",
       canonical,
       destination: "/",
     },
@@ -55,20 +55,23 @@ test("keeps publication locations separate from the FHIR canonical", () => {
   assert.ok(
     packageRegistry.packages[0]["ci-build"].startsWith(`${publicationBase}/`),
   );
-  assert.ok(
-    packageRegistry.packages[0].latest.path.startsWith(`${publicationBase}/`),
-  );
-  assert.ok(
-    packageRegistry.packages[0].milestone.path.startsWith(
-      `${publicationBase}/`,
-    ),
-  );
+  // The first-publication seed carries no released version yet; the publisher
+  // fills latest/milestone during -go-publish. When present, they must point
+  // at the Pages publication base.
+  for (const release of ["latest", "milestone"]) {
+    if (packageRegistry.packages[0][release] !== undefined) {
+      assert.ok(
+        packageRegistry.packages[0][release].path.startsWith(
+          `${publicationBase}/`,
+        ),
+      );
+    }
+  }
 });
 
 test("uses Pages URLs in feed and history website links", () => {
   const packageFeed = read("publication/webroot/package-feed.xml");
   const publicationFeed = read("publication/webroot/publication-feed.xml");
-  const historicalHistory = read("publication/2026.0.0-history.html");
 
   assert.match(packageFeed, new RegExp(`<link>${publicationBase}</link>`));
   assert.match(
@@ -79,10 +82,6 @@ test("uses Pages URLs in feed and history website links", () => {
   assert.match(
     publicationFeed,
     new RegExp(`href="${publicationBase}/publication-feed\\.xml"`),
-  );
-  assert.match(
-    historicalHistory,
-    new RegExp(`href="${publicationBase}/history\\.html"`),
   );
 });
 
