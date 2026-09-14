@@ -1,0 +1,450 @@
+[
+  {
+    "outputFile": "CodeSystem-mii-cs-sdd-ausbildung.json",
+    "fshName": "MII_CS_SDD_Ausbildung",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/mii-cs-sdd-ausbildung.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "CodeSystem-mii-cs-sdd-berufliche-stellung-lang.json",
+    "fshName": "MII_CS_SDD_Berufliche_Stellung_Lang",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/mii-cs-sdd-berufliche-stellung-lang.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "CodeSystem-mii-cs-sdd-berufliche-stellung-minimal.json",
+    "fshName": "MII_CS_SDD_Berufliche_Stellung_Minimal",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/mii-cs-sdd-berufliche-stellung-minimal.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "CodeSystem-mii-cs-sdd-beschaeftigungsstatus-lang.json",
+    "fshName": "MII_CS_SDD_Beschaeftigungsstatus_Lang",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/mii-cs-sdd-beschaeftigungsstatus-lang.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
+    "outputFile": "CodeSystem-mii-cs-sdd-beschaeftigungsstatus-minimal.json",
+    "fshName": "MII_CS_SDD_Beschaeftigungsstatus_Minimal",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/mii-cs-sdd-beschaeftigungsstatus-minimal.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "CodeSystem-mii-cs-sdd-betreuungssituation.json",
+    "fshName": "MII_CS_SDD_Betreuungssituation",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/mii-cs-sdd-betreuungssituation.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "CodeSystem-mii-cs-sdd-einkommen.json",
+    "fshName": "MII_CS_SDD_Einkommen",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/mii-cs-sdd-einkommen.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "CodeSystem-mii-cs-sdd-erhebungsmethode.json",
+    "fshName": "MII_CS_SDD_Erhebungsmethode",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/mii-cs-sdd-erhebungsmethode.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "CodeSystem-mii-cs-sdd-laendercodes-sonder.json",
+    "fshName": "MII_CS_SDD_Laendercodes_Sonder",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/mii-cs-sdd-laendercodes-sonder.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "CodeSystem-mii-cs-sdd-merkzeichen.json",
+    "fshName": "MII_CS_Merkzeichen",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/mii-cs-sdd-merkzeichen.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "CodeSystem-mii-cs-sdd-schulabschluss.json",
+    "fshName": "MII_CS_SDD_Schulabschluss",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/mii-cs-sdd-schulabschluss.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
+    "outputFile": "CodeSystem-mii-cs-sdd-schwerbehindertenausweis.json",
+    "fshName": "MII_CS_SDD_Schwerbehindertenausweis",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems/mii-cs-sdd-schwerbehindertenausweis.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "Observation-mii-exa-sdd-ausbildung.json",
+    "fshName": "mii-exa-sdd-ausbildung",
+    "fshType": "Instance",
+    "fshFile": "examples/SoziooekonomischeFaktoren/mii-exa-sdd-ausbildung.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Observation-mii-exa-sdd-berufliche-stellung.json",
+    "fshName": "mii-exa-sdd-berufliche-stellung",
+    "fshType": "Instance",
+    "fshFile": "examples/SoziooekonomischeFaktoren/mii-exa-sdd-berufliche-stellung.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Observation-mii-exa-sdd-beschaeftigungsstatus.json",
+    "fshName": "mii-exa-sdd-beschaeftigungsstatus",
+    "fshType": "Instance",
+    "fshFile": "examples/SoziooekonomischeFaktoren/mii-exa-sdd-beschaeftigungsstatus.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "Observation-mii-exa-sdd-betreuungssituation.json",
+    "fshName": "mii-exa-sdd-betreuungssituation",
+    "fshType": "Instance",
+    "fshFile": "examples/Lebenssituation/mii-exa-sdd-betreuungssituation.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Observation-mii-exa-sdd-datenerhebung.json",
+    "fshName": "mii-exa-sdd-datenerhebung",
+    "fshType": "Instance",
+    "fshFile": "examples/mii-exa-sdd-datenerhebung.fsh",
+    "startLine": 1,
+    "endLine": 34
+  },
+  {
+    "outputFile": "Observation-mii-exa-sdd-einkommen.json",
+    "fshName": "mii-exa-sdd-einkommen",
+    "fshType": "Instance",
+    "fshFile": "examples/SoziooekonomischeFaktoren/mii-exa-sdd-einkommen.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Observation-mii-exa-sdd-geburtsland-mutter.json",
+    "fshName": "mii-exa-sdd-geburtsland-mutter",
+    "fshType": "Instance",
+    "fshFile": "examples/Herkunft/mii-exa-sdd-geburtsland-mutter.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Observation-mii-exa-sdd-geburtsland-vater.json",
+    "fshName": "mii-exa-sdd-geburtsland-vater",
+    "fshType": "Instance",
+    "fshFile": "examples/Herkunft/mii-exa-sdd-geburtsland-vater.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Observation-mii-exa-sdd-haushaltsgroesse.json",
+    "fshName": "mii-exa-sdd-haushaltsgroesse",
+    "fshType": "Instance",
+    "fshFile": "examples/Lebenssituation/mii-exa-sdd-haushaltsgroesse.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "Observation-mii-exa-sdd-partnerschaft.json",
+    "fshName": "mii-exa-sdd-partnerschaft",
+    "fshType": "Instance",
+    "fshFile": "examples/Lebenssituation/mii-exa-sdd-partnerschaft.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Observation-mii-exa-sdd-schulabschluss.json",
+    "fshName": "mii-exa-sdd-schulabschluss",
+    "fshType": "Instance",
+    "fshFile": "examples/SoziooekonomischeFaktoren/mii-exa-sdd-schulabschluss.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Observation-mii-exa-sdd-schuljahre.json",
+    "fshName": "mii-exa-sdd-schuljahre",
+    "fshType": "Instance",
+    "fshFile": "examples/SoziooekonomischeFaktoren/mii-exa-sdd-schuljahre.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "Observation-mii-exa-sdd-schwerbehindertenausweis.json",
+    "fshName": "mii-exa-sdd-schwerbehindertenausweis",
+    "fshType": "Instance",
+    "fshFile": "examples/Lebenssituation/mii-exa-sdd-schwerbehindertenausweis.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "Observation-mii-exa-sdd-soziooekonomische-faktoren.json",
+    "fshName": "mii-exa-sdd-soziooekonomische-faktoren",
+    "fshType": "Instance",
+    "fshFile": "examples/SoziooekonomischeFaktoren/mii-exa-sdd-soziooekonomische-faktoren.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Observation-mii-exa-sdd-vertrauensperson.json",
+    "fshName": "mii-exa-sdd-vertrauensperson",
+    "fshType": "Instance",
+    "fshFile": "examples/Lebenssituation/mii-exa-sdd-vertrauensperson.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Patient-mii-exa-sdd-patient.json",
+    "fshName": "mii-exa-sdd-patient",
+    "fshType": "Instance",
+    "fshFile": "examples/mii-exa-sdd-patient.fsh",
+    "startLine": 1,
+    "endLine": 31
+  },
+  {
+    "outputFile": "StructureDefinition-mii-lm-sdd.json",
+    "fshName": "MII_LM_SDD",
+    "fshType": "Logical",
+    "fshFile": "mii-lm-sdd.fsh",
+    "startLine": 1,
+    "endLine": 46
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-ausbildung.json",
+    "fshName": "MII_PR_SDD_Ausbildung",
+    "fshType": "Profile",
+    "fshFile": "profiles/SoziooekonomischeFaktoren/mii-pr-sdd-ausbildung.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-berufliche-stellung.json",
+    "fshName": "MII_PR_SDD_Berufliche_Stellung",
+    "fshType": "Profile",
+    "fshFile": "profiles/SoziooekonomischeFaktoren/mii-pr-sdd-beruflicheStellung.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.json",
+    "fshName": "MII_PR_SDD_Beschaeftigungsstatus",
+    "fshType": "Profile",
+    "fshFile": "profiles/SoziooekonomischeFaktoren/mii-pr-sdd-beschaeftigungsstatus.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-betreuungssituation.json",
+    "fshName": "MII_PR_SDD_Betreuungssituation",
+    "fshType": "Profile",
+    "fshFile": "profiles/Lebenssituation/mii-pr-sdd-betreuungssituation.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-datenerhebung.json",
+    "fshName": "MII_PR_SDD_Datenerhebung",
+    "fshType": "Profile",
+    "fshFile": "profiles/mii-pr-sdd-datenerhebung.fsh",
+    "startLine": 1,
+    "endLine": 104
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-einkommen.json",
+    "fshName": "MII_PR_SDD_Einkommen",
+    "fshType": "Profile",
+    "fshFile": "profiles/SoziooekonomischeFaktoren/mii-pr-sdd-einkommen.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-geburtsland-mutter.json",
+    "fshName": "MII_PR_SDD_Geburtsland_Mutter",
+    "fshType": "Profile",
+    "fshFile": "profiles/Herkunft/mii-pr-sdd-geburtsland-mutter.fsh",
+    "startLine": 1,
+    "endLine": 37
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-geburtsland-vater.json",
+    "fshName": "MII_PR_SDD_Geburtsland_Vater",
+    "fshType": "Profile",
+    "fshFile": "profiles/Herkunft/mii-pr-sdd-geburtsland-vater.fsh",
+    "startLine": 1,
+    "endLine": 36
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-haushaltsgroesse.json",
+    "fshName": "MII_PR_SDD_Haushaltsgroesse",
+    "fshType": "Profile",
+    "fshFile": "profiles/Lebenssituation/mii-pr-sdd-haushaltsgroesse.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-lebenssituation.json",
+    "fshName": "MII_PR_SDD_Lebenssituation",
+    "fshType": "Profile",
+    "fshFile": "profiles/Lebenssituation/mii-pr-sdd-lebenssituation.fsh",
+    "startLine": 1,
+    "endLine": 34
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-partnerschaft.json",
+    "fshName": "MII_PR_SDD_Partnerschaft",
+    "fshType": "Profile",
+    "fshFile": "profiles/Lebenssituation/mii-pr-sdd-partnerschaft.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-schulabschluss.json",
+    "fshName": "MII_PR_SDD_Schulabschluss",
+    "fshType": "Profile",
+    "fshFile": "profiles/SoziooekonomischeFaktoren/mii-pr-sdd-schulabschluss.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-schuljahre.json",
+    "fshName": "MII_PR_SDD_Schuljahre",
+    "fshType": "Profile",
+    "fshFile": "profiles/SoziooekonomischeFaktoren/mii-pr-sdd-schuljahre.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.json",
+    "fshName": "MII_PR_SDD_Schwerbehindertenausweis",
+    "fshType": "Profile",
+    "fshFile": "profiles/Lebenssituation/mii-pr-sdd-schwerbehindertenausweis.fsh",
+    "startLine": 1,
+    "endLine": 47
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-soziooekonomische-faktoren.json",
+    "fshName": "MII_PR_SDD_SoziooekonomischeFaktoren",
+    "fshType": "Profile",
+    "fshFile": "profiles/SoziooekonomischeFaktoren/mii-pr-sdd-soziooekonomische-faktoren.fsh",
+    "startLine": 1,
+    "endLine": 28
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-sdd-vertrauensperson.json",
+    "fshName": "MII_PR_SDD_Vertrauensperson",
+    "fshType": "Profile",
+    "fshFile": "profiles/Lebenssituation/mii-pr-sdd-vertrauensperson.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-sdd-ausbildung.json",
+    "fshName": "MII_VS_SDD_Ausbildung",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/mii-vs-sdd-ausbildung.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-sdd-berufliche-stellung-lang.json",
+    "fshName": "MII_VS_SDD_Berufliche_Stellung_Lang",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/mii-vs-sdd-berufliche-stellung-lang.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-sdd-berufliche-stellung-minimal.json",
+    "fshName": "MII_VS_SDD_Berufliche_Stellung_Minimal",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/mii-vs-sdd-berufliche-stellung-minimal.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-sdd-beschaeftigungsstatus-lang.json",
+    "fshName": "MII_VS_SDD_Beschaeftigungsstatus_Lang",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/mii-vs-sdd-beschaeftigungsstatus-lang.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-sdd-beschaeftigungsstatus-minimal.json",
+    "fshName": "MII_VS_SDD_Beschaeftigungsstatus_Minimal",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/mii-vs-sdd-beschaeftigungsstatus-minimal.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-sdd-betreuungssituation.json",
+    "fshName": "MII_VS_SDD_Betreuungssituation",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/mii-vs-sdd-betreuungssituation.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-sdd-einkommen.json",
+    "fshName": "MII_VS_SDD_Einkommen",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/mii-vs-sdd-einkommen.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-sdd-erhebungsmethode.json",
+    "fshName": "MII_VS_SDD_Erhebungsmethode",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/mii-vs-sdd-erhebungsmethode.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-sdd-laendercodes.json",
+    "fshName": "MII_VS_SDD_Laendercodes",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/mii-vs-sdd-laendercodes.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-sdd-merkzeichen.json",
+    "fshName": "MII_VS_SDD_Merkzeichen",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/mii-vs-sdd-merkzeichen.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-sdd-schulabschluss.json",
+    "fshName": "MII_VS_SDD_Schulabschluss",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets/mii-vs-sdd-schulabschluss.fsh",
+    "startLine": 1,
+    "endLine": 11
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "resourceType": "Observation",
+  "id": "mii-exa-sdd-schwerbehindertenausweis",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schwerbehindertenausweis"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "social-history",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "101720-1",
+        "system": "http://loinc.org"
+      }
+    ],
+    "text": "Schwerbehindertenausweis"
+  },
+  "component": [
+    {
+      "valueQuantity": {
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "value": 50
+      },
+      "code": {
+        "coding": [
+          {
+            "code": "gdb",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis",
+            "display": "Grad der Behinderung"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "merkzeichen",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis",
+            "display": "Merkzeichen"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "G",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-merkzeichen",
+            "display": "G – erhebliche Gehbehinderung"
+          }
+        ]
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "gueltig-von",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-schwerbehindertenausweis",
+            "display": "Gültigkeitszeitraum von"
+          }
+        ]
+      },
+      "valueDateTime": "2024-01-15"
+    }
+  ],
+  "status": "final",
+  "subject": {
+    "reference": "Patient/mii-exa-sdd-patient"
+  },
+  "effectiveDateTime": "2026-06-15",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "Y",
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+        "display": "Yes"
+      }
+    ]
+  }
+}

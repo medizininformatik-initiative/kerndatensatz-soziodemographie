@@ -1,0 +1,50 @@
+{
+  "resourceType": "Observation",
+  "id": "mii-exa-sdd-partnerschaft",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-partnerschaft"
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "social-history",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "224083004",
+        "system": "http://snomed.info/sct"
+      }
+    ],
+    "text": "Aktuelle Partnerschaft"
+  },
+  "status": "final",
+  "subject": {
+    "reference": "Patient/mii-exa-sdd-patient"
+  },
+  "effectiveDateTime": "2026-06-15",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "Y",
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0532",
+        "display": "Yes"
+      }
+    ]
+  }
+}
