@@ -1,7 +1,7 @@
 ### Änderungsprotokoll
 
 Diese Seite hält die Änderungen zwischen den veröffentlichten Versionen des
-Moduls **{{MODULE_TITLE}}** fest, die neueste Version zuerst. Sie folgt
+Moduls Soziodemographische Daten fest, die neueste Version zuerst. Sie folgt
 [Keep a Changelog](https://keepachangelog.com/de/1.1.0/) und dem
 KDS-CalVer-Schema, das die Seite [Versionierung](version-history.html)
 beschreibt.
