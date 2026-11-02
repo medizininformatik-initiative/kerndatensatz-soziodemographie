@@ -1,10 +1,12 @@
-# Guidance for Implementers - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# Guidance for Implementers - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Guidance**](guidance.md)
 * **Guidance for Implementers**
 
 ## Guidance for Implementers
+
+ Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
 ### Einordnung im Gesamtprojekt / Bezüge zu anderen Modulen
 
@@ -43,7 +45,7 @@ Beispielsweise können soziodemographische Merkmale genutzt werden, um:
 
 Die Nutzung als Analysemerkmal sollte dabei nicht automatisch als kausale Interpretation verstanden werden. Soziodemographische Merkmale können je nach Fragestellung Confounder, Effektmodifikatoren, Expositionsmerkmale oder reine Beschreibungskriterien sein.
 
-### Referenzen
+#### Referenzen
 
 * GESIS – Leibniz-Institut für Sozialwissenschaften. Demographische Standards 2024. Mannheim: GESIS; 2024.
 * International Organization for Standardization. ISO 3166-1: Codes for the representation of names of countries and subdivisions – Part 1: Country codes.

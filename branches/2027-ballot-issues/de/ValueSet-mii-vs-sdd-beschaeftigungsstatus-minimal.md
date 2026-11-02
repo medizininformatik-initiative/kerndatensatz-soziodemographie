@@ -1,4 +1,4 @@
-# MII VS SDD Beschaeftigungsstatus (Minimalversion) - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# MII VS SDD Beschaeftigungsstatus (Minimalversion) - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -45,7 +45,7 @@ Value Set für Beschäftigungsstatus (Minimalversion)
   "title" : "MII VS SDD Beschaeftigungsstatus (Minimalversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-11-02T10:58:05+00:00",
+  "date" : "2026-11-02T12:15:59+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

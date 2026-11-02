@@ -6,7 +6,7 @@
 <html xml:lang="de" xmlns="http://www.w3.org/1999/xhtml" lang="de" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Guidance - MII Implementation Guide Soziodemographie v2027.0.0-ballot</title>
+    <title>Guidance - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -139,7 +139,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">MII Implementation Guide Soziodemographie</span>
+          <p><span style="font-size:12pt;font-weight:bold">MII Implementation Guide Soziodemographische Daten</span>
             <br/>
             <span style="display:inline-block;">2027.0.0-ballot - 
 
@@ -275,7 +275,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">MII Implementation Guide Soziodemographie - Local Development build (v2027.0.0-ballot) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://medizininformatik-initiative.github.io/kerndatensatz-soziodemographie/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">MII Implementation Guide Soziodemographische Daten - Local Development build (v2027.0.0-ballot) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://medizininformatik-initiative.github.io/kerndatensatz-soziodemographie/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Guidance</h2>
   
 
@@ -291,32 +291,30 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div class="markdown-toc">
-<ul id="markdown-toc">
-  <li><a href="#allgemeine-umsetzungshinweise" id="markdown-toc-allgemeine-umsetzungshinweise">Allgemeine Umsetzungshinweise</a></li>
-  <li><a href="#zielgruppenspezifische-hinweise" id="markdown-toc-zielgruppenspezifische-hinweise">Zielgruppenspezifische Hinweise</a></li>
-  <li><a href="#beschreibung-des-moduls-soziodemographie" id="markdown-toc-beschreibung-des-moduls-soziodemographie">Beschreibung des Moduls Soziodemographie</a></li>
-</ul>
-
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
-<p>Dieser Abschnitt bietet Hinweise für verschiedene Zielgruppen, die den Implementierungsleitfaden MII Kerndatensatz Soziodemographie einsetzen und nutzen.</p>
-<h3 id="allgemeine-umsetzungshinweise">Allgemeine Umsetzungshinweise</h3>
+
+<p style="border:var(--translation-box-border);background-color:var(--translation-background-color);padding: 5px 5px 5px 5px;">
+
+Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde.  Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie <a href="translationinfo.html">hier</a>.
+
+</p>
+
+<p>Dieser Abschnitt bietet Hinweise für verschiedene Zielgruppen, die den Implementierungsleitfaden des MII-Kerndatensatz-Moduls Soziodemographische Daten einsetzen und nutzen.</p>
+
+<h3 id="umsetzungshinweise-und-beschreibung-des-moduls-soziodemographische-daten">Umsetzungshinweise und Beschreibung des Moduls Soziodemographische Daten</h3>
+
+<h4 id="allgemeine-umsetzungshinweise">Allgemeine Umsetzungshinweise</h4>
 
 <ul>
-  <li><strong><a href="datasets-and-descriptions.html">Datensätze und Beschreibungen</a></strong> - Ddie Datenelemente des Moduls, beschrieben als logische Modelle.</li>
-  <li><strong><a href="uml-diagrams.html">UML-Diagramme</a></strong> - isuelle Darstellung der Datenmodelle und ihrer Beziehungen.</li>
+  <li><strong><a href="datasets-and-descriptions.html">Datensätze und Beschreibungen</a></strong> - Die Datenelemente des Moduls, beschrieben als logische Modelle.</li>
+  <li><strong><a href="uml-diagrams.html">UML-Diagramme</a></strong> - Visuelle Darstellung der Datenmodelle und ihrer Beziehungen.</li>
+  <li><strong><a href="researcher-guidance.html">Hinweise für Forschende</a></strong> -  Für Forschende, die Moduldaten nutzen.</li>
+  <li><strong><a href="implementer-guidance.html">Hinweise für Implementierende</a></strong> - Technische Hinweise für DIZ-Implementierende.</li>
 </ul>
 
-<h3 id="zielgruppenspezifische-hinweise">Zielgruppenspezifische Hinweise</h3>
-
-<ul>
-  <li><strong><a href="researcher-guidance.html">Hinweise für Forschende</a></strong> -  für Forschende, die Moduldaten nutzen.</li>
-  <li><strong><a href="implementer-guidance.html">Hinweise für Implementierende</a></strong> - technische Hinweise für DIZ-Implementierende.</li>
-</ul>
-
-<h3 id="beschreibung-des-moduls-soziodemographie">Beschreibung des Moduls Soziodemographie</h3>
-
-<h4 id="zweck-und-zielsetzung">Zweck und Zielsetzung</h4>
+<h4 id="zweck-und-zielsetzung-des-moduls">Zweck und Zielsetzung des Moduls</h4>
 
 <p>Das Modul Soziodemographische Daten dient der standardisierten Erfassung von Informationen zum demographischen, sozialen und ökonomischen Hintergrund von Patientinnen und Patienten. Es schafft damit eine einheitliche Grundlage für die Dokumentation dieser Merkmale in der Versorgung.</p>
 
@@ -431,7 +429,7 @@ für die technischen Artefakte siehe <a href="profiles.html">Profile</a>.</p>
 
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Mon, Nov 2, 2026 10:58+0000">2026-11-02</span>
+          Erstellt <span title="Mon, Nov 2, 2026 12:15+0000">2026-11-02</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

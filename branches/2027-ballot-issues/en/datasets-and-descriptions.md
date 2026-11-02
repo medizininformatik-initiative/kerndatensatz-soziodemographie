@@ -1,4 +1,4 @@
-# Datasets and Descriptions - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# Datasets and Descriptions - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Guidance**](guidance.md)
@@ -8,7 +8,7 @@
 
 #### Datasets and descriptions
 
-The official, approved version of the information model for the Soziodemographie module is represented as a FHIR logical model; its element structure is rendered on the [Logical Models](logical-models.md) page.
+The official, approved version of the information model for the Sociodemographic Data module is represented as a FHIR logical model; its element structure is rendered on the [Logical Models](logical-models.md) page.
 
 Note that the logical model aims purely at representing the data elements and their descriptions. The data types and cardinalities it uses are not to be regarded as binding; those are settled by the FHIR profiles. For every element within the logical model there is a mapping onto an element of a concrete FHIR resource.
 

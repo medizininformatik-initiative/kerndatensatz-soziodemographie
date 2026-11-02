@@ -1,25 +1,24 @@
-# Guidance - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# Guidance - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Guidance**
 
 ## Guidance
 
-Dieser Abschnitt bietet Hinweise für verschiedene Zielgruppen, die den Implementierungsleitfaden MII Kerndatensatz Soziodemographie einsetzen und nutzen.
+ Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-### Allgemeine Umsetzungshinweise
+Dieser Abschnitt bietet Hinweise für verschiedene Zielgruppen, die den Implementierungsleitfaden des MII-Kerndatensatz-Moduls Soziodemographische Daten einsetzen und nutzen.
 
-* **[Datensätze und Beschreibungen](datasets-and-descriptions.md)** - Ddie Datenelemente des Moduls, beschrieben als logische Modelle.
-* **[UML-Diagramme](uml-diagrams.md)** - isuelle Darstellung der Datenmodelle und ihrer Beziehungen.
+### Umsetzungshinweise und Beschreibung des Moduls Soziodemographische Daten
 
-### Zielgruppenspezifische Hinweise
+#### Allgemeine Umsetzungshinweise
 
-* **[Hinweise für Forschende](researcher-guidance.md)** - für Forschende, die Moduldaten nutzen.
-* **[Hinweise für Implementierende](implementer-guidance.md)** - technische Hinweise für DIZ-Implementierende.
+* **[Datensätze und Beschreibungen](datasets-and-descriptions.md)** - Die Datenelemente des Moduls, beschrieben als logische Modelle.
+* **[UML-Diagramme](uml-diagrams.md)** - Visuelle Darstellung der Datenmodelle und ihrer Beziehungen.
+* **[Hinweise für Forschende](researcher-guidance.md)** - Für Forschende, die Moduldaten nutzen.
+* **[Hinweise für Implementierende](implementer-guidance.md)** - Technische Hinweise für DIZ-Implementierende.
 
-### Beschreibung des Moduls Soziodemographie
-
-#### Zweck und Zielsetzung
+#### Zweck und Zielsetzung des Moduls
 
 Das Modul Soziodemographische Daten dient der standardisierten Erfassung von Informationen zum demographischen, sozialen und ökonomischen Hintergrund von Patientinnen und Patienten. Es schafft damit eine einheitliche Grundlage für die Dokumentation dieser Merkmale in der Versorgung.
 

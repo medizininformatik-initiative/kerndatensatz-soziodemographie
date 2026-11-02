@@ -1,4 +1,4 @@
-# MII PR SDD Geburtsland Vater - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# MII PR SDD Geburtsland Vater - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-geburt
   "name" : "MII_PR_SDD_Geburtsland_Vater",
   "title" : "MII PR SDD Geburtsland Vater",
   "status" : "draft",
-  "date" : "2026-11-02T10:58:05+00:00",
+  "date" : "2026-11-02T12:15:59+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

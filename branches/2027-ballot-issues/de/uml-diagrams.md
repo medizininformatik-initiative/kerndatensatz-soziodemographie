@@ -1,4 +1,4 @@
-# UML Diagrams - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# UML Diagrams - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Guidance**](guidance.md)
@@ -10,7 +10,7 @@
 
 Diese Seite enthält UML-Klassendiagramme für die logischen Modelle der Basismodule des MII-Kerndatensatzes. Diese Diagramme veranschaulichen die Beziehungen zwischen den verschiedenen Datenelementen und Klassen.
 
-Das folgende Diagramm zeigt die logische Struktur des Moduls Soziodemographie:
+Das folgende Diagramm zeigt die logische Struktur des Moduls Soziodemographische Daten:
 
 -------
 

@@ -1,4 +1,4 @@
-# Home - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# Home - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Home**

@@ -1,4 +1,4 @@
-# Changelog - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# Changelog - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Changelog**
@@ -7,7 +7,7 @@
 
 ### Changelog
 
-This page records the changes between the released versions of the Soziodemographische Daten module, newest version first. It follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the KDS calendar versioning scheme described on the [Versioning](version-history.md) page.
+This page records the changes between the released versions of the Sociodemographic Data module, newest version first. It follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the KDS calendar versioning scheme described on the [Versioning](version-history.md) page.
 
 -------
 
@@ -21,5 +21,5 @@ This page records the changes between the released versions of the Soziodemograp
 
 ##### Added
 
-* First publication of the Soziodemographie module.
+* First publication of the Sociodemographic Data module.
 

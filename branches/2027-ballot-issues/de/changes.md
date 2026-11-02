@@ -1,4 +1,4 @@
-# Changelog - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# Changelog - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Changelog**
@@ -23,5 +23,5 @@ Diese Seite hält die Änderungen zwischen den veröffentlichten Versionen des M
 
 ##### Hinzugefügt
 
-* Erstveröffentlichung des Moduls Soziodemographie.
+* Erstveröffentlichung des Moduls Soziodemographische Daten.
 

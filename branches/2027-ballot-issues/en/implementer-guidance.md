@@ -1,4 +1,4 @@
-# Guidance for Implementers - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# Guidance for Implementers - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Guidance**](guidance.md)
@@ -43,7 +43,7 @@ For example, sociodemographic characteristics can be used to:
 
 Their use as an analytical characteristic should not automatically be understood as a causal interpretation. Depending on the research question, sociodemographic characteristics can be confounders, effect modifiers, exposure characteristics, or purely descriptive criteria.
 
-### References
+#### References
 
 * GESIS – Leibniz-Institut für Sozialwissenschaften. Demographische Standards 2024. Mannheim: GESIS; 2024.
 * International Organization for Standardization. ISO 3166-1: Codes for the representation of names of countries and subdivisions – Part 1: Country codes.

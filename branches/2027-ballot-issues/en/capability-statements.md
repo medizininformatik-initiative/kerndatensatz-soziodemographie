@@ -1,4 +1,4 @@
-# Capability Statements - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# Capability Statements - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Capability Statements**

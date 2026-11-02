@@ -1,4 +1,4 @@
-# Logical Models - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# Logical Models - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Logical Models**
@@ -9,7 +9,7 @@
 
 Logical models provide a conceptual view of the data structures defined in this implementation guide. They represent the data elements and their relationships independent of the FHIR resource structure.
 
-* [Soziodemographie Logical Model](StructureDefinition-mii-lm-sdd.md) - Conceptual model for patient demographics, vital status, and identifying information
+* [Sociodemographic Data Logical Model](StructureDefinition-mii-lm-sdd.md) - Conceptual model for patient demographics, vital status, and identifying information
 
 -------
 

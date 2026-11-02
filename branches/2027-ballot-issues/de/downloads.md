@@ -1,4 +1,4 @@
-# Downloads - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# Downloads - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Downloads**
@@ -7,7 +7,7 @@
 
  Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-Diese Seite verlinkt die herunterladbaren Artefakte des Moduls Soziodemographie.
+Diese Seite verlinkt die herunterladbaren Artefakte des Moduls Soziodemographische Daten.
 
 #### Paketdatei
 

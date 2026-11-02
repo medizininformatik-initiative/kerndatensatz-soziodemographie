@@ -1,10 +1,10 @@
-# MII LM Soziodemographie - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# MII LM Soziodemographische Daten - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **MII LM Soziodemographie**
+* **MII LM Soziodemographische Daten**
 
-## Logical Model: MII LM Soziodemographie 
+## Logical Model: MII LM Soziodemographische Daten 
 
 | | |
 | :--- | :--- |
@@ -12,7 +12,7 @@
 | Draft as of 2026-11-02 | *Computable Name*:MII_LM_SDD |
 
  
-MII LogicalModel Modul Soziodemographie 
+MII LogicalModel Modul Soziodemographische Daten 
 
 **Usages:**
 
@@ -39,9 +39,9 @@ Other representations of profile: [CSV](../StructureDefinition-mii-lm-sdd.csv), 
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-lm-sdd",
   "version" : "2027.0.0-ballot",
   "name" : "MII_LM_SDD",
-  "title" : "MII LM Soziodemographie",
+  "title" : "MII LM Soziodemographische Daten",
   "status" : "draft",
-  "date" : "2026-11-02T10:58:05+00:00",
+  "date" : "2026-11-02T12:15:59+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
@@ -50,7 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-lm-sdd.csv), 
       "value" : "https://www.netzwerk-universitaetsmedizin.de"
     }]
   }],
-  "description" : "MII LogicalModel Modul Soziodemographie",
+  "description" : "MII LogicalModel Modul Soziodemographische Daten",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -73,8 +73,8 @@ Other representations of profile: [CSV](../StructureDefinition-mii-lm-sdd.csv), 
     "element" : [{
       "id" : "mii-lm-sdd",
       "path" : "mii-lm-sdd",
-      "short" : "MII LM Soziodemographie",
-      "definition" : "MII LogicalModel Modul Soziodemographie"
+      "short" : "MII LM Soziodemographische Daten",
+      "definition" : "MII LogicalModel Modul Soziodemographische Daten"
     },
     {
       "id" : "mii-lm-sdd.erhebungsId",

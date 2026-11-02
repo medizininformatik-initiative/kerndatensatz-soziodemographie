@@ -1,4 +1,4 @@
-# Versioning - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# Versioning - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Versioning**
@@ -7,7 +7,7 @@
 
 #### Version scheme
 
-The Soziodemographie module follows the KDS calendar-versioning (CalVer) scheme in a SemVer-compatible numeric form:
+The Sociodemographic Data module follows the KDS calendar-versioning (CalVer) scheme in a SemVer-compatible numeric form:
 
 * format **`YYYY.MINOR.PATCH[-label]`** — the current version is ``;
 * **`YYYY`** — the year in which the guide applies and is intended to be used; it takes the place of the major version;

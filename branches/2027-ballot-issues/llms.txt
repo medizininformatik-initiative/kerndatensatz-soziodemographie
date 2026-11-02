@@ -1,4 +1,4 @@
-# de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot: MII Implementation Guide Soziodemographie(en)
+# de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot: MII Implementation Guide Soziodemographische Daten(en)
 
 ## Pages
 
@@ -53,7 +53,7 @@
 
 ### Logicals
 
-* [MII LM Soziodemographie](en/StructureDefinition-mii-lm-sdd.md)
+* [MII LM Soziodemographische Daten](en/StructureDefinition-mii-lm-sdd.md)
 
 ### Resource Profiles
 
@@ -76,7 +76,7 @@
 
 ### ImplementationGuides
 
-* [MII Implementation Guide Soziodemographie](en/ImplementationGuide-mii-ig-soziodemographie.md)
+* [MII Implementation Guide Soziodemographische Daten](en/ImplementationGuide-mii-ig-soziodemographie.md)
 
 ### Examples
 

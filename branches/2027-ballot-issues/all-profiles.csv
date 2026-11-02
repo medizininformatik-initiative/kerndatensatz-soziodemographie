@@ -1,6 +1,6 @@
 "Profile","Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
 "mii-lm-sdd","mii-lm-sdd","mii-lm-sdd","","","",0,*,"","","","null {[]} {[]}
-","MII LM Soziodemographie","MII LogicalModel Modul Soziodemographie","","","","","","","","","",,,,,"",,,,"Element",0,*,"ele-1
+","MII LM Soziodemographische Daten","MII LogicalModel Modul Soziodemographische Daten","","","","","","","","","",,,,,"",,,,"Element",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mii-lm-sdd","mii-lm-sdd.id","mii-lm-sdd.id","","","",0,1,"","","","string {[]} {[]}

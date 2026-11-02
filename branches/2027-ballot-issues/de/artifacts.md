@@ -1,4 +1,4 @@
-# Artefaktübersicht - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# Artefaktübersicht - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Artefaktübersicht**
@@ -15,7 +15,7 @@ Diese definieren Datenmodelle, die den von diesem Implementierungsleitfaden abge
 
 | | |
 | :--- | :--- |
-| [ MII LM Soziodemographie  ](StructureDefinition-mii-lm-sdd.md) | MII LogicalModel Modul Soziodemographie |
+| [ MII LM Soziodemographische Daten  ](StructureDefinition-mii-lm-sdd.md) | MII LogicalModel Modul Soziodemographische Daten |
 
 ### Strukturen: Abstrakte Profile 
 

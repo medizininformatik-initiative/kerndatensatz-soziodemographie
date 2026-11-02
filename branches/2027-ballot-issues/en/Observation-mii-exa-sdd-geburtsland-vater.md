@@ -1,4 +1,4 @@
-# MII EXA SDD Geburtsland Vater - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# MII EXA SDD Geburtsland Vater - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

@@ -1,25 +1,22 @@
-# Guidance - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# Guidance - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Guidance**
 
 ## Guidance
 
-This section provides guidance for different audiences implementing and using the MII Kerndatensatz Soziodemographie Implementation Guide.
+This section provides guidance for different audiences implementing and using the Implementation Guide of the MII core dataset module Sociodemographic Data.
 
-### General Implementation Guidance
+### Implementation Guidance and Description of the Sociodemographic Data Module
 
-* **[Datasets and Descriptions](datasets-and-descriptions.md)** - Detailed descriptions of the MII core dataset logical models
-* **[UML Diagrams](uml-diagrams.md)** - UML diagrams illustrating the data models and relationships
+#### General Implementation Guidance
 
-### Audience-Specific Guidance
+* **[Datasets and Descriptions](datasets-and-descriptions.md)** - Detailed descriptions of the MII core dataset logical models.
+* **[UML Diagrams](uml-diagrams.md)** - UML diagrams illustrating the data models and relationships.
+* **[Guidance for Researchers](researcher-guidance.md)** - Information for researchers using MII data for research purposes.
+* **[Guidance for Implementers](implementer-guidance.md)** - Technical guidance for Data Integration Center (DIZ) implementers.
 
-* **[Guidance for Researchers](researcher-guidance.md)** - Information for researchers using MII data for research purposes
-* **[Guidance for Implementers](implementer-guidance.md)** - Technical guidance for Data Integration Center (DIZ) implementers
-
-### Description of the Soziodemographie module
-
-#### Purpose and Objective
+#### Module Purpose and Objective
 
 The Sociodemographic Data module serves the standardized collection of information on the demographic, social, and economic background of patients. It thereby creates a uniform basis for documenting these characteristics in care.
 
@@ -77,9 +74,9 @@ The module includes information from the following areas:
 * household size;
 * care/support situation.
 
-1. Severe Disability Certificate
+1. Severe Disability Certificate (Schwerbehindertenausweis)[1](#fn:sba)
 * presence of a severe disability certificate;
-* degree of disability;
+* degree of disability (Grad der Behinderung, GdB);
 * markers (Merkzeichen);
 * period of validity.
 
@@ -94,4 +91,6 @@ For selected characteristics, in particular education, vocational training, empl
 -------
 
 For the KDS-wide conformance requirements see the [Conformance rules of the Meta module](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance); for the technical artifacts see [Profiles](profiles.md).
+
+1. The severe disability certificate is a German national concept: an official ID document issued under the German Social Code Book IX (SGB IX) to persons with a degree of disability of at least 50. The degree-of-disability scale and the markers are defined by German law (Schwerbehindertenausweisverordnung) and have no direct international equivalent. [↩](#fnref:sba)
 

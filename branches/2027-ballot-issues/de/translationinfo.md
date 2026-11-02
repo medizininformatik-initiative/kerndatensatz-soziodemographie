@@ -1,4 +1,4 @@
-# Translation Information - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# Translation Information - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Translation Information**

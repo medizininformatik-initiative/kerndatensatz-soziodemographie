@@ -1,4 +1,4 @@
-# Artifacts Summary - MII Implementation Guide Soziodemographie v2027.0.0-ballot
+# Artifacts Summary - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -13,7 +13,7 @@ These define data models that represent the domain covered by this implementatio
 
 | | |
 | :--- | :--- |
-| [ MII LM Soziodemographie  ](StructureDefinition-mii-lm-sdd.md) | MII LogicalModel Modul Soziodemographie |
+| [ MII LM Soziodemographische Daten  ](StructureDefinition-mii-lm-sdd.md) | MII LogicalModel Modul Soziodemographische Daten |
 
 ### Structures: Abstract Profiles 
 
