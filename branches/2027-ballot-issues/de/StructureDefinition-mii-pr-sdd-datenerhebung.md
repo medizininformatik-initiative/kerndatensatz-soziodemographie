@@ -81,7 +81,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-d
   "name" : "MII_PR_SDD_Datenerhebung",
   "title" : "MII PR SDD Datenerhebung",
   "status" : "draft",
-  "date" : "2026-11-02T10:43:05+00:00",
+  "date" : "2026-11-02T10:58:05+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

@@ -55,19 +55,19 @@ Dieser Leitfaden wurde im Rahmen der Medizininformatik-Initiative erstellt und u
 
 * Margaux Gatrio , Berlin Institute of Health at Charité (BIH)
 * Karoline Buckow, TMF – Technologie- und Methodenplattform für die vernetzte medizinische Forschung e.V.
-* Jochen Schmitt, UKDD
-* Daniela Piontek, UKDD
+* Jochen Schmitt, Universitätsklinikum Carl Gustav Carus Dresden
+* Daniela Piontek, Universitätsklinikum Carl Gustav Carus Dresden
 * Rebecca Mukowski-Kickhöfel, Charité - Universitätsmedizin Berlin
 
 Fragen zu dieser Veröffentlichung können auf [chat.fhir.org](https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative) im Stream 'german/mi-initiative' oder auf [mii.zulipchat.com](https://mii.zulipchat.com/#narrow/channel/430086-MII-Kerndatensatz) gestellt werden.
 
 #### Autorinnen und Autoren (alphabetisch)
 
-* Daniela Piontek, UKDD
-* Jochen Schmitt, UKDD
+* Daniela Piontek, Universitätsklinikum Carl Gustav Carus Dresden
+* Jochen Schmitt, Universitätsklinikum Carl Gustav Carus Dresden
 * Margaux Gatrio , Berlin Institute of Health at Charité (BIH)
-* Matthias Rose, Charité - Universitätsmedizin Berlin
-* Rebecca Mukowski-Kickhöfel, Charité - Universitätsmedizin Berlin
+* Matthias Rose, Charité – Universitätsmedizin Berlin
+* Rebecca Mukowski-Kickhöfel, Charité – Universitätsmedizin Berlin
 * Richard Karsch, Zentralinstitut für Seelische Gesundheit
 * Wolfgang Hoffmann, Universitätsmedizin Greifswald
 

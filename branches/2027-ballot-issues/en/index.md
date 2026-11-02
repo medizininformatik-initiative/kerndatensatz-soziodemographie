@@ -66,8 +66,8 @@ Questions about this publication can be asked on [chat.fhir.org](https://chat.fh
 * Daniela Piontek, UKDD
 * Jochen Schmitt, UKDD
 * Margaux Gatrio , Berlin Institute of Health at Charité (BIH)
-* Matthias Rose, Charité - Universitätsmedizin Berlin
-* Rebecca Mukowski-Kickhöfel, Charité - Universitätsmedizin Berlin
+* Matthias Rose, Charité – Universitätsmedizin Berlin
+* Rebecca Mukowski-Kickhöfel, Charité – Universitätsmedizin Berlin
 * Richard Karsch, Zentralinstitut für Seelische Gesundheit
 * Wolfgang Hoffmann, Universitätsmedizin Greifswald
 

@@ -39,7 +39,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "MII CS SDD Schwerbehindertenausweis",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-11-02T10:43:05+00:00",
+  "date" : "2026-11-02T10:58:05+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
