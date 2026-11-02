@@ -8,9 +8,18 @@ rechts wechseln Sie zwischen `/en/` und `/de/`.
 Übersetzte Seiten liegen unter `input/translations/de/pagecontent/` (gleicher
 Dateiname wie die englische Seite).
 
-> Die statischen Leitfaden- und Dokumentationsseiten dieses Leitfadens liegen
-> sowohl auf Englisch als auch auf Deutsch vor. Die FHIR-Artefakte selbst —
-> Profile, Extensions, logische Modelle, Value Sets und Code Systems
-> einschließlich ihrer narrativen Elementbeschreibungen — sind derzeit nur auf
-> Englisch verfügbar.
+> **Was übersetzt ist:**
+>
+> * Die Leitfaden- und Dokumentationsseiten sowie das Navigationsmenü liegen
+>   auf Englisch und auf Deutsch vor.
+> * Die FHIR-Artefakte — Profile, das logische Modell, Value Sets, Code
+>   Systems und Beispiele — sind **nicht** übersetzt. Ihre Titel,
+>   Beschreibungen und Elementdefinitionen wurden auf **Deutsch** verfasst und
+>   erscheinen in beiden Sprachversionen auf Deutsch, auch in der
+>   Artefaktübersicht und auf den einzelnen Artefaktseiten.
+> * Die Tabellen auf den Seiten Datensätze und Beschreibungen sowie
+>   Terminologie geben das Informationsmodell im deutschen Originalwortlaut
+>   wieder.
+> * Überschriften und Beschriftungen, die der IG Publisher erzeugt (z. B. auf
+>   den Artefaktseiten), folgen der gewählten Sprache.
 {: .ig-highlight .ig-highlight-grey}
