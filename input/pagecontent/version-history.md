@@ -1,6 +1,6 @@
 #### Version scheme
 
-The Soziodemographie module follows the KDS calendar-versioning (CalVer)
+The Sociodemographic Data module follows the KDS calendar-versioning (CalVer)
 scheme in a SemVer-compatible numeric form:
 
 * format **`YYYY.MINOR.PATCH[-label]`** — the current version is

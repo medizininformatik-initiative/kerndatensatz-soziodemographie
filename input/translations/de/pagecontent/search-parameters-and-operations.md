@@ -14,7 +14,7 @@ Alle in der FHIR-R4-Spezifikation definierten Basis-Suchparameter SOLLTEN von Im
 
 Die jeweils erforderlichen Suchparameter sind in den entsprechenden Capability Statements aufgeführt:
 
-* [Capability Statement des Moduls Soziodemographie]()
+* [Capability Statement des Moduls Soziodemographische Daten]()
 
 **Benutzerdefinierte Suchparameter**
 

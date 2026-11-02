@@ -35,7 +35,7 @@ For example, sociodemographic characteristics can be used to:
 
 Their use as an analytical characteristic should not automatically be understood as a causal interpretation. Depending on the research question, sociodemographic characteristics can be confounders, effect modifiers, exposure characteristics, or purely descriptive criteria.
 
-### References
+#### References
 * GESIS – Leibniz-Institut für Sozialwissenschaften.
 Demographische Standards 2024. Mannheim: GESIS; 2024.
 

@@ -34,7 +34,7 @@ Beispielsweise können soziodemographische Merkmale genutzt werden, um:
 
 Die Nutzung als Analysemerkmal sollte dabei nicht automatisch als kausale Interpretation verstanden werden. Soziodemographische Merkmale können je nach Fragestellung Confounder, Effektmodifikatoren, Expositionsmerkmale oder reine Beschreibungskriterien sein.
 
-### Referenzen
+#### Referenzen
 * GESIS – Leibniz-Institut für Sozialwissenschaften.
 Demographische Standards 2024. Mannheim: GESIS; 2024.
 

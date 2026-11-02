@@ -2,7 +2,7 @@
 
 Logische Modelle bieten eine konzeptionelle Sicht auf die in diesem Implementierungsleitfaden definierten Datenstrukturen. Sie stellen die Datenelemente und ihre Beziehungen unabhängig von der FHIR-Ressourcenstruktur dar.
 
-* [Logisches Modell Soziodemographie](StructureDefinition-mii-lm-sdd.html) - Konzeptionelles Modell für demographische Angaben, Vitalstatus und identifizierende Informationen zu Patientinnen und Patienten
+* [Logisches Modell Soziodemographische Daten](StructureDefinition-mii-lm-sdd.html) - Konzeptionelles Modell für demographische Angaben, Vitalstatus und identifizierende Informationen zu Patientinnen und Patienten
 
 ---
 

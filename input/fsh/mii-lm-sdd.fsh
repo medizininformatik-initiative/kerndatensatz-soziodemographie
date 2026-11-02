@@ -1,8 +1,8 @@
 Logical: MII_LM_SDD
 Parent: Element
 Id: mii-lm-sdd
-Title: "MII LM Soziodemographie"
-Description: "MII LogicalModel Modul Soziodemographie"
+Title: "MII LM Soziodemographische Daten"
+Description: "MII LogicalModel Modul Soziodemographische Daten"
 * insert Publisher
 * insert PR_CS_VS_Version
 // * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/LogicalModel/Soziodemographie"

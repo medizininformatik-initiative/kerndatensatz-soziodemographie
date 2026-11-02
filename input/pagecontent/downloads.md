@@ -1,4 +1,4 @@
-This page links the downloadable artifacts of the Soziodemographie module.
+This page links the downloadable artifacts of the Sociodemographic Data module.
 
 #### Package file
 

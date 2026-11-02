@@ -1,7 +1,7 @@
 ### Changelog
 
 This page records the changes between the released versions of the
-Soziodemographische Daten module, newest version first. It follows
+Sociodemographic Data module, newest version first. It follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the KDS calendar
 versioning scheme described on the [Versioning](version-history.html) page.
 
@@ -17,4 +17,4 @@ versioning scheme described on the [Versioning](version-history.html) page.
 
 ##### Added
 
-* First publication of the Soziodemographie module.
+* First publication of the Sociodemographic Data module.

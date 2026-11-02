@@ -13,7 +13,7 @@
 
 
 Diese Seite verlinkt die herunterladbaren Artefakte des Moduls
-Soziodemographie.
+Soziodemographische Daten.
 
 #### Paketdatei
 

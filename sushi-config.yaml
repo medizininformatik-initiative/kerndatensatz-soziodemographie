@@ -6,7 +6,7 @@
 id: mii-ig-soziodemographie
 canonical: https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie
 name: MII_IG_Soziodemographie
-title: MII Implementation Guide Soziodemographie
+title: MII Implementation Guide Soziodemographische Daten
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
 version: 2027.0.0-ballot

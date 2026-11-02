@@ -14,7 +14,7 @@ All base FHIR search parameters defined in the FHIR R4 specification SHOULD be s
 
 The relevant search parameters required are listed in the respective Capability Statements:
 
-* [Soziodemographie Module Capability Statement]()
+* [Sociodemographic Data Module Capability Statement]()
 
 **Custom Search Parameters**
 

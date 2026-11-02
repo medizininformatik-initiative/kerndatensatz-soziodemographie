@@ -3,7 +3,7 @@
 Logical models provide a conceptual view of the data structures defined in this implementation guide. They represent the data elements and their relationships independent of the FHIR resource structure.
 
 
-* [Soziodemographie Logical Model](StructureDefinition-mii-lm-sdd.html) - Conceptual model for patient demographics, vital status, and identifying information
+* [Sociodemographic Data Logical Model](StructureDefinition-mii-lm-sdd.html) - Conceptual model for patient demographics, vital status, and identifying information
 
 ---
 

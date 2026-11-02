@@ -16,4 +16,4 @@ beschreibt.
 
 ##### Hinzugefügt
 
-* Erstveröffentlichung des Moduls Soziodemographie.
+* Erstveröffentlichung des Moduls Soziodemographische Daten.

@@ -1,6 +1,6 @@
 #### Versionsschema
 
-Das Modul Soziodemographie folgt dem KDS-Schema der Kalender-Versionierung
+Das Modul Soziodemographische Daten folgt dem KDS-Schema der Kalender-Versionierung
 (CalVer) in einer SemVer-kompatiblen numerischen Form:
 
 * Format **`JJJJ.MINOR.PATCH[-label]`** — die aktuelle Version ist

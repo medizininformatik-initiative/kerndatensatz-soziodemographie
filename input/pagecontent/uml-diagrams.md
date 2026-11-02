@@ -1,7 +1,7 @@
 This page provides UML class diagrams for the logical models of the MII core dataset base modules. These diagrams illustrate the relationships between the different data elements and classes.
 
-The following diagram shows the logical structure of the Soziodemographie module:
+The following diagram shows the logical structure of the Sociodemographic Data module:
 <div style="text-align: center; margin: 20px 0;">
-<img src="sdd-uml.png" alt="Soziodemographie UML diagram"/>
+<img src="sdd-uml.png" alt="Sociodemographic Data UML diagram"/>
 </div>
 ---

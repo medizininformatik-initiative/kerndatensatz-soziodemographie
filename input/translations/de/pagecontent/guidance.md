@@ -1,17 +1,15 @@
-Dieser Abschnitt bietet Hinweise für verschiedene Zielgruppen, die den Implementierungsleitfaden MII Kerndatensatz Soziodemographie einsetzen und nutzen.
-### Allgemeine Umsetzungshinweise
+Dieser Abschnitt bietet Hinweise für verschiedene Zielgruppen, die den Implementierungsleitfaden des MII-Kerndatensatz-Moduls Soziodemographische Daten einsetzen und nutzen.
 
-* **[Datensätze und Beschreibungen](datasets-and-descriptions.html)** - Ddie Datenelemente des Moduls, beschrieben als logische Modelle.
-* **[UML-Diagramme](uml-diagrams.html)** - isuelle Darstellung der Datenmodelle und ihrer Beziehungen.
+### Umsetzungshinweise und Beschreibung des Moduls Soziodemographische Daten
 
-### Zielgruppenspezifische Hinweise
+#### Allgemeine Umsetzungshinweise
 
-* **[Hinweise für Forschende](researcher-guidance.html)** -  für Forschende, die Moduldaten nutzen.
-* **[Hinweise für Implementierende](implementer-guidance.html)** - technische Hinweise für DIZ-Implementierende.
+* **[Datensätze und Beschreibungen](datasets-and-descriptions.html)** - Die Datenelemente des Moduls, beschrieben als logische Modelle.
+* **[UML-Diagramme](uml-diagrams.html)** - Visuelle Darstellung der Datenmodelle und ihrer Beziehungen.
+* **[Hinweise für Forschende](researcher-guidance.html)** -  Für Forschende, die Moduldaten nutzen.
+* **[Hinweise für Implementierende](implementer-guidance.html)** - Technische Hinweise für DIZ-Implementierende.
 
-### Beschreibung des Moduls Soziodemographie
-
-#### Zweck und Zielsetzung
+#### Zweck und Zielsetzung des Moduls
 
 Das Modul Soziodemographische Daten dient der standardisierten Erfassung von Informationen zum demographischen, sozialen und ökonomischen Hintergrund von Patientinnen und Patienten. Es schafft damit eine einheitliche Grundlage für die Dokumentation dieser Merkmale in der Versorgung.
 
