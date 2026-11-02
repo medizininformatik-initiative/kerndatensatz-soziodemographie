@@ -42,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-vertra
   "name" : "MII_PR_SDD_Vertrauensperson",
   "title" : "MII PR SDD Vertrauensperson",
   "status" : "draft",
-  "date" : "2026-11-02T12:15:59+00:00",
+  "date" : "2026-11-02T15:31:49+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
