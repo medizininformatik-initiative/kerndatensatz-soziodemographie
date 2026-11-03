@@ -418,6 +418,117 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>For selected characteristics, in particular education, vocational training, employment status, and occupational position, a more detailed long version and a simplified minimal version are available. This allows the depth of data to be adapted to the respective care context, the time available, and the specific documentation purpose.</p>
 
+<h4 id="mapping-of-the-logical-model-to-the-profiles">Mapping of the Logical Model to the Profiles</h4>
+
+<p>The <a href="StructureDefinition-mii-pr-sdd-datenerhebung.html">Data Collection</a> groups the individual observations via <code class="language-plaintext highlighter-rouge">Observation.hasMember</code>. The following table shows which section of the <a href="logical-models.html">logical model</a> each observation belongs to, which profile implements it and which <code class="language-plaintext highlighter-rouge">hasMember</code> slice references it.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Section</th>
+      <th>Logical model element</th>
+      <th>Characteristic</th>
+      <th>Profile</th>
+      <th><code class="language-plaintext highlighter-rouge">hasMember</code> slice</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Extended Origin</td>
+      <td><code class="language-plaintext highlighter-rouge">erweiterteHerkunft.geburtslandMutter</code></td>
+      <td>Country of birth of the mother</td>
+      <td><a href="StructureDefinition-mii-pr-sdd-geburtsland-mutter.html">MII PR SDD Geburtsland Mutter</a></td>
+      <td><code class="language-plaintext highlighter-rouge">geburtslandMutter</code></td>
+    </tr>
+    <tr>
+      <td>Extended Origin</td>
+      <td><code class="language-plaintext highlighter-rouge">erweiterteHerkunft.geburtslandVater</code></td>
+      <td>Country of birth of the father</td>
+      <td><a href="StructureDefinition-mii-pr-sdd-geburtsland-vater.html">MII PR SDD Geburtsland Vater</a></td>
+      <td><code class="language-plaintext highlighter-rouge">geburtslandVater</code></td>
+    </tr>
+    <tr>
+      <td>Life Situation</td>
+      <td><code class="language-plaintext highlighter-rouge">lebenssituation.partnerschaft</code></td>
+      <td>Partnership</td>
+      <td><a href="StructureDefinition-mii-pr-sdd-partnerschaft.html">MII PR SDD Partnerschaft</a></td>
+      <td><code class="language-plaintext highlighter-rouge">partnerschaft</code></td>
+    </tr>
+    <tr>
+      <td>Life Situation</td>
+      <td><code class="language-plaintext highlighter-rouge">lebenssituation.vertrauensperson</code></td>
+      <td>Trusted contact person</td>
+      <td><a href="StructureDefinition-mii-pr-sdd-vertrauensperson.html">MII PR SDD Vertrauensperson</a></td>
+      <td><code class="language-plaintext highlighter-rouge">vertrauensperson</code></td>
+    </tr>
+    <tr>
+      <td>Life Situation</td>
+      <td><code class="language-plaintext highlighter-rouge">lebenssituation.haushaltsgroesse</code></td>
+      <td>Household size</td>
+      <td><a href="StructureDefinition-mii-pr-sdd-haushaltsgroesse.html">MII PR SDD Haushaltsgroesse</a></td>
+      <td><code class="language-plaintext highlighter-rouge">haushaltsgroesse</code></td>
+    </tr>
+    <tr>
+      <td>Life Situation</td>
+      <td><code class="language-plaintext highlighter-rouge">lebenssituation.betreuungssituation</code></td>
+      <td>Care/support situation</td>
+      <td><a href="StructureDefinition-mii-pr-sdd-betreuungssituation.html">MII PR SDD Betreuungssituation</a></td>
+      <td><code class="language-plaintext highlighter-rouge">betreuungssituation</code></td>
+    </tr>
+    <tr>
+      <td>Life Situation</td>
+      <td><code class="language-plaintext highlighter-rouge">lebenssituation.schwerbehindertenausweis</code></td>
+      <td>Severe disability certificate</td>
+      <td><a href="StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.html">MII PR SDD Schwerbehindertenausweis</a></td>
+      <td><code class="language-plaintext highlighter-rouge">schwerbehindertenausweis</code></td>
+    </tr>
+    <tr>
+      <td>Socioeconomic Factors</td>
+      <td><code class="language-plaintext highlighter-rouge">soziooekonomischeFaktoren.schulbildung</code></td>
+      <td>Educational attainment (long version)</td>
+      <td><a href="StructureDefinition-mii-pr-sdd-schulabschluss.html">MII PR SDD Schulabschluss</a></td>
+      <td><code class="language-plaintext highlighter-rouge">schulabschluss</code></td>
+    </tr>
+    <tr>
+      <td>Socioeconomic Factors</td>
+      <td><code class="language-plaintext highlighter-rouge">soziooekonomischeFaktoren.schulbildung</code></td>
+      <td>Educational attainment (minimal version)</td>
+      <td><a href="StructureDefinition-mii-pr-sdd-schuljahre.html">MII PR SDD Schuljahre</a></td>
+      <td><code class="language-plaintext highlighter-rouge">schuljahre</code></td>
+    </tr>
+    <tr>
+      <td>Socioeconomic Factors</td>
+      <td><code class="language-plaintext highlighter-rouge">soziooekonomischeFaktoren.ausbildung</code></td>
+      <td>Vocational training</td>
+      <td><a href="StructureDefinition-mii-pr-sdd-ausbildung.html">MII PR SDD Ausbildung</a></td>
+      <td><code class="language-plaintext highlighter-rouge">ausbildung</code></td>
+    </tr>
+    <tr>
+      <td>Socioeconomic Factors</td>
+      <td><code class="language-plaintext highlighter-rouge">soziooekonomischeFaktoren.beschaeftigungsstatus</code></td>
+      <td>Employment status</td>
+      <td><a href="StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.html">MII PR SDD Beschäftigungsstatus</a></td>
+      <td><code class="language-plaintext highlighter-rouge">beschaeftigungsstatus</code></td>
+    </tr>
+    <tr>
+      <td>Socioeconomic Factors</td>
+      <td><code class="language-plaintext highlighter-rouge">soziooekonomischeFaktoren.beruflicheStellung</code></td>
+      <td>Occupational position</td>
+      <td><a href="StructureDefinition-mii-pr-sdd-berufliche-stellung.html">MII PR SDD Berufliche Stellung</a></td>
+      <td><code class="language-plaintext highlighter-rouge">beruflichestellung</code></td>
+    </tr>
+    <tr>
+      <td>Socioeconomic Factors</td>
+      <td><code class="language-plaintext highlighter-rouge">soziooekonomischeFaktoren.einkommen</code></td>
+      <td>Average monthly net household income</td>
+      <td><a href="StructureDefinition-mii-pr-sdd-einkommen.html">MII PR SDD Einkommen</a></td>
+      <td><code class="language-plaintext highlighter-rouge">einkommen</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The sections <em>Person</em> (postal code, first language, country of birth, nationality) and <em>Intensivmedizin</em> (height, weight) of the logical model are not represented by profiles of this module and are therefore not referenced via <code class="language-plaintext highlighter-rouge">hasMember</code>. They are covered by the KDS Person module and the KDS Intensive Care module (see <a href="implementer-guidance.html">Guidance for Implementers</a>).</p>
+
 <hr />
 <p>For the KDS-wide conformance requirements see the
 <a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance">Conformance rules of the Meta module</a>;
@@ -455,7 +566,7 @@ for the technical artifacts see <a href="profiles.html">Profiles</a>.</p>
 
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Generated <span title="Tue, Nov 3, 2026 11:49+0000">2026-11-03</span>
+          Generated <span title="Tue, Nov 3, 2026 15:29+0000">2026-11-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

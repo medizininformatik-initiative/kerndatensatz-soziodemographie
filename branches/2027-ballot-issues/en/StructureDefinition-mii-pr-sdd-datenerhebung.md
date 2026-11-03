@@ -41,7 +41,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-datene
   "name" : "MII_PR_SDD_Datenerhebung",
   "title" : "MII PR SDD Datenerhebung",
   "status" : "draft",
-  "date" : "2026-11-03T11:49:23+00:00",
+  "date" : "2026-11-03T15:29:49+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{
@@ -289,6 +289,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-datene
       "id" : "Observation.hasMember:geburtslandMutter",
       "path" : "Observation.hasMember",
       "sliceName" : "geburtslandMutter",
+      "short" : "Erweiterte Herkunft: Geburtsland Mutter",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -301,6 +302,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-datene
       "id" : "Observation.hasMember:geburtslandVater",
       "path" : "Observation.hasMember",
       "sliceName" : "geburtslandVater",
+      "short" : "Erweiterte Herkunft: Geburtsland Vater",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -313,6 +315,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-datene
       "id" : "Observation.hasMember:partnerschaft",
       "path" : "Observation.hasMember",
       "sliceName" : "partnerschaft",
+      "short" : "Lebenssituation: Partnerschaft",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -325,6 +328,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-datene
       "id" : "Observation.hasMember:vertrauensperson",
       "path" : "Observation.hasMember",
       "sliceName" : "vertrauensperson",
+      "short" : "Lebenssituation: Vertrauensperson",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -337,6 +341,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-datene
       "id" : "Observation.hasMember:haushaltsgroesse",
       "path" : "Observation.hasMember",
       "sliceName" : "haushaltsgroesse",
+      "short" : "Lebenssituation: Haushaltsgröße",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -349,6 +354,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-datene
       "id" : "Observation.hasMember:betreuungssituation",
       "path" : "Observation.hasMember",
       "sliceName" : "betreuungssituation",
+      "short" : "Lebenssituation: Betreuungssituation",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -361,6 +367,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-datene
       "id" : "Observation.hasMember:schwerbehindertenausweis",
       "path" : "Observation.hasMember",
       "sliceName" : "schwerbehindertenausweis",
+      "short" : "Lebenssituation: Schwerbehindertenausweis",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -373,6 +380,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-datene
       "id" : "Observation.hasMember:ausbildung",
       "path" : "Observation.hasMember",
       "sliceName" : "ausbildung",
+      "short" : "Sozioökonomische Faktoren: Ausbildung",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -385,6 +393,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-datene
       "id" : "Observation.hasMember:beschaeftigungsstatus",
       "path" : "Observation.hasMember",
       "sliceName" : "beschaeftigungsstatus",
+      "short" : "Sozioökonomische Faktoren: Beschäftigungsstatus",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -397,6 +406,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-datene
       "id" : "Observation.hasMember:einkommen",
       "path" : "Observation.hasMember",
       "sliceName" : "einkommen",
+      "short" : "Sozioökonomische Faktoren: Einkommen",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -409,6 +419,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-datene
       "id" : "Observation.hasMember:beruflichestellung",
       "path" : "Observation.hasMember",
       "sliceName" : "beruflichestellung",
+      "short" : "Sozioökonomische Faktoren: Berufliche Stellung",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -421,6 +432,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-datene
       "id" : "Observation.hasMember:schulabschluss",
       "path" : "Observation.hasMember",
       "sliceName" : "schulabschluss",
+      "short" : "Sozioökonomische Faktoren: Schulbildung (Schulabschluss, Langversion)",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -433,6 +445,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-datene
       "id" : "Observation.hasMember:schuljahre",
       "path" : "Observation.hasMember",
       "sliceName" : "schuljahre",
+      "short" : "Sozioökonomische Faktoren: Schulbildung (Schuljahre, Minimalversion)",
       "min" : 0,
       "max" : "1",
       "type" : [{

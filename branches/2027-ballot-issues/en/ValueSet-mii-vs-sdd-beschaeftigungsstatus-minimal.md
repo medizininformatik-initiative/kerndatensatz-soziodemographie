@@ -45,7 +45,7 @@ Value Set für Beschäftigungsstatus (Minimalversion)
   "title" : "MII VS SDD Beschaeftigungsstatus (Minimalversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-11-03T11:49:23+00:00",
+  "date" : "2026-11-03T15:29:49+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{

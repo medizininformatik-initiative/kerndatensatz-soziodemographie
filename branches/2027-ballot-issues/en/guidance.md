@@ -88,6 +88,28 @@ Not all sub-areas need to be present at every collection point. The specialized 
 
 For selected characteristics, in particular education, vocational training, employment status, and occupational position, a more detailed long version and a simplified minimal version are available. This allows the depth of data to be adapted to the respective care context, the time available, and the specific documentation purpose.
 
+#### Mapping of the Logical Model to the Profiles
+
+The [Data Collection](StructureDefinition-mii-pr-sdd-datenerhebung.md) groups the individual observations via `Observation.hasMember`. The following table shows which section of the [logical model](logical-models.md) each observation belongs to, which profile implements it and which `hasMember` slice references it.
+
+| | | | | |
+| :--- | :--- | :--- | :--- | :--- |
+| Extended Origin | `erweiterteHerkunft.geburtslandMutter` | Country of birth of the mother | [MII PR SDD Geburtsland Mutter](StructureDefinition-mii-pr-sdd-geburtsland-mutter.md) | `geburtslandMutter` |
+| Extended Origin | `erweiterteHerkunft.geburtslandVater` | Country of birth of the father | [MII PR SDD Geburtsland Vater](StructureDefinition-mii-pr-sdd-geburtsland-vater.md) | `geburtslandVater` |
+| Life Situation | `lebenssituation.partnerschaft` | Partnership | [MII PR SDD Partnerschaft](StructureDefinition-mii-pr-sdd-partnerschaft.md) | `partnerschaft` |
+| Life Situation | `lebenssituation.vertrauensperson` | Trusted contact person | [MII PR SDD Vertrauensperson](StructureDefinition-mii-pr-sdd-vertrauensperson.md) | `vertrauensperson` |
+| Life Situation | `lebenssituation.haushaltsgroesse` | Household size | [MII PR SDD Haushaltsgroesse](StructureDefinition-mii-pr-sdd-haushaltsgroesse.md) | `haushaltsgroesse` |
+| Life Situation | `lebenssituation.betreuungssituation` | Care/support situation | [MII PR SDD Betreuungssituation](StructureDefinition-mii-pr-sdd-betreuungssituation.md) | `betreuungssituation` |
+| Life Situation | `lebenssituation.schwerbehindertenausweis` | Severe disability certificate | [MII PR SDD Schwerbehindertenausweis](StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.md) | `schwerbehindertenausweis` |
+| Socioeconomic Factors | `soziooekonomischeFaktoren.schulbildung` | Educational attainment (long version) | [MII PR SDD Schulabschluss](StructureDefinition-mii-pr-sdd-schulabschluss.md) | `schulabschluss` |
+| Socioeconomic Factors | `soziooekonomischeFaktoren.schulbildung` | Educational attainment (minimal version) | [MII PR SDD Schuljahre](StructureDefinition-mii-pr-sdd-schuljahre.md) | `schuljahre` |
+| Socioeconomic Factors | `soziooekonomischeFaktoren.ausbildung` | Vocational training | [MII PR SDD Ausbildung](StructureDefinition-mii-pr-sdd-ausbildung.md) | `ausbildung` |
+| Socioeconomic Factors | `soziooekonomischeFaktoren.beschaeftigungsstatus` | Employment status | [MII PR SDD Beschäftigungsstatus](StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.md) | `beschaeftigungsstatus` |
+| Socioeconomic Factors | `soziooekonomischeFaktoren.beruflicheStellung` | Occupational position | [MII PR SDD Berufliche Stellung](StructureDefinition-mii-pr-sdd-berufliche-stellung.md) | `beruflichestellung` |
+| Socioeconomic Factors | `soziooekonomischeFaktoren.einkommen` | Average monthly net household income | [MII PR SDD Einkommen](StructureDefinition-mii-pr-sdd-einkommen.md) | `einkommen` |
+
+The sections **Person** (postal code, first language, country of birth, nationality) and **Intensivmedizin** (height, weight) of the logical model are not represented by profiles of this module and are therefore not referenced via `hasMember`. They are covered by the KDS Person module and the KDS Intensive Care module (see [Guidance for Implementers](implementer-guidance.md)).
+
 -------
 
 For the KDS-wide conformance requirements see the [Conformance rules of the Meta module](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance); for the technical artifacts see [Profiles](profiles.md).
