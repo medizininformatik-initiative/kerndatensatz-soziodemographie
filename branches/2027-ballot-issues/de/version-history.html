@@ -6,7 +6,7 @@
 <html xml:lang="de" xmlns="http://www.w3.org/1999/xhtml" lang="de" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Versioning - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot</title>
+    <title>Versionierung - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -139,7 +139,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">MII Implementation Guide Soziodemographische Daten</span>
+          <p><span style="font-size:12pt;font-weight:bold">MII Implementierungsleitfaden Soziodemographische Daten</span>
             <br/>
             <span style="display:inline-block;">2027.0.0-ballot - 
 
@@ -255,7 +255,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Versioning</b></li>
+          <li><a href='toc.html'><b>Inhaltsverzeichnis</b></a></li><li><b>Versionierung</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -276,7 +276,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </style>
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">MII Implementation Guide Soziodemographische Daten - Local Development build (v2027.0.0-ballot) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://medizininformatik-initiative.github.io/kerndatensatz-soziodemographie/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
-  <h2>Versioning</h2>
+  <h2>Versionierung</h2>
   
 
 
@@ -291,17 +291,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#versionsschema" id="markdown-toc-versionsschema">Versionsschema</a></li>
+  <li><a href="#versionen-vergleichen" id="markdown-toc-versionen-vergleichen">Versionen vergleichen</a></li>
+  <li><a href="#artefakt-versionen" id="markdown-toc-artefakt-versionen">Artefakt-Versionen</a></li>
+  <li><a href="#release-prozess" id="markdown-toc-release-prozess">Release-Prozess</a></li>
+  <li><a href="#versionshistorie-und-änderungen" id="markdown-toc-versionshistorie-und-änderungen">Versionshistorie und Änderungen</a></li>
+  <li><a href="#versionsvergleich" id="markdown-toc-versionsvergleich">Versionsvergleich</a></li>
+</ul>
+
 </div>
-
-<p style="border:var(--translation-box-border);background-color:var(--translation-background-color);padding: 5px 5px 5px 5px;">
-
-Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde.  Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie <a href="translationinfo.html">hier</a>.
-
-</p>
-
-<h4 id="versionsschema">Versionsschema</h4>
+<h3 id="versionsschema">Versionsschema</h3>
 
 <p>Das Modul Soziodemographische Daten folgt dem KDS-Schema der Kalender-Versionierung
 (CalVer) in einer SemVer-kompatiblen numerischen Form:</p>
@@ -317,20 +318,20 @@ tritt an die Stelle der Major-Version;</li>
 <code class="language-plaintext highlighter-rouge">cibuild</code>.</li>
 </ul>
 
-<h4 id="versionen-vergleichen">Versionen vergleichen</h4>
+<h3 id="versionen-vergleichen">Versionen vergleichen</h3>
 
 <p>Stabile Releases lassen sich vergleichen, indem die numerischen Bestandteile als
 SemVer-artiges <code class="language-plaintext highlighter-rouge">&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;</code> gelesen werden, mit dem Kalenderjahr
 als Major-Komponente: <code class="language-plaintext highlighter-rouge">2026.1.0</code> ist neuer als <code class="language-plaintext highlighter-rouge">2026.0.3</code>. Labels kennzeichnen
 den Vorab- oder Build-Status; zwischen Labels wird keine Reihenfolge abgeleitet.</p>
 
-<h4 id="artefakt-versionen">Artefakt-Versionen</h4>
+<h3 id="artefakt-versionen">Artefakt-Versionen</h3>
 
 <p>Alle veröffentlichten FHIR-Artefakte im Paket tragen dieselbe Version wie der
 Leitfaden und sein Paket. Ein Artefakt kann daher beim Release eine neue Version
 erhalten, obwohl es selbst unverändert geblieben ist.</p>
 
-<h4 id="release-prozess">Release-Prozess</h4>
+<h3 id="release-prozess">Release-Prozess</h3>
 
 <p>Releases folgen dem
 <a href="https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Module-Release-Workflow">Module Release Workflow</a>:
@@ -338,14 +339,14 @@ Die Version wird im Release-Branch angehoben, der Changelog-Eintrag geschrieben,
 die Validierungs-Workflows laufen auf dem Release-Pull-Request, und nach dem
 Merge wird das Release getaggt.</p>
 
-<h4 id="versionshistorie-und-änderungen">Versionshistorie und Änderungen</h4>
+<h3 id="versionshistorie-und-änderungen">Versionshistorie und Änderungen</h3>
 
 <ul>
   <li><strong><a href="changes.html">Änderungshistorie</a></strong> — die Änderungen jeder veröffentlichten
 Version.</li>
 </ul>
 
-<h4 id="versionsvergleich">Versionsvergleich</h4>
+<h3 id="versionsvergleich">Versionsvergleich</h3>
 
 <p>Ab der zweiten <strong>formalen Publikation</strong> veröffentlicht dieser Leitfaden
 zusätzlich einen <strong>maschinell erzeugten Versionsvergleich</strong>. Er ergänzt die
@@ -407,7 +408,7 @@ wie diese Demonstration; ein erstelltes Modul rendert die Demonstration nie.</p>
 
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Mon, Nov 2, 2026 15:31+0000">2026-11-02</span>
+          Erstellt <span title="Tue, Nov 3, 2026 11:10+0000">2026-11-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

@@ -1,10 +1,10 @@
-# Guidance for Implementers - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
+# Anleitung für Implementierende - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
-* [**Table of Contents**](toc.md)
-* [**Guidance**](guidance.md)
-* **Guidance for Implementers**
+* [**Inhaltsverzeichnis**](toc.md)
+* [**Anleitung**](guidance.md)
+* **Anleitung für Implementierende**
 
-## Guidance for Implementers
+## Anleitung für Implementierende
 
  Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 

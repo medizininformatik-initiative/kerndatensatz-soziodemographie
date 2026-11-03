@@ -1,6 +1,6 @@
 # MII PR SDD Schulabschluss - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
-* [**Table of Contents**](toc.md)
+* [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
 * **MII PR SDD Schulabschluss**
 
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-schulabschluss | *Version*:2027.0.0-ballot |
-| Draft Stand: 2026-11-02 | *Maschinenlesbarer Name*:MII_PR_SDD_Schulabschluss |
+| Draft Stand: 2026-11-03 | *Maschinenlesbarer Name*:MII_PR_SDD_Schulabschluss |
 
  
 Höchster erreichter allgemeinbildender Schulabschluss 
@@ -82,8 +82,21 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-s
   "name" : "MII_PR_SDD_Schulabschluss",
   "title" : "MII PR SDD Schulabschluss",
   "status" : "draft",
-  "date" : "2026-11-02T15:31:49+00:00",
+  "date" : "2026-11-03T11:10:14+00:00",
   "publisher" : "NUM-DIZ",
+  "_publisher" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "de"
+      },
+      {
+        "url" : "content",
+        "valueString" : "NUM-DIZ"
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
   "contact" : [{
     "name" : "NUM-DIZ",
     "telecom" : [{

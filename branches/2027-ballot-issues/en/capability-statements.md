@@ -7,10 +7,6 @@
 
 The following CapabilityStatements define the expected FHIR capabilities of systems implementing this implementation guide. Each module defines the required FHIR RESTful interactions, search parameters, and supported profiles.
 
-### Capability Statements
-
--------
-
 Each CapabilityStatement specifies:
 
 * **Server conformance requirements** - The FHIR resources and operations that must be supported

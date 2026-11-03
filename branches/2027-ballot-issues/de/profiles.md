@@ -1,13 +1,11 @@
-# Profiles - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
+# Profile - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
-* [**Table of Contents**](toc.md)
-* **Profiles**
+* [**Inhaltsverzeichnis**](toc.md)
+* **Profile**
 
-## Profiles
+## Profile
 
  Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
-
-### Profile
 
 Für diesen Implementierungsleitfaden wurden die folgenden Profile definiert.
 

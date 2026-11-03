@@ -38,8 +38,17 @@
   <name value="MII_PR_SDD_Beschaeftigungsstatus"/>
   <title value="MII PR SDD Beschäftigungsstatus"/>
   <status value="draft"/>
-  <date value="2026-11-02T15:31:49+00:00"/>
-  <publisher value="NUM-DIZ"/>
+  <date value="2026-11-03T11:10:14+00:00"/>
+  <publisher value="NUM-DIZ">
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="de"/>
+      </extension>
+      <extension url="content">
+        <valueString value="NUM-DIZ"/>
+      </extension>
+    </extension>
+  </publisher>
   <contact>
     <name value="NUM-DIZ"/>
     <telecom>

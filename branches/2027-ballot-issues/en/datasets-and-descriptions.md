@@ -6,8 +6,6 @@
 
 ## Datasets and Descriptions
 
-#### Datasets and descriptions
-
 The official, approved version of the information model for the Sociodemographic Data module is represented as a FHIR logical model; its element structure is rendered on the [Logical Models](logical-models.md) page.
 
 Note that the logical model aims purely at representing the data elements and their descriptions. The data types and cardinalities it uses are not to be regarded as binding; those are settled by the FHIR profiles. For every element within the logical model there is a mapping onto an element of a concrete FHIR resource.

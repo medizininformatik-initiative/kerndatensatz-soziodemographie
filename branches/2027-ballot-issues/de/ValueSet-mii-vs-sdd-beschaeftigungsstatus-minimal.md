@@ -1,6 +1,6 @@
 # MII VS SDD Beschaeftigungsstatus (Minimalversion) - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
-* [**Table of Contents**](toc.md)
+* [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
 * **MII VS SDD Beschaeftigungsstatus (Minimalversion)**
 
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-beschaeftigungsstatus-minimal | *Version*:2027.0.0-ballot |
-| Draft Stand: 2026-11-02 | *Maschinenlesbarer Name*:MII_VS_SDD_Beschaeftigungsstatus_Minimal |
+| Draft Stand: 2026-11-03 | *Maschinenlesbarer Name*:MII_VS_SDD_Beschaeftigungsstatus_Minimal |
 
  
 Value Set für Beschäftigungsstatus (Minimalversion) 
@@ -45,8 +45,21 @@ Value Set für Beschäftigungsstatus (Minimalversion)
   "title" : "MII VS SDD Beschaeftigungsstatus (Minimalversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-11-02T15:31:49+00:00",
+  "date" : "2026-11-03T11:10:14+00:00",
   "publisher" : "NUM-DIZ",
+  "_publisher" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "de"
+      },
+      {
+        "url" : "content",
+        "valueString" : "NUM-DIZ"
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
   "contact" : [{
     "name" : "NUM-DIZ",
     "telecom" : [{

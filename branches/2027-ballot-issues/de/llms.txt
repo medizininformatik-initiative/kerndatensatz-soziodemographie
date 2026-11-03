@@ -2,23 +2,23 @@
 
 ## Pages
 
-* [Home](index.md)
+* [Startseite](index.md)
 * [Downloads](downloads.md)
-* [Capability Statements](capability-statements.md)
-* [Security and Privacy](security-and-privacy.md)
-* [Changelog](changes.md)
-* [Logical Models](logical-models.md)
-* [Guidance for Implementers](implementer-guidance.md)
-* [Guidance](guidance.md)
-* [Terminology](terminology.md)
+* [CapabilityStatements](capability-statements.md)
+* [Sicherheit und Datenschutz](security-and-privacy.md)
+* [Änderungshistorie](changes.md)
+* [Logische Modelle](logical-models.md)
+* [Anleitung für Implementierende](implementer-guidance.md)
+* [Anleitung](guidance.md)
+* [Terminologie](terminology.md)
 * [Artefaktübersicht](artifacts.md)
-* [Datasets and Descriptions](datasets-and-descriptions.md)
-* [UML Diagrams](uml-diagrams.md)
-* [Versioning](version-history.md)
-* [Profiles](profiles.md)
-* [Translation Information](translationinfo.md)
-* [Guidance for Researchers](researcher-guidance.md)
-* [Examples](examples.md)
+* [Datensätze und Beschreibungen](datasets-and-descriptions.md)
+* [UML-Diagramme](uml-diagrams.md)
+* [Versionierung](version-history.md)
+* [Profile](profiles.md)
+* [Hinweise zur Übersetzung](translationinfo.md)
+* [Anleitung für Forschende](researcher-guidance.md)
+* [Beispiele](examples.md)
 
 ## Resources
 

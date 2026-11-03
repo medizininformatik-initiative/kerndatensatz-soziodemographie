@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-minimal | *Version*:2027.0.0-ballot |
-| Draft as of 2026-11-02 | *Computable Name*:MII_CS_SDD_Beschaeftigungsstatus_Minimal |
+| Draft as of 2026-11-03 | *Computable Name*:MII_CS_SDD_Beschaeftigungsstatus_Minimal |
 
  
 Code System für Beschäftigungsstatus (Minimalversion) 
@@ -39,8 +39,21 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "MII CS SDD Beschaeftigungsstatus (Minimalversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-11-02T15:31:49+00:00",
+  "date" : "2026-11-03T11:10:14+00:00",
   "publisher" : "NUM-DIZ",
+  "_publisher" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "de"
+      },
+      {
+        "url" : "content",
+        "valueString" : "NUM-DIZ"
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
   "contact" : [{
     "name" : "NUM-DIZ",
     "telecom" : [{

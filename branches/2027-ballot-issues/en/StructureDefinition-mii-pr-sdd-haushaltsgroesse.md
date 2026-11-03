@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-haushaltsgroesse | *Version*:2027.0.0-ballot |
-| Draft as of 2026-11-02 | *Computable Name*:MII_PR_SDD_Haushaltsgroesse |
+| Draft as of 2026-11-03 | *Computable Name*:MII_PR_SDD_Haushaltsgroesse |
 
  
 Anzahl der Personen, die ständig im Haushalt der Person leben. 
@@ -42,8 +42,21 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-hausha
   "name" : "MII_PR_SDD_Haushaltsgroesse",
   "title" : "MII PR SDD Haushaltsgroesse",
   "status" : "draft",
-  "date" : "2026-11-02T15:31:49+00:00",
+  "date" : "2026-11-03T11:10:14+00:00",
   "publisher" : "NUM-DIZ",
+  "_publisher" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "de"
+      },
+      {
+        "url" : "content",
+        "valueString" : "NUM-DIZ"
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
   "contact" : [{
     "name" : "NUM-DIZ",
     "telecom" : [{

@@ -4,15 +4,41 @@
   "language" : "en",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide mii-ig-soziodemographie</b></p><a name=\"mii-ig-soziodemographie\"> </a><a name=\"hcmii-ig-soziodemographie\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>MII_IG_Soziodemographie</h2><p>The official URL for this implementation guide is: </p><pre>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie</pre></div><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide mii-ig-soziodemographie</b></p><a name=\"de-mii-ig-soziodemographie\"> </a><a name=\"de-hcmii-ig-soziodemographie\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>MII_IG_Soziodemographie</h2><p>The official URL for this implementation guide is: </p><pre>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie</pre></div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide mii-ig-soziodemographie</b></p><a name=\"mii-ig-soziodemographie\"> </a><a name=\"hcmii-ig-soziodemographie\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>MII_IG_Soziodemographie</h2><p>The official URL for this implementation guide is: </p><pre>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie</pre></div><div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide mii-ig-soziodemographie</b></p><a name=\"de-mii-ig-soziodemographie\"> </a><a name=\"de-hcmii-ig-soziodemographie\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>MII_IG_Soziodemographie</h2><p>The official URL for this implementation guide is: </p><pre>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie</pre></div></div>"
   },
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie",
   "version" : "2027.0.0-ballot",
   "name" : "MII_IG_Soziodemographie",
   "title" : "MII Implementation Guide Soziodemographische Daten",
+  "_title" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "de"
+      },
+      {
+        "url" : "content",
+        "valueString" : "MII Implementierungsleitfaden Soziodemographische Daten"
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
   "status" : "draft",
   "date" : "2026-09-14",
   "publisher" : "NUM-DIZ",
+  "_publisher" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "lang",
+        "valueCode" : "de"
+      },
+      {
+        "url" : "content",
+        "valueString" : "NUM-DIZ"
+      }],
+      "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+    }]
+  },
   "contact" : [{
     "name" : "NUM-DIZ",
     "telecom" : [{
@@ -1109,6 +1135,19 @@
       }],
       "nameUrl" : "toc.html",
       "title" : "Table of Contents",
+      "_title" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "de"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Inhaltsverzeichnis"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
       "generation" : "html",
       "page" : [{
         "extension" : [{
@@ -1117,6 +1156,19 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Home",
+        "_title" : {
+          "extension" : [{
+            "extension" : [{
+              "url" : "lang",
+              "valueCode" : "de"
+            },
+            {
+              "url" : "content",
+              "valueString" : "Startseite"
+            }],
+            "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }]
+        },
         "generation" : "markdown"
       },
       {
@@ -1126,6 +1178,19 @@
         }],
         "nameUrl" : "guidance.html",
         "title" : "Guidance",
+        "_title" : {
+          "extension" : [{
+            "extension" : [{
+              "url" : "lang",
+              "valueCode" : "de"
+            },
+            {
+              "url" : "content",
+              "valueString" : "Anleitung"
+            }],
+            "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }]
+        },
         "generation" : "markdown",
         "page" : [{
           "extension" : [{
@@ -1134,6 +1199,19 @@
           }],
           "nameUrl" : "researcher-guidance.html",
           "title" : "Guidance for Researchers",
+          "_title" : {
+            "extension" : [{
+              "extension" : [{
+                "url" : "lang",
+                "valueCode" : "de"
+              },
+              {
+                "url" : "content",
+                "valueString" : "Anleitung für Forschende"
+              }],
+              "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+            }]
+          },
           "generation" : "markdown"
         },
         {
@@ -1143,6 +1221,19 @@
           }],
           "nameUrl" : "implementer-guidance.html",
           "title" : "Guidance for Implementers",
+          "_title" : {
+            "extension" : [{
+              "extension" : [{
+                "url" : "lang",
+                "valueCode" : "de"
+              },
+              {
+                "url" : "content",
+                "valueString" : "Anleitung für Implementierende"
+              }],
+              "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+            }]
+          },
           "generation" : "markdown"
         },
         {
@@ -1152,6 +1243,19 @@
           }],
           "nameUrl" : "datasets-and-descriptions.html",
           "title" : "Datasets and Descriptions",
+          "_title" : {
+            "extension" : [{
+              "extension" : [{
+                "url" : "lang",
+                "valueCode" : "de"
+              },
+              {
+                "url" : "content",
+                "valueString" : "Datensätze und Beschreibungen"
+              }],
+              "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+            }]
+          },
           "generation" : "markdown"
         },
         {
@@ -1161,6 +1265,19 @@
           }],
           "nameUrl" : "uml-diagrams.html",
           "title" : "UML Diagrams",
+          "_title" : {
+            "extension" : [{
+              "extension" : [{
+                "url" : "lang",
+                "valueCode" : "de"
+              },
+              {
+                "url" : "content",
+                "valueString" : "UML-Diagramme"
+              }],
+              "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+            }]
+          },
           "generation" : "markdown"
         },
         {
@@ -1170,6 +1287,19 @@
           }],
           "nameUrl" : "security-and-privacy.html",
           "title" : "Security and Privacy",
+          "_title" : {
+            "extension" : [{
+              "extension" : [{
+                "url" : "lang",
+                "valueCode" : "de"
+              },
+              {
+                "url" : "content",
+                "valueString" : "Sicherheit und Datenschutz"
+              }],
+              "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+            }]
+          },
           "generation" : "markdown"
         }]
       },
@@ -1180,6 +1310,19 @@
         }],
         "nameUrl" : "profiles.html",
         "title" : "Profiles",
+        "_title" : {
+          "extension" : [{
+            "extension" : [{
+              "url" : "lang",
+              "valueCode" : "de"
+            },
+            {
+              "url" : "content",
+              "valueString" : "Profile"
+            }],
+            "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }]
+        },
         "generation" : "markdown"
       },
       {
@@ -1189,6 +1332,19 @@
         }],
         "nameUrl" : "terminology.html",
         "title" : "Terminology",
+        "_title" : {
+          "extension" : [{
+            "extension" : [{
+              "url" : "lang",
+              "valueCode" : "de"
+            },
+            {
+              "url" : "content",
+              "valueString" : "Terminologie"
+            }],
+            "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }]
+        },
         "generation" : "markdown"
       },
       {
@@ -1198,6 +1354,19 @@
         }],
         "nameUrl" : "capability-statements.html",
         "title" : "Capability Statements",
+        "_title" : {
+          "extension" : [{
+            "extension" : [{
+              "url" : "lang",
+              "valueCode" : "de"
+            },
+            {
+              "url" : "content",
+              "valueString" : "CapabilityStatements"
+            }],
+            "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }]
+        },
         "generation" : "markdown"
       },
       {
@@ -1207,6 +1376,19 @@
         }],
         "nameUrl" : "logical-models.html",
         "title" : "Logical Models",
+        "_title" : {
+          "extension" : [{
+            "extension" : [{
+              "url" : "lang",
+              "valueCode" : "de"
+            },
+            {
+              "url" : "content",
+              "valueString" : "Logische Modelle"
+            }],
+            "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }]
+        },
         "generation" : "markdown"
       },
       {
@@ -1216,6 +1398,19 @@
         }],
         "nameUrl" : "examples.html",
         "title" : "Examples",
+        "_title" : {
+          "extension" : [{
+            "extension" : [{
+              "url" : "lang",
+              "valueCode" : "de"
+            },
+            {
+              "url" : "content",
+              "valueString" : "Beispiele"
+            }],
+            "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }]
+        },
         "generation" : "markdown"
       },
       {
@@ -1225,6 +1420,19 @@
         }],
         "nameUrl" : "downloads.html",
         "title" : "Downloads",
+        "_title" : {
+          "extension" : [{
+            "extension" : [{
+              "url" : "lang",
+              "valueCode" : "de"
+            },
+            {
+              "url" : "content",
+              "valueString" : "Downloads"
+            }],
+            "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }]
+        },
         "generation" : "markdown"
       },
       {
@@ -1234,6 +1442,19 @@
         }],
         "nameUrl" : "changes.html",
         "title" : "Changelog",
+        "_title" : {
+          "extension" : [{
+            "extension" : [{
+              "url" : "lang",
+              "valueCode" : "de"
+            },
+            {
+              "url" : "content",
+              "valueString" : "Änderungshistorie"
+            }],
+            "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }]
+        },
         "generation" : "markdown"
       },
       {
@@ -1243,6 +1464,19 @@
         }],
         "nameUrl" : "version-history.html",
         "title" : "Versioning",
+        "_title" : {
+          "extension" : [{
+            "extension" : [{
+              "url" : "lang",
+              "valueCode" : "de"
+            },
+            {
+              "url" : "content",
+              "valueString" : "Versionierung"
+            }],
+            "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }]
+        },
         "generation" : "markdown"
       },
       {
@@ -1252,6 +1486,19 @@
         }],
         "nameUrl" : "ImplementationGuide-mii-ig-soziodemographie.html",
         "title" : "MII ImplementationGuide Resource",
+        "_title" : {
+          "extension" : [{
+            "extension" : [{
+              "url" : "lang",
+              "valueCode" : "de"
+            },
+            {
+              "url" : "content",
+              "valueString" : "MII ImplementationGuide Ressource"
+            }],
+            "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }]
+        },
         "generation" : "markdown"
       },
       {
@@ -1261,6 +1508,19 @@
         }],
         "nameUrl" : "translationinfo.html",
         "title" : "Translation Information",
+        "_title" : {
+          "extension" : [{
+            "extension" : [{
+              "url" : "lang",
+              "valueCode" : "de"
+            },
+            {
+              "url" : "content",
+              "valueString" : "Hinweise zur Übersetzung"
+            }],
+            "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+          }]
+        },
         "generation" : "markdown"
       }]
     },

@@ -4,12 +4,12 @@
   "language" : "de",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide mii-ig-soziodemographie</b></p><a name=\"de-mii-ig-soziodemographie\"> </a><a name=\"de-hcmii-ig-soziodemographie\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>MII_IG_Soziodemographie</h2><p>The official URL for this implementation guide is: </p><pre>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie</pre></div>"
+    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide mii-ig-soziodemographie</b></p><a name=\"de-mii-ig-soziodemographie\"> </a><a name=\"de-hcmii-ig-soziodemographie\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>MII_IG_Soziodemographie</h2><p>The official URL for this implementation guide is: </p><pre>https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie</pre></div>"
   },
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ImplementationGuide/mii-ig-soziodemographie",
   "version" : "2027.0.0-ballot",
   "name" : "MII_IG_Soziodemographie",
-  "title" : "MII Implementation Guide Soziodemographische Daten",
+  "title" : "MII Implementierungsleitfaden Soziodemographische Daten",
   "status" : "draft",
   "date" : "2026-09-14",
   "publisher" : "NUM-DIZ",
@@ -1108,7 +1108,7 @@
         "valueUrl" : "toc.html"
       }],
       "nameUrl" : "toc.html",
-      "title" : "Table of Contents",
+      "title" : "Inhaltsverzeichnis",
       "generation" : "html",
       "page" : [{
         "extension" : [{
@@ -1116,7 +1116,7 @@
           "valueUrl" : "index.html"
         }],
         "nameUrl" : "index.html",
-        "title" : "Home",
+        "title" : "Startseite",
         "generation" : "markdown"
       },
       {
@@ -1125,7 +1125,7 @@
           "valueUrl" : "guidance.html"
         }],
         "nameUrl" : "guidance.html",
-        "title" : "Guidance",
+        "title" : "Anleitung",
         "generation" : "markdown",
         "page" : [{
           "extension" : [{
@@ -1133,7 +1133,7 @@
             "valueUrl" : "researcher-guidance.html"
           }],
           "nameUrl" : "researcher-guidance.html",
-          "title" : "Guidance for Researchers",
+          "title" : "Anleitung für Forschende",
           "generation" : "markdown"
         },
         {
@@ -1142,7 +1142,7 @@
             "valueUrl" : "implementer-guidance.html"
           }],
           "nameUrl" : "implementer-guidance.html",
-          "title" : "Guidance for Implementers",
+          "title" : "Anleitung für Implementierende",
           "generation" : "markdown"
         },
         {
@@ -1151,7 +1151,7 @@
             "valueUrl" : "datasets-and-descriptions.html"
           }],
           "nameUrl" : "datasets-and-descriptions.html",
-          "title" : "Datasets and Descriptions",
+          "title" : "Datensätze und Beschreibungen",
           "generation" : "markdown"
         },
         {
@@ -1160,7 +1160,7 @@
             "valueUrl" : "uml-diagrams.html"
           }],
           "nameUrl" : "uml-diagrams.html",
-          "title" : "UML Diagrams",
+          "title" : "UML-Diagramme",
           "generation" : "markdown"
         },
         {
@@ -1169,7 +1169,7 @@
             "valueUrl" : "security-and-privacy.html"
           }],
           "nameUrl" : "security-and-privacy.html",
-          "title" : "Security and Privacy",
+          "title" : "Sicherheit und Datenschutz",
           "generation" : "markdown"
         }]
       },
@@ -1179,7 +1179,7 @@
           "valueUrl" : "profiles.html"
         }],
         "nameUrl" : "profiles.html",
-        "title" : "Profiles",
+        "title" : "Profile",
         "generation" : "markdown"
       },
       {
@@ -1188,7 +1188,7 @@
           "valueUrl" : "terminology.html"
         }],
         "nameUrl" : "terminology.html",
-        "title" : "Terminology",
+        "title" : "Terminologie",
         "generation" : "markdown"
       },
       {
@@ -1197,7 +1197,7 @@
           "valueUrl" : "capability-statements.html"
         }],
         "nameUrl" : "capability-statements.html",
-        "title" : "Capability Statements",
+        "title" : "CapabilityStatements",
         "generation" : "markdown"
       },
       {
@@ -1206,7 +1206,7 @@
           "valueUrl" : "logical-models.html"
         }],
         "nameUrl" : "logical-models.html",
-        "title" : "Logical Models",
+        "title" : "Logische Modelle",
         "generation" : "markdown"
       },
       {
@@ -1215,7 +1215,7 @@
           "valueUrl" : "examples.html"
         }],
         "nameUrl" : "examples.html",
-        "title" : "Examples",
+        "title" : "Beispiele",
         "generation" : "markdown"
       },
       {
@@ -1233,7 +1233,7 @@
           "valueUrl" : "changes.html"
         }],
         "nameUrl" : "changes.html",
-        "title" : "Changelog",
+        "title" : "Änderungshistorie",
         "generation" : "markdown"
       },
       {
@@ -1242,7 +1242,7 @@
           "valueUrl" : "version-history.html"
         }],
         "nameUrl" : "version-history.html",
-        "title" : "Versioning",
+        "title" : "Versionierung",
         "generation" : "markdown"
       },
       {
@@ -1251,7 +1251,7 @@
           "valueUrl" : "ImplementationGuide-mii-ig-soziodemographie.html"
         }],
         "nameUrl" : "ImplementationGuide-mii-ig-soziodemographie.html",
-        "title" : "MII ImplementationGuide Resource",
+        "title" : "MII ImplementationGuide Ressource",
         "generation" : "markdown"
       },
       {
@@ -1260,7 +1260,7 @@
           "valueUrl" : "translationinfo.html"
         }],
         "nameUrl" : "translationinfo.html",
-        "title" : "Translation Information",
+        "title" : "Hinweise zur Übersetzung",
         "generation" : "markdown"
       }]
     },

@@ -1,10 +1,10 @@
 MII_IG_Soziodemographie : Validation Results
 =========================================
 
-err = 47, warn = 458, info = 85, broken links = 0
-IG Publisher Version: 3.0.1 Out of date - current version is 3.0.2
-Generated Mon Nov 02 15:35:15 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie)
- Build Errors : 46 / 263 / 0
+err = 37, warn = 458, info = 85, broken links = 0
+IG Publisher Version: 3.0.2
+Generated Tue Nov 03 11:13:23 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie)
+ Build Errors : 36 / 263 / 0
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-ausbildung : 0 / 3 / 1
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-berufliche-stellung-lang : 0 / 3 / 1
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-berufliche-stellung-minimal : 0 / 3 / 1
@@ -202,8 +202,6 @@ WARNING: /workspace/output/de/StructureDefinition-mii-pr-sdd-vertrauensperson.pr
 WARNING: /workspace/output/de/StructureDefinition-mii-pr-sdd-vertrauensperson.profile.history.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 374 column 9
 ERROR: /workspace/output/de/StructureDefinition-mii-pr-sdd-vertrauensperson.profile.history.html: The page has more than one top level heading: <h2> (no text) is at the same level as the first heading on the page (<h2> 'Ressourcenprofil: MII PR SDD Vertrauensperson - Änderungs...' (id=root)). A page must have exactly one top level heading, with every other heading beneath it (WCAG compliance test)
 WARNING: /workspace/output/de/StructureDefinition-mii-pr-sdd-vertrauensperson.profile.history.html: The html source has duplicate element ids: root. An id must be unique in a page - a link to one of these is ambiguous, and it is invalid HTML
-ERROR: /workspace/output/de/datasets-and-descriptions.html: The page skips a heading level: <h4> 'Datensätze und Beschreibungen' (id=datensätze-und-beschreibungen) follows <h2> 'Datasets and Descriptions', so it should be <h3>. Heading levels must not skip a level going down (WCAG compliance test)
-ERROR: /workspace/output/de/downloads.html: The page skips a heading level: <h4> 'Paketdatei' (id=paketdatei) follows <h2> 'Downloads', so it should be <h3>. Heading levels must not skip a level going down (WCAG compliance test)
 ERROR: /workspace/output/de/index.html: The page skips a heading level: <h5> 'Implementierende' follows <h3> 'Zielgruppe' (id=zielgruppe), so it should be <h4>. Heading levels must not skip a level going down (WCAG compliance test)
 WARNING: /workspace/output/de/searchform.html: The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 175
 WARNING: /workspace/output/de/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 9
@@ -213,9 +211,6 @@ WARNING: /workspace/output/de/searchform.html: The html source is not well forme
 WARNING: /workspace/output/de/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 19
 WARNING: /workspace/output/de/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 15
 WARNING: /workspace/output/de/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 11
-ERROR: /workspace/output/de/security-and-privacy.html: The page skips a heading level: <h4> '1. Das übergreifende Datenschutzkonzept' (id=1-das-übergreifende-datenschutzkonzept) follows <h2> 'Security and Privacy', so it should be <h3>. Heading levels must not skip a level going down (WCAG compliance test)
-ERROR: /workspace/output/de/terminology.html: The page skips a heading level: <h4> 'Terminologie' (id=terminologie) follows <h2> 'Terminology', so it should be <h3>. Heading levels must not skip a level going down (WCAG compliance test)
-ERROR: /workspace/output/de/version-history.html: The page skips a heading level: <h4> 'Versionsschema' (id=versionsschema) follows <h2> 'Versioning', so it should be <h3>. Heading levels must not skip a level going down (WCAG compliance test)
 WARNING: /workspace/output/en/StructureDefinition-mii-lm-sdd.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 2380 column 13
 WARNING: /workspace/output/en/StructureDefinition-mii-lm-sdd.profile.history.html: The html source is not well formed: Found "</div>" expecting "</h2>" at line 384 column 7
 WARNING: /workspace/output/en/StructureDefinition-mii-lm-sdd.profile.history.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 386 column 15
@@ -352,8 +347,6 @@ WARNING: /workspace/output/en/StructureDefinition-mii-pr-sdd-vertrauensperson.pr
 WARNING: /workspace/output/en/StructureDefinition-mii-pr-sdd-vertrauensperson.profile.history.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 399 column 9
 ERROR: /workspace/output/en/StructureDefinition-mii-pr-sdd-vertrauensperson.profile.history.html: The page has more than one top level heading: <h2> (no text) is at the same level as the first heading on the page (<h2> 'Resource Profile: MII PR SDD Vertrauensperson - Change Hi...' (id=root)). A page must have exactly one top level heading, with every other heading beneath it (WCAG compliance test)
 WARNING: /workspace/output/en/StructureDefinition-mii-pr-sdd-vertrauensperson.profile.history.html: The html source has duplicate element ids: root. An id must be unique in a page - a link to one of these is ambiguous, and it is invalid HTML
-ERROR: /workspace/output/en/datasets-and-descriptions.html: The page skips a heading level: <h4> 'Datasets and descriptions' (id=datasets-and-descriptions) follows <h2> 'Datasets and Descriptions', so it should be <h3>. Heading levels must not skip a level going down (WCAG compliance test)
-ERROR: /workspace/output/en/downloads.html: The page skips a heading level: <h4> 'Package file' (id=package-file) follows <h2> 'Downloads', so it should be <h3>. Heading levels must not skip a level going down (WCAG compliance test)
 ERROR: /workspace/output/en/index.html: The page skips a heading level: <h5> 'Implementers' follows <h3> 'Target audience' (id=target-audience), so it should be <h4>. Heading levels must not skip a level going down (WCAG compliance test)
 WARNING: /workspace/output/en/searchform.html: The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 175
 WARNING: /workspace/output/en/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 9
@@ -363,9 +356,6 @@ WARNING: /workspace/output/en/searchform.html: The html source is not well forme
 WARNING: /workspace/output/en/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 19
 WARNING: /workspace/output/en/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 15
 WARNING: /workspace/output/en/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 11
-ERROR: /workspace/output/en/security-and-privacy.html: The page skips a heading level: <h4> '1. The overarching data protection concept' (id=1-the-overarching-data-protection-concept) follows <h2> 'Security and Privacy', so it should be <h3>. Heading levels must not skip a level going down (WCAG compliance test)
-ERROR: /workspace/output/en/terminology.html: The page skips a heading level: <h4> 'Teminology' (id=teminology) follows <h2> 'Terminology', so it should be <h3>. Heading levels must not skip a level going down (WCAG compliance test)
-ERROR: /workspace/output/en/version-history.html: The page skips a heading level: <h4> 'Version scheme' (id=version-scheme) follows <h2> 'Versioning', so it should be <h3>. Heading levels must not skip a level going down (WCAG compliance test)
 WARNING: /workspace/output/searchform.html: The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 175
 WARNING: /workspace/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 9
 WARNING: /workspace/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 80 column 8

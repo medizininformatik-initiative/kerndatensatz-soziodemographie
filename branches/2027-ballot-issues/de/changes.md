@@ -1,27 +1,23 @@
-# Changelog - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
+# Änderungshistorie - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
-* [**Table of Contents**](toc.md)
-* **Changelog**
+* [**Inhaltsverzeichnis**](toc.md)
+* **Änderungshistorie**
 
-## Changelog
-
- Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
-
-### Änderungsprotokoll
+## Änderungshistorie
 
 Diese Seite hält die Änderungen zwischen den veröffentlichten Versionen des Moduls Soziodemographische Daten fest, die neueste Version zuerst. Sie folgt [Keep a Changelog](https://keepachangelog.com/de/1.1.0/) und dem KDS-CalVer-Schema, das die Seite [Versionierung](version-history.md) beschreibt.
 
 -------
 
-#### Version 2027.0.0-ballot
+### Version 2027.0.0-ballot
 
 **Datum:** 14.09.2026
 
-#### Version 2027.0.0-ballot.rc1
+### Version 2027.0.0-ballot.rc1
 
 **Datum:** 31.08.2026
 
-##### Hinzugefügt
+#### Hinzugefügt
 
 * Erstveröffentlichung des Moduls Soziodemographische Daten.
 

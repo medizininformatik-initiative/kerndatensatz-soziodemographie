@@ -316,10 +316,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
-</div>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#1-the-overarching-data-protection-concept" id="markdown-toc-1-the-overarching-data-protection-concept">1. The overarching data protection concept</a></li>
+  <li><a href="#2-de-identification-minimisation-and-pseudonymisation-dimp" id="markdown-toc-2-de-identification-minimisation-and-pseudonymisation-dimp">2. De-identification, minimisation and pseudonymisation (DIMP)</a></li>
+</ul>
 
+</div>
 <p>This section addresses security and privacy experts. General requirements are in
 the FHIR core specification —
 <a href="https://build.fhir.org/secpriv-module.html">Security &amp; Privacy Module</a> and the
@@ -327,7 +330,7 @@ the FHIR core specification —
 repeat them; it links the overarching data protection framework and states what is
 <strong>specific to this module</strong>.</p>
 
-<h4 id="1-the-overarching-data-protection-concept">1. The overarching data protection concept</h4>
+<h3 id="1-the-overarching-data-protection-concept">1. The overarching data protection concept</h3>
 
 <p>The
 <a href="https://www.medizininformatik-initiative.de/en/data-protection-concept">overarching data protection concept of the Medical Informatics Initiative</a>
@@ -339,7 +342,7 @@ scenarios (feasibility queries, distributed analyses, data and biosample
 provision). Everything this module specifies operates inside that framework —
 this guide adds no processing purpose of its own.</p>
 
-<h4 id="2-de-identification-minimisation-and-pseudonymisation-dimp">2. De-identification, minimisation and pseudonymisation (DIMP)</h4>
+<h3 id="2-de-identification-minimisation-and-pseudonymisation-dimp">2. De-identification, minimisation and pseudonymisation (DIMP)</h3>
 
 <p>How data leaving a Data Integration Center is de-identified in practice is
 specified by
@@ -375,7 +378,7 @@ by the DIMP configuration, not by this guide.</p>
 
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.netzwerk-universitaetsmedizin.de">NUM-DIZ</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Generated <span title="Mon, Nov 2, 2026 15:31+0000">2026-11-02</span>
+          Generated <span title="Tue, Nov 3, 2026 11:10+0000">2026-11-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

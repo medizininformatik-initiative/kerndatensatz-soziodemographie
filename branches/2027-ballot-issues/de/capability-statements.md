@@ -1,17 +1,13 @@
-# Capability Statements - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
+# CapabilityStatements - MII Implementation Guide Soziodemographische Daten v2027.0.0-ballot
 
-* [**Table of Contents**](toc.md)
-* **Capability Statements**
+* [**Inhaltsverzeichnis**](toc.md)
+* **CapabilityStatements**
 
-## Capability Statements
+## CapabilityStatements
 
  Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
 Die folgenden CapabilityStatements definieren die erwarteten FHIR-Fähigkeiten von Systemen, die diesen Implementierungsleitfaden umsetzen. Jedes Modul definiert die erforderlichen FHIR-RESTful-Interaktionen, Suchparameter und unterstützten Profile.
-
-### Capability Statements
-
--------
 
 Jedes CapabilityStatement legt fest:
 
