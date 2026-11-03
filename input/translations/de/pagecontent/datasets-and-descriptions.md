@@ -1,4 +1,4 @@
-Die offizielle, freigegebene Version des Informationsmodells für das Modul Soziodemographische Daten wird als FHIR Logical Model dargestellt; seine Elementstruktur ist auf der Seite [Logische Modelle](logical-models.html) abgebildet.
+Die offizielle, freigegebene Version des Informationsmodells für das Modul Soziodemographische Daten wird als FHIR Logical Model dargestellt; seine Elementstruktur ist auf der Seite [Logisches Modell](logical-models.html) abgebildet.
 
 Zu beachten ist, dass das logische Modell ausschließlich darauf abzielt, die Datenelemente und ihre Beschreibungen darzustellen. Die verwendeten Datentypen und Kardinalitäten sind nicht als verbindlich anzusehen; diese werden durch die FHIR-Profile festgelegt. Für jedes Element im logischen Modell existiert eine Zuordnung zu einem Element einer konkreten FHIR-Ressource.
 

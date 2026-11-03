@@ -77,8 +77,8 @@ msgstr "CapabilityStatements"
 
 # ImplementationGuide.definition.page.title
 #: ImplementationGuide.definition.page.title
-msgid "Logical Models"
-msgstr "Logische Modelle"
+msgid "Logical Model"
+msgstr "Logisches Modell"
 
 # ImplementationGuide.definition.page.title
 #: ImplementationGuide.definition.page.title

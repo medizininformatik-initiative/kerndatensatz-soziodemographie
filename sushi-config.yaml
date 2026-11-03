@@ -75,7 +75,7 @@ pages:
 #  search-parameters.md: # OPTIONAL (0..1) — see docs/optional-pages.md
 #    title: Search Parameters
   logical-models.md:
-    title: Logical Models
+    title: Logical Model
   examples.md:
     title: Examples
 

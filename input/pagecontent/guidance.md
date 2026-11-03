@@ -3,7 +3,7 @@ This section provides guidance for different audiences implementing and using th
 
 #### General Implementation Guidance
 
-* **[Datasets and Descriptions](datasets-and-descriptions.html)** - Detailed descriptions of the MII core dataset logical models.
+* **[Datasets and Descriptions](datasets-and-descriptions.html)** - Detailed description of the module's logical model.
 * **[UML Diagrams](uml-diagrams.html)** - UML diagrams illustrating the data models and relationships.
 * **[Guidance for Researchers](researcher-guidance.html)** - Information for researchers using MII data for research purposes.
 * **[Guidance for Implementers](implementer-guidance.html)** - Technical guidance for Data Integration Center (DIZ) implementers.

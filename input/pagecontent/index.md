@@ -14,7 +14,7 @@ This specification defines FHIR profiles for recording sociodemographic characte
 <div class="ig-highlight ig-highlight-blue">
 <h5>Implementers</h5>
 <p>Data Integration Centers (DIC), software developers and system architects building FHIR-based solutions.<br/>
-→ see <a href="profiles.html">Profiles</a> and <a href="logical-models.html">Logical Models</a>.</p>
+→ see <a href="profiles.html">Profiles</a> and <a href="logical-models.html">Logical Model</a>.</p>
 </div>
 
 <div class="ig-highlight ig-highlight-green">

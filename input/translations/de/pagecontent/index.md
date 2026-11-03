@@ -14,7 +14,7 @@ Diese Spezifikation definiert FHIR-Profile zur Erfassung soziodemographischer Me
 <div class="ig-highlight ig-highlight-blue">
 <h5>Implementierende</h5>
 <p>Datenintegrationszentren (DIZ), Software-Entwickelnde und System-Architekt:innen, die FHIR-basierte Lösungen umsetzen.<br/>
-→ siehe <a href="profiles.html">Profile</a> und <a href="logical-models.html">Logische Modelle</a>.</p>
+→ siehe <a href="profiles.html">Profile</a> und <a href="logical-models.html">Logisches Modell</a>.</p>
 </div>
 
 <div class="ig-highlight ig-highlight-green">
