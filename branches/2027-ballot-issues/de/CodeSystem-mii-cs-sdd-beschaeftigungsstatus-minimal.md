@@ -39,7 +39,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "title" : "MII CS SDD Beschaeftigungsstatus (Minimalversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-11-03T11:31:47+00:00",
+  "date" : "2026-11-03T11:49:23+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{
