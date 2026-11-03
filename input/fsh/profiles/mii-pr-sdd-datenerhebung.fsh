@@ -102,3 +102,18 @@ Description: "Datenerhebung für SDD"
 * hasMember[beruflichestellung] only Reference(MII_PR_SDD_Berufliche_Stellung)
 * hasMember[schulabschluss] only Reference(MII_PR_SDD_Schulabschluss)
 * hasMember[schuljahre] only Reference(MII_PR_SDD_Schuljahre)
+
+// Sektion des Logical Models im short, damit die Zuordnung in der Profilansicht sichtbar ist
+* hasMember[geburtslandMutter] ^short = "Erweiterte Herkunft: Geburtsland Mutter"
+* hasMember[geburtslandVater] ^short = "Erweiterte Herkunft: Geburtsland Vater"
+* hasMember[partnerschaft] ^short = "Lebenssituation: Partnerschaft"
+* hasMember[vertrauensperson] ^short = "Lebenssituation: Vertrauensperson"
+* hasMember[haushaltsgroesse] ^short = "Lebenssituation: Haushaltsgröße"
+* hasMember[betreuungssituation] ^short = "Lebenssituation: Betreuungssituation"
+* hasMember[schwerbehindertenausweis] ^short = "Lebenssituation: Schwerbehindertenausweis"
+* hasMember[ausbildung] ^short = "Sozioökonomische Faktoren: Ausbildung"
+* hasMember[beschaeftigungsstatus] ^short = "Sozioökonomische Faktoren: Beschäftigungsstatus"
+* hasMember[einkommen] ^short = "Sozioökonomische Faktoren: Einkommen"
+* hasMember[beruflichestellung] ^short = "Sozioökonomische Faktoren: Berufliche Stellung"
+* hasMember[schulabschluss] ^short = "Sozioökonomische Faktoren: Schulbildung (Schulabschluss, Langversion)"
+* hasMember[schuljahre] ^short = "Sozioökonomische Faktoren: Schulbildung (Schuljahre, Minimalversion)"

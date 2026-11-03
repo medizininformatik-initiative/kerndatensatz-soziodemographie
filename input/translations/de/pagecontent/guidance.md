@@ -79,6 +79,28 @@ Nicht alle Teilbereiche müssen zu jedem Erhebungszeitpunkt vorliegen. Die spezi
 
 Für ausgewählte Merkmale, insbesondere Bildung, Ausbildung, Beschäftigungsstatus und berufliche Stellung, stehen eine ausführlichere Langversion und eine vereinfachte Minimalversion zur Verfügung. Dadurch kann die Datentiefe an den jeweiligen Versorgungskontext, die verfügbare Zeit und den konkreten Dokumentationszweck angepasst werden. 
 
+#### Zuordnung des logischen Modells zu den Profilen
+
+Die [Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.html) fasst die einzelnen Beobachtungen über `Observation.hasMember` zusammen. Die folgende Tabelle zeigt, zu welcher Sektion des [logischen Modells](logical-models.html) eine Beobachtung gehört, welches Profil sie umsetzt und über welchen `hasMember`-Slice sie referenziert wird.
+
+| Sektion | Element im logischen Modell | Merkmal | Profil | `hasMember`-Slice |
+|---|---|---|---|---|
+| Erweiterte Herkunft | `erweiterteHerkunft.geburtslandMutter` | Geburtsland der Mutter | [MII PR SDD Geburtsland Mutter](StructureDefinition-mii-pr-sdd-geburtsland-mutter.html) | `geburtslandMutter` |
+| Erweiterte Herkunft | `erweiterteHerkunft.geburtslandVater` | Geburtsland des Vaters | [MII PR SDD Geburtsland Vater](StructureDefinition-mii-pr-sdd-geburtsland-vater.html) | `geburtslandVater` |
+| Lebenssituation | `lebenssituation.partnerschaft` | Partnerschaft | [MII PR SDD Partnerschaft](StructureDefinition-mii-pr-sdd-partnerschaft.html) | `partnerschaft` |
+| Lebenssituation | `lebenssituation.vertrauensperson` | Vertrauensperson | [MII PR SDD Vertrauensperson](StructureDefinition-mii-pr-sdd-vertrauensperson.html) | `vertrauensperson` |
+| Lebenssituation | `lebenssituation.haushaltsgroesse` | Haushaltsgröße | [MII PR SDD Haushaltsgroesse](StructureDefinition-mii-pr-sdd-haushaltsgroesse.html) | `haushaltsgroesse` |
+| Lebenssituation | `lebenssituation.betreuungssituation` | Betreuungssituation | [MII PR SDD Betreuungssituation](StructureDefinition-mii-pr-sdd-betreuungssituation.html) | `betreuungssituation` |
+| Lebenssituation | `lebenssituation.schwerbehindertenausweis` | Schwerbehindertenausweis | [MII PR SDD Schwerbehindertenausweis](StructureDefinition-mii-pr-sdd-schwerbehindertenausweis.html) | `schwerbehindertenausweis` |
+| Sozioökonomische Faktoren | `soziooekonomischeFaktoren.schulbildung` | Schulbildung (Langversion) | [MII PR SDD Schulabschluss](StructureDefinition-mii-pr-sdd-schulabschluss.html) | `schulabschluss` |
+| Sozioökonomische Faktoren | `soziooekonomischeFaktoren.schulbildung` | Schulbildung (Minimalversion) | [MII PR SDD Schuljahre](StructureDefinition-mii-pr-sdd-schuljahre.html) | `schuljahre` |
+| Sozioökonomische Faktoren | `soziooekonomischeFaktoren.ausbildung` | Ausbildung | [MII PR SDD Ausbildung](StructureDefinition-mii-pr-sdd-ausbildung.html) | `ausbildung` |
+| Sozioökonomische Faktoren | `soziooekonomischeFaktoren.beschaeftigungsstatus` | Beschäftigungsstatus | [MII PR SDD Beschäftigungsstatus](StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.html) | `beschaeftigungsstatus` |
+| Sozioökonomische Faktoren | `soziooekonomischeFaktoren.beruflicheStellung` | Berufliche Stellung | [MII PR SDD Berufliche Stellung](StructureDefinition-mii-pr-sdd-berufliche-stellung.html) | `beruflichestellung` |
+| Sozioökonomische Faktoren | `soziooekonomischeFaktoren.einkommen` | Einkommen | [MII PR SDD Einkommen](StructureDefinition-mii-pr-sdd-einkommen.html) | `einkommen` |
+
+Die Sektionen *Person* (Postleitzahl, Erstsprache, Geburtsland, Staatsangehörigkeit) und *Intensivmedizin* (Größe, Gewicht) des logischen Modells werden nicht durch Profile dieses Moduls abgebildet und daher nicht über `hasMember` referenziert. Sie werden durch das KDS-Modul Person bzw. das KDS-Modul Intensivmedizin abgedeckt (siehe [Anleitung für Implementierende](implementer-guidance.html)).
+
 ---
 Für die KDS-weiten Konformitätsanforderungen siehe die
 [Konformitätsregeln des Meta-Moduls](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance);
