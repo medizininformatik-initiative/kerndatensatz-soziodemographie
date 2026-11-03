@@ -1671,7 +1671,7 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
           "valueUrl" : "logical-models.html"
         }],
         "nameUrl" : "logical-models.html",
-        "title" : "Logical Models",
+        "title" : "Logical Model",
         "_title" : {
           "extension" : [{
             "extension" : [{
@@ -1680,7 +1680,7 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
             },
             {
               "url" : "content",
-              "valueString" : "Logische Modelle"
+              "valueString" : "Logisches Modell"
             }],
             "url" : "http://hl7.org/fhir/StructureDefinition/translation"
           }]

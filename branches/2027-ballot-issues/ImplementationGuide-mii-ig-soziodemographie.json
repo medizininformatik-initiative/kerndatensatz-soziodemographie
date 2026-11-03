@@ -1375,7 +1375,7 @@
           "valueUrl" : "logical-models.html"
         }],
         "nameUrl" : "logical-models.html",
-        "title" : "Logical Models",
+        "title" : "Logical Model",
         "_title" : {
           "extension" : [{
             "extension" : [{
@@ -1384,7 +1384,7 @@
             },
             {
               "url" : "content",
-              "valueString" : "Logische Modelle"
+              "valueString" : "Logisches Modell"
             }],
             "url" : "http://hl7.org/fhir/StructureDefinition/translation"
           }]

@@ -13,7 +13,7 @@ Dieser Abschnitt bietet Hinweise für verschiedene Zielgruppen, die den Implemen
 
 #### Allgemeine Umsetzungshinweise
 
-* **[Datensätze und Beschreibungen](datasets-and-descriptions.md)** - Die Datenelemente des Moduls, beschrieben als logische Modelle.
+* **[Datensätze und Beschreibungen](datasets-and-descriptions.md)** - Die Datenelemente des Moduls, beschrieben als logisches Modell.
 * **[UML-Diagramme](uml-diagrams.md)** - Visuelle Darstellung der Datenmodelle und ihrer Beziehungen.
 * **[Hinweise für Forschende](researcher-guidance.md)** - Für Forschende, die Moduldaten nutzen.
 * **[Hinweise für Implementierende](implementer-guidance.md)** - Technische Hinweise für DIZ-Implementierende.

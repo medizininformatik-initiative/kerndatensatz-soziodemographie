@@ -8,7 +8,7 @@
 
  Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-Diese Seite enthält UML-Klassendiagramme für die logischen Modelle der Basismodule des MII-Kerndatensatzes. Diese Diagramme veranschaulichen die Beziehungen zwischen den verschiedenen Datenelementen und Klassen.
+Diese Seite enthält ein UML-Klassendiagramm für das logische Modell des Moduls Soziodemographische Daten. Das Diagramm veranschaulicht die Beziehungen zwischen den verschiedenen Datenelementen und Klassen.
 
 Das folgende Diagramm zeigt die logische Struktur des Moduls Soziodemographische Daten:
 

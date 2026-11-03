@@ -41,5 +41,5 @@ Für diesen Implementierungsleitfaden wurden die folgenden Profile definiert.
 
 Eine vollständige Auflistung aller Artefakte (Profile, Extensions, ValueSets usw.) finden Sie in der [Artefaktübersicht](artifacts.md).
 
-Die konzeptionellen Datenmodelle finden Sie unter [Logische Modelle](logical-models.md).
+Das konzeptionelle Datenmodell finden Sie unter [Logisches Modell](logical-models.md).
 

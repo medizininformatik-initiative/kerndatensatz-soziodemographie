@@ -39,5 +39,5 @@ The following profiles have been defined for this implementation guide.
 
 For a complete listing of all artifacts (profiles, extensions, value sets, etc.), see the [Artifacts Overview](artifacts.md).
 
-For the conceptual data models, see [Logical Models](logical-models.md).
+For the conceptual data model, see [Logical Model](logical-models.md).
 

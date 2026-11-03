@@ -7,7 +7,7 @@
 * [Capability Statements](capability-statements.md)
 * [Security and Privacy](security-and-privacy.md)
 * [Changelog](changes.md)
-* [Logical Models](logical-models.md)
+* [Logical Model](logical-models.md)
 * [Guidance for Implementers](implementer-guidance.md)
 * [Guidance](guidance.md)
 * [Terminology](terminology.md)

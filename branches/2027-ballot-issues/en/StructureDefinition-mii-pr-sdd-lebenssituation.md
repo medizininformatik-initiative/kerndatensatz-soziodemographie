@@ -41,7 +41,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-sdd-lebens
   "name" : "MII_PR_SDD_Lebenssituation",
   "title" : "MII PR SDD Lebenssituation",
   "status" : "draft",
-  "date" : "2026-11-03T11:10:14+00:00",
+  "date" : "2026-11-03T11:31:47+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{

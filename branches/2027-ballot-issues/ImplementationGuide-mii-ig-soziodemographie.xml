@@ -1149,13 +1149,13 @@
           <valueUrl value="logical-models.html"/>
         </extension>
         <nameUrl value="logical-models.html"/>
-        <title value="Logical Models">
+        <title value="Logical Model">
           <extension url="http://hl7.org/fhir/StructureDefinition/translation">
             <extension url="lang">
               <valueCode value="de"/>
             </extension>
             <extension url="content">
-              <valueString value="Logische Modelle"/>
+              <valueString value="Logisches Modell"/>
             </extension>
           </extension>
         </title>

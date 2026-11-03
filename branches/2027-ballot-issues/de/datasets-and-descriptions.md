@@ -8,7 +8,7 @@
 
  Diese Seite enthält Übersetzungen aus der Originalsprache, in der der Leitfaden verfasst wurde. Informationen zu diesen Übersetzungen und Anweisungen zum Abgeben von Feedback zu den Übersetzungen finden Sie [hier](translationinfo.md). 
 
-Die offizielle, freigegebene Version des Informationsmodells für das Modul Soziodemographische Daten wird als FHIR Logical Model dargestellt; seine Elementstruktur ist auf der Seite [Logische Modelle](logical-models.md) abgebildet.
+Die offizielle, freigegebene Version des Informationsmodells für das Modul Soziodemographische Daten wird als FHIR Logical Model dargestellt; seine Elementstruktur ist auf der Seite [Logisches Modell](logical-models.md) abgebildet.
 
 Zu beachten ist, dass das logische Modell ausschließlich darauf abzielt, die Datenelemente und ihre Beschreibungen darzustellen. Die verwendeten Datentypen und Kardinalitäten sind nicht als verbindlich anzusehen; diese werden durch die FHIR-Profile festgelegt. Für jedes Element im logischen Modell existiert eine Zuordnung zu einem Element einer konkreten FHIR-Ressource.
 
