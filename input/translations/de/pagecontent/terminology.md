@@ -1,5 +1,3 @@
-#### Terminologie
-
 Die Kodierungen des Moduls basieren überwiegend auf den Demographischen Standards 2024 von GESIS. Einzelne Kodierungen wurden für die Anwendung im klinischen Alltag vereinfacht; weitere Kodierungen wurden durch die Arbeitsgruppe für das Modul Soziodemographische Daten entwickelt.
 
 Die Länderangaben zu Geburtsland und Staatsangehörigkeit sollen mit ISO 3166-1 Alpha-2 abgebildet werden. Die Erstsprache soll mit ISO 639 kodiert werden.

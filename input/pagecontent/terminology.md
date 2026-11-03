@@ -1,5 +1,3 @@
-#### Teminology
-
 The codings of the module are predominantly based on the GESIS Demographic Standards 2024. Individual codings were simplified for use in everyday clinical practice; further codings were developed by the working group for the Sociodemographic Data module.
 
 Country information for country of birth and nationality is to be represented using ISO 3166-1 Alpha-2. First language is to be coded using ISO 639.

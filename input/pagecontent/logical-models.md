@@ -1,5 +1,3 @@
-### Logical Model
-
 Logical models provide a conceptual view of the data structures defined in this implementation guide. They represent the data elements and their relationships independent of the FHIR resource structure.
 
 

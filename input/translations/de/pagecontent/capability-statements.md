@@ -1,9 +1,5 @@
 Die folgenden CapabilityStatements definieren die erwarteten FHIR-Fähigkeiten von Systemen, die diesen Implementierungsleitfaden umsetzen. Jedes Modul definiert die erforderlichen FHIR-RESTful-Interaktionen, Suchparameter und unterstützten Profile.
 
-### Capability Statements
-
----
-
 Jedes CapabilityStatement legt fest:
 * **Anforderungen an die Server-Konformität** - Die FHIR-Ressourcen und -Operationen, die unterstützt werden müssen
 * **Erforderliche Suchparameter** - Die Suchparameter, die implementiert werden MÜSSEN

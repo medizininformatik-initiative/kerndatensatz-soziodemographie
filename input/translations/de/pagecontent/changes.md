@@ -1,5 +1,3 @@
-### Änderungsprotokoll
-
 Diese Seite hält die Änderungen zwischen den veröffentlichten Versionen des
 Moduls Soziodemographische Daten fest, die neueste Version zuerst. Sie folgt
 [Keep a Changelog](https://keepachangelog.com/de/1.1.0/) und dem

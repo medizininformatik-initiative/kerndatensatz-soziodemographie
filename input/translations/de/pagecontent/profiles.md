@@ -1,5 +1,3 @@
-### Profile
-
 Für diesen Implementierungsleitfaden wurden die folgenden Profile definiert.
 
 **Datenerhebung**

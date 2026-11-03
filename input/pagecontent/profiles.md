@@ -1,5 +1,3 @@
-### Profiles
-
 The following profiles have been defined for this implementation guide.
 
 **Datenerhebung**
