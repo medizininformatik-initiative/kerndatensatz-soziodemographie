@@ -8,7 +8,7 @@ Description: "Beispiel: Anzahl der Personen, die ständig im Haushalt der Person
 * category[social-history] = $observation-category#social-history
 * category[survey] = $observation-category#survey
 * code.text = "Haushaltsgröße"
-* code.coding = $LNC#86639-2
+* code.coding[loinc] = $LNC#86639-2
 * subject = Reference(mii-exa-sdd-patient)
 * effectiveDateTime = "2026-06-15"
 * valueQuantity = 3 '1'
