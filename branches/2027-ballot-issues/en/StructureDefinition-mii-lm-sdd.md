@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-lm-sdd | *Version*:2027.0.0-ballot |
-| Draft as of 2026-11-03 | *Computable Name*:MII_LM_SDD |
+| Draft as of 2026-11-06 | *Computable Name*:MII_LM_SDD |
 
  
 MII LogicalModel Modul Soziodemographische Daten 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-lm-sdd.csv), 
   "name" : "MII_LM_SDD",
   "title" : "MII LM Soziodemographische Daten",
   "status" : "draft",
-  "date" : "2026-11-03T15:29:49+00:00",
+  "date" : "2026-11-06T08:43:32+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{

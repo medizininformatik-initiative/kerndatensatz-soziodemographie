@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang | *Version*:2027.0.0-ballot |
-| Draft Stand: 2026-11-03 | *Maschinenlesbarer Name*:MII_CS_SDD_Beschaeftigungsstatus_Lang |
+| Draft Stand: 2026-11-06 | *Maschinenlesbarer Name*:MII_CS_SDD_Beschaeftigungsstatus_Lang |
 
  
 Code System für Beschäftigungsstatus (Langversion) 
@@ -39,7 +39,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   "title" : "MII CS SDD Beschaeftigungsstatus (Langfversion)",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-11-03T15:29:49+00:00",
+  "date" : "2026-11-06T08:43:32+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{

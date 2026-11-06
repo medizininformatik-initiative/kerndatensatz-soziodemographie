@@ -1,9 +1,9 @@
 MII_IG_Soziodemographie : Validation Results
 =========================================
 
-err = 37, warn = 458, info = 85, broken links = 0
-IG Publisher Version: 3.0.2
-Generated Tue Nov 03 15:32:27 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie)
+err = 39, warn = 458, info = 86, broken links = 0
+IG Publisher Version: 3.0.2 Out of date - current version is 3.0.3
+Generated Fri Nov 06 08:46:58 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.soziodemographie#2027.0.0-ballot (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie)
  Build Errors : 36 / 263 / 0
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-ausbildung : 0 / 3 / 1
  /workspace/fsh-generated/resources/CodeSystem-mii-cs-sdd-berufliche-stellung-lang : 0 / 3 / 1
@@ -22,7 +22,7 @@ Generated Tue Nov 03 15:32:27 UTC 2026. FHIR version 4.0.1 for de.medizininforma
  /workspace/fsh-generated/resources/Observation-mii-exa-sdd-berufliche-stellung : 0 / 1 / 2
  /workspace/fsh-generated/resources/Observation-mii-exa-sdd-beschaeftigungsstatus : 0 / 1 / 2
  /workspace/fsh-generated/resources/Observation-mii-exa-sdd-betreuungssituation : 0 / 1 / 2
- /workspace/fsh-generated/resources/Observation-mii-exa-sdd-datenerhebung : 0 / 2 / 2
+ /workspace/fsh-generated/resources/Observation-mii-exa-sdd-datenerhebung : 2 / 2 / 2
  /workspace/fsh-generated/resources/Observation-mii-exa-sdd-einkommen : 0 / 1 / 1
  /workspace/fsh-generated/resources/Observation-mii-exa-sdd-geburtsland-mutter : 1 / 1 / 2
  /workspace/fsh-generated/resources/Observation-mii-exa-sdd-geburtsland-vater : 0 / 1 / 2
@@ -43,7 +43,7 @@ Generated Tue Nov 03 15:32:27 UTC 2026. FHIR version 4.0.1 for de.medizininforma
  /workspace/fsh-generated/resources/StructureDefinition-mii-pr-sdd-einkommen : 0 / 1 / 4
  /workspace/fsh-generated/resources/StructureDefinition-mii-pr-sdd-geburtsland-mutter : 0 / 1 / 5
  /workspace/fsh-generated/resources/StructureDefinition-mii-pr-sdd-geburtsland-vater : 0 / 1 / 5
- /workspace/fsh-generated/resources/StructureDefinition-mii-pr-sdd-haushaltsgroesse : 0 / 1 / 4
+ /workspace/fsh-generated/resources/StructureDefinition-mii-pr-sdd-haushaltsgroesse : 0 / 1 / 5
  /workspace/fsh-generated/resources/StructureDefinition-mii-pr-sdd-lebenssituation : 0 / 1 / 4
  /workspace/fsh-generated/resources/StructureDefinition-mii-pr-sdd-partnerschaft : 0 / 3 / 4
  /workspace/fsh-generated/resources/StructureDefinition-mii-pr-sdd-schulabschluss : 0 / 1 / 4
@@ -138,7 +138,7 @@ WARNING: /workspace/output/de/StructureDefinition-mii-pr-sdd-geburtsland-vater.p
 WARNING: /workspace/output/de/StructureDefinition-mii-pr-sdd-geburtsland-vater.profile.history.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 374 column 9
 ERROR: /workspace/output/de/StructureDefinition-mii-pr-sdd-geburtsland-vater.profile.history.html: The page has more than one top level heading: <h2> (no text) is at the same level as the first heading on the page (<h2> 'Ressourcenprofil: MII PR SDD Geburtsland Vater - Änderung...' (id=root)). A page must have exactly one top level heading, with every other heading beneath it (WCAG compliance test)
 WARNING: /workspace/output/de/StructureDefinition-mii-pr-sdd-geburtsland-vater.profile.history.html: The html source has duplicate element ids: root. An id must be unique in a page - a link to one of these is ambiguous, and it is invalid HTML
-WARNING: /workspace/output/de/StructureDefinition-mii-pr-sdd-haushaltsgroesse.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 3134 column 13
+WARNING: /workspace/output/de/StructureDefinition-mii-pr-sdd-haushaltsgroesse.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 3239 column 13
 WARNING: /workspace/output/de/StructureDefinition-mii-pr-sdd-haushaltsgroesse.profile.history.html: The html source is not well formed: Found "</div>" expecting "</h2>" at line 369 column 7
 WARNING: /workspace/output/de/StructureDefinition-mii-pr-sdd-haushaltsgroesse.profile.history.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 371 column 15
 WARNING: /workspace/output/de/StructureDefinition-mii-pr-sdd-haushaltsgroesse.profile.history.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 372 column 13
@@ -283,7 +283,7 @@ WARNING: /workspace/output/en/StructureDefinition-mii-pr-sdd-geburtsland-vater.p
 WARNING: /workspace/output/en/StructureDefinition-mii-pr-sdd-geburtsland-vater.profile.history.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 399 column 9
 ERROR: /workspace/output/en/StructureDefinition-mii-pr-sdd-geburtsland-vater.profile.history.html: The page has more than one top level heading: <h2> (no text) is at the same level as the first heading on the page (<h2> 'Resource Profile: MII PR SDD Geburtsland Vater - Change H...' (id=root)). A page must have exactly one top level heading, with every other heading beneath it (WCAG compliance test)
 WARNING: /workspace/output/en/StructureDefinition-mii-pr-sdd-geburtsland-vater.profile.history.html: The html source has duplicate element ids: root. An id must be unique in a page - a link to one of these is ambiguous, and it is invalid HTML
-WARNING: /workspace/output/en/StructureDefinition-mii-pr-sdd-haushaltsgroesse.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 3151 column 13
+WARNING: /workspace/output/en/StructureDefinition-mii-pr-sdd-haushaltsgroesse.html: The html source is not well formed: Found "</p>" expecting "</div>" at line 3256 column 13
 WARNING: /workspace/output/en/StructureDefinition-mii-pr-sdd-haushaltsgroesse.profile.history.html: The html source is not well formed: Found "</div>" expecting "</h2>" at line 394 column 7
 WARNING: /workspace/output/en/StructureDefinition-mii-pr-sdd-haushaltsgroesse.profile.history.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 396 column 15
 WARNING: /workspace/output/en/StructureDefinition-mii-pr-sdd-haushaltsgroesse.profile.history.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 397 column 13
@@ -466,7 +466,9 @@ WARNING: Observation/mii-exa-sdd-betreuungssituation: Observation: Best Practice
 
 
 == fsh-generated/resources/Observation-mii-exa-sdd-datenerhebung.json ==
+ERROR: Observation/mii-exa-sdd-datenerhebung: Observation.hasMember[12]: Profile https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-datenerhebung|2027.0.0-ballot, Element matches more than one slice - haushaltsgroesse, schuljahre
 INFORMATION: Observation/mii-exa-sdd-datenerhebung: Observation.hasMember[0]: This element does not match any known slice defined in the profile https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-datenerhebung|2027.0.0-ballot (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Observation/mii-exa-sdd-datenerhebung: Observation: Observation.hasMember:haushaltsgroesse: max allowed = 1, but found 2 (from https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-datenerhebung|2027.0.0-ballot)
 WARNING: Observation/mii-exa-sdd-datenerhebung: Observation.identifier[0].system: No definition could be found for URL value 'https://krankenhaus-example.de/sid/sdd-erhebung'
 WARNING: Observation/mii-exa-sdd-datenerhebung: Observation: Best Practice Recommendation: In general, all observations should have a performer
 
@@ -682,8 +684,9 @@ INFORMATION: Resource: The resource StructureDefinition/mii-pr-sdd-geburtsland-v
 
 == fsh-generated/resources/StructureDefinition-mii-pr-sdd-haushaltsgroesse.json ==
 WARNING: StructureDefinition/mii-pr-sdd-haushaltsgroesse: StructureDefinition.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166:-2' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/mii-pr-sdd-haushaltsgroesse: StructureDefinition.differential.element[2].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/mii-pr-sdd-haushaltsgroesse: StructureDefinition.snapshot.element[21].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
-INFORMATION: StructureDefinition/mii-pr-sdd-haushaltsgroesse: StructureDefinition.snapshot.element[27].pattern.ofType(Coding): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+INFORMATION: StructureDefinition/mii-pr-sdd-haushaltsgroesse: StructureDefinition.snapshot.element[27].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: Resource: The resource StructureDefinition/mii-pr-sdd-haushaltsgroesse could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 

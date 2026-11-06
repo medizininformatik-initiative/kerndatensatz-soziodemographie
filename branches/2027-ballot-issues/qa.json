@@ -7,15 +7,15 @@
   "status" : "draft",
   "package-id" : "de.medizininformatikinitiative.kerndatensatz.soziodemographie",
   "ig-ver" : "2027.0.0-ballot",
-  "date" : "Tue, 03 Nov, 2026 15:29:49 +0000",
-  "dateISO8601" : "2026-11-03T15:29:49+00:00",
-  "errs" : 37,
+  "date" : "Fri, 06 Nov, 2026 08:43:32 +0000",
+  "dateISO8601" : "2026-11-06T08:43:32+00:00",
+  "errs" : 39,
   "warnings" : 458,
-  "hints" : 85,
+  "hints" : 86,
   "broken-links" : 0,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "6.0.0-snapshot1 (3)",
-  "maxMemory" : 1783627776
+  "maxMemory" : 1787274800
 }

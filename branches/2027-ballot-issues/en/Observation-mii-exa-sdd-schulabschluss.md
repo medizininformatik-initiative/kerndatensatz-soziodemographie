@@ -53,7 +53,7 @@ Profile: [MII PR SDD Schulabschluss](StructureDefinition-mii-pr-sdd-schulabschlu
   "code" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "code" : "276031006"
+      "code" : "105421008"
     }],
     "text" : "Höchster allgemeinbildender Schulabschluss"
   },

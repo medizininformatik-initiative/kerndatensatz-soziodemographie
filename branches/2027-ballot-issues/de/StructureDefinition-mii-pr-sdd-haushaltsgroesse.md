@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/StructureDefinition/mii-pr-sdd-haushaltsgroesse | *Version*:2027.0.0-ballot |
-| Draft Stand: 2026-11-03 | *Maschinenlesbarer Name*:MII_PR_SDD_Haushaltsgroesse |
+| Draft Stand: 2026-11-06 | *Maschinenlesbarer Name*:MII_PR_SDD_Haushaltsgroesse |
 
  
 Anzahl der Personen, die ständig im Haushalt der Person leben. 
@@ -78,7 +78,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-h
   "name" : "MII_PR_SDD_Haushaltsgroesse",
   "title" : "MII PR SDD Haushaltsgroesse",
   "status" : "draft",
-  "date" : "2026-11-03T15:29:49+00:00",
+  "date" : "2026-11-06T08:43:32+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{
@@ -157,12 +157,38 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-sdd-h
     {
       "id" : "Observation.code.coding",
       "path" : "Observation.code.coding",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "pattern",
+          "path" : "$this"
+        }],
+        "rules" : "open"
+      },
       "min" : 1,
+      "mustSupport" : true
+    },
+    {
+      "id" : "Observation.code.coding:loinc",
+      "path" : "Observation.code.coding",
+      "sliceName" : "loinc",
+      "min" : 0,
+      "max" : "1",
       "patternCoding" : {
         "system" : "http://loinc.org",
         "code" : "86639-2"
       },
       "mustSupport" : true
+    },
+    {
+      "id" : "Observation.code.coding:snomed",
+      "path" : "Observation.code.coding",
+      "sliceName" : "snomed",
+      "min" : 0,
+      "max" : "1",
+      "patternCoding" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "224525003"
+      }
     },
     {
       "id" : "Observation.value[x]",

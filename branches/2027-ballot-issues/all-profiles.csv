@@ -2424,9 +2424,19 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "mii-pr-sdd-haushaltsgroesse","Observation.code.coding","Observation.code.coding","","","",1,*,"Y","","Y","Coding {[]} {[]}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,,,,"","pattern:$this}
+","",,"open","CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"mii-pr-sdd-haushaltsgroesse","Observation.code.coding:loinc","Observation.code.coding","loinc","","",0,1,"Y","","Y","Coding {[]} {[]}
 ","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","<valueCoding xmlns=""http://hl7.org/fhir"">
   <system value=""http://loinc.org""/>
   <code value=""86639-2""/>
+</valueCoding>","","","",,,,,"",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"mii-pr-sdd-haushaltsgroesse","Observation.code.coding:snomed","Observation.code.coding","snomed","","",0,1,"","","Y","Coding {[]} {[]}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","<valueCoding xmlns=""http://hl7.org/fhir"">
+  <system value=""http://snomed.info/sct""/>
+  <code value=""224525003""/>
 </valueCoding>","","","",,,,,"",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mii-pr-sdd-haushaltsgroesse","Observation.code.text","Observation.code.text","","","",0,1,"","","Y","string {[]} {[]}
@@ -3131,7 +3141,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "mii-pr-sdd-schulabschluss","Observation.code.coding","Observation.code.coding","","","",1,*,"Y","","Y","Coding {[]} {[]}
 ","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","<valueCoding xmlns=""http://hl7.org/fhir"">
   <system value=""http://snomed.info/sct""/>
-  <code value=""276031006""/>
+  <code value=""105421008""/>
 </valueCoding>","","","",,,,,"",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mii-pr-sdd-schulabschluss","Observation.code.text","Observation.code.text","","","",0,1,"","","Y","string {[]} {[]}

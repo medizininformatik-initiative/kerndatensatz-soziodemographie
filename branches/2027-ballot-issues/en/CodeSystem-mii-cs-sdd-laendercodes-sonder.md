@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-laendercodes-sonder | *Version*:2027.0.0-ballot |
-| Draft as of 2026-11-03 | *Computable Name*:MII_CS_SDD_Laendercodes_Sonder |
+| Draft as of 2026-11-06 | *Computable Name*:MII_CS_SDD_Laendercodes_Sonder |
 
  
 Sonderkonzepte für Ländercodes, die nicht in ISO 3166-1 alpha-2 enthalten sind: staatenlos und ungeklärte Staatsangehörigkeit. 
@@ -39,7 +39,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "MII CS SDD Laendercodes Sonder",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-11-03T15:29:49+00:00",
+  "date" : "2026-11-06T08:43:32+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{
