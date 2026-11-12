@@ -9,8 +9,8 @@ Description: "Code System für Betreuungssituation"
 * ^caseSensitive = true
 * insert Publisher
 * insert PR_CS_VS_Version
-* #1 "Keine Betreuung"
-* #2 "Betreuung auf Anfrage (z. B. betreutes Wohnen, Hausnotruf) "
-* #3 "Zeitweise Betreuung (z. B. ambulante Pflege)"
-* #4 "Dauerhafte Betreuung (z. B. Pflegeheim)"
-* #5 "Anmerkung"
+* #A "Keine Betreuung"
+* #B "Betreuung auf Anfrage (z. B. betreutes Wohnen, Hausnotruf) "
+* #C "Zeitweise Betreuung (z. B. ambulante Pflege)"
+* #D "Dauerhafte Betreuung (z. B. Pflegeheim)"
+* #E "Anmerkung"

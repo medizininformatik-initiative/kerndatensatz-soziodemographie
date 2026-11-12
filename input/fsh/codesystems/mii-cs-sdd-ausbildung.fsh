@@ -9,12 +9,12 @@ Description: "Code System für Ausbildung"
 * ^caseSensitive = true
 * insert Publisher
 * insert PR_CS_VS_Version
-* #1 "noch in Ausbildung, Studium (Berufsvorbereitungsjahr, Praktikum, [Berufs-] Fachschule o. ä.)"
-* #2 "kein beruflicher Abschluss und bin nicht in beruflicher Ausbildung"
-* #3 "Lehre (beruflich-betriebliche Berufsausbildung)"
-* #4 "berufsqualifizierender Abschluss einer beruflich-schulischen Ausbildung z. B. an einer Berufsfachschule oder einer Kollegschule"
-* #5 "Abschluss einer Fach-, Meister- oder Technikerschule, Verwaltungs- und Wirtschaftsakademie, Berufs- oder Fachakademie"
-* #6 "Bachelor, Diplom (FH)"
-* #7 "Master, Diplom (Uni), Magister, Staatsexamen, Promotion"
-* #8 "anderer beruflicher Abschluss, und zwar"
+* #A "noch in Ausbildung, Studium (Berufsvorbereitungsjahr, Praktikum, [Berufs-] Fachschule o. ä.)"
+* #B "kein beruflicher Abschluss und bin nicht in beruflicher Ausbildung"
+* #C "Lehre (beruflich-betriebliche Berufsausbildung)"
+* #D "berufsqualifizierender Abschluss einer beruflich-schulischen Ausbildung z. B. an einer Berufsfachschule oder einer Kollegschule"
+* #E "Abschluss einer Fach-, Meister- oder Technikerschule, Verwaltungs- und Wirtschaftsakademie, Berufs- oder Fachakademie"
+* #F "Bachelor, Diplom (FH)"
+* #G "Master, Diplom (Uni), Magister, Staatsexamen, Promotion"
+* #H "anderer beruflicher Abschluss, und zwar"
 

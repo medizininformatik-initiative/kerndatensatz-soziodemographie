@@ -9,10 +9,10 @@ Description: "Code System für Beschäftigungsstatus (Minimalversion)"
 * ^caseSensitive = true
 * insert Publisher
 * insert PR_CS_VS_Version
-* #1 "Schüler, Auszubildender, Student"
-* #2 "nicht berufstätig wegen einer Erkrankung"
-* #3 "Rente, Hausfrau/-mann, etc."
-* #4 "arbeitssuchend"
-* #5 "teilzeitbeschäftigt"
-* #6 "vollzeitbeschäftigt"
-* #7 "gelegentlich oder unregelmäßig beschäftigt"
+* #A "Schüler, Auszubildender, Student"
+* #B "nicht berufstätig wegen einer Erkrankung"
+* #C "Rente, Hausfrau/-mann, etc."
+* #D "arbeitssuchend"
+* #E "teilzeitbeschäftigt"
+* #F "vollzeitbeschäftigt"
+* #G "gelegentlich oder unregelmäßig beschäftigt"

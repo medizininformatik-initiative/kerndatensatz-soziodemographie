@@ -9,9 +9,9 @@ Description: "Code System für Berufliche Stellung (Minimalversion)"
 * ^caseSensitive = true
 * insert Publisher
 * insert PR_CS_VS_Version
-* #1 "Arbeiter"
-* #2 "Selbständige einschließlich mithelfender Familienangehöriger"
-* #3 "Angestellte"
-* #4 "Beamte"
+* #A "Arbeiter"
+* #B "Selbständige einschließlich mithelfender Familienangehöriger"
+* #C "Angestellte"
+* #D "Beamte"
 
 
