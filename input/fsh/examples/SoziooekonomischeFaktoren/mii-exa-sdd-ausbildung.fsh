@@ -11,4 +11,4 @@ Description: "Beispiel: Höchster beruflicher Ausbildungsabschluss."
 * code.coding = $LNC#82589-3
 * subject = Reference(mii-exa-sdd-patient)
 * effectiveDateTime = "2026-06-15"
-* valueCodeableConcept = mii-cs-sdd-ausbildung#6 "Bachelor, Diplom (FH)"
+* valueCodeableConcept = mii-cs-sdd-ausbildung#F "Bachelor, Diplom (FH)"

@@ -15,4 +15,4 @@ Description: "Höchster beruflicher Ausbildungsabschluss"
 * valueCodeableConcept from mii-vs-sdd-ausbildung  (required)
 
 * valueCodeableConcept.text MS
-* valueCodeableConcept.text ^short = "Freitext bei Code 8 (anderer beruflicher Abschluss)"
+* valueCodeableConcept.text ^short = "Freitext bei Code H (anderer beruflicher Abschluss)"

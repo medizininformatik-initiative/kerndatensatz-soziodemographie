@@ -12,4 +12,4 @@ Description: "Beispiel: Aktuell hauptsächlich ausgeübte Tätigkeit."
 * subject = Reference(mii-exa-sdd-patient)
 * effectiveDateTime = "2026-06-15"
 * valueCodeableConcept.text = "vollzeiterwerbstätig"
-* valueCodeableConcept.coding[lang] = mii-cs-sdd-beschaeftigungsstatus-lang#4 "vollzeiterwerbstätig gemäß den branchenüblichen oder betrieblichen Regeln"
+* valueCodeableConcept.coding[lang] = mii-cs-sdd-beschaeftigungsstatus-lang#D "vollzeiterwerbstätig gemäß den branchenüblichen oder betrieblichen Regeln"

@@ -30,6 +30,6 @@ Description: "Aktuell hauptsächlich ausgeübte Tätigkeit"
 * valueCodeableConcept.coding[minimal] from mii-vs-sdd-beschaeftigungsstatus-minimal (required)
 
 * valueCodeableConcept.text MS
-* valueCodeableConcept.text ^short = "Freitext bei Code 12 der Langversion (sonstiges)"
+* valueCodeableConcept.text ^short = "Freitext bei Code L der Langversion (sonstiges)"
 
 * obeys bs-1

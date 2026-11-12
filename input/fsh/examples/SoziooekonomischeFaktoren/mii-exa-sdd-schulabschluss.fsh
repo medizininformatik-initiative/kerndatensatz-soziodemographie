@@ -11,4 +11,4 @@ Description: "Beispiel: Höchster erreichter allgemeinbildender Schulabschluss."
 * code.coding = $SCT#105421008
 * subject = Reference(mii-exa-sdd-patient)
 * effectiveDateTime = "2026-06-15"
-* valueCodeableConcept = mii-cs-sdd-schulabschluss#8 "Abitur, Allgemeine/ Fachgebundene Hochschulreife, Gymnasium bzw. Erweiterte Oberschule (EOS), auch EOS mit Lehre"
+* valueCodeableConcept = mii-cs-sdd-schulabschluss#H "Abitur, Allgemeine/ Fachgebundene Hochschulreife, Gymnasium bzw. Erweiterte Oberschule (EOS), auch EOS mit Lehre"

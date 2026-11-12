@@ -11,4 +11,4 @@ Description: "Beispiel: Berufliche Stellung der hauptsächlich ausgeübten Erwer
 * code.coding = $LNC#67875-5
 * subject = Reference(mii-exa-sdd-patient)
 * effectiveDateTime = "2026-06-15"
-* valueCodeableConcept.coding[lang] = mii-cs-sdd-berufliche-stellung-lang#5 "Angestellte:r (Angestellte sind Beschäftigte mit überwiegend geistiger Arbeit/Bürotätigkeiten)"
+* valueCodeableConcept.coding[lang] = mii-cs-sdd-berufliche-stellung-lang#E "Angestellte:r (Angestellte sind Beschäftigte mit überwiegend geistiger Arbeit/Bürotätigkeiten)"

@@ -11,4 +11,4 @@ Description: "Beispiel: Aktuelle Betreuungssituation."
 * code.coding = $SCT#305060004
 * subject = Reference(mii-exa-sdd-patient)
 * effectiveDateTime = "2026-06-15"
-* valueCodeableConcept = mii-cs-sdd-betreuungssituation#3 "Zeitweise Betreuung (z. B. ambulante Pflege)"
+* valueCodeableConcept = mii-cs-sdd-betreuungssituation#C "Zeitweise Betreuung (z. B. ambulante Pflege)"
