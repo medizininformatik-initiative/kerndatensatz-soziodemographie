@@ -11,5 +11,5 @@ Description: "Beispiel: Anzahl der Jahre, in denen insgesamt eine Schule besucht
 * code.coding = $LNC#82590-1
 * subject = Reference(mii-exa-sdd-patient)
 * effectiveDateTime = "2026-06-15"
-* valueQuantity = 16 '1'
+* valueQuantity = 16 'a'
 * valueQuantity.unit = "Jahre"
