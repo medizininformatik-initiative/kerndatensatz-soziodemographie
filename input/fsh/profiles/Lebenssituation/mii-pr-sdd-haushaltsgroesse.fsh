@@ -22,3 +22,8 @@ Description: "Anzahl der Personen, die ständig im Haushalt der Person leben."
 * value[x] only Quantity
 * valueQuantity 1..1 MS
 * valueQuantity ^short = "Anzahl der Personen im Haushalt"
+
+* valueQuantity.system 1..1 MS
+* valueQuantity.system = $UCUM
+* valueQuantity.code 1..1 MS
+* valueQuantity.code = #1
