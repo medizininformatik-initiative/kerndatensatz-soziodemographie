@@ -18,6 +18,7 @@ This Implementation Guide includes example instances for all profiles. The examp
 * [MII EXA SDD Betreuungssituation](Observation-mii-exa-sdd-betreuungssituation.html) - Current care/support situation
 * [MII EXA SDD Haushaltsgroesse](Observation-mii-exa-sdd-haushaltsgroesse.html) - Number of persons permanently living in the person's household
 * [MII EXA SDD Partnerschaft](Observation-mii-exa-sdd-partnerschaft.html) - Current partnership of the person
+* [MII EXA SDD Partnerschaft (keine Angabe)](Observation-mii-exa-sdd-partnerschaft-keine-angabe.html) - Partnership not stated: the respondent declined to answer (dataAbsentReason instead of a value)
 * [MII EXA SDD Schwerbehindertenausweis](Observation-mii-exa-sdd-schwerbehindertenausweis.html) - Presence of a severe disability certificate (Schwerbehindertenausweis) with degree of disability and markers (Merkzeichen)
 * [MII EXA SDD Vertrauensperson](Observation-mii-exa-sdd-vertrauensperson.html) - Existence of at least one trusted contact person
 

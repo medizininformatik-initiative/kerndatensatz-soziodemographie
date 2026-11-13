@@ -20,7 +20,8 @@ Description: "Anzahl der Personen, die ständig im Haushalt der Person leben."
 
 // valueQuantity da Kardinalscala siehe https://simplifier.net/guide/leitfaden-de-basis-r4/ig-markdown-Ressourcen-BeobachtungenMessungenObservation?version=current
 * value[x] only Quantity
-* valueQuantity 1..1 MS
+* valueQuantity 0..1 MS
+* obeys dar-1
 * valueQuantity ^short = "Anzahl der Personen im Haushalt"
 
 * valueQuantity.system 1..1 MS

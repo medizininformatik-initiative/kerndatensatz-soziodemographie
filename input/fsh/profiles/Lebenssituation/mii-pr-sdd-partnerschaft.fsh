@@ -11,6 +11,8 @@ Description: "Aktuelle Partnerschaft der Person"
 * code.coding 1..* MS
 * code.coding = $SCT#224083004 // Marital or partnership status (observable entity)
 
-* valueCodeableConcept 1..1 MS
+* value[x] only CodeableConcept
+* valueCodeableConcept 0..1 MS
+* obeys dar-1
 * valueCodeableConcept from $V2_YesNo_VS (required)
 * component 0..0

@@ -18,6 +18,7 @@ Dieser Implementierungsleitfaden enthält Beispielinstanzen für alle Profile.
 * [MII EXA SDD Betreuungssituation](Observation-mii-exa-sdd-betreuungssituation.html) - Aktuelle Betreuungssituation
 * [MII EXA SDD Haushaltsgroesse](Observation-mii-exa-sdd-haushaltsgroesse.html) - Anzahl der Personen, die ständig im Haushalt der Person leben
 * [MII EXA SDD Partnerschaft](Observation-mii-exa-sdd-partnerschaft.html) - Aktuelle Partnerschaft der Person
+* [MII EXA SDD Partnerschaft (keine Angabe)](Observation-mii-exa-sdd-partnerschaft-keine-angabe.html) - Keine Angabe zur Partnerschaft: Die befragte Person hat die Antwort verweigert (dataAbsentReason statt value)
 * [MII EXA SDD Schwerbehindertenausweis](Observation-mii-exa-sdd-schwerbehindertenausweis.html) - Vorliegen eines Schwerbehindertenausweises mit Grad der Behinderung und Merkzeichen
 * [MII EXA SDD Vertrauensperson](Observation-mii-exa-sdd-vertrauensperson.html) - Existenz mind. einer Vertrauensperson
 

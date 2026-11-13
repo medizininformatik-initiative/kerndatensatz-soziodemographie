@@ -21,6 +21,9 @@ Description: "Vorliegen eines Schwerbehindertenausweises des Patienten"
 * effective[x] only dateTime
 * effectiveDateTime 1..1 MS
 
+* value[x] only CodeableConcept
+* valueCodeableConcept 0..1 MS
+* obeys dar-1
 * valueCodeableConcept from $V2_YesNo_VS (required)
 * valueCodeableConcept ^short = "Vorliegen eines Schwerbehindertenausweises"
 * component ^slicing.discriminator.type = #pattern
