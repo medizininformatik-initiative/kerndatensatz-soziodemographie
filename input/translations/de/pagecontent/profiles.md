@@ -22,8 +22,8 @@ Für diesen Implementierungsleitfaden wurden die folgenden Profile definiert.
 
 * [MII PR SDD Soziooekonomische Faktoren](StructureDefinition-mii-pr-sdd-soziooekonomische-faktoren.html) - Abstraktes Basisprofil: legt die Vorgaben, die für alle folgenden sozioökonomischen Profile gelten (Kategorien, Patientenbezug, Erhebungszeitpunkt, dataAbsentReason), einmal zentral fest. Es wird nicht direkt instanziiert; Instanzen entsprechen immer einem der abgeleiteten Profile.
 * [MII PR SDD Ausbildung](StructureDefinition-mii-pr-sdd-ausbildung.html) - Höchster beruflicher Ausbildungsabschluss
-* [MII PR SDD Berufliche Stellung](StructureDefinition-mii-pr-sdd-berufliche-stellung.html) - Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit
-* [MII PR SDD Beschäftigungsstatus](StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.html) - Aktuell hauptsächlich ausgeübte Tätigkeit
+* [MII PR SDD Berufliche Stellung](StructureDefinition-mii-pr-sdd-berufliche-stellung.html) - Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit, d. h. Beschreibung der Rolle innerhalb der aktuellen oder früheren Erwerbstätigkeit
+* [MII PR SDD Beschäftigungsstatus](StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.html) - Aktuell hauptsächlich ausgeübte Tätigkeit, d. h. Angabe, ob und in welchem Umfang die Person aktuell arbeitet
 * [MII PR SDD Monatliches Einkommen](StructureDefinition-mii-pr-sdd-monatliches-einkommen.html) - Durchschnittliches monatliches Nettoeinkommen des Haushalts
 * [MII PR SDD Schulabschluss](StructureDefinition-mii-pr-sdd-schulabschluss.html) - Höchster erreichter allgemeinbildender Schulabschluss (Langversion)
 * [MII PR SDD Schuljahre](StructureDefinition-mii-pr-sdd-schuljahre.html) - Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde, inkl. Besuch einer Berufs- oder Hochschule (Minimalversion)

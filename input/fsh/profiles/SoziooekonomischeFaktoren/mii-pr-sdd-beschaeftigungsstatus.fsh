@@ -2,7 +2,7 @@ Profile: MII_PR_SDD_Beschaeftigungsstatus
 Parent: MII_PR_SDD_SoziooekonomischeFaktoren 
 Id: mii-pr-sdd-beschaeftigungsstatus
 Title: "MII PR SDD Beschäftigungsstatus"
-Description: "Aktuell hauptsächlich ausgeübte Tätigkeit"
+Description: "Aktuell hauptsächlich ausgeübte Tätigkeit, d. h. Angabe, ob und in welchem Umfang die Person aktuell arbeitet"
 * insert PR_CS_VS_Version
 * insert Publisher
 * ^status = #draft

@@ -2,14 +2,14 @@ Profile: MII_PR_SDD_Berufliche_Stellung
 Parent: MII_PR_SDD_SoziooekonomischeFaktoren 
 Id: mii-pr-sdd-berufliche-stellung
 Title: "MII PR SDD Berufliche Stellung"
-Description: "Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit"
+Description: "Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit, d. h. Beschreibung der Rolle innerhalb der aktuellen oder früheren Erwerbstätigkeit"
 * insert PR_CS_VS_Version
 * insert Publisher
 * ^status = #draft
 
 * code 1..1 MS
 * code.coding 1..* MS
-* code.coding = $LNC#67875-5 // Employment status - current
+* code.coding = $LNC#85104-8 // Compensation and sector employment type
 
 * value[x] only CodeableConcept
 * valueCodeableConcept 0..1 MS

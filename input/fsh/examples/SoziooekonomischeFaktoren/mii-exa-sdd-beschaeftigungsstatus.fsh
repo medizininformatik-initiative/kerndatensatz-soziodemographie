@@ -2,7 +2,7 @@ Instance: mii-exa-sdd-beschaeftigungsstatus
 InstanceOf: MII_PR_SDD_Beschaeftigungsstatus
 Usage: #example
 Title: "MII EXA SDD Beschaeftigungsstatus"
-Description: "Beispiel: Aktuell hauptsächlich ausgeübte Tätigkeit."
+Description: "Beispiel: Aktuell hauptsächlich ausgeübte Tätigkeit, d. h. Angabe, ob und in welchem Umfang die Person aktuell arbeitet."
 
 * language = #de
 * status = #final

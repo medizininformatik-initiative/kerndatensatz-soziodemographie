@@ -26,8 +26,8 @@ Dieser Implementierungsleitfaden enthält Beispielinstanzen für alle Profile.
 **Sozioökonomische Faktoren**
 
 * [MII EXA SDD Ausbildung](Observation-mii-exa-sdd-ausbildung.html) - Höchster beruflicher Ausbildungsabschluss
-* [MII EXA SDD Berufliche Stellung](Observation-mii-exa-sdd-berufliche-stellung.html) - Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit
-* [MII EXA SDD Beschäftigungsstatus](Observation-mii-exa-sdd-beschaeftigungsstatus.html) - Aktuell hauptsächlich ausgeübte Tätigkeit
+* [MII EXA SDD Berufliche Stellung](Observation-mii-exa-sdd-berufliche-stellung.html) - Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit, d. h. Beschreibung der Rolle innerhalb der aktuellen oder früheren Erwerbstätigkeit
+* [MII EXA SDD Beschäftigungsstatus](Observation-mii-exa-sdd-beschaeftigungsstatus.html) - Aktuell hauptsächlich ausgeübte Tätigkeit, d. h. Angabe, ob und in welchem Umfang die Person aktuell arbeitet
 * [MII EXA SDD Monatliches Einkommen](Observation-mii-exa-sdd-monatliches-einkommen.html) - Durchschnittliches monatliches Nettoeinkommen des Haushalts
 * [MII EXA SDD Schulabschluss](Observation-mii-exa-sdd-schulabschluss.html) - Höchster erreichter allgemeinbildender Schulabschluss
 * [MII EXA SDD Schuljahre](Observation-mii-exa-sdd-schuljahre.html) - Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde
