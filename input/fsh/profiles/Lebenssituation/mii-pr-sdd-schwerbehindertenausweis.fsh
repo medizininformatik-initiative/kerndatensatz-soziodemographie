@@ -34,17 +34,17 @@ Description: "Vorliegen eines Schwerbehindertenausweises des Patienten"
     merkzeichen 0..* MS and
     gueltigVon 0..1 MS and
     gueltigBis 0..1 MS
-* component[gradDerBehinderung].code = mii-cs-sdd-schwerbehindertenausweis#gdb "Grad der Behinderung"
+* component[gradDerBehinderung].code = mii-cs-sdd-schwerbehindertenausweis#gdb
 * component[gradDerBehinderung].value[x] only Quantity
 * component[gradDerBehinderung].valueQuantity 1..1 MS
 * component[gradDerBehinderung].valueQuantity ^short = "Grad der Behinderung"
 * component[gradDerBehinderung].valueQuantity.system = $UCUM
 * component[gradDerBehinderung].valueQuantity.unit = "%"
-* component[merkzeichen].code = mii-cs-sdd-schwerbehindertenausweis#merkzeichen "Merkzeichen"
+* component[merkzeichen].code = mii-cs-sdd-schwerbehindertenausweis#merkzeichen
 * component[merkzeichen].value[x] only CodeableConcept
 * component[merkzeichen].valueCodeableConcept from mii-vs-sdd-merkzeichen (required)
-* component[gueltigVon].code = mii-cs-sdd-schwerbehindertenausweis#gueltig-von "Gültigkeitszeitraum von" // consider alternative valuePeriod
+* component[gueltigVon].code = mii-cs-sdd-schwerbehindertenausweis#gueltig-von // consider alternative valuePeriod
 * component[gueltigVon].value[x] only dateTime
-* component[gueltigBis].code = mii-cs-sdd-schwerbehindertenausweis#gueltig-bis "Gültigkeitszeitraum bis"
+* component[gueltigBis].code = mii-cs-sdd-schwerbehindertenausweis#gueltig-bis
 * component[gueltigBis].value[x] only dateTime
 * obeys sba-1

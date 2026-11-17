@@ -7,9 +7,18 @@ Description: "Code System für Schwerbehindertenausweis"
 * ^status = #draft
 * ^experimental = false
 * ^caseSensitive = true
+* ^language = #de
 * insert Publisher
 * insert PR_CS_VS_Version
 * #gdb "Grad der Behinderung"
+* #gdb ^designation[+].language = #en
+* #gdb ^designation[=].value = "Degree of disability"
 * #merkzeichen "Merkzeichen"
+* #merkzeichen ^designation[+].language = #en
+* #merkzeichen ^designation[=].value = "Markers (Merkzeichen)"
 * #gueltig-von "Gültigkeitszeitraum von"
+* #gueltig-von ^designation[+].language = #en
+* #gueltig-von ^designation[=].value = "Valid from"
 * #gueltig-bis "Gültigkeitszeitraum bis"
+* #gueltig-bis ^designation[+].language = #en
+* #gueltig-bis ^designation[=].value = "Valid until"

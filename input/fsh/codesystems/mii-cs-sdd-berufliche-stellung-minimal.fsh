@@ -7,11 +7,20 @@ Description: "Code System für Berufliche Stellung (Minimalversion)"
 * ^status = #draft
 * ^experimental = false
 * ^caseSensitive = true
+* ^language = #de
 * insert Publisher
 * insert PR_CS_VS_Version
 * #A "Arbeiter"
+* #A ^designation[+].language = #en
+* #A ^designation[=].value = "Workers"
 * #B "Selbständige einschließlich mithelfender Familienangehöriger"
+* #B ^designation[+].language = #en
+* #B ^designation[=].value = "Self-employed, including contributing family members"
 * #C "Angestellte"
+* #C ^designation[+].language = #en
+* #C ^designation[=].value = "Salaried employees"
 * #D "Beamte"
+* #D ^designation[+].language = #en
+* #D ^designation[=].value = "Civil servants"
 
 

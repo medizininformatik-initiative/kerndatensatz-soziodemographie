@@ -4,6 +4,7 @@ Usage: #example
 Title: "MII EXA SDD Betreuungssituation"
 Description: "Beispiel: Aktuelle Betreuungssituation."
 
+* language = #de
 * status = #final
 * category[social-history] = $observation-category#social-history
 * category[survey] = $observation-category#survey

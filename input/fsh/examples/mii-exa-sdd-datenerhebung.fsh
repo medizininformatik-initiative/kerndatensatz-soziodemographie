@@ -7,6 +7,7 @@ Description: "Beispiel: Sammel-Beobachtung, die alle Einzelerhebungen der Soziod
 * identifier.system = "https://krankenhaus-example.de/sid/sdd-erhebung"
 * identifier.value = "erhebung-2026-000123"
 
+* language = #de
 * status = #final
 
 * category[social-history] = $observation-category#social-history

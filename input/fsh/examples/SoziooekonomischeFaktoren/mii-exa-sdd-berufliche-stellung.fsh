@@ -4,6 +4,7 @@ Usage: #example
 Title: "MII EXA SDD Berufliche Stellung"
 Description: "Beispiel: Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit."
 
+* language = #de
 * status = #final
 * category[social-history] = $observation-category#social-history
 * category[survey] = $observation-category#survey

@@ -4,6 +4,7 @@ Usage: #example
 Title: "MII EXA SDD Ausbildung"
 Description: "Beispiel: Höchster beruflicher Ausbildungsabschluss."
 
+* language = #de
 * status = #final
 * category[social-history] = $observation-category#social-history
 * category[survey] = $observation-category#survey

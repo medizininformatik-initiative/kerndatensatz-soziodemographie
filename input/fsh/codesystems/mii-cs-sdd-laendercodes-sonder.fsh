@@ -7,7 +7,12 @@ Description: "Sonderkonzepte für Ländercodes, die nicht in ISO 3166-1 alpha-2 
 * ^status = #draft
 * ^experimental = false
 * ^caseSensitive = true
+* ^language = #de
 * insert Publisher
 * insert PR_CS_VS_Version
 * #ZZ "Staatenlos"
+* #ZZ ^designation[+].language = #en
+* #ZZ ^designation[=].value = "Stateless"
 * #QU "Ungeklärte Staatsangehörigkeit"
+* #QU ^designation[+].language = #en
+* #QU ^designation[=].value = "Undetermined nationality"

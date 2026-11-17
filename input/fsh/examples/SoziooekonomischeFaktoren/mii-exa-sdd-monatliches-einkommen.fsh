@@ -4,6 +4,7 @@ Usage: #example
 Title: "MII EXA SDD Monatliches Einkommen"
 Description: "Beispiel: Durchschnittliches monatliches Nettoeinkommen des Haushalts."
 
+* language = #de
 * status = #final
 * category[social-history] = $observation-category#social-history
 * category[survey] = $observation-category#survey

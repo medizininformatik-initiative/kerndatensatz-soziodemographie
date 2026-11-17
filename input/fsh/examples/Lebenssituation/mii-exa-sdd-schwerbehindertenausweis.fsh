@@ -4,6 +4,7 @@ Usage: #example
 Title: "MII EXA SDD Schwerbehindertenausweis"
 Description: "Beispiel: Vorliegen eines Schwerbehindertenausweises mit Grad der Behinderung und Merkzeichen."
 
+* language = #de
 * status = #final
 * category[social-history] = $observation-category#social-history
 * category[survey] = $observation-category#survey

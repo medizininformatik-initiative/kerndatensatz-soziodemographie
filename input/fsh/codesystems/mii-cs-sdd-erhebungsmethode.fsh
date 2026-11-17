@@ -7,8 +7,15 @@ Description: "Code System für Erhebungsmethode"
 * ^status = #draft
 * ^experimental = false
 * ^caseSensitive = true
+* ^language = #de
 * insert Publisher
 * insert PR_CS_VS_Version
 * #selbstauskunft "Selbstangabe"
+* #selbstauskunft ^designation[+].language = #en
+* #selbstauskunft ^designation[=].value = "Self-report"
 * #fremdeinschätzung "Fremdeinschätzung"
+* #fremdeinschätzung ^designation[+].language = #en
+* #fremdeinschätzung ^designation[=].value = "Third-party assessment"
 * #medizinischeeinschätzung "Einschätzung durch medizinisches Personal"
+* #medizinischeeinschätzung ^designation[+].language = #en
+* #medizinischeeinschätzung ^designation[=].value = "Assessment by medical staff"
