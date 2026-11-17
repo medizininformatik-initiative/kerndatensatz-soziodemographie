@@ -1,6 +1,6 @@
 The official, approved version of the information model for the Sociodemographic Data module is represented as a FHIR logical model; its element structure is rendered on the [Logical Model](logical-models.html) page.
 
-Note that the logical model aims purely at representing the data elements and their descriptions. The data types and cardinalities it uses are not to be regarded as binding; those are settled by the FHIR profiles. For every element within the logical model there is a mapping onto an element of a concrete FHIR resource.
+Note that the logical model aims purely at representing the data elements and their descriptions. The data types it uses are not to be regarded as binding; those are settled by the FHIR profiles. For every element within the logical model there is a mapping onto an element of a concrete FHIR resource.
 
 > The table below reproduces the information model in its original German wording and is therefore not translated. See [Translation Information](translationinfo.html) for details.
 {: .ig-highlight .ig-highlight-grey}

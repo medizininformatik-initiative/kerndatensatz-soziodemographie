@@ -1,0 +1,72 @@
+' UML-Klassendiagramm des logischen Modells Soziodemographische Daten.
+' Quelle für input/images/sdd-uml-en.png; DE und EN bitte gemeinsam pflegen.
+' Rendern: java -jar plantuml.jar -tpng -o ../images input/uml/sdd-uml-en.puml
+@startuml
+skinparam linetype ortho
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam classFontStyle bold
+skinparam roundcorner 0
+skinparam dpi 150
+skinparam defaultFontName Arial
+skinparam defaultFontSize 13
+skinparam nodesep 60
+skinparam ranksep 70
+skinparam class {
+  BackgroundColor white
+  BorderColor black
+  ArrowColor black
+  HeaderBackgroundColor white
+}
+hide circle
+
+hide methods
+
+class "Person" as Person #header:D5E8D4;line:82B366 {
+  + Postal code
+  + First language
+  + Country of birth
+  + Nationality
+}
+class "Intensive Care Medicine" as Intensiv #header:D5E8D4;line:82B366 {
+  + Height
+  + Weight
+}
+class "Sociodemographic Data Collection" as Erhebung {
+  + Collection ID
+  + Date
+  + Collection method
+}
+class "Socioeconomic Factors" as Sozio {
+  + Educational attainment
+  + Vocational training
+  + Employment status
+  + Occupational position
+  + Income
+}
+class "Extended Origin" as Herkunft {
+  + Country of birth of the mother
+  + Country of birth of the father
+}
+class "Life Situation" as Leben {
+  + Partnership
+  + Trusted contact person
+  + Household size
+  + Care/support situation
+}
+class "Severe Disability Certificate" as SBA {
+  + Severe disability certificate present
+  + Degree of disability
+  + {field} Markers (Merkzeichen)
+  + Valid from
+  + Valid until
+}
+
+' Das unsichtbare Suffix rückt die Kardinalitäten neben die Linien statt darauf.
+Person "1<color:transparent>__</color>" -down- "0..*" Erhebung
+Intensiv "1<color:transparent>__</color>" -down- "0..*<color:transparent>__</color>" Erhebung
+Erhebung "0..*" -down- "0..1<color:transparent>__</color>" Sozio
+Erhebung "0..*<color:transparent>__</color>" -down- "0..1<color:transparent>__</color>" Herkunft
+Erhebung "0..*<color:transparent>___</color>" -down- "<color:transparent>__</color>0..1" Leben
+Leben "0..*<color:transparent>__</color>" -down- "0..1<color:transparent>__</color>" SBA
+@enduml
