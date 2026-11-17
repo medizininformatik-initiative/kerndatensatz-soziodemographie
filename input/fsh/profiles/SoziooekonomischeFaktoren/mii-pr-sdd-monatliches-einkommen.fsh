@@ -1,7 +1,7 @@
-Profile: MII_PR_SDD_Einkommen
+Profile: MII_PR_SDD_Monatliches_Einkommen
 Parent: MII_PR_SDD_SoziooekonomischeFaktoren 
-Id: mii-pr-sdd-einkommen
-Title: "MII PR SDD Einkommen"
+Id: mii-pr-sdd-monatliches-einkommen
+Title: "MII PR SDD Monatliches Einkommen"
 Description: "Durchschnittliches monatliches Nettoeinkommen des Haushalts"
 * insert PR_CS_VS_Version
 * insert Publisher
@@ -14,4 +14,4 @@ Description: "Durchschnittliches monatliches Nettoeinkommen des Haushalts"
 * value[x] only CodeableConcept
 * valueCodeableConcept 0..1 MS
 * obeys dar-1
-* valueCodeableConcept from mii-vs-sdd-einkommen  (required)
+* valueCodeableConcept from mii-vs-sdd-monatliches-einkommen  (required)

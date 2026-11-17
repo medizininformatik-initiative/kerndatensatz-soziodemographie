@@ -28,7 +28,7 @@ Description: "Beispiel: Sammel-Beobachtung, die alle Einzelerhebungen der Soziod
 * hasMember[schwerbehindertenausweis] = Reference(mii-exa-sdd-schwerbehindertenausweis)
 * hasMember[ausbildung] = Reference(mii-exa-sdd-ausbildung)
 * hasMember[beschaeftigungsstatus] = Reference(mii-exa-sdd-beschaeftigungsstatus)
-* hasMember[einkommen] = Reference(mii-exa-sdd-einkommen)
+* hasMember[einkommen] = Reference(mii-exa-sdd-monatliches-einkommen)
 * hasMember[beruflichestellung] = Reference(mii-exa-sdd-berufliche-stellung)
 * hasMember[schulabschluss] = Reference(mii-exa-sdd-schulabschluss)
 * hasMember[schuljahre] = Reference(mii-exa-sdd-schuljahre)

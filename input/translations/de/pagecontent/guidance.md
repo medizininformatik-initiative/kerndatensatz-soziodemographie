@@ -97,7 +97,7 @@ Die [Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.html) fasst die
 | Sozioökonomische Faktoren | `soziooekonomischeFaktoren.ausbildung` | Ausbildung | [MII PR SDD Ausbildung](StructureDefinition-mii-pr-sdd-ausbildung.html) | `ausbildung` |
 | Sozioökonomische Faktoren | `soziooekonomischeFaktoren.beschaeftigungsstatus` | Beschäftigungsstatus | [MII PR SDD Beschäftigungsstatus](StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.html) | `beschaeftigungsstatus` |
 | Sozioökonomische Faktoren | `soziooekonomischeFaktoren.beruflicheStellung` | Berufliche Stellung | [MII PR SDD Berufliche Stellung](StructureDefinition-mii-pr-sdd-berufliche-stellung.html) | `beruflichestellung` |
-| Sozioökonomische Faktoren | `soziooekonomischeFaktoren.einkommen` | Einkommen | [MII PR SDD Einkommen](StructureDefinition-mii-pr-sdd-einkommen.html) | `einkommen` |
+| Sozioökonomische Faktoren | `soziooekonomischeFaktoren.einkommen` | Einkommen | [MII PR SDD Monatliches Einkommen](StructureDefinition-mii-pr-sdd-monatliches-einkommen.html) | `einkommen` |
 
 Die Sektionen *Person* (Postleitzahl, Erstsprache, Geburtsland, Staatsangehörigkeit) und *Intensivmedizin* (Größe, Gewicht) des logischen Modells werden nicht durch Profile dieses Moduls abgebildet und daher nicht über `hasMember` referenziert. Sie werden durch das KDS-Modul Person bzw. das KDS-Modul Intensivmedizin abgedeckt (siehe [Anleitung für Implementierende](implementer-guidance.html)).
 

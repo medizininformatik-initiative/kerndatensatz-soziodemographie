@@ -27,7 +27,7 @@ This Implementation Guide includes example instances for all profiles. The examp
 * [MII EXA SDD Ausbildung](Observation-mii-exa-sdd-ausbildung.html) - Highest vocational qualification
 * [MII EXA SDD Berufliche Stellung](Observation-mii-exa-sdd-berufliche-stellung.html) - Occupational position in the main employment
 * [MII EXA SDD Beschäftigungsstatus](Observation-mii-exa-sdd-beschaeftigungsstatus.html) - Current main activity
-* [MII EXA SDD Einkommen](Observation-mii-exa-sdd-einkommen.html) - Average monthly net household income
+* [MII EXA SDD Monatliches Einkommen](Observation-mii-exa-sdd-monatliches-einkommen.html) - Average monthly net household income
 * [MII EXA SDD Schulabschluss](Observation-mii-exa-sdd-schulabschluss.html) - Highest general school-leaving qualification
 * [MII EXA SDD Schuljahre](Observation-mii-exa-sdd-schuljahre.html) - Total number of years of school attendance
 

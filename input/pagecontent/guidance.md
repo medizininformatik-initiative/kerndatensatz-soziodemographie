@@ -97,7 +97,7 @@ The [Data Collection](StructureDefinition-mii-pr-sdd-datenerhebung.html) groups 
 | Socioeconomic Factors | `soziooekonomischeFaktoren.ausbildung` | Vocational training | [MII PR SDD Ausbildung](StructureDefinition-mii-pr-sdd-ausbildung.html) | `ausbildung` |
 | Socioeconomic Factors | `soziooekonomischeFaktoren.beschaeftigungsstatus` | Employment status | [MII PR SDD Beschäftigungsstatus](StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.html) | `beschaeftigungsstatus` |
 | Socioeconomic Factors | `soziooekonomischeFaktoren.beruflicheStellung` | Occupational position | [MII PR SDD Berufliche Stellung](StructureDefinition-mii-pr-sdd-berufliche-stellung.html) | `beruflichestellung` |
-| Socioeconomic Factors | `soziooekonomischeFaktoren.einkommen` | Average monthly net household income | [MII PR SDD Einkommen](StructureDefinition-mii-pr-sdd-einkommen.html) | `einkommen` |
+| Socioeconomic Factors | `soziooekonomischeFaktoren.einkommen` | Average monthly net household income | [MII PR SDD Monatliches Einkommen](StructureDefinition-mii-pr-sdd-monatliches-einkommen.html) | `einkommen` |
 
 The sections *Person* (postal code, first language, country of birth, nationality) and *Intensivmedizin* (height, weight) of the logical model are not represented by profiles of this module and are therefore not referenced via `hasMember`. They are covered by the KDS Person module and the KDS Intensive Care module (see [Guidance for Implementers](implementer-guidance.html)).
 

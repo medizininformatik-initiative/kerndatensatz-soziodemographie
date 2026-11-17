@@ -98,7 +98,7 @@ Description: "Datenerhebung für SDD"
 // Soziodemographische Faktoren
 * hasMember[ausbildung] only Reference(MII_PR_SDD_Ausbildung)
 * hasMember[beschaeftigungsstatus] only Reference(MII_PR_SDD_Beschaeftigungsstatus)
-* hasMember[einkommen] only Reference(MII_PR_SDD_Einkommen)
+* hasMember[einkommen] only Reference(MII_PR_SDD_Monatliches_Einkommen)
 * hasMember[beruflichestellung] only Reference(MII_PR_SDD_Berufliche_Stellung)
 * hasMember[schulabschluss] only Reference(MII_PR_SDD_Schulabschluss)
 * hasMember[schuljahre] only Reference(MII_PR_SDD_Schuljahre)
