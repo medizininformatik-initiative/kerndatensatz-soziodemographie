@@ -2,9 +2,10 @@ Profile: MII_PR_SDD_SoziooekonomischeFaktoren
 Parent: Observation 
 Id: mii-pr-sdd-soziooekonomische-faktoren
 Title: "MII PR SDD Soziooekonomische Faktoren"
-Description: "Soziooekonomische Faktoren für SDD"
+Description: "Abstraktes Basisprofil für die sozioökonomischen Faktoren. Es legt die Vorgaben, die für alle Merkmale dieses Bereichs gleich sind, einmal zentral fest: Kategorien social-history und survey, Bezug auf den Patienten, Erhebungszeitpunkt, erlaubte Datentypen für value[x] sowie dataAbsentReason. Die Profile Schulabschluss, Schuljahre, Ausbildung, Beschäftigungsstatus, Berufliche Stellung und Einkommen erben davon und ergänzen nur ihren Code und ihren Wertebereich. Instanzen werden nicht gegen dieses Profil, sondern immer gegen eines der abgeleiteten Profile erstellt."
 * insert PR_CS_VS_Version
 * insert Publisher
+* ^abstract = true
 * ^status = #draft
 
 * meta.profile 0..* MS
@@ -26,3 +27,8 @@ Description: "Soziooekonomische Faktoren für SDD"
 
 * effective[x] only dateTime
 * effectiveDateTime 1..1 MS
+
+* value[x] only CodeableConcept or Quantity
+
+* dataAbsentReason MS
+* hasMember 0..0

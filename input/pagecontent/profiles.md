@@ -11,7 +11,7 @@ The following profiles have been defined for this implementation guide.
 
 **Lebenssituation**
 
-* [MII PR SDD Lebenssituation](StructureDefinition-mii-pr-sdd-lebenssituation.html) - Lebenssituation des Patienten (abstrakt)
+* [MII PR SDD Lebenssituation](StructureDefinition-mii-pr-sdd-lebenssituation.html) - Abstract base profile: defines the requirements shared by all life situation profiles below (categories, patient reference, time of collection, dataAbsentReason) in one place. It is not instantiated directly; instances always conform to one of the derived profiles.
 * [MII PR SDD Betreuungssituation](StructureDefinition-mii-pr-sdd-betreuungssituation.html) - Aktuelle Betreuungssituation
 * [MII PR SDD Haushaltsgroesse](StructureDefinition-mii-pr-sdd-haushaltsgroesse.html) - Anzahl der Personen, die ständig im Haushalt der Person leben
 * [MII PR SDD Partnerschaft](StructureDefinition-mii-pr-sdd-partnerschaft.html) - Aktuelle Partnerschaft der Person
@@ -20,7 +20,7 @@ The following profiles have been defined for this implementation guide.
 
 **Soziooekonomische Faktoren**
 
-* [MII PR SDD Soziooekonomische Faktoren](StructureDefinition-mii-pr-sdd-soziooekonomische-faktoren.html) - Soziooekonomische Faktoren für SDD
+* [MII PR SDD Soziooekonomische Faktoren](StructureDefinition-mii-pr-sdd-soziooekonomische-faktoren.html) - Abstract base profile: defines the requirements shared by all socioeconomic profiles below (categories, patient reference, time of collection, dataAbsentReason) in one place. It is not instantiated directly; instances always conform to one of the derived profiles.
 * [MII PR SDD Ausbildung](StructureDefinition-mii-pr-sdd-ausbildung.html) - Höchster beruflicher Ausbildungsabschluss
 * [MII PR SDD Berufliche Stellung](StructureDefinition-mii-pr-sdd-berufliche-stellung.html) - Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit
 * [MII PR SDD Beschäftigungsstatus](StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.html) - Aktuell hauptsächlich ausgeübte Tätigkeit

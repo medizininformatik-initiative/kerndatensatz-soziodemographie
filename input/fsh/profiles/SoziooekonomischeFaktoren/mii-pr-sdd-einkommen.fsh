@@ -12,4 +12,6 @@ Description: "Durchschnittliches monatliches Nettoeinkommen des Haushalts"
 * code.coding = $LNC#98161-3 // Monthly household net income
 
 * value[x] only CodeableConcept
+* valueCodeableConcept 0..1 MS
+* obeys dar-1
 * valueCodeableConcept from mii-vs-sdd-einkommen  (required)

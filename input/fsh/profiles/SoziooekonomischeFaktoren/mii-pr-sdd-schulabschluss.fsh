@@ -12,6 +12,8 @@ Description: "Höchster erreichter allgemeinbildender Schulabschluss"
 * code.coding = $SCT#105421008 // Educational achievement (observable entity)
 
 * value[x] only CodeableConcept
+* valueCodeableConcept 0..1 MS
+* obeys dar-1
 * valueCodeableConcept from mii-vs-sdd-schulabschluss  (required)
 
 * valueCodeableConcept.text MS

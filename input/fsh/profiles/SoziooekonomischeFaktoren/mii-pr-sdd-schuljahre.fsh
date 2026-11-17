@@ -13,5 +13,6 @@ Description: "Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde, in
 
 // valueQuantity da Kardinalscala siehe https://simplifier.net/guide/leitfaden-de-basis-r4/ig-markdown-Ressourcen-BeobachtungenMessungenObservation?version=current
 * value[x] only Quantity
-* valueQuantity 1..1 MS
+* valueQuantity 0..1 MS
+* obeys dar-1
 * valueQuantity ^short = "Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde"

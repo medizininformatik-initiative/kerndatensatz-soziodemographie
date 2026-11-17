@@ -24,7 +24,6 @@ This Implementation Guide includes example instances for all profiles. The examp
 
 **Socioeconomic Factors**
 
-* [MII EXA SDD Soziooekonomische Faktoren](Observation-mii-exa-sdd-soziooekonomische-faktoren.html) - Generic observation of a socioeconomic factor
 * [MII EXA SDD Ausbildung](Observation-mii-exa-sdd-ausbildung.html) - Highest vocational qualification
 * [MII EXA SDD Berufliche Stellung](Observation-mii-exa-sdd-berufliche-stellung.html) - Occupational position in the main employment
 * [MII EXA SDD Beschäftigungsstatus](Observation-mii-exa-sdd-beschaeftigungsstatus.html) - Current main activity

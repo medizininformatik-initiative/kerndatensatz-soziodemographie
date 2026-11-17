@@ -2,7 +2,7 @@ Profile: MII_PR_SDD_Lebenssituation
 Parent: Observation 
 Id: mii-pr-sdd-lebenssituation
 Title: "MII PR SDD Lebenssituation"
-Description: "Lebenssituation des Patienten (abstrakt)"
+Description: "Abstraktes Basisprofil für die Merkmale der Lebenssituation. Es legt die Vorgaben, die für alle Merkmale dieses Bereichs gleich sind, einmal zentral fest: Kategorien social-history und survey, Bezug auf den Patienten, Erhebungszeitpunkt, erlaubte Datentypen für value[x] sowie dataAbsentReason. Die Profile Partnerschaft, Vertrauensperson, Haushaltsgröße, Betreuungssituation und Schwerbehindertenausweis erben davon und ergänzen nur ihren Code und ihren Wertebereich. Instanzen werden nicht gegen dieses Profil, sondern immer gegen eines der abgeleiteten Profile erstellt."
 * insert PR_CS_VS_Version
 * insert Publisher
 * ^abstract = true

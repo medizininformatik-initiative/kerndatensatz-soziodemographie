@@ -12,6 +12,8 @@ Description: "Höchster beruflicher Ausbildungsabschluss"
 * code.coding = $LNC#82589-3 // Highest level of education
 
 * value[x] only CodeableConcept
+* valueCodeableConcept 0..1 MS
+* obeys dar-1
 * valueCodeableConcept from mii-vs-sdd-ausbildung  (required)
 
 * valueCodeableConcept.text MS

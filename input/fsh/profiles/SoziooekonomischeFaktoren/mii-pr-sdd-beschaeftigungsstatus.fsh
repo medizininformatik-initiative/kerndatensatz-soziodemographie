@@ -12,7 +12,8 @@ Description: "Aktuell hauptsächlich ausgeübte Tätigkeit"
 * code.coding = $LNC#67875-5 // Employment status - current
 
 * value[x] only CodeableConcept
-* valueCodeableConcept 1..1 MS
+* valueCodeableConcept 0..1 MS
+* obeys dar-1
 * valueCodeableConcept.coding 1..1 MS
 * valueCodeableConcept.coding ^slicing.discriminator.type = #pattern
 * valueCodeableConcept.coding ^slicing.discriminator.path = "$this"

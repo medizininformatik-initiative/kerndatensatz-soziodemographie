@@ -24,7 +24,6 @@ Dieser Implementierungsleitfaden enthält Beispielinstanzen für alle Profile.
 
 **Sozioökonomische Faktoren**
 
-* [MII EXA SDD Soziooekonomische Faktoren](Observation-mii-exa-sdd-soziooekonomische-faktoren.html) - Generische Beobachtung eines sozioökonomischen Faktors
 * [MII EXA SDD Ausbildung](Observation-mii-exa-sdd-ausbildung.html) - Höchster beruflicher Ausbildungsabschluss
 * [MII EXA SDD Berufliche Stellung](Observation-mii-exa-sdd-berufliche-stellung.html) - Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit
 * [MII EXA SDD Beschäftigungsstatus](Observation-mii-exa-sdd-beschaeftigungsstatus.html) - Aktuell hauptsächlich ausgeübte Tätigkeit
