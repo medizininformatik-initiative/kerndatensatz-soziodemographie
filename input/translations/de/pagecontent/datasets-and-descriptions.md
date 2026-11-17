@@ -4,7 +4,7 @@ Zu beachten ist, dass das logische Modell ausschließlich darauf abzielt, die Da
 
 <table class="grid">
 <thead>
-<tr><th>Name</th><th>Datentyp</th><th>Beschreibung</th><th>Kommentar</th></tr>
+<tr><th>Name</th><th>Datentyp</th><th>Beschreibung</th><th>Quelle und Antwortkategorien</th></tr>
 </thead>
 <tbody>
 <tr style="background-color:#f2f2f2"><td>_Soziodemographische Daten</td><td></td><td>Das KDS-Modul Soziodemographische Daten enthält Informationen zum demographischen, sozialen und ökonomischen Hintergrund der Patientinnen und Patienten.</td><td></td></tr>
@@ -14,15 +14,15 @@ Zu beachten ist, dass das logische Modell ausschließlich darauf abzielt, die Da
 <tr><td>Geburtsland</td><td>Code</td><td>Geburtsland der Person</td><td>Ländercodeliste ISO-3166-1 ALPHA-2</td></tr>
 <tr><td>Staatsangehörigkeit</td><td>Code</td><td>Staatsangehörigkeit der Person</td><td>Ländercodeliste ISO-3166-1 ALPHA-2</td></tr>
 <tr style="background-color:#f2f2f2"><td>_Intensivmedizin</td><td></td><td>Monitoring und Vitaldaten</td><td></td></tr>
-<tr><td>Größe</td><td>Integer</td><td>Körpergröße in cm</td><td></td></tr>
-<tr><td>Gewicht</td><td>Integer</td><td>Körpergewicht in kg</td><td></td></tr>
+<tr><td>Größe</td><td>unsignedInt</td><td>Körpergröße in cm</td><td></td></tr>
+<tr><td>Gewicht</td><td>unsignedInt</td><td>Körpergewicht in kg</td><td></td></tr>
 <tr style="background-color:#f2f2f2"><td>_Datenerhebung Soziodemographie</td><td></td><td>Beschreibung der Datenerhebung</td><td></td></tr>
 <tr><td>Erhebungs-ID</td><td>Identifier</td><td>Einrichtungsinterne ID der Datenerhebung</td><td></td></tr>
 <tr><td>Datum</td><td>Date</td><td>Datum, an dem die soziodemographischen Daten erhoben wurden</td><td></td></tr>
 <tr><td>Erhebungsmethode</td><td>Code</td><td>Art der Datenerhebung</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br/>1 Selbstangabe<br/>2 Fremdeinschätzung<br/>3 Einschätzung durch medizinisches Personal</td></tr>
 <tr style="background-color:#f2f2f2"><td>_Sozioökonomische Faktoren</td><td></td><td>Merkmale zur Beschreibung der Stellung der Person innerhalb der Gesellschaft</td><td></td></tr>
 <tr><td>Schulbildung [Langversion]</td><td>Code</td><td>Höchster erreichter allgemeinbildender Schulabschluss</td><td>Quelle: Demographische Standards 2024<br/>A noch Schüler:in an einer allgemeinbildenden Schule<br/>B von der Schule abgegangen ohne Schulabschluss<br/>C Hauptschulabschluss, Volksschulabschluss oder vergleichbarer Abschluss<br/>D Polytechnische Oberschule der DDR mit Abschluss der 8. oder 9. Klasse<br/>E Realschulabschluss, Mittlere Reife oder vergleichbarer Abschluss<br/>F Polytechnische Oberschule der DDR mit Abschluss der 10. Klasse<br/>G Fachhochschulreife<br/>H Abitur, Allgemeine/ Fachgebundene Hochschulreife, Gymnasium bzw. Erweiterte Oberschule (EOS), auch EOS mit Lehre<br/>I anderer Schulabschluss, und zwar</td></tr>
-<tr><td>Schulbildung [Minimalversion]</td><td>Integer</td><td>Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde, inkl. Besuch einer Berufs- oder Hochschule</td><td></td></tr>
+<tr><td>Schulbildung [Minimalversion]</td><td>unsignedInt</td><td>Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde, inkl. Besuch einer Berufs- oder Hochschule</td><td></td></tr>
 <tr><td>Ausbildung [Langversion]</td><td>Code</td><td>Höchster beruflicher Ausbildungsabschluss</td><td>Quelle: Demographische Standards 2024<br/>A noch in Ausbildung, Studium (Berufsvorbereitungsjahr, Praktikum, [Berufs-]Fachschule o. ä.)<br/>B kein beruflicher Abschluss und bin nicht in beruflicher Ausbildung<br/>C Lehre (beruflich-betriebliche Berufsausbildung)<br/>D berufsqualifizierender Abschluss einer beruflich-schulischen Ausbildung z. B. an einer Berufsfachschule oder einer Kollegschule<br/>E Abschluss einer Fach-, Meister- oder Technikerschule, Verwaltungs- und Wirtschaftsakademie, Berufs- oder Fachakademie<br/>F Bachelor, Diplom (FH)<br/>G Master, Diplom (Uni), Magister, Staatsexamen, Promotion<br/>H anderer beruflicher Abschluss, und zwar</td></tr>
 <tr><td>Beschäftigungsstatus [Langversion]</td><td>Code</td><td>Aktuell hauptsächlich ausgeübte Tätigkeit</td><td>Quelle: Demographische Standards 2024 mit Anpassung<br/>A Besuch einer allgemeinbildenden Schule, Studium, Berufliche Ausbildung, Umschulung<br/>B freiwilliger Wehrdienst, Bundesfreiwilligendienst, freiwilliges soziales oder ökologisches Jahr<br/>C Erwerbsunterbrechung wegen Pflegezeit, Mutterschutz, Elternzeit ohne berufliche Tätigkeit<br/>D vollzeiterwerbstätig gemäß den branchenüblichen oder betrieblichen Regeln<br/>E teilzeiterwerbstätig, auch Midijob, aber mehr als ein Minijob<br/>F in einer geringfügigen, gelegentlichen, kurzfristigen oder unregelmäßigen Beschäftigung (z. B. 538-Euro-Job, Minijob, Ein-Euro-Job, Saisonarbeit)<br/>G Rentner:in, Pensionär:in<br/>H arbeitslos<br/>I dauerhaft erwerbsunfähig<br/>J langzeit krankgemeldet (z. B. länger als 6 Wochen krankgeschrieben, Erwerbsunterbrechung wegen Erkrankung, Bezug von Krankengeld o. ä.)<br/>K Hausfrau/Hausmann<br/>L sonstiges, und zwar</td></tr>
 <tr><td>Beschäftigungsstatus [Minimalversion]</td><td>Code</td><td>Aktuell hauptsächlich ausgeübte Tätigkeit</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br/>A Schüler, Auszubildender, Student<br/>B nicht berufstätig wegen einer Erkrankung<br/>C Rente, Hausfrau/-mann, etc.<br/>D arbeitssuchend<br/>E teilzeitbeschäftigt<br/>F vollzeitbeschäftigt<br/>G gelegentlich oder unregelmäßig beschäftigt</td></tr>
@@ -35,11 +35,11 @@ Zu beachten ist, dass das logische Modell ausschließlich darauf abzielt, die Da
 <tr style="background-color:#f2f2f2"><td>_Lebenssituation</td><td></td><td>Merkmale zur Beschreibung der sozialen Lebensumstände der Person</td><td></td></tr>
 <tr><td>Partnerschaft</td><td>Code</td><td>Aktuelle Partnerschaft der Person</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br/>1 ja<br/>2 nein</td></tr>
 <tr><td>Vertrauensperson</td><td>Code</td><td>Existenz mind. einer Person, der die Person uneingeschränkt vertrauen und mit der die Person persönliche Dinge besprechen kann</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br/>1 ja<br/>2 nein</td></tr>
-<tr><td>Haushaltsgröße</td><td>Integer</td><td>Anzahl der Personen, die ständig im Haushalt der Person leben</td><td></td></tr>
+<tr><td>Haushaltsgröße</td><td>positiveInt</td><td>Anzahl der Personen, die ständig im Haushalt der Person leben</td><td></td></tr>
 <tr><td>Betreuungssituation</td><td>Code</td><td>Aktuelle Betreuungssituation</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br/>A Keine Betreuung<br/>B Betreuung auf Anfrage (z. B. betreutes Wohnen, Hausnotruf)<br/>C Zeitweise Betreuung (z. B. ambulante Pflege)<br/>D Dauerhafte Betreuung (z. B. Pflegeheim)<br/>E Anmerkung ____________</td></tr>
 <tr style="background-color:#f2f2f2"><td>_Schwerbehindertenausweis</td><td></td><td>Vorliegen und Informationen des Schwerbehindertenausweises</td><td></td></tr>
 <tr><td>Vorliegen Schwerbehindertenausweis</td><td>Code</td><td>Vorliegen eines Schwerbehindertenausweises</td><td>Quelle: AG KDS-Modul Soziodemographische Daten<br/>1 ja<br/>2 nein</td></tr>
-<tr><td>Grad der Behinderung</td><td>Integer</td><td>Amtlich festgestellter Grad der Behinderung in Prozent</td><td></td></tr>
+<tr><td>Grad der Behinderung</td><td>unsignedInt</td><td>Amtlich festgestellter Grad der Behinderung in Prozent</td><td></td></tr>
 <tr><td>Merkzeichen</td><td>Code</td><td>Merkzeichen laut Schwerbehindertenausweis</td><td>§2-3 Schwerbehindertenausweisverordnung (SchwbAwV)</td></tr>
 <tr><td>Gültigkeitszeitraum von</td><td>dateTime</td><td>Startdatum der Gültigkeit laut Schwerbehindertenausweis</td><td></td></tr>
 <tr><td>Gültigkeitszeitraum bis</td><td>dateTime</td><td>Enddatum der Gültigkeit laut Schwerbehindertenausweis</td><td></td></tr>
