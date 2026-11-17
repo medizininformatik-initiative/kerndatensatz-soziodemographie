@@ -32,8 +32,7 @@ Description: "Vorliegen eines Schwerbehindertenausweises des Patienten"
 * component contains
     gradDerBehinderung 0..1 MS and
     merkzeichen 0..* MS and
-    gueltigVon 0..1 MS and
-    gueltigBis 0..1 MS
+    gueltigkeitszeitraum 0..1 MS
 * component[gradDerBehinderung].code = mii-cs-sdd-schwerbehindertenausweis#gdb
 * component[gradDerBehinderung].value[x] only Quantity
 * component[gradDerBehinderung].valueQuantity 1..1 MS
@@ -43,8 +42,13 @@ Description: "Vorliegen eines Schwerbehindertenausweises des Patienten"
 * component[merkzeichen].code = mii-cs-sdd-schwerbehindertenausweis#merkzeichen
 * component[merkzeichen].value[x] only CodeableConcept
 * component[merkzeichen].valueCodeableConcept from mii-vs-sdd-merkzeichen (required)
-* component[gueltigVon].code = mii-cs-sdd-schwerbehindertenausweis#gueltig-von // consider alternative valuePeriod
-* component[gueltigVon].value[x] only dateTime
-* component[gueltigBis].code = mii-cs-sdd-schwerbehindertenausweis#gueltig-bis
-* component[gueltigBis].value[x] only dateTime
+* component[gueltigkeitszeitraum].code = mii-cs-sdd-schwerbehindertenausweis#gueltigkeitszeitraum
+* component[gueltigkeitszeitraum].value[x] only Period
+* component[gueltigkeitszeitraum].valuePeriod 1..1 MS
+* component[gueltigkeitszeitraum].valuePeriod ^short = "Gültigkeitszeitraum laut Schwerbehindertenausweis"
+* component[gueltigkeitszeitraum].valuePeriod.start MS
+* component[gueltigkeitszeitraum].valuePeriod.start ^short = "Beginn der Gültigkeit"
+* component[gueltigkeitszeitraum].valuePeriod.end MS
+* component[gueltigkeitszeitraum].valuePeriod.end ^short = "Ende der Gültigkeit; fehlt bei unbefristetem Ausweis"
+* component[gueltigkeitszeitraum].valuePeriod.end ^comment = "Fehlt end, ist der Ausweis unbefristet (laut FHIR dauert der Zeitraum dann an). Ist das Ende nicht bekannt, end mit der Extension data-absent-reason (Code unknown) angeben, damit es nicht als unbefristet gelesen wird."
 * obeys sba-1

@@ -19,7 +19,8 @@ This Implementation Guide includes example instances for all profiles. The examp
 * [MII EXA SDD Haushaltsgroesse](Observation-mii-exa-sdd-haushaltsgroesse.html) - Number of persons permanently living in the person's household
 * [MII EXA SDD Partnerschaft](Observation-mii-exa-sdd-partnerschaft.html) - Current partnership of the person
 * [MII EXA SDD Partnerschaft (keine Angabe)](Observation-mii-exa-sdd-partnerschaft-keine-angabe.html) - Partnership not stated: the respondent declined to answer (dataAbsentReason instead of a value)
-* [MII EXA SDD Schwerbehindertenausweis](Observation-mii-exa-sdd-schwerbehindertenausweis.html) - Presence of a severe disability certificate (Schwerbehindertenausweis) with degree of disability and markers (Merkzeichen)
+* [MII EXA SDD Schwerbehindertenausweis](Observation-mii-exa-sdd-schwerbehindertenausweis.html) - Presence of a time-limited severe disability certificate (Schwerbehindertenausweis) with degree of disability, markers (Merkzeichen) and period of validity
+* [MII EXA SDD Schwerbehindertenausweis (unbefristet)](Observation-mii-exa-sdd-schwerbehindertenausweis-unbefristet.html) - Presence of a severe disability certificate with unlimited validity: the period of validity has a start but no end
 * [MII EXA SDD Vertrauensperson](Observation-mii-exa-sdd-vertrauensperson.html) - Existence of at least one trusted contact person
 
 **Socioeconomic Factors**

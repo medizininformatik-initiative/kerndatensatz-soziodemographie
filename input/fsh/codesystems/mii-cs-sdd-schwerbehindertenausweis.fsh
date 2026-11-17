@@ -16,9 +16,6 @@ Description: "Code System für Schwerbehindertenausweis"
 * #merkzeichen "Merkzeichen"
 * #merkzeichen ^designation[+].language = #en
 * #merkzeichen ^designation[=].value = "Markers (Merkzeichen)"
-* #gueltig-von "Gültigkeitszeitraum von"
-* #gueltig-von ^designation[+].language = #en
-* #gueltig-von ^designation[=].value = "Valid from"
-* #gueltig-bis "Gültigkeitszeitraum bis"
-* #gueltig-bis ^designation[+].language = #en
-* #gueltig-bis ^designation[=].value = "Valid until"
+* #gueltigkeitszeitraum "Gültigkeitszeitraum"
+* #gueltigkeitszeitraum ^designation[+].language = #en
+* #gueltigkeitszeitraum ^designation[=].value = "Period of validity"

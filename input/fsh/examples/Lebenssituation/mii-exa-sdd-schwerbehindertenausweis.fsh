@@ -2,7 +2,7 @@ Instance: mii-exa-sdd-schwerbehindertenausweis
 InstanceOf: MII_PR_SDD_Schwerbehindertenausweis
 Usage: #example
 Title: "MII EXA SDD Schwerbehindertenausweis"
-Description: "Beispiel: Vorliegen eines Schwerbehindertenausweises mit Grad der Behinderung und Merkzeichen."
+Description: "Beispiel: Vorliegen eines befristeten Schwerbehindertenausweises mit Grad der Behinderung, Merkzeichen und Gültigkeitszeitraum."
 
 * language = #de
 * status = #final
@@ -19,5 +19,6 @@ Description: "Beispiel: Vorliegen eines Schwerbehindertenausweises mit Grad der 
 * component[gradDerBehinderung].valueQuantity.system = $UCUM
 * component[merkzeichen].code = mii-cs-sdd-schwerbehindertenausweis#merkzeichen "Merkzeichen"
 * component[merkzeichen].valueCodeableConcept = mii-cs-sdd-merkzeichen#G "G – erhebliche Gehbehinderung"
-* component[gueltigVon].code = mii-cs-sdd-schwerbehindertenausweis#gueltig-von "Gültigkeitszeitraum von"
-* component[gueltigVon].valueDateTime = "2024-01-15"
+* component[gueltigkeitszeitraum].code = mii-cs-sdd-schwerbehindertenausweis#gueltigkeitszeitraum "Gültigkeitszeitraum"
+* component[gueltigkeitszeitraum].valuePeriod.start = "2024-01-15"
+* component[gueltigkeitszeitraum].valuePeriod.end = "2029-01-31"

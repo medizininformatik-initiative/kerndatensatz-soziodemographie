@@ -99,6 +99,8 @@ The [Data Collection](StructureDefinition-mii-pr-sdd-datenerhebung.html) groups 
 | Socioeconomic Factors | `soziooekonomischeFaktoren.beruflicheStellung` | Occupational position | [MII PR SDD Berufliche Stellung](StructureDefinition-mii-pr-sdd-berufliche-stellung.html) | `beruflichestellung` |
 | Socioeconomic Factors | `soziooekonomischeFaktoren.einkommen` | Average monthly net household income | [MII PR SDD Monatliches Einkommen](StructureDefinition-mii-pr-sdd-monatliches-einkommen.html) | `einkommen` |
 
+The logical model elements `gueltigkeitszeitraumVon` and `gueltigkeitszeitraumBis` (period of validity of the severe disability certificate) are mapped together onto one component with `valuePeriod.start` and `valuePeriod.end`. A certificate with unlimited validity has a `start` but no `end`; following the FHIR definition of Period, a missing `end` means that the period is ongoing. If the end date exists but is not known, `end` carries the `data-absent-reason` extension with the code `unknown`, so that it is not read as unlimited.
+
 The sections *Person* (postal code, first language, country of birth, nationality) and *Intensivmedizin* (height, weight) of the logical model are not represented by profiles of this module and are therefore not referenced via `hasMember`. They are covered by the KDS Person module and the KDS Intensive Care module (see [Guidance for Implementers](implementer-guidance.html)).
 
 ---

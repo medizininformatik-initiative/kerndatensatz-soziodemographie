@@ -99,6 +99,8 @@ Die [Datenerhebung](StructureDefinition-mii-pr-sdd-datenerhebung.html) fasst die
 | Sozioökonomische Faktoren | `soziooekonomischeFaktoren.beruflicheStellung` | Berufliche Stellung | [MII PR SDD Berufliche Stellung](StructureDefinition-mii-pr-sdd-berufliche-stellung.html) | `beruflichestellung` |
 | Sozioökonomische Faktoren | `soziooekonomischeFaktoren.einkommen` | Einkommen | [MII PR SDD Monatliches Einkommen](StructureDefinition-mii-pr-sdd-monatliches-einkommen.html) | `einkommen` |
 
+Die Elemente `gueltigkeitszeitraumVon` und `gueltigkeitszeitraumBis` des logischen Modells (Gültigkeitszeitraum des Schwerbehindertenausweises) werden gemeinsam auf eine Component mit `valuePeriod.start` und `valuePeriod.end` abgebildet. Ein unbefristeter Ausweis hat einen `start`, aber kein `end`; gemäß der FHIR-Definition von Period bedeutet ein fehlendes `end`, dass der Zeitraum andauert. Gibt es ein Enddatum, das aber nicht bekannt ist, trägt `end` die Extension `data-absent-reason` mit dem Code `unknown`, damit es nicht als unbefristet gelesen wird.
+
 Die Sektionen *Person* (Postleitzahl, Erstsprache, Geburtsland, Staatsangehörigkeit) und *Intensivmedizin* (Größe, Gewicht) des logischen Modells werden nicht durch Profile dieses Moduls abgebildet und daher nicht über `hasMember` referenziert. Sie werden durch das KDS-Modul Person bzw. das KDS-Modul Intensivmedizin abgedeckt (siehe [Anleitung für Implementierende](implementer-guidance.html)).
 
 ---
