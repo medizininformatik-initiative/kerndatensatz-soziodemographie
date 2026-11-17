@@ -1,7 +1,7 @@
 ValueSet: MII_VS_SDD_Beschaeftigungsstatus_Lang
 Id: mii-vs-sdd-beschaeftigungsstatus-lang
 Title: "MII VS SDD Beschaeftigungsstatus (Langversion)"
-Description: "Value Set für Beschäftigungsstatus (Langversion)"
+Description: "Value Set für Beschäftigungsstatus (Langversion). Antwortkategorien gemäß den Demographischen Standards 2024 (GESIS), für dieses Modul angepasst."
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-beschaeftigungsstatus-lang"
 * ^status = #draft

@@ -1,7 +1,7 @@
 ValueSet: MII_VS_SDD_Berufliche_Stellung_Minimal
 Id: mii-vs-sdd-berufliche-stellung-minimal
 Title: "MII VS SDD Berufliche Stellung (Minimalversion)"
-Description: "Value Set für Berufliche Stellung (Minimalversion)"
+Description: "Value Set für Berufliche Stellung (Minimalversion). Vereinfachte Antwortkategorien, festgelegt von der AG KDS-Modul Soziodemographische Daten."
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-berufliche-stellung-minimal"
 * ^status = #draft

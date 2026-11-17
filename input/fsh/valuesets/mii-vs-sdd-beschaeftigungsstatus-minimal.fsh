@@ -1,7 +1,7 @@
 ValueSet: MII_VS_SDD_Beschaeftigungsstatus_Minimal
 Id: mii-vs-sdd-beschaeftigungsstatus-minimal
 Title: "MII VS SDD Beschaeftigungsstatus (Minimalversion)"
-Description: "Value Set für Beschäftigungsstatus (Minimalversion)"
+Description: "Value Set für Beschäftigungsstatus (Minimalversion). Vereinfachte Antwortkategorien, festgelegt von der AG KDS-Modul Soziodemographische Daten."
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/ValueSet/mii-vs-sdd-beschaeftigungsstatus-minimal"
 * ^status = #draft

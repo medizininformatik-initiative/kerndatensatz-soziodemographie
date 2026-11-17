@@ -2,7 +2,7 @@ Profile: MII_PR_SDD_Beschaeftigungsstatus
 Parent: MII_PR_SDD_SoziooekonomischeFaktoren 
 Id: mii-pr-sdd-beschaeftigungsstatus
 Title: "MII PR SDD Beschäftigungsstatus"
-Description: "Aktuell hauptsächlich ausgeübte Tätigkeit, d. h. Angabe, ob und in welchem Umfang die Person aktuell arbeitet"
+Description: "Aktuell hauptsächlich ausgeübte Tätigkeit, d. h. Angabe, ob und in welchem Umfang die Person aktuell arbeitet. Die Angabe kann in einer Langversion (Antwortkategorien der Demographischen Standards 2024, angepasst) oder einer Minimalversion (Antwortkategorien der AG KDS-Modul Soziodemographische Daten) erfasst werden. Beide Versionen haben ein eigenes CodeSystem, damit am System der Codierung erkennbar ist, welche Version verwendet wurde; pro Beobachtung wird genau eine Codierung angegeben."
 * insert PR_CS_VS_Version
 * insert Publisher
 * ^status = #draft
@@ -21,6 +21,8 @@ Description: "Aktuell hauptsächlich ausgeübte Tätigkeit, d. h. Angabe, ob und
 * valueCodeableConcept.coding contains
     lang 0..1 MS and
     minimal 0..1 MS
+* valueCodeableConcept.coding[lang] ^short = "Langversion (Demographische Standards 2024, angepasst)"
+* valueCodeableConcept.coding[minimal] ^short = "Minimalversion (AG KDS-Modul Soziodemographische Daten)"
 
 * valueCodeableConcept.coding[lang].system 1.. MS
 * valueCodeableConcept.coding[lang].system = $mii-cs-sdd-beschaeftigungsstatus-lang

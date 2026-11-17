@@ -1,7 +1,7 @@
 CodeSystem: MII_CS_SDD_Beschaeftigungsstatus_Lang
 Id: mii-cs-sdd-beschaeftigungsstatus-lang
-Title: "MII CS SDD Beschaeftigungsstatus (Langfversion)"
-Description: "Code System für Beschäftigungsstatus (Langversion)"
+Title: "MII CS SDD Beschaeftigungsstatus (Langversion)"
+Description: "Code System für Beschäftigungsstatus (Langversion). Antwortkategorien gemäß den Demographischen Standards 2024 (GESIS), für dieses Modul angepasst."
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-soziodemographie/CodeSystem/mii-cs-sdd-beschaeftigungsstatus-lang"
 * ^status = #draft

@@ -2,7 +2,7 @@ Profile: MII_PR_SDD_Berufliche_Stellung
 Parent: MII_PR_SDD_SoziooekonomischeFaktoren 
 Id: mii-pr-sdd-berufliche-stellung
 Title: "MII PR SDD Berufliche Stellung"
-Description: "Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit, d. h. Beschreibung der Rolle innerhalb der aktuellen oder früheren Erwerbstätigkeit"
+Description: "Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigkeit, d. h. Beschreibung der Rolle innerhalb der aktuellen oder früheren Erwerbstätigkeit. Die Angabe kann in einer Langversion (Antwortkategorien der Demographischen Standards 2024) oder einer Minimalversion (Antwortkategorien der AG KDS-Modul Soziodemographische Daten) erfasst werden. Beide Versionen haben ein eigenes CodeSystem, damit am System der Codierung erkennbar ist, welche Version verwendet wurde; pro Beobachtung wird genau eine Codierung angegeben."
 * insert PR_CS_VS_Version
 * insert Publisher
 * ^status = #draft
@@ -21,6 +21,8 @@ Description: "Berufliche Stellung der hauptsächlich ausgeübten Erwerbstätigke
 * valueCodeableConcept.coding contains
     lang 0..1 MS and
     minimal 0..1 MS
+* valueCodeableConcept.coding[lang] ^short = "Langversion (Demographische Standards 2024)"
+* valueCodeableConcept.coding[minimal] ^short = "Minimalversion (AG KDS-Modul Soziodemographische Daten)"
 
 * valueCodeableConcept.coding[lang].system 1.. MS
 * valueCodeableConcept.coding[lang].system = $mii-cs-sdd-berufliche-stellung-lang
