@@ -1,5 +1,3 @@
-### Übersetzungsinformationen
-
 Dieser Leitfaden ist **englischsprachig** (Standardsprache); **Deutsch** ist
 die Übersetzung. Englisch ist damit sowohl die Basis-Darstellung des
 Leitfadens als auch die `/en/`-Darstellung; über den Sprachumschalter oben
@@ -23,3 +21,10 @@ Dateiname wie die englische Seite).
 > * Überschriften und Beschriftungen, die der IG Publisher erzeugt (z. B. auf
 >   den Artefaktseiten), folgen der gewählten Sprache.
 {: .ig-highlight .ig-highlight-grey}
+
+### Feedback zur Übersetzung
+
+Wenn Ihnen Fehler, Unklarheiten oder fehlende Übersetzungen auffallen, geben Sie uns bitte Bescheid:
+
+* als Issue im [GitHub-Repository dieses Moduls](https://github.com/medizininformatik-initiative/kerndatensatz-soziodemographie/issues), mit Angabe der betroffenen Seite und Sprachversion, oder
+* auf [chat.fhir.org](https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative) im Stream 'german/mi-initiative' oder auf [mii.zulipchat.com](https://mii.zulipchat.com/#narrow/channel/430086-MII-Kerndatensatz).

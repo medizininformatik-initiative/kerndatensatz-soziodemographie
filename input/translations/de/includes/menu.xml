@@ -48,6 +48,7 @@
     <a data-toggle="dropdown" href="version-history.html" class="dropdown-toggle">Metadaten<b class="caret"> </b></a>
     <ul class="dropdown-menu">
       <li><a href="version-history.html">Versionierung</a></li>
+      <li><a href="translationinfo.html">Hinweise zur Übersetzung</a></li>
     </ul>
   </li>
 </ul>
