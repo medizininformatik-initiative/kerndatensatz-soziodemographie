@@ -2,7 +2,7 @@ Profile: MII_PR_SDD_Schuljahre // Vorschlag für Schulbildung [Minimalversion]
 Parent: MII_PR_SDD_SoziooekonomischeFaktoren 
 Id: mii-pr-sdd-schuljahre
 Title: "MII PR SDD Schuljahre"
-Description: "Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde, inkl. Besuch einer Berufs- oder Hochschule"
+Description: "Anzahl der Jahre, in denen insgesamt eine allgemeinbildende Schule besucht wurde"
 * insert PR_CS_VS_Version
 * insert Publisher
 * ^status = #draft
@@ -15,4 +15,5 @@ Description: "Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde, in
 * value[x] only Quantity
 * valueQuantity 0..1 MS
 * obeys dar-1
-* valueQuantity ^short = "Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde"
+* valueQuantity ^short = "Anzahl der Jahre, in denen insgesamt eine allgemeinbildende Schule besucht wurde"
+* valueQuantity ^comment = "Erhebungsfrage: \"Wie viele Jahre haben Sie eine allgemeinbildende Schule besucht?\" Nicht mitgezählt werden Berufsschule, Hochschulstudium und Promotion."

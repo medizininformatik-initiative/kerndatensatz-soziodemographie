@@ -30,7 +30,7 @@ Dieser Implementierungsleitfaden enthält Beispielinstanzen für alle Profile.
 * [MII EXA SDD Beschäftigungsstatus](Observation-mii-exa-sdd-beschaeftigungsstatus.html) - Aktuell hauptsächlich ausgeübte Tätigkeit, d. h. Angabe, ob und in welchem Umfang die Person aktuell arbeitet
 * [MII EXA SDD Monatliches Einkommen](Observation-mii-exa-sdd-monatliches-einkommen.html) - Durchschnittliches monatliches Nettoeinkommen des Haushalts
 * [MII EXA SDD Schulabschluss](Observation-mii-exa-sdd-schulabschluss.html) - Höchster erreichter allgemeinbildender Schulabschluss
-* [MII EXA SDD Schuljahre](Observation-mii-exa-sdd-schuljahre.html) - Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde
+* [MII EXA SDD Schuljahre](Observation-mii-exa-sdd-schuljahre.html) - Anzahl der Jahre, in denen insgesamt eine allgemeinbildende Schule besucht wurde
 
 ---
 

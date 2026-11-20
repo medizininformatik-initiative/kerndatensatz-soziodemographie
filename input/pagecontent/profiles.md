@@ -26,7 +26,7 @@ The following profiles have been defined for this implementation guide.
 * [MII PR SDD Beschäftigungsstatus](StructureDefinition-mii-pr-sdd-beschaeftigungsstatus.html) - Aktuell hauptsächlich ausgeübte Tätigkeit, d. h. Angabe, ob und in welchem Umfang die Person aktuell arbeitet
 * [MII PR SDD Monatliches Einkommen](StructureDefinition-mii-pr-sdd-monatliches-einkommen.html) - Durchschnittliches monatliches Nettoeinkommen des Haushalts
 * [MII PR SDD Schulabschluss](StructureDefinition-mii-pr-sdd-schulabschluss.html) - Höchster erreichter allgemeinbildender Schulabschluss (Langversion)
-* [MII PR SDD Schuljahre](StructureDefinition-mii-pr-sdd-schuljahre.html) - Anzahl der Jahre, in denen insgesamt eine Schule besucht wurde, inkl. Besuch einer Berufs- oder Hochschule (Minimalversion)
+* [MII PR SDD Schuljahre](StructureDefinition-mii-pr-sdd-schuljahre.html) - Anzahl der Jahre, in denen insgesamt eine allgemeinbildende Schule besucht wurde (Minimalversion)
 
 
 ---

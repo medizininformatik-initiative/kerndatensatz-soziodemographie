@@ -30,7 +30,7 @@ This Implementation Guide includes example instances for all profiles. The examp
 * [MII EXA SDD Beschäftigungsstatus](Observation-mii-exa-sdd-beschaeftigungsstatus.html) - Current main activity, i.e. whether and to what extent the person currently works
 * [MII EXA SDD Monatliches Einkommen](Observation-mii-exa-sdd-monatliches-einkommen.html) - Average monthly net household income
 * [MII EXA SDD Schulabschluss](Observation-mii-exa-sdd-schulabschluss.html) - Highest general school-leaving qualification
-* [MII EXA SDD Schuljahre](Observation-mii-exa-sdd-schuljahre.html) - Total number of years of school attendance
+* [MII EXA SDD Schuljahre](Observation-mii-exa-sdd-schuljahre.html) - Total number of years of attendance at a general education school
 
 ---
 
